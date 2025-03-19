@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cntext"
-version = "1.9.2"
+version = "1.9.3"
 description = "Chinese text analysis library, which can perform word frequency statistics, dictionary expansion, sentiment analysis, similarity, readability, co-occurrence analysis, social computing (attitude, prejudice, culture) on texts"
 authors = ["DaDeng"]
 license = "MIT"
