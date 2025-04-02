@@ -34,6 +34,7 @@ ct.Word2Vec(corpus_file,
             window_size=6, 
             min_count=5, 
             max_iter=5, 
+            chunksize=10000,
             **kwargs)
 ```
 
@@ -45,6 +46,7 @@ ct.Word2Vec(corpus_file,
 - ***window_size***: 上下文窗口的大小，默认为 6。
 - ***min_count***: 最小词频，默认为 10。
 - ***max_iter***: 最大迭代次数，默认为 5。
+- ***chunksize***: 每次读取的行数。默认为10000。越大速度越快。
 - ***kwargs***: 其他gensim可选参数，如negative、sample、hs等。
 
 
@@ -103,7 +105,8 @@ ct.GloVe(corpus_file,
          min_count=5, 
          max_memory=4.0, 
          max_iter=15, 
-         x_max=10)
+         x_max=10,
+         chunksize=10000)
 ```
 
 - ***corpus_file***: 输入语料文件路径（文本格式）。该文件为分词后的语料文件。
@@ -116,6 +119,7 @@ ct.GloVe(corpus_file,
 - ***max_memory***: 可供使用的最大内存大小，单位为GB，默认 4;  该参数越大，训练越快。
 - ***max_iter***: 训练的最大迭代次数，默认 15。
 - ***x_max***: 共现矩阵中元素的最大计数值，默认 10。
+- ***chunksize***: 每次读取的行数。默认为10000。越大速度越快。
 
 
 
