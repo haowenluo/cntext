@@ -21,6 +21,7 @@ documentation for details.
    io.md
    stats.md
    model.md
+   embeddings.md
    mind.md
    llm.md
    plot.md

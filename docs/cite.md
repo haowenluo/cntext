@@ -2,44 +2,42 @@
 
 如果在研究或项目中使用到 **cntext** ，烦请声明出处。
 
-<br>
+### apalike
+Deng, X., & Nan, P. (2022). **cntext: a Python tool for text mining** [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.7063523   
 
-## apalike
-```
-Deng X., Nan P. (2022). cntext: a Python tool for text mining. DOI: 10.5281/zenodo.7063523 URL: https://github.com/hiDaDeng/cntext
-```
+Source Code URL: [https://github.com/hiDaDeng/cntext](https://github.com/hiDaDeng/cntext)
 
 <br>
 
-## bibtex
+### bibtex
 
 ```
-@misc{YourReferenceHere,
-author = {Deng, Xudong and Nan, Peng},
-doi = {10.5281/zenodo.7063523},
-month = {9},
-title = {cntext: a Python tool for text mining},
-url = {https://github.com/hiDaDeng/cntext},
-year = {2022}
+@misc{deng2022cntext,
+  author       = {Deng, X. and Nan, P.},
+  title        = {cntext: a Python tool for text mining},
+  year         = {2022},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.7063523},
+  url          = {https://doi.org/10.5281/zenodo.7063523},
+  howpublished = {[Computer software]},
+  note         = {Source Code URL: \url{https://github.com/hiDaDeng/cntext}}
 }
 ```
 
 <br>
 
-## endnote
+### endnote
 
 ```
 %0 Generic
-%A Deng, Xudong
-%A Nan, Peng
-%D 2022
-%K text mining
-%K text analysi
-%K social science
-%K management science
-%K semantic analysis
-%R 10.5281/zenodo.7063523
+%A Deng, X.
+%A Nan, P.
 %T cntext: a Python tool for text mining
-%U https://github.com/hiDaDeng/cntext
+%Y [Computer software]
+%D 2022
+%I Zenodo
+%R 10.5281/zenodo.7063523
+%U https://doi.org/10.5281/zenodo.7063523
+%Z Source Code URL: https://github.com/hiDaDeng/cntext
+%@ 
 ```
-
