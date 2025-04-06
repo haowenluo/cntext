@@ -1,5 +1,5 @@
 
-# 六、Plot模块
+# 七、Plot模块
 | 模块 | 函数                                        | 功能                                        |
 | -------- | ------------------------------------------- | ------------------------------------------- |
 | ***plot*** | ``ct.matplotlib_chinese()``  | 支持matplotlib中文绘图 |
@@ -10,7 +10,7 @@
 
 
 
-## 6.1 matplotlib_chinese()
+## 7.1 matplotlib_chinese()
 
 matplotlib默认不支持中文可视化， cntext新增该函数，可以解决中文可视化问题
 
@@ -27,7 +27,7 @@ plt.show()
 
 <br>
 
-## 6.2 lexical_dispersion_plot1()
+## 7.2 lexical_dispersion_plot1()
 
 词汇分散图可视化， 对某一个文本text， 可视化不同目标类别词targets_dict在文本中出现位置
 
@@ -110,7 +110,7 @@ ax
 
 <br>
 
-## 6.3 lexical_dispersion_plot2()
+## 7.3 lexical_dispersion_plot2()
 
 词汇分散图可视化， 对某几个文本texts_dict， 可视化某些目标词targets在文本中出现相对位置(0~100)
 

@@ -35,6 +35,7 @@ ct.Word2Vec(corpus_file,
             min_count=5, 
             max_iter=5, 
             chunksize=10000,
+            only_binary=False,
             **kwargs)
 ```
 
@@ -47,6 +48,7 @@ ct.Word2Vec(corpus_file,
 - ***min_count***: 最小词频，默认为 10。
 - ***max_iter***: 最大迭代次数，默认为 5。
 - ***chunksize***: 每次读取的行数。默认为10000。越大速度越快。
+- ***only_binary*** : 是否只保存模型为二进制文件。默认为False， 保存为txt和bin。True时只保存bin。
 - ***kwargs***: 其他gensim可选参数，如negative、sample、hs等。
 
 
@@ -106,7 +108,8 @@ ct.GloVe(corpus_file,
          max_memory=4.0, 
          max_iter=15, 
          x_max=10,
-         chunksize=10000)
+         chunksize=10000,
+         only_binary=False)
 ```
 
 - ***corpus_file***: 输入语料文件路径（文本格式）。该文件为分词后的语料文件。
@@ -120,6 +123,7 @@ ct.GloVe(corpus_file,
 - ***max_iter***: 训练的最大迭代次数，默认 15。
 - ***x_max***: 共现矩阵中元素的最大计数值，默认 10。
 - ***chunksize***: 每次读取的行数。默认为10000。越大速度越快。
+- ***only_binary*** : 是否只保存模型为二进制文件。默认为False， 保存为txt和bin。True时只保存bin。
 
 
 

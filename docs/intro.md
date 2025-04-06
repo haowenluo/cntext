@@ -54,8 +54,10 @@ cntext2.x 含io、model、stats、mind五个模块
 | ***plot*** | ***ct.matplotlib_chinese()***  | 支持matplotlib中文绘图 |
 | ***plot*** | ***ct.lexical_dispersion_plot1(text, targets_dict, lang, title, figsize)***  | 对某一个文本text， 可视化不同目标类别词targets_dict在文本中出现位置  |
 | ***plot*** | ***ct.lexical_dispersion_plot2(texts_dict, targets, lang, title, figsize)***  | 对某几个文本texts_dict， 可视化某些目标词targets在文本中出现相对位置(0~100)  |
+| ***mind***  | ``ct.generate_concept_axis(wv, c_words1, c_words2)`` | 生成概念轴向量。                                               |
 | ***mind***  | ***tm = ct.Text2Mind(wv)***<br>                      | 单个word2vec内挖掘潜在的态度偏见、刻板印象等。tm含多重方法 |
 | ***mind***  | ***ct.sematic_projection(wv, words, c_words1, c_words2)*** | 测量语义投影                                               |
+| ***mind***  | ***ct.project_word(wv, a, b)*** | 测量词语a在词语b上的投影语                                              |
 | ***mind***  | ***ct.sematic_distance(wv, words, c_words1, c_words2)*** | 测量语义距离                                               |
 | ***mind***  | ***ct.divergent_association_task(wv, words)***       | 测量发散思维(创造力)                                       |
 | ***mind***  | ***ct.discursive_diversity_score(wv, words)***       | 测量语言差异性(认知差异性)                                       |
