@@ -14,11 +14,13 @@
 |***mind***| ``ct.semantic_centroid(wv, words)``           |    计算多个词语的语义中心向量     |
 | ***mind***  | ``ct.generate_concept_axis(wv, words1, words2)`` | 生成概念轴向量。                                               |
 | ***mind***  | ``ct.sematic_projection(wv, words, c_words1, c_words2)`` | 测量语义投影                                               |
-| ***mind***  | ``ct.project_word(wv, a, b)`` | 测量词语a在词语b上的投影语                                              |
+| ***mind***  | ``ct.project_word(wv, a, b)`` | 在向量空间中， 计算词语a在词语b上的投影。                                              |
 | ***mind***  | ``ct.sematic_distance(wv, words, c_words1, c_words2)`` | 测量语义距离                                               |
 | ***mind***  | ``ct.divergent_association_task(wv, words)``       | 测量发散思维(创造力)                                       |
 | ***mind***  | ``ct.discursive_diversity_score(wv, words)``       | 测量语言差异性(认知差异性)                                       |
 | ***mind*** | ***ct.procrustes_align(base_wv, other_wv)*** | 两个word2vec进行语义对齐，可反应随时间的社会语义变迁       |
+
+
 
 <br>
 
@@ -296,44 +298,69 @@ Run
 
 
 
+## 3.5 project_word
 
-### 5.5 project_word()
-
-计算词语a在词语b上的投影。   
+在向量空间中， 计算词语a在词语b上的投影。
 
 ```python
-ct.project_word(wv, a, b)
+project_word(wv, a, b, weight=None)
 ```
-- ***wv***   模型数据， 数据类型为 gensim.models.keyedvectors.KeyedVectors。
-- ***a*** 词语a或词语列表a
-- ***b*** 词语b或词语列表b
+
+- **wv**  语料txt文件路径
+- **a** 词语a字符串或列表
+- **b** 词语b字符串或列表
+- **weight** 词语权重字典，默认为None。
+
+```python
+b='苗条'
+for a in ['性感','美丽', '可爱', '丑陋']:
+    proj = ct.project_word(dm_w2v, a, b)
+    print(f'[{a}]在[{b}]投影值: {proj}')
+    
+
+b='修长'
+for a in ['性感','美丽', '可爱', '丑陋']:
+    proj = ct.project_word(dm_w2v, a, b)
+    print(f'[{a}]在[{b}]投影值: {proj}')
+```
+
+Run
+```
+[性感]在[苗条]投影值: 14.172947883605957
+[美丽]在[苗条]投影值: 7.0944623947143555
+[可爱]在[苗条]投影值: 6.935092926025391
+[丑陋]在[苗条]投影值: 1.235807180404663
+
+[性感]在[修长]投影值: 14.599699974060059
+[美丽]在[修长]投影值: 9.360642433166504
+[可爱]在[修长]投影值: 4.740543842315674
+[丑陋]在[修长]投影值: 4.010622501373291
+```
+
+可以看到， 在豆瓣电影语料中， 在[苗条、修长]维度的认知中，都认为
+- [性感]意味着身材最瘦长
+- [美丽]次之、[可爱]略显不那么修长苗条
+- [丑陋]意味着基本与[苗条、修长]无关，数值最小。
+
 
 <br>
 
+为了让投影值更稳定，可以选择词组，确定[苗条、修长]这个概念的概念轴向量
+
 ```python
-import cntext as ct
-
-# https://cntext.readthedocs.io/zh-cn/latest/embeddings.html
-dm_w2v = ct.load_w2v('douban-movie-1000w-Word2Vec.200.15.bin')
-
-a_s = ['优雅', '美丽', '漂亮', '性感', '难看']
-b = '苗条'
-for a in a_s:
-    pro = ct.project_word(wv=dm_w2v, a=a, b=b)
-    print(f'[{a}]在[{b}]上的投影值: {pro}')
+for a in ['性感','美丽', '可爱', '丑陋']:
+    proj = ct.project_word(wv=dm_w2v, a=a, b=['修长', '苗条'])
+    print(f'[{a}]在[修长，苗条]投影值: {proj}')
 ```
+
 Run
 
 ```
-[优雅]在[苗条]上的投影值: 8.244804382324219
-[美丽]在[苗条]上的投影值: 7.0944623947143555
-[漂亮]在[苗条]上的投影值: 8.599678993225098
-[性感]在[苗条]上的投影值: 14.172947883605957
-[难看]在[苗条]上的投影值: -1.299529790878296
+[性感]在[修长，苗条]投影值: 15.807487487792969
+[美丽]在[修长，苗条]投影值: 9.040315628051758
+[可爱]在[修长，苗条]投影值: 6.414511203765869
+[丑陋]在[修长，苗条]投影值: 2.882350444793701
 ```
-数值越大，越表明该词苗条程度越高。
-
-粗略看，可知人类社会存在的现有刻板印象中，性感、优雅、美丽、漂亮的人绝对是苗条的。 而难看，一般是不苗条的或者不够苗条。
 
 
 

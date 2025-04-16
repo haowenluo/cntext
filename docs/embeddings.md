@@ -1,7 +1,7 @@
-# 四、词向量资源&代码&文献
+# 四、词向量资源
 
-## 4.1词嵌入模型资源
-使用 cntext2.x 训练得到的相关词向量资源，汇总如下
+## 4.1 预训练模型
+使用 cntext2.x 训练得到的相关预训练模型资源，汇总如下
 
 | 数据集介绍 | 词向量 | 下载链接 | 
 | --- | --- | --- |
@@ -36,6 +36,3 @@
 - [大数据时代下社会科学研究方法的拓展——基于词嵌入技术的文本分析的应用](https://textdata.cn/blog/2022-04-07-word-embeddings-in-social-science/)
 - [OS2022 | 概念空间 | 词嵌入模型如何为组织科学中的测量和理论提供信息](https://textdata.cn/blog/2023-11-03-organization-science-with-word-embeddings/)
 - [词嵌入技术在社会科学领域进行数据挖掘常见39个FAQ汇总](https://textdata.cn/blog/2023-03-15-39faq-about-word-embeddings-for-social-science/)
-
-
-

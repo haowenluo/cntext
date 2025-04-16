@@ -8,6 +8,8 @@
 | ----------- | -------------------------------------------------------- | ------------------------------------------------ |
 | ***model*** | ***ct.Word2Vec(corpus_file, encoding, lang, window_size, vector_size,...)*** | 训练Word2Vec                                     |
 | ***model*** | ***ct.GloVe(corpus_file, encoding, lang, window_size, vector_size, ...)***                | 训练GLove模型。|
+| ***model*** | ***ct.evaluate_similarity(wv, file=None)***                | 使用近义法评估模型表现，默认使用内置的数据进行评估。|
+| ***model*** | ***ct.evaluate_analogy(wv, file=None)***                | 使用类比法评估模型表现，默认使用内置的数据进行评估。|
 | ***model*** | ***ct.load_w2v(wv_path)***                 |  读取cntext2.x训练出的Word2Vec/GloVe模型文件       |
 | ***model*** | ***ct.glove2word2vec(glove_file, word2vec_file)***                 | 将GLoVe模型.txt文件转化为Word2Vec模型.txt文件；注意这里的GLoVe模型.txt是通过[Standfordnlp/GloVe](https://github.com/standfordnlp/GloVe) 训练得到的。   |
 | ***model*** | ***ct.expand_dictionary(wv,  seeddict, topn=100)***      | 扩展词典,  结果保存到路径[output/Word2Vec]中     |
@@ -183,7 +185,141 @@ Output Saved To: output/三体-GloVe.50.15.txt
 
 <br>
 
-## 3.3 SoPmi()
+
+## 3.3 evaluate_similarity()
+
+评估词向量模型语义相似表现。 使用Spearman's Rank Coeficient作为评价指标， 取值[-1, 1], 1完全相关，-1完全负相关， 0毫无相关性。
+
+```python
+ct.evaluate_similarity(wv, file=None)
+```
+
+
+- **wv**  语料txt文件路径
+- **file** 评估数据文件，txt格式，默认使用cntext内置的评估数据文件。 txt文件每行两个词一个数字，如下所示
+
+<br>
+
+```
+足球	足球	4.98
+老虎	老虎	4.8888888889
+恒星	恒星	4.7222222222
+入场券	门票	4.5962962963
+空间	化学	0.9222222222
+股票	电话	0.92
+国王	车	0.9074074074
+中午	字符串	0.6
+收音机	工作	0.6
+教授	黄瓜	0.5
+自行车	鸟	0.5
+蛋白质	文物	0.15
+```
+
+<br>
+
+```python
+import cntext as ct
+
+# 可在 https://cntext.readthedocs.io/zh-cn/latest/embeddings.html 下载该模型文件
+dm_w2v = ct.load_w2v('output/douban-movie-1000w-Word2Vec.200.15.bin')
+
+# 使用内置评估文件
+ct.evaluate_similarity(wv=dm_w2v)
+# 使用自定义评估文件
+# ct.evaluate_similarity(wv=dm_w2v, file='diy_similarity.txt')
+```
+
+Run
+
+```
+近义测试: similarity.txt
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/cntext/model/evaluate_data/similarity.txt
+Processing Similarity Test: 100%|██████████| 537/537 [00:00<00:00, 85604.55it/s]
+
+评估结果：
++----------+------------+----------------------------+
+| 发现词语 | 未发现词语 | Spearman's Rank Coeficient |
++----------+------------+----------------------------+
+|   459    |     78     |            0.43            |
++----------+------------+----------------------------+
+```
+
+<br>
+
+## 3.4 evaluate_analogy()
+
+用于评估词向量模型在类比测试（analogy test）中表现的函数。它通过读取指定的类比测试文件，计算模型对词语关系预测的准确性，并输出每个类别的准确率、发现词语数量、未发现词语数量以及平均排名等指标。
+    
+类比测试的核心是解决形如 "A : B :: C : D" 的问题，翻译过来就是"A之于B，正如C之于D"； 即通过AB类比关系，找到C的关系词D。该函数通过词向量模型的相似性搜索功能，计算预测结果与真实答案的匹配程度。
+
+```python
+ct.evaluate_analogy(wv, file=None)
+```
+
+- **wv**  语料txt文件路径
+- **file** 评估数据文件，txt格式，默认使用cntext内置的评估数据文件。 txt文件每行两个词一个数字，如下所示
+
+<br>
+
+评估数据txt文件格式，如下
+
+```
+: CapitalOfCountries
+雅典 希腊 巴格达 伊拉克
+哈瓦那 古巴 马德里 西班牙
+河内 越南 伦敦 英国
+: CityInProvince
+石家庄 河北 南昌 江西
+沈阳 辽宁 南昌 江西
+南京 江苏 郑州 河南
+: FamilyRelationship
+男孩 女孩 兄弟 姐妹
+男孩 女孩 国王 王后
+父亲 母亲 国王 王后
+丈夫 妻子 叔叔 阿姨
+: SocialScience-Concepts
+社会 社会结构 家庭 家庭结构
+文化 文化传承 语言 语言传承
+群体 群体行为 组织 组织行为
+```
+
+
+<br>
+
+```python
+# 使用内置评估文件
+ct.evaluate_analogy(wv=dm_w2v)
+# 使用自定义评估文件
+# ct.evaluate_analogy(wv=dm_w2v, file='diy_analogy.txt')
+```
+
+Run
+
+```
+类比测试: analogy.txt
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/cntext/model/evaluate_data/analogy.txt
+Processing Analogy Test: 100%|█████████████| 1198/1198 [00:11<00:00, 103.52it/s]
+
+评估结果：
++--------------------+----------+------------+------------+----------+
+|      Category      | 发现词语 | 未发现词语 | 准确率 (%) | 平均排名 |
++--------------------+----------+------------+------------+----------+
+| CapitalOfCountries |   615    |     62     |   39.02    |   2.98   |
+|   CityInProvince   |   175    |     0      |   28.57    |   4.74   |
+| FamilyRelationship |   272    |     0      |   92.65    |   1.48   |
+|   SocialScience    |    8     |     62     |   25.00    |   6.00   |
++--------------------+----------+------------+------------+----------+
+```
+
+豆瓣电影在 FamilyRelationship 评估中表现较好，大概率是因为电影主要反映的是人与人之间的关系，覆盖了绝大多数FamilyRelationship家庭类比关系，所以类比表现巨好，但在其他方面表现较差。 
+
+如果是维基百科语料，可能在CapitalOfCountries、CityInProvince、SocialScience 中表现较好。
+
+
+
+<br>
+
+## 3.5 SoPmi()
 
 ```python
 ct.SoPmi(corpus_file, seed_file)       #人工标注的初始种子词
@@ -218,7 +354,7 @@ Finish! used 19.74 s
 
 
 
-## 3.4 load_w2v()
+## 3.6 load_w2v()
 
 导入cntext2.x 预训练的word2vec模型 .txt文件
 
@@ -252,7 +388,7 @@ Loading output/三体-GloVe.50.15.bin...
 
 <br>
 
-## 3.5 glove2word2vec()
+## 3.7 glove2word2vec()
 
 将GLoVe模型.txt文件转化为Word2Vec模型.txt文件； 除非从网络下载的GloVe模型资源， 否则一般情况用不到这个函数。
 
@@ -283,7 +419,7 @@ ct.glove2word2vec(glove_file='data/GloVe.6B.50d.txt',
 
 <br>
 
-## 3.6 expand_dictionary()
+## 3.8 expand_dictionary()
 
 
 
@@ -310,6 +446,4 @@ ct.expand_dictionary(wv=santi_w2v.wv,
 ```
 
 ![](img/04-expand.png)
-
-
 

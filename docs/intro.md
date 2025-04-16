@@ -1,5 +1,5 @@
 # 简介
-cntext 是大邓开发维护的中英文文本分析库，内置有多重词典和常用函数。 常见的文本分析代码行数在数十行，而 cntext2.x 力求将代码量控制在 2~5 行。
+cntext 是[大邓](https://textdata.cn/)开发维护的中英文文本分析库，内置有多重词典和常用函数。 常见的文本分析代码行数在数十行，而 cntext2.x 力求将代码量控制在 2~5 行。
 
 <br>
 
@@ -36,6 +36,9 @@ cntext2.x 含io、model、stats、mind五个模块
 | ***model*** | ***ct.Word2Vec(corpus_file, encoding, lang='chinese', ...)***    | 训练Word2Vec                                     |
 | ***model*** | ***ct.GloVe(corpus_file, encoding, lang='chinese', ...)***    | GloVe, 底层使用的 [Standfordnlp/GloVe](https://github.com/standfordnlp/GloVe)                                    |
 | ***model*** | ***ct.glove2word2vec(glove_file, word2vec_file)***                 | 将GLoVe模型.txt文件转化为Word2Vec模型.txt文件； 一般很少用到    |
+| ***model*** | ***ct.evaluate_similarity(wv, file=None)***                | 使用近义法评估模型表现，默认使用内置的数据进行评估。|
+| ***model*** | ***ct.evaluate_analogy(wv, file=None)***                | 使用类比法评估模型表现，默认使用内置的数据进行评估。|
+| ***model*** |  ***project_word(wv, a, b, weight=None)***    |  在向量空间中， 计算词语a在词语b上的投影。|
 | ***model*** | ***ct.load_w2v(wv_path)***                 | 读取cntext2.x训练出的Word2Vec/GloVe模型文件       |
 | ***model*** | ***ct.expand_dictionary(wv,  seeddict, topn=100)***            | 扩展词典,  结果保存到路径[output/Word2Vec]中 |
 | ***model*** | ***ct.SoPmi(corpus_file, seed_file, lang='chinese')***         | 共现法扩展词典                                   |
