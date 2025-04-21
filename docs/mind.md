@@ -1,6 +1,4 @@
-
-
-# 五、Mind模块
+# 五、Mind 模块
 
 词嵌入中蕴含着人类的认知信息，以往的词嵌入大多是比较一个概念中两组反义词与某对象的距离计算认知信息。
 
@@ -8,25 +6,23 @@
 
 - 多个对象在某概念向量投影的大小， 人类语言中留存着对不同动物体积的认知记忆，如小鼠大象。动物词在词向量空间中是否能留存着这种大小的记忆
 
-本模块主要是利用已训练出的word2vec模型，挖掘潜在的态度偏见、刻板印象等。 这部分难度较大， 建议有精力且电脑性能好的同学可以用 cntext 训练模型， 再来实验Mind模块。
-| 模块            | 函数(类)                                             | 功能                                                       |
+本模块主要是利用已训练出的 word2vec 模型，挖掘潜在的态度偏见、刻板印象等。 这部分难度较大， 建议有精力且电脑性能好的同学可以用 cntext 训练模型， 再来实验 Mind 模块。
+| 模块 | 函数(类) | 功能 |
 | --------------- | ---------------------------------------------------- | ---------------------------------------------------------- |
-|***mind***| ``ct.semantic_centroid(wv, words)``           |    计算多个词语的语义中心向量     |
-| ***mind***  | ``ct.generate_concept_axis(wv, words1, words2)`` | 生成概念轴向量。                                               |
-| ***mind***  | ``ct.sematic_projection(wv, words, c_words1, c_words2)`` | 测量语义投影                                               |
-| ***mind***  | ``ct.project_word(wv, a, b)`` | 在向量空间中， 计算词语a在词语b上的投影。                                              |
-| ***mind***  | ``ct.sematic_distance(wv, words, c_words1, c_words2)`` | 测量语义距离                                               |
-| ***mind***  | ``ct.divergent_association_task(wv, words)``       | 测量发散思维(创造力)                                       |
-| ***mind***  | ``ct.discursive_diversity_score(wv, words)``       | 测量语言差异性(认知差异性)                                       |
-| ***mind*** | ***ct.procrustes_align(base_wv, other_wv)*** | 两个word2vec进行语义对齐，可反应随时间的社会语义变迁       |
-
-
+|**_mind_**| `ct.semantic_centroid(wv, words)` | 计算多个词语的语义中心向量 |
+| **_mind_** | `ct.generate_concept_axis(wv, words1, words2)` | 生成概念轴向量。 |
+| **_mind_** | `ct.sematic_projection(wv, words, poswords, negwords)` | 测量语义投影 |
+| **_mind_** | `ct.project_word(wv, a, b)` | 在向量空间中， 计算词语 a 在词语 b 上的投影。 |
+| **_mind_** | `ct.sematic_distance(wv, words, c_words1, c_words2)` | 测量语义距离 |
+| **_mind_** | `ct.divergent_association_task(wv, words)` | 测量发散思维(创造力) |
+| **_mind_** | `ct.discursive_diversity_score(wv, words)` | 测量语言差异性(认知差异性) |
+| **_mind_** | **_ct.procrustes_align(base_wv, other_wv)_** | 两个 word2vec 进行语义对齐，可反应随时间的社会语义变迁 |
 
 <br>
 
 ## 5.1 semantic_centroid(wv, words)
 
-计算多个词语的语义中心向量 
+计算多个词语的语义中心向量
 
 ```python
 import cntext as ct
@@ -35,7 +31,9 @@ import cntext as ct
 w2v = ct.load_w2v('专利摘要-Word2Vec.200.15.bin')
 semantic_centroid(wv=w2v, words=['创新', '颠覆'])
 ```
+
 Run
+
 ```
 array([ 0.15567462, -0.05117003, -0.18534171,  0.20808656, -0.01133028,
         0.10738188, -0.02571066,  0.06051835,  0.00107351,  0.08017981,
@@ -81,17 +79,16 @@ array([ 0.15567462, -0.05117003, -0.18534171,  0.20808656, -0.01133028,
 
 <br>
 
-
 ## 5.2 generate_concept_axis(wv, c_words1, c_words2)
 
 生成概念轴向量。
 
-- ***wv***         生成概念轴向量。
-- ***c_words1***   第一个词语列表，表示概念1。
-- ***c_words2***   第二个词语列表，表示概念2。
+- **_wv_** 生成概念轴向量。
+- **_c_words1_** 第一个词语列表，表示概念 1。
+- **_c_words2_** 第二个词语列表，表示概念 2。
 
+需要注意， 概念 1 与 概念 2 是性质(方向)相反的两个概念， 如
 
-需要注意， 概念1 与 概念2 是性质(方向)相反的两个概念， 如
 - 性别(男, 女)
 - 尺寸(大, 小)
 - 方向(高, 低)
@@ -99,19 +96,19 @@ array([ 0.15567462, -0.05117003, -0.18534171,  0.20808656, -0.01133028,
 - 湿度(干, 湿)
 - 财富(贫, 富)
 
-
-
 ```python
 import cntext as ct
 
 # 获取词向量文件 https://cntext.readthedocs.io/zh-cn/latest/embeddings.html
 dm_w2v = ct.load_w2v('douban-movie-1000w-Word2Vec.200.15.bin')
-gender_axis_vector = ct.generate_concept_axis(wv=dm_w2v, 
-                                              c_words1=['男', '男人', '父亲'], 
+gender_axis_vector = ct.generate_concept_axis(wv=dm_w2v,
+                                              c_words1=['男', '男人', '父亲'],
                                               c_words2=['女', '女人', '母亲'])
 gender_axis_vector
 ```
+
 Run
+
 ```
 array([-0.0118976 ,  0.03178174, -0.04656127,  0.00613294, -0.03692355,
        -0.06293361, -0.04739443,  0.01368712,  0.02603469, -0.02268519,
@@ -156,25 +153,22 @@ array([-0.0118976 ,  0.03178174, -0.04656127,  0.00613294, -0.03692355,
       dtype=float32)
 ```
 
-
-
-
 <br>
 
-## 5.3 sematic_distance() 
+## 5.3 sematic_distance()
 
 **多个对象与某概念的语义远近**，例如成功与性别，成功是否存在亲近男性，而排斥女性
 
 ![](img/21-music-success-genderbias.png)
 
 ```python
-ct.sematic_distance(wv, words, c_words1, c_words2) 
+ct.sematic_distance(wv, words, c_words1, c_words2)
 ```
 
-- ***wv***   模型数据， 数据类型为 gensim.models.keyedvectors.KeyedVectors。
-- ***words***、***c_words2***、***c_words2*** 均为词语列表
+- **_wv_** 模型数据， 数据类型为 gensim.models.keyedvectors.KeyedVectors。
+- **_words_**、**_c_words2_**、**_c_words2_** 均为词语列表
 
-分别计算 ***words*** 与  ***c_words1*** 、***c_words2*** 语义距离，返回距离差值。例如
+分别计算 **_words_** 与 **_c_words1_** 、**_c_words2_** 语义距离，返回距离差值。例如
 
 ```python
 import cntext as ct
@@ -189,14 +183,14 @@ d1 = distance(male_concept,  software_engineer_concept)
 d2 = distance(female_concept,  software_engineer_concept)
 ```
 
-如果 ***d1-d2<0***，说明在语义空间中，***software_engineer_concept*** 更接近 ***male_concept*** ，更远离 ***female_concept*** 。
+如果 **_d1-d2<0_**，说明在语义空间中，**_software_engineer_concept_** 更接近 **_male_concept_** ，更远离 **_female_concept_** 。
 
 换言之，在该语料中，人们对软件工程师这一类工作，对女性存在刻板印象(偏见)。
 
 ```python
 import cntext as ct
 
-# glove_w2v.6B.100d.txt链接: https://pan.baidu.com/s/1MMfQ7M0YCzL9Klp4zrlHBw 提取码: 72l0 
+# glove_w2v.6B.100d.txt链接: https://pan.baidu.com/s/1MMfQ7M0YCzL9Klp4zrlHBw 提取码: 72l0
 g_wv = ct.load_w2v('data/glove_w2v.6B.100d.txt')
 
 engineer = ['program', 'software', 'computer']
@@ -204,8 +198,8 @@ man_words =  ["man", "he", "him"]
 woman_words = ["woman", "she", "her"]
 
 ct.sematic_distance(wv=g_wv,
-                    words=engineer, 
-                    c_words1=man_words, 
+                    words=engineer,
+                    c_words1=man_words,
                     c_words2=woman_words)
 ```
 
@@ -215,31 +209,26 @@ Run
 -0.5
 ```
 
-数值小于0，在语义空间中，工程师更接近于男人，而不是女人。
-
-
-
-
-
+数值小于 0，在语义空间中，工程师更接近于男人，而不是女人。
 
 <br>
 
-## 5.4 sematic_projection() 
+## 5.4 sematic_projection()
 
 多个对象在某概念向量投影的大小
 
 ```python
-ct.sematic_projection(wv, words, c_words1, c_words2) 
+ct.sematic_projection(wv, words, poswords, negwords)
 ```
 
-- ***wv***   模型数据， 数据类型为gensim.models.keyedvectors.KeyedVectors。
-- ***words***、***c_words2***、***c_words2*** 均为词语列表
+- **_wv_** 模型数据， 数据类型为 gensim.models.keyedvectors.KeyedVectors。
+- **_words_**、**_poswords_**、**_negwords_** 均为词语列表
 
-为了解释词向量模型的语义投影，我使用了 2022 年 Nature 论文中的图片[@Grand2022SemanticPR]。 关于动物的名字，人类对动物大小的认知信息隐藏在语料库文本中。 通过将**LARGE WORDS** 和**SMALL WORDS**的含义用不同的**animals**的向量投影，动物在**size向量**上的投影（就像下图中的红线 ) 得到，因此可以通过计算比较动物的大小。
+为了解释词向量模型的语义投影，我使用了 2022 年 Nature 论文中的图片[@Grand2022SemanticPR]。 关于动物的名字，人类对动物大小的认知信息隐藏在语料库文本中。 通过将**LARGE WORDS** 和**SMALL WORDS**的含义用不同的**animals**的向量投影，动物在**size 向量**上的投影（就像下图中的红线 ) 得到，因此可以通过计算比较动物的大小。
 
-根据两组反义词 ***c_words1*** ,    ***c_words2*** 构建一个概念(认知)向量, words中的每个词向量在概念向量中投影，即可得到认知信息。
+根据两组反义词 **_poswords_** , **_negwords_** 构建一个概念(认知)向量, words 中的每个词向量在概念向量中投影，即可得到认知信息。
 
-分值越大，***words*** 越位于 ***c_words2*** 一侧。
+分值越大，**_words_** 越位于 **_poswords_** 一侧。
 
 > Grand, G., Blank, I.A., Pereira, F. and Fedorenko, E., 2022. Semantic projection recovers rich human knowledge of multiple object features from word embeddings. _Nature Human Behaviour_, pp.1-13."
 
@@ -259,23 +248,23 @@ dm_w2v = ct.load_w2v('douban-movie-1000w-Word2Vec.200.15.bin')
 phy_words = ['游泳', '跑步', '篮球', '羽毛球', '马拉松', '马术', '徒步']
 
 rich_words = [
-    '富裕', '财富', '金钱', '豪宅', '豪车', 
-    '奢侈品', '投资', '股票', '基金', '黄金', 
-    '钻石', '游艇', '私人飞机', '企业家', '富豪', 
+    '富裕', '财富', '金钱', '豪宅', '豪车',
+    '奢侈品', '投资', '股票', '基金', '黄金',
+    '钻石', '游艇', '私人飞机', '企业家', '富豪',
     '成功', '繁荣', '奢华', '贵族', '高收入'
 ]
 
 poor_words = [
-    '贫穷', '贫困', '饥饿', '失业', '低收入', 
-    '简陋', '破旧', '乞丐', '流浪', '欠债', 
-    '破产', '困境', '艰难', '挣扎', '匮乏', 
+    '贫穷', '贫困', '饥饿', '失业', '低收入',
+    '简陋', '破旧', '乞丐', '流浪', '欠债',
+    '破产', '困境', '艰难', '挣扎', '匮乏',
     '落后', '无助', '绝望', '赤贫', '温饱'
 ]
 
 phy_project_on_fortune = ct.sematic_projection(wv = dm_w2v,
-                                               words = phy_words, 
-                                               c_words1 =poor_words,
-                                               c_words2 =rich_words)
+                                               words = phy_words,
+                                               poswords =rich_words,
+                                               negwords = poor_words)
 
 phy_project_on_fortune
 ```
@@ -292,31 +281,29 @@ Run
  ('篮球', 4.0)]
 ```
 
-关于运动的财富水平， 大体上还是准的。数值越大， 语义越接近c_words2， 即越富裕。
+关于运动的财富水平， 大体上还是准的。数值越大， 语义越接近 poswords， 即越富裕。
 
 <br>
 
-
-
 ## 3.5 project_word
 
-在向量空间中， 计算词语a在词语b上的投影。
+在向量空间中， 计算词语 a 在词语 b 上的投影。
 
 ```python
 project_word(wv, a, b, weight=None)
 ```
 
-- **wv**  语料txt文件路径
-- **a** 词语a字符串或列表
-- **b** 词语b字符串或列表
-- **weight** 词语权重字典，默认为None。
+- **wv** 语料 txt 文件路径
+- **a** 词语 a 字符串或列表
+- **b** 词语 b 字符串或列表
+- **weight** 词语权重字典，默认为 None。
 
 ```python
 b='苗条'
 for a in ['性感','美丽', '可爱', '丑陋']:
     proj = ct.project_word(dm_w2v, a, b)
     print(f'[{a}]在[{b}]投影值: {proj}')
-    
+
 
 b='修长'
 for a in ['性感','美丽', '可爱', '丑陋']:
@@ -325,6 +312,7 @@ for a in ['性感','美丽', '可爱', '丑陋']:
 ```
 
 Run
+
 ```
 [性感]在[苗条]投影值: 14.172947883605957
 [美丽]在[苗条]投影值: 7.0944623947143555
@@ -338,10 +326,10 @@ Run
 ```
 
 可以看到， 在豆瓣电影语料中， 在[苗条、修长]维度的认知中，都认为
+
 - [性感]意味着身材最瘦长
 - [美丽]次之、[可爱]略显不那么修长苗条
 - [丑陋]意味着基本与[苗条、修长]无关，数值最小。
-
 
 <br>
 
@@ -362,20 +350,18 @@ Run
 [丑陋]在[修长，苗条]投影值: 2.882350444793701
 ```
 
-
-
 <br>
 
 ## 5.5 divergent_association_task()
 
-[PNAS | 使用语义距离测量一个人的创新力(发散思维)得分](https://textdata.cn/blog/2022-11-14-pnas_naming_unrelated_words_predicts_creativity/)。一些理论认为，有 创造力 的人能够产生更多 发散性 的想法。如果这是正确的，简单地让被试写 N 个不相关的单词，然后测量这N个词的语义距离， 作为发散思维的客观衡量标准。
+[PNAS | 使用语义距离测量一个人的创新力(发散思维)得分](https://textdata.cn/blog/2022-11-14-pnas_naming_unrelated_words_predicts_creativity/)。一些理论认为，有 创造力 的人能够产生更多 发散性 的想法。如果这是正确的，简单地让被试写 N 个不相关的单词，然后测量这 N 个词的语义距离， 作为发散思维的客观衡量标准。
 
 ```python
 ct.divergent_association_task(wv, words)
 ```
 
-- ***wv***   模型数据， 数据类型为 gensim.models.keyedvectors.KeyedVectors。
-- ***words***词语列表
+- **_wv_** 模型数据， 数据类型为 gensim.models.keyedvectors.KeyedVectors。
+- **_words_**词语列表
 
 <br>
 
@@ -401,26 +387,23 @@ Run
 95
 ```
 
-
 <br>
 
 ## 5.6 discursive_diversity_score()
 
-[MS2022 | 使用语言差异性测量团队认知差异性](https://textdata.cn/blog/2023-11-02-measure-cognitive-diversity-through-language-discursive-diversity/)    
+[MS2022 | 使用语言差异性测量团队认知差异性](https://textdata.cn/blog/2023-11-02-measure-cognitive-diversity-through-language-discursive-diversity/)
 
 ```python
 ct.discursive_diversity_score(wv, words)
 ```
 
-- ***wv***   模型数据， 数据类型为 gensim.models.keyedvectors.KeyedVectors。
-- ***words***词语列表
+- **_wv_** 模型数据， 数据类型为 gensim.models.keyedvectors.KeyedVectors。
+- **_words_**词语列表
 - 返回一个数值
 
 ![](img/23-low-and-high-examples-of-discursive-diversity.jpeg)
 
 高绩效团队是那些具有调节共享认知以适应不断变化的任务要求的集体能力的团队：在进行构思任务时，它们表现出更高的话语多样性，在执行协调任务时，表现出较低的话语多样性。
-
-
 
 <br>
 
@@ -434,9 +417,8 @@ ct.procrustes_align(base_wv, other_wv, words=None)
 
 - base_wv (gensim.models.keyedvectors.KeyedVectors): 基准语言模型
 - other_wv (gensim.models.keyedvectors.KeyedVectors): 其他语言模型
-- words (list, optional): 是否根据词典words对模型进行对齐， 对齐结束后的模型中含有的词不会超出words的范围； 默认None.
+- words (list, optional): 是否根据词典 words 对模型进行对齐， 对齐结束后的模型中含有的词不会超出 words 的范围； 默认 None.
 
-由于不同语料训练的Word2Vec模型无法直接比较， 需要先选定一个基准模型 ***base_embed***， 之后根据 ***base_embed*** 对其他模型 ***other_embed*** 进行调整，调整后的模型就可以使用前面的语义距离函数或者语义投影函数。 这一过程用到的算法叫做 procrustes正交算法。
+由于不同语料训练的 Word2Vec 模型无法直接比较， 需要先选定一个基准模型 **_base_embed_**， 之后根据 **_base_embed_** 对其他模型 **_other_embed_** 进行调整，调整后的模型就可以使用前面的语义距离函数或者语义投影函数。 这一过程用到的算法叫做 procrustes 正交算法。
 
 这里推荐一篇 [可视化 | 人民日报语料反映七十年文化演变](https://textdata.cn/blog/2023-12-28-visualize-the-culture-change-using-people-daily-dataset/)
-
