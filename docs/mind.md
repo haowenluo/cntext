@@ -12,7 +12,7 @@
 |**_mind_**| `ct.semantic_centroid(wv, words)` | 计算多个词语的语义中心向量 |
 | **_mind_** | `ct.generate_concept_axis(wv, words1, words2)` | 生成概念轴向量。 |
 | **_mind_** | `ct.sematic_projection(wv, words, poswords, negwords)` | 测量语义投影 |
-| **_mind_** | `ct.project_word(wv, a, b)` | 在向量空间中， 计算词语 a 在词语 b 上的投影。 |
+| **_mind_** | `ct.project_word(wv, a, b, cosine=False)` | 在向量空间中， 计算词语 a 在词语 b 上的投影。 |
 | **_mind_** | `ct.sematic_distance(wv, words, c_words1, c_words2)` | 测量语义距离 |
 | **_mind_** | `ct.divergent_association_task(wv, words)` | 测量发散思维(创造力) |
 | **_mind_** | `ct.discursive_diversity_score(wv, words)` | 测量语言差异性(认知差异性) |
@@ -218,11 +218,15 @@ Run
 多个对象在某概念向量投影的大小
 
 ```python
-ct.sematic_projection(wv, words, poswords, negwords)
+sematic_projection(wv, words, poswords, negwords, cosine=False, return_full=True)
 ```
 
 - **_wv_** 模型数据， 数据类型为 gensim.models.keyedvectors.KeyedVectors。
 - **_words_**、**_poswords_**、**_negwords_** 均为词语列表
+- **cosine**: 是否使用余弦相似度，默认为False，返回投影值；True时返回余弦相似度
+- **return_full**: 是否返回完整元组列表，默认为True
+
+<br>
 
 为了解释词向量模型的语义投影，我使用了 2022 年 Nature 论文中的图片[@Grand2022SemanticPR]。 关于动物的名字，人类对动物大小的认知信息隐藏在语料库文本中。 通过将**LARGE WORDS** 和**SMALL WORDS**的含义用不同的**animals**的向量投影，动物在**size 向量**上的投影（就像下图中的红线 ) 得到，因此可以通过计算比较动物的大小。
 
@@ -285,18 +289,22 @@ Run
 
 <br>
 
-## 3.5 project_word
 
-在向量空间中， 计算词语 a 在词语 b 上的投影。
+## 5.4 project_word
+
+在向量空间中， 计算词语a在词语b上的投影(余弦相似度)。默认返回的是投影值。
+    如果 cosine=True，返回词语a与词语b的余弦相似度。
 
 ```python
-project_word(wv, a, b)
+project_word(wv, a, b, cosine=False)
 ```
 
 - **wv** 语料 txt 文件路径
 - **a** 词语 a 字符串或列表
-- **b** 词语字符串、词语列表、或某概念向量。
-- **weight** 词语权重字典，默认为 None。
+- **b** 词语字符串、词语列表、或某概念向量
+- ***cosine***: 是否使用余弦相似度， 默认为False，返回a在b上的投影值； True时，返回a与b的余弦相似度。
+
+
 
 ```python
 b='苗条'
@@ -349,6 +357,7 @@ Run
 [可爱]在[修长，苗条]投影值: 6.414511203765869
 [丑陋]在[修长，苗条]投影值: 2.882350444793701
 ```
+
 
 <br>
 
