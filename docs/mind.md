@@ -290,12 +290,12 @@ Run
 在向量空间中， 计算词语 a 在词语 b 上的投影。
 
 ```python
-project_word(wv, a, b, weight=None)
+project_word(wv, a, b)
 ```
 
 - **wv** 语料 txt 文件路径
 - **a** 词语 a 字符串或列表
-- **b** 词语 b 字符串或列表
+- **b** 词语字符串、词语列表、或某概念向量。
 - **weight** 词语权重字典，默认为 None。
 
 ```python
