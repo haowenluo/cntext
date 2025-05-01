@@ -187,28 +187,10 @@ Run
 
 ```
 {'readability1': 28.0,
- 'readability2': 0.15789473684210525,
- 'readability3': 14.078947368421053}
+ 'readability2': 3.0,
+ 'readability3': 15.5}
 ```
 
-<br>
-
-
-
-句子中的符号变更会影响结果
-
-```python
-text2 = '如何看待一网文作者被黑客大佬盗号改文，因万分惭愧而停更。'
-ct.readability(text2, lang='chinese')
-```
-
-Run
-
-```
-{'readability1': 27.0,
- 'readability2': 0.16666666666666666,
- 'readability3': 13.583333333333334}
-```
 
 <br><br>
 
