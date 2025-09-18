@@ -1,70 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [cntext：面向社会科学研究的中文文本分析工具库](#cntext%E9%9D%A2%E5%90%91%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E7%A0%94%E7%A9%B6%E7%9A%84%E4%B8%AD%E6%96%87%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7%E5%BA%93)
-- [安装 cntext](#%E5%AE%89%E8%A3%85-cntext)
-- [功能模块](#%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97)
-- [QuickStart](#quickstart)
-- [一、IO 模块](#%E4%B8%80io-%E6%A8%A1%E5%9D%97)
-  - [1.1 get_dict_list()](#11-get_dict_list)
-  - [1.2 内置 yaml 词典](#12-%E5%86%85%E7%BD%AE-yaml-%E8%AF%8D%E5%85%B8)
-  - [1.3 read_dict_yaml()](#13-read_dict_yaml)
-  - [1.4 detect_encoding()](#14-detect_encoding)
-  - [1.5 get_files(fformat)](#15-get_filesfformat)
-  - [1.6 read_pdf](#16-read_pdf)
-  - [1.7 read_docx](#17-read_docx)
-  - [1.8 read_file()](#18-read_file)
-  - [1.9 read_files()](#19-read_files)
-  - [1.10 extract_mda](#110-extract_mda)
-  - [1.11 traditional2simple()](#111-traditional2simple)
-  - [1.12 fix_text()](#112-fix_text)
-  - [1.13 fix_contractions(text)](#113-fix_contractionstext)
-- [二、Stats 模块](#%E4%BA%8Cstats-%E6%A8%A1%E5%9D%97)
-  - [2.1 word_count()](#21-word_count)
-  - [2.2 readability()](#22-readability)
-  - [2.3 sentiment(text, diction, lang)](#23-sentimenttext-diction-lang)
-  - [2.4 sentiment_by_valence()](#24-sentiment_by_valence)
-  - [2.5 word_in_context()](#25-word_in_context)
-  - [2.6 epu()](#26-epu)
-  - [2.7 fepu()](#27-fepu)
-  - [2.8 semantic_brand_score()](#28-semantic_brand_score)
-  - [2.9 文本相似度](#29-%E6%96%87%E6%9C%AC%E7%9B%B8%E4%BC%BC%E5%BA%A6)
-  - [2.10 word_hhi](#210-word_hhi)
-- [三、Plot 模块](#%E4%B8%89plot-%E6%A8%A1%E5%9D%97)
-  - [3.1 matplotlib_chinese()](#31-matplotlib_chinese)
-  - [3.2 lexical_dispersion_plot1()](#32-lexical_dispersion_plot1)
-  - [3.3 lexical_dispersion_plot2()](#33-lexical_dispersion_plot2)
-- [四、Model 模块](#%E5%9B%9Bmodel-%E6%A8%A1%E5%9D%97)
-  - [4.1 Word2Vec()](#41-word2vec)
-  - [4.2 GloVe()](#42-glove)
-- [4.3 evaluate_similarity()](#43-evaluate_similarity)
-- [4.4 evaluate_analogy()](#44-evaluate_analogy)
-- [4.5 SoPmi()](#45-sopmi)
-- [4.6 load_w2v()](#46-load_w2v)
-  - [4.7 glove2word2vec()](#47-glove2word2vec)
-  - [注意](#%E6%B3%A8%E6%84%8F)
-  - [4.8 expand_dictionary()](#48-expand_dictionary)
-- [五、Mind 模块](#%E4%BA%94mind-%E6%A8%A1%E5%9D%97)
-  - [5.1 semantic_centroid(wv, words)](#51-semantic_centroidwv-words)
-- [5.2 generate_concept_axis(wv, poswords, negwords)](#52-generate_concept_axiswv-poswords-negwords)
-  - [5.3 sematic_distance()](#53-sematic_distance)
-  - [5.4 sematic_projection()](#54-sematic_projection)
-- [5.5 project_word](#55-project_word)
-  - [5.6 project_text()](#56-project_text)
-  - [5.7 divergent_association_task()](#57-divergent_association_task)
-  - [5.8 discursive_diversity_score()](#58-discursive_diversity_score)
-  - [5.8 procrustes_align()](#58-procrustes_align)
-- [六、LLM 模块](#%E5%85%ADllm-%E6%A8%A1%E5%9D%97)
-  - [6.1 ct.llm()](#61-ctllm)
-  - [6.2 内置prompt](#62-%E5%86%85%E7%BD%AEprompt)
-- [使用声明](#%E4%BD%BF%E7%94%A8%E5%A3%B0%E6%98%8E)
-  - [apalike](#apalike)
-  - [bibtex](#bibtex)
-  - [endnote](#endnote)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 
 
 ## cntext：面向社会科学研究的中文文本分析工具库
@@ -165,7 +98,6 @@ cntext 含 io、model、stats、mind 五个模块
 | **mind**  | **_tm = ct.Text2Mind(wv)_**<br>                                                                | 单个 word2vec 内挖掘潜在的态度偏见、刻板印象等。tm 含多重方法                  |
 | **mind**  | `sematic_projection(wv, words, poswords, negwords, return_full=False, cosine=False)`                                            | 测量语义投影                                                                   |
 | **mind**  | `ct.project_word(wv, a, b, cosine=False)`                                                                    | 计算词语 a 在词语 b 上的投影                                                   |
-| **mind**  | `ct.project_text(wv, text, axis, lang='chinese', cosine=False)`                                                                    | 计算词语文本text在概念轴向量axis上的投影值|
 | **mind**  | `ct.project_text(wv, text, axis, lang='chinese', cosine=False)`                                                                    | 计算词语文本text在概念轴向量axis上的投影值|
 | **mind**  | `ct.sematic_distance(wv, words1, words2)`                                                      | 测量语义距离                                                                   |
 | **mind**  | `ct.divergent_association_task(wv, words)`                                                     | 测量发散思维(创造力)                                                           |
@@ -1449,7 +1381,7 @@ Output Saved To: output/三体-GloVe.50.15.bin
 
 <br>
 
-## 4.3 evaluate_similarity()
+### 4.3 evaluate_similarity()
 
 评估词向量模型语义相似表现。 使用 Spearman's Rank Coeficient 作为评价指标， 取值[-1, 1], 1 完全相关，-1 完全负相关， 0 毫无相关性。
 
@@ -1512,7 +1444,7 @@ Processing Similarity Test: 100%|██████████| 537/537 [00:00<
 
 <br>
 
-## 4.4 evaluate_analogy()
+### 4.4 evaluate_analogy()
 
 用于评估词向量模型在类比测试（analogy test）中表现的函数。它通过读取指定的类比测试文件，计算模型对词语关系预测的准确性，并输出每个类别的准确率、发现词语数量、未发现词语数量以及平均排名等指标。
 
@@ -1597,7 +1529,7 @@ Processing Analogy Test: 100%|█████████████| 1198/1198
 
 <br>
 
-## 4.5 SoPmi()
+### 4.5 SoPmi()
 
 ```python
 ct.SoPmi(corpus_file, seed_file)       #人工标注的初始种子词
@@ -1630,7 +1562,7 @@ Finish! used 19.74 s
 
 <br>
 
-## 4.6 load_w2v()
+### 4.6 load_w2v()
 
 导入 cntext2.x 预训练的 word2vec 模型 .txt 文件
 
@@ -1808,7 +1740,7 @@ array([ 0.15567462, -0.05117003, -0.18534171,  0.20808656, -0.01133028,
 
 <br>
 
-## 5.2 generate_concept_axis(wv, poswords, negwords)
+### 5.2 generate_concept_axis(wv, poswords, negwords)
 
 生成概念轴向量。
 
@@ -2000,7 +1932,7 @@ Run
 
 <br>
 
-## 5.5 project_word
+### 5.5 project_word
 
 在向量空间中， 计算词语a在词语b上的投影(余弦相似度)。默认返回的是投影值。
     如果 cosine=True，返回词语a与词语b的余弦相似度。
