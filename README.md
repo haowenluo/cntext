@@ -1,30 +1,25 @@
 
 ## cntext：面向社会科学研究的中文文本分析工具库
-cntext 是一个专为社会科学实证研究设计的中文文本分析 Python 库。它不止于词频统计式的传统情感分析，还拥有词嵌入训练、语义投影计算，可从大规模非结构化文本中测量抽象构念——如态度、认知、文化观念与心理状态。
+cntext 是一个专为**社会科学实证研究**设计的中文文本分析 Python 库。它不止于词频统计式的传统情感分析，还拥有词嵌入训练、语义投影计算，**可从大规模非结构化文本中测量抽象构念**——如态度、认知、文化观念与心理状态。
 
-✅ 核心能力（学术导向）
-    - 内置词典：内置hownet/dutir等常用情感词典
-    - 多文件: 读取多个文件(txt/pdf/docx/csv)，返回汇总后的 df
-    - 词向量: 两行代码训练GloVe、Word2Vec
-    - 语义投影：量化群体刻板印象、组织文化变迁
-    ...
+🎯 **你能用它做什么**
+1. 构建结构化研究数据集
+   - 汇总多个文本文件（txt/pdf/docx/csv）为 DataFrame：``ct.read_files()``
+   - 提取上市公司年报中的“管理层讨论与分析”（MD&A）：``ct.extract_mda()``
+   - 计算文本可读性指标（如Flesch指数）：``ct.readability()``
 
+2. **基础文本分析(传统方法)**
+   - 词频统计与关键词提取：``ct.word_count()``
+   - 情感分析（基于知网、大连理工等词典）：``ct.sentiment()``
+   - 文本相似度计算（余弦距离）：``ct.cosine_sim()``
 
-✅ 典型应用场景
-   - 构建研究数据集
-      - ct.read_files  汇总年报pdf成dataframe
-      - ct.extract_mda 提取年报mda
-      - ct.readability 文本可读性
-   - 传统文本分析
-      - ct.word_count 词频统计
-      - ct.sentiment  文本情感
-      - ct.cosine_sim 文本相似度
-   - 内隐态度(刻板印象)
-      - 训练词向量ct.GloVe 或 ct.Word2Vec
-      - 生成概念轴 ct.generate_concept_axis
-      - 计算语义投影 ct.project_text
-   - LLM大模型
-      - ct.llm 对传入的文本进行分析，返回结构化数据
+3. **测量内隐态度与文化变迁**
+   - 两行代码训练领域专用词向量（Word2Vec/GloVe）：``ct.Word2Vec()``
+   - 构建概念语义轴（如“创新 vs 守旧”）：``ct.generate_concept_axis()``
+   - 通过语义投影量化刻板印象、组织文化偏移：``ct.project_text()``
+4. **融合大模型进行结构化分析**
+   - 调用 LLM 对文本进行语义解析，返回结构化结果（如情绪维度、意图分类）：``ct.llm()``
+
 
 cntext 不追求黑箱预测，而致力于让文本成为理论驱动的科学测量工具。 开源免费，欢迎学界同仁使用、验证与共建。
 
