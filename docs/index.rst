@@ -3,12 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-cntext2.x documentation
+cntext documentation
 =======================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+cntext 是专为**社会科学实证研究者**设计的中文文本分析 Python 库。它不止于词频统计式的传统情感分析，还拥有词嵌入训练、语义投影计算，**可从大规模非结构化文本中测量抽象构念**——如态度、认知、文化观念与心理状态。
 
 
 .. toctree::

@@ -1,5 +1,28 @@
 # 简介
-cntext 是[大邓](https://textdata.cn/)开发维护的中英文文本分析库，内置有多重词典和常用函数。 常见的文本分析代码行数在数十行，而 cntext2.x 力求将代码量控制在 2~5 行。
+## cntext：面向社会科学研究的中文文本分析工具库
+
+cntext 是专为**社会科学实证研究者**设计的中文文本分析 Python 库。它不止于词频统计式的传统情感分析，还拥有词嵌入训练、语义投影计算，**可从大规模非结构化文本中测量抽象构念**——如态度、认知、文化观念与心理状态。
+
+🎯 **你能用它做什么**
+1. 构建结构化研究数据集
+   - 汇总多个文本文件（txt/pdf/docx/csv）为 DataFrame：``ct.read_files()``
+   - 提取上市公司年报中的“管理层讨论与分析”（MD&A）：``ct.extract_mda()``
+   - 计算文本可读性指标（如Flesch指数）：``ct.readability()``
+
+2. **基础文本分析(传统方法)**
+   - 词频统计与关键词提取：``ct.word_count()``
+   - 情感分析（基于知网、大连理工等词典）：``ct.sentiment()``
+   - 文本相似度计算（余弦距离）：``ct.cosine_sim()``
+
+3. **测量内隐态度与文化变迁**
+   - 两行代码训练领域专用词向量（Word2Vec/GloVe）：``ct.Word2Vec()``
+   - 构建概念语义轴（如“创新 vs 守旧”）：``ct.generate_concept_axis()``
+   - 通过语义投影量化刻板印象、组织文化偏移：``ct.project_text()``
+4. **融合大模型进行结构化分析**
+   - 调用 LLM 对文本进行语义解析，返回结构化结果（如情绪维度、意图分类）：``ct.llm()``
+
+
+cntext 不追求黑箱预测，而致力于让文本成为理论驱动的科学测量工具。 开源免费，欢迎学界同仁使用、验证与共建。
 
 <br>
 
@@ -61,6 +84,7 @@ cntext2.x 含io、model、stats、mind五个模块
 | ***mind***  | ***tm = ct.Text2Mind(wv)***<br>                      | 单个word2vec内挖掘潜在的态度偏见、刻板印象等。tm含多重方法 |
 | ***mind***  | ***ct.sematic_projection(wv, words, c_words1, c_words2)*** | 测量语义投影                                               |
 | ***mind***  | ***ct.project_word(wv, a, b)*** | 测量词语a在词语b上的投影语                                              |
+| **mind**  | ***ct.project_text(wv, text, axis, lang='chinese', cosine=False)***   | 计算词语文本text在概念轴向量axis上的投影值|
 | ***mind***  | ***ct.sematic_distance(wv, words, c_words1, c_words2)*** | 测量语义距离                                               |
 | ***mind***  | ***ct.divergent_association_task(wv, words)***       | 测量发散思维(创造力)                                       |
 | ***mind***  | ***ct.discursive_diversity_score(wv, words)***       | 测量语言差异性(认知差异性)                                       |
