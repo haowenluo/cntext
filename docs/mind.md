@@ -13,6 +13,7 @@
 | **_mind_** | `ct.generate_concept_axis(wv, words1, words2)` | 生成概念轴向量。 |
 | **_mind_** | `ct.sematic_projection(wv, words, poswords, negwords)` | 测量语义投影 |
 | **_mind_** | `ct.project_word(wv, a, b, cosine=False)` | 在向量空间中， 计算词语 a 在词语 b 上的投影。 |
+| **mind**  | `ct.project_text(wv, text, axis, lang='chinese', cosine=False)`  | 计算词语文本text在概念轴向量axis上的投影值|
 | **_mind_** | `ct.sematic_distance(wv, words, c_words1, c_words2)` | 测量语义距离 |
 | **_mind_** | `ct.divergent_association_task(wv, words)` | 测量发散思维(创造力) |
 | **_mind_** | `ct.discursive_diversity_score(wv, words)` | 测量语言差异性(认知差异性) |
@@ -358,10 +359,93 @@ Run
 [丑陋]在[修长，苗条]投影值: 2.882350444793701
 ```
 
+<br>
+
+
+
+### 5.5 project_text()
+
+在向量空间中，计算文本在概念轴向量上的投影值。
+
+```python
+ct.project_text(wv, text, axis, lang='chinese', cosine=False)
+```
+- **wv**: 语言模型的KeyedVectors
+- **text**: 文本字符串
+- **lang**:  语言,有chinese和english两种; 默认"chinese"
+- **axis**:  概念向量
+- **cosine**: 投影值是否使用余弦相似度， 默认为False，返回text在axis上的投影值； True时，返回text与axis的余弦相似度。
+
+```python
+import cntext as ct
+
+# 1. 读取词嵌入模型文件
+embeddings_model = ct.load_w2v('cntext2x训练得到的模型文件路径')
+#dm_w2v = ct.load_w2v('douban-movie-1000w-Word2Vec.200.15.bin')
+
+# 2. 定义情绪正负词语，确定情绪概念轴向量sentiment_axis
+sentiment_pos = ['快乐', '幸福', '喜悦', '满足', '欣慰', '激动', '兴奋', '感恩', '热爱', '赞美']
+sentiment_neg = ['痛苦', '悲伤', '难过', '失望', '愤怒', '怨恨', '绝望', '恐惧', '焦虑', '压抑']
+sentiment_axis = ct.generate_concept_axis(wv = embeddings_model, 
+                                         poswords=sentiment_pos,
+                                         negwords=sentiment_neg)
+# 3. 创建实验文本（从正面到负面）
+texts = [
+    "今天阳光明媚，我和家人一起出游，感到无比幸福和快乐。",
+    "工作有了新进展，得到了领导的表扬，内心充满成就感。",
+    "虽然遇到了小挫折，但我依然保持乐观，相信明天会更好。",
+    "生活平淡，没什么特别的事发生，心情一般。",
+    "最近压力有点大，睡眠不好，感觉有点焦虑和疲惫。",
+    "项目失败了，还被领导批评，心里非常难过和失望。",
+    "亲人离世，我感到极度悲伤和痛苦，世界仿佛失去了颜色。"
+]
+
+
+# 4. 计算每条文本在情绪轴上的投影
+print("文本情绪投影分析（越大越正面）：\n")
+results = []
+for i, text in enumerate(texts):
+    # 使用投影函数（返回在 axis 方向上的投影值）
+    #project_text(wv, text, axis, lang='chinese', cosine=False)
+    proj_value = ct.project_text(wv=embeddings_model, 
+                                 text=text, 
+                                 axis=sentiment_axis, 
+                                 lang='chinese')
+    results.append((proj_value, text))
+    print(f"[{i+1}] 投影值: {proj_value:+.4f} | {text}\n")
+
+# 5. 按投影值排序，查看情绪强度排序
+print("\n" + "="*60)
+print("按情绪正面性排序（从高到低）：")
+print("="*60)
+for value, text in sorted(results, key=lambda x: x[0], reverse=True):
+    print(f"{value:+.4f} → {text}")
+```
+Run
+```
+[1] 投影值: +0.8213 | 今天阳光明媚，我和家人一起出游，感到无比幸福和快乐。
+[2] 投影值: +0.5641 | 工作有了新进展，得到了领导的表扬，内心充满成就感。
+[3] 投影值: +0.1205 | 虽然遇到了小挫折，但我依然保持乐观，相信明天会更好。
+[4] 投影值: -0.0321 | 生活平淡，没什么特别的事发生，心情一般。
+[5] 投影值: -0.3178 | 最近压力有点大，睡眠不好，感觉有点焦虑和疲惫。
+[6] 投影值: -0.6124 | 项目失败了，还被领导批评，心里非常难过和失望。
+[7] 投影值: -0.9012 | 亲人离世，我感到极度悲伤和痛苦，世界仿佛失去了颜色。
+```
+
+
+
+
+
+
+
+
+
+
+
 
 <br>
 
-## 5.5 divergent_association_task()
+## 5.6 divergent_association_task()
 
 [PNAS | 使用语义距离测量一个人的创新力(发散思维)得分](https://textdata.cn/blog/2022-11-14-pnas_naming_unrelated_words_predicts_creativity/)。一些理论认为，有 创造力 的人能够产生更多 发散性 的想法。如果这是正确的，简单地让被试写 N 个不相关的单词，然后测量这 N 个词的语义距离， 作为发散思维的客观衡量标准。
 
@@ -398,7 +482,7 @@ Run
 
 <br>
 
-## 5.6 discursive_diversity_score()
+## 5.7 discursive_diversity_score()
 
 [MS2022 | 使用语言差异性测量团队认知差异性](https://textdata.cn/blog/2023-11-02-measure-cognitive-diversity-through-language-discursive-diversity/)
 
