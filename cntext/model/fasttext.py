@@ -1,6 +1,6 @@
 from pathlib import Path
 import time
-from ..model.utils import load_userdict, load_stopwords, preprocess_line,  get_optimal_threshold
+from ..model.utils import preprocess_line,  get_optimal_threshold
 from tqdm import tqdm
 from gensim.models import fasttext
 from gensim.models.word2vec import LineSentence
@@ -8,11 +8,14 @@ import gc
 import psutil
 from tqdm import tqdm
 from gensim.models import Phrases
-import numpy as np
 import smart_open
 from functools import partial
 from multiprocessing import Pool, cpu_count
-
+import jieba
+import logging
+jieba_logger = logging.getLogger('jieba')
+jieba_logger.setLevel(logging.CRITICAL)
+    
 
 
 # 在Word2Vec函数定义之前添加
@@ -45,12 +48,20 @@ def FastText(corpus_file, lang='chinese', dict_file=None, stopwords_file=None, v
     
     start  = time.time()
     
+
     # 加载用户词典和停用词
-    load_userdict(dict_file=dict_file)
+    jieba.enable_parallel(cpu_count())
+    if dict_file:
+        jieba.load_userdict(dict_file)
+    
+    stopwords = set()
     if stopwords_file:
-        stopwords = open(stopwords_file, 'r', encoding='utf-8').readlines()
-    else:
-        stopwords = []
+        try:
+            with open(stopwords_file, 'r', encoding='utf-8') as f:
+                stopwords = set([line.strip() for line in f if line.strip()])
+        except Exception as e:
+            print(f"Warning: Failed to load stopwords file: {e}")
+            
 
     
     # 设置路径

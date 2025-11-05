@@ -15,6 +15,8 @@
 | ***io*** | ***ct.traditional2simple(text)***           | 繁体转简体                                                 |
 | ***io*** | ***ct.fix_text(text)***                     | 将不正常的、混乱编码的文本转化为正常的文本。例如全角转半角 |
 | ***io*** | ***ct.fix_contractions(text)***                       | 英文缩写(含俚语表达)处理， 如you're -> you are                                      |
+| **io** | `ct.clean_text(text, lang='chinese')`               | 中文、英文文本清洗         |
+
 
 
 
@@ -472,4 +474,44 @@ text
 Run
 ```
 "you all are happy now"
+```
+
+
+
+### 1.13 clean_text(text)
+
+```python
+ct.clean_text(text, lang='chinese')
+```
+
+- **_text_** 待处理的文本
+- **_lang_** 语言类型， 默认 lang='chinese', 支持"english"、"chinese"
+
+```python
+import cntext as ct
+
+chinese_text = ("今天的训练很棒！跑了5.6公里，心率稳定。"
+                "查看 https://example.com/data 😊 #健身打卡")
+
+print(">>> 中文清洗")
+print("原始:", repr(chinese_text))
+print("清洗:", repr(ct.clean_text(chinese_text, lang="chinese")))
+print()
+
+    # 英文测试
+english_text = ("Great workout today! Ran 5.6 miles, HR stable. "
+                "Check https://example.com/data 😊 #Fitness")
+print(">>> 英文清洗")
+print("原始:", repr(english_text))
+print("清洗:", repr(ct.clean_text(english_text, lang="english")))
+```
+Run
+```
+>>> 中文清洗
+原始: '今天的训练很棒！跑了5.6公里，心率稳定。查看 https://example.com/data 😊 #健身打卡'
+清洗: '今天的训练很棒！跑了数字公里，心率稳定。查看   健身打卡'
+
+>>> 英文清洗
+原始: 'Great workout today! Ran 5.6 miles, HR stable. Check https://example.com/data 😊 #Fitness'
+清洗: 'great workout today! ran NUMBER miles, hr stable. check  😊 #fitness'
 ```

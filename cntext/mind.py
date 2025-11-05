@@ -1,8 +1,9 @@
 import numpy as np
 import scipy.spatial.distance
 import itertools
-import jieba
-
+from .model.utils import preprocess_line
+from .io.utils import clean_text
+from functools import lru_cache
 
 
 
@@ -68,15 +69,10 @@ def project_text(wv, text, axis, lang='chinese', cosine=False):
     # 2. 检查概念轴向量是否为零向量
     if np.linalg.norm(vec_axis) == 0:
         return np.nan
+    
 
     # 3. 处理文本并获取有效词汇
-    if lang == 'chinese':
-        words = [word for word in jieba.lcut(text) if word.strip()]
-    elif lang == 'english':
-        words = [word for word in text.lower().split(' ') if word.strip()]
-    else:
-        raise ValueError("不支持该语言，只支持chinese 或 english")
-
+    words = preprocess_line(line=text,lang=lang)
     valid_words = [w for w in words if w in wv]
     
     if not valid_words:
@@ -400,3 +396,64 @@ def discursive_diversity_score(wv, words):
     diversity_score = np.mean(pairwise_distances)
     
     return diversity_score
+
+
+
+
+
+
+
+
+
+###########################WEPA#########################################
+
+
+# 为了能缓存numpy数组，需要先定义一个转换函数
+def _array_hash(arr):
+    """将numpy数组转换为可哈希的元组"""
+    return tuple(arr.flatten())
+
+# 使用类来管理缓存，避免修改numpy内置类型
+class ConceptAxisCache:
+    def __init__(self):
+        self.cache = {}
+        
+    def get_cached_axis(self, wv, poswords, negwords):
+        # 创建缓存键
+        key = (_array_hash(wv.vectors[0]) if hasattr(wv, 'vectors') else id(wv), 
+               tuple(poswords), tuple(negwords))
+        
+        # 检查缓存中是否存在
+        if key not in self.cache:
+            # 计算并缓存概念轴
+            self.cache[key] = generate_concept_axis(wv=wv, poswords=poswords, negwords=negwords)
+            
+        return self.cache[key]
+
+# 创建全局缓存实例
+_concept_axis_cache = ConceptAxisCache()
+
+
+
+def wepa(wv, text, poswords, negwords, lang='chinese', cosine=False):
+    """
+    计算文本在概念轴上的投影得分（优化版，内部自动缓存概念轴）
+    
+    参数:
+        wv (KeyedVectors): 语言模型的KeyedVectors
+        text (str): 单个文本字符串
+        poswords (list): 正面词列表
+        negwords (list): 负面词列表
+        lang (str): 语言，支持'chinese'或'english'，默认为'chinese'
+        cosine (bool): 是否使用余弦相似度，默认为False
+    
+    返回:
+        float: wepa得分
+    """
+    # 计算概念轴（使用缓存机制）
+    axis_vec = _concept_axis_cache.get_cached_axis(wv, poswords, negwords)
+    
+    # 处理单个文本
+    text = clean_text(text=text, lang=lang)
+    proj_score = project_text(wv=wv, text=text, axis=axis_vec, lang=lang, cosine=cosine)
+    return proj_score

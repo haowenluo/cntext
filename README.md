@@ -2,63 +2,64 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [cntext：面向社会科学研究的中文文本分析工具库](#cntext%E9%9D%A2%E5%90%91%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E7%A0%94%E7%A9%B6%E7%9A%84%E4%B8%AD%E6%96%87%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7%E5%BA%93)
-- [安装 cntext](#%E5%AE%89%E8%A3%85-cntext)
-- [功能模块](#%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97)
+- [cntext：面向社会科学研究的中文文本分析工具库](#cntext面向社会科学研究的中文文本分析工具库)
+- [安装 cntext](#安装-cntext)
+- [功能模块](#功能模块)
 - [QuickStart](#quickstart)
-- [一、IO 模块](#%E4%B8%80io-%E6%A8%A1%E5%9D%97)
-  - [1.1 get_dict_list()](#11-get_dict_list)
-  - [1.2 内置 yaml 词典](#12-%E5%86%85%E7%BD%AE-yaml-%E8%AF%8D%E5%85%B8)
-  - [1.3 read_dict_yaml()](#13-read_dict_yaml)
-  - [1.4 detect_encoding()](#14-detect_encoding)
-  - [1.5 get_files(fformat)](#15-get_filesfformat)
-  - [1.6 read_pdf](#16-read_pdf)
-  - [1.7 read_docx](#17-read_docx)
-  - [1.8 read_file()](#18-read_file)
-  - [1.9 read_files()](#19-read_files)
-  - [1.10 extract_mda](#110-extract_mda)
+- [一、IO 模块](#一io-模块)
+  - [1.1 get\_dict\_list()](#11-get_dict_list)
+  - [1.2 内置 yaml 词典](#12-内置-yaml-词典)
+  - [1.3 read\_dict\_yaml()](#13-read_dict_yaml)
+  - [1.4 detect\_encoding()](#14-detect_encoding)
+  - [1.5 get\_files(fformat)](#15-get_filesfformat)
+  - [1.6 read\_pdf](#16-read_pdf)
+  - [1.7 read\_docx](#17-read_docx)
+  - [1.8 read\_file()](#18-read_file)
+  - [1.9 read\_files()](#19-read_files)
+  - [1.10 extract\_mda](#110-extract_mda)
   - [1.11 traditional2simple()](#111-traditional2simple)
-  - [1.12 fix_text()](#112-fix_text)
-  - [1.13 fix_contractions(text)](#113-fix_contractionstext)
-- [二、Stats 模块](#%E4%BA%8Cstats-%E6%A8%A1%E5%9D%97)
-  - [2.1 word_count()](#21-word_count)
+  - [1.12 fix\_text()](#112-fix_text)
+  - [1.13 fix\_contractions(text)](#113-fix_contractionstext)
+  - [1.14 clean\_text(text)](#114-clean_texttext)
+- [二、Stats 模块](#二stats-模块)
+  - [2.1 word\_count()](#21-word_count)
   - [2.2 readability()](#22-readability)
   - [2.3 sentiment(text, diction, lang)](#23-sentimenttext-diction-lang)
-  - [2.4 sentiment_by_valence()](#24-sentiment_by_valence)
-  - [2.5 word_in_context()](#25-word_in_context)
+  - [2.4 sentiment\_by\_valence()](#24-sentiment_by_valence)
+  - [2.5 word\_in\_context()](#25-word_in_context)
   - [2.6 epu()](#26-epu)
   - [2.7 fepu()](#27-fepu)
-  - [2.8 semantic_brand_score()](#28-semantic_brand_score)
-  - [2.9 文本相似度](#29-%E6%96%87%E6%9C%AC%E7%9B%B8%E4%BC%BC%E5%BA%A6)
-  - [2.10 word_hhi](#210-word_hhi)
-- [三、Plot 模块](#%E4%B8%89plot-%E6%A8%A1%E5%9D%97)
-  - [3.1 matplotlib_chinese()](#31-matplotlib_chinese)
-  - [3.2 lexical_dispersion_plot1()](#32-lexical_dispersion_plot1)
-  - [3.3 lexical_dispersion_plot2()](#33-lexical_dispersion_plot2)
-- [四、Model 模块](#%E5%9B%9Bmodel-%E6%A8%A1%E5%9D%97)
+  - [2.8 semantic\_brand\_score()](#28-semantic_brand_score)
+  - [2.9 文本相似度](#29-文本相似度)
+  - [2.10 word\_hhi](#210-word_hhi)
+- [三、Plot 模块](#三plot-模块)
+  - [3.1 matplotlib\_chinese()](#31-matplotlib_chinese)
+  - [3.2 lexical\_dispersion\_plot1()](#32-lexical_dispersion_plot1)
+  - [3.3 lexical\_dispersion\_plot2()](#33-lexical_dispersion_plot2)
+- [四、Model 模块](#四model-模块)
   - [4.1 Word2Vec()](#41-word2vec)
   - [4.2 GloVe()](#42-glove)
-  - [4.3 evaluate_similarity()](#43-evaluate_similarity)
-  - [4.4 evaluate_analogy()](#44-evaluate_analogy)
+  - [4.3 evaluate\_similarity()](#43-evaluate_similarity)
+  - [4.4 evaluate\_analogy()](#44-evaluate_analogy)
   - [4.5 SoPmi()](#45-sopmi)
-  - [4.6 load_w2v()](#46-load_w2v)
+  - [4.6 load\_w2v()](#46-load_w2v)
   - [4.7 glove2word2vec()](#47-glove2word2vec)
-  - [注意](#%E6%B3%A8%E6%84%8F)
-  - [4.8 expand_dictionary()](#48-expand_dictionary)
-- [五、Mind 模块](#%E4%BA%94mind-%E6%A8%A1%E5%9D%97)
-  - [5.1 semantic_centroid(wv, words)](#51-semantic_centroidwv-words)
-  - [5.2 generate_concept_axis(wv, poswords, negwords)](#52-generate_concept_axiswv-poswords-negwords)
-  - [5.3 sematic_distance()](#53-sematic_distance)
-  - [5.4 sematic_projection()](#54-sematic_projection)
-  - [5.5 project_word](#55-project_word)
-  - [5.6 project_text()](#56-project_text)
-  - [5.7 divergent_association_task()](#57-divergent_association_task)
-  - [5.8 discursive_diversity_score()](#58-discursive_diversity_score)
-  - [5.8 procrustes_align()](#58-procrustes_align)
-- [六、LLM 模块](#%E5%85%ADllm-%E6%A8%A1%E5%9D%97)
+  - [注意](#注意)
+  - [4.8 expand\_dictionary()](#48-expand_dictionary)
+- [五、Mind 模块](#五mind-模块)
+  - [5.1 semantic\_centroid(wv, words)](#51-semantic_centroidwv-words)
+  - [5.2 generate\_concept\_axis(wv, poswords, negwords)](#52-generate_concept_axiswv-poswords-negwords)
+  - [5.3 sematic\_distance()](#53-sematic_distance)
+  - [5.4 sematic\_projection()](#54-sematic_projection)
+  - [5.5 project\_word](#55-project_word)
+  - [5.6 project\_text()](#56-project_text)
+  - [5.7 divergent\_association\_task()](#57-divergent_association_task)
+  - [5.8 discursive\_diversity\_score()](#58-discursive_diversity_score)
+  - [5.8 procrustes\_align()](#58-procrustes_align)
+- [六、LLM 模块](#六llm-模块)
   - [6.1 ct.llm()](#61-ctllm)
-  - [6.2 内置prompt](#62-%E5%86%85%E7%BD%AEprompt)
-- [使用声明](#%E4%BD%BF%E7%94%A8%E5%A3%B0%E6%98%8E)
+  - [6.2 内置prompt](#62-内置prompt)
+- [使用声明](#使用声明)
   - [apalike](#apalike)
   - [bibtex](#bibtex)
   - [endnote](#endnote)
@@ -78,7 +79,7 @@ cntext 是专为**社会科学实证研究者**设计的中文文本分析 Pytho
 
 2. **基础文本分析(传统方法)**
    - 词频统计与关键词提取：``ct.word_count()``
-   - 情感分析（基于知网、大连理工等词典）：``ct.sentiment()``
+   - 情感分析（可选hownet、dutir等内置词典）：``ct.sentiment()``
    - 文本相似度计算（余弦距离）：``ct.cosine_sim()``
 
 3. **测量内隐态度与文化变迁**
@@ -138,6 +139,7 @@ cntext 含 io、model、stats、mind 五个模块
 | **io**    | **_ct.traditional2simple(text)_**                                                              | 繁体转简体                                                                     |
 | **io**    | **_ct.fix_text(text)_**                                                                        | 将不正常的、混乱编码的文本转化为正常的文本。例如全角转半角                     |
 | **io**    | `ct.fix_contractions(text)`                                                                    | 英文缩写(含俚语表达)处理， 如 you're -> you are                                |
+| **io** | `ct.clean_text(text, lang='chinese')`               | 中文、英文文本清洗         |
 | **model** | **_ct.Word2Vec(corpus_file, encoding, lang='chinese', ...)_**                                  | 训练 Word2Vec                                                                  |
 | **model** | **_ct.GloVe(corpus_file, encoding, lang='chinese', ...)_**                                     | GloVe, 底层使用的 [Standfordnlp/GloVe](https://github.com/standfordnlp/GloVe)  |
 | **model** | **_ct.evaluate_similarity(wv, file=None)_**                                                    | 使用近义法评估模型表现，默认使用内置的数据进行评估。                           |
@@ -222,6 +224,8 @@ PACKAGE CONTENTS
 | **io** | **_ct.traditional2simple(text)_**         | 繁体转简体                                                 |
 | **io** | **_ct.fix_text(text)_**                   | 将不正常的、混乱编码的文本转化为正常的文本。例如全角转半角 |
 | **io** | `ct.fix_contractions(text)`               | 英文缩写(含俚语表达)处理， 如 you're -> you are            |
+| **io** | `ct.clean_text(text, lang='chinese')`               | 中文、英文文本清洗         |
+
 
 ### 1.1 get_dict_list()
 
@@ -662,6 +666,45 @@ Run
 ```
 
 <br>
+
+
+### 1.14 clean_text(text)
+
+```python
+ct.clean_text(text, lang='chinese')
+```
+
+- **_text_** 待处理的文本
+- **_lang_** 语言类型， 默认 lang='chinese', 支持"english"、"chinese"
+
+```python
+import cntext as ct
+
+chinese_text = ("今天的训练很棒！跑了5.6公里，心率稳定。"
+                "查看 https://example.com/data 😊 #健身打卡")
+
+print(">>> 中文清洗")
+print("原始:", repr(chinese_text))
+print("清洗:", repr(ct.clean_text(chinese_text, lang="chinese")))
+print()
+
+    # 英文测试
+english_text = ("Great workout today! Ran 5.6 miles, HR stable. "
+                "Check https://example.com/data 😊 #Fitness")
+print(">>> 英文清洗")
+print("原始:", repr(english_text))
+print("清洗:", repr(ct.clean_text(english_text, lang="english")))
+```
+Run
+```
+>>> 中文清洗
+原始: '今天的训练很棒！跑了5.6公里，心率稳定。查看 https://example.com/data 😊 #健身打卡'
+清洗: '今天的训练很棒！跑了数字公里，心率稳定。查看   健身打卡'
+
+>>> 英文清洗
+原始: 'Great workout today! Ran 5.6 miles, HR stable. Check https://example.com/data 😊 #Fitness'
+清洗: 'great workout today! ran NUMBER miles, hr stable. check  😊 #fitness'
+```
 
 <br><br>
 

@@ -4,7 +4,7 @@ import subprocess
 from gensim.models import KeyedVectors
 from gensim.scripts.glove2word2vec import glove2word2vec as glove2wv
 import os
-from ..model.utils import load_userdict, load_stopwords, preprocess_line, get_optimal_threshold
+from ..model.utils import preprocess_line, get_optimal_threshold
 import platform
 import sys
 import gc
@@ -13,6 +13,10 @@ import psutil
 import smart_open
 from functools import partial
 from multiprocessing import Pool, cpu_count
+import jieba
+import logging
+jieba_logger = logging.getLogger('jieba')
+jieba_logger.setLevel(logging.CRITICAL)
 
 
 
@@ -31,7 +35,7 @@ def GloVe(corpus_file, lang='chinese', dict_file=None, stopwords_file=None, vect
         corpus_file (str): 输入语料文件路径（文本格式）。该文件为分词后的语料文件。utf-8编码。
         lang (str, optional): 语料文件的语言类型，默认为 'chinese'。
         dict_file (str, optional): 用户词典文件路径，默认为 None。utf-8编码。
-        stopwords_file (str, optional): 停用词txt文件路径，每行一个词。默认为 None。
+        stopwords_file (str, optional): 停用词文件路径，默认为 None。utf-8编码。
         vector_size (int): 词向量维度，默认 100。
         window_size (int): 上下文窗口大小，默认 15。
         min_count (int): 忽略出现次数低于此值的单词，默认 5。
@@ -45,7 +49,7 @@ def GloVe(corpus_file, lang='chinese', dict_file=None, stopwords_file=None, vect
         
     Returns: 训练好的 GloVe 模型。
     """
-    max_worker = int(os.cpu_count() * 0.8)
+    max_worker = int(cpu_count() * 0.8)
     memory_threshold = get_optimal_threshold()
     system = platform.system()
     if system == 'Windows':
@@ -82,14 +86,17 @@ def GloVe(corpus_file, lang='chinese', dict_file=None, stopwords_file=None, vect
     cache_corpus_txt_file = output_dir / f"{corpus_name}_cache.txt"
     
     # 加载用户词典和停用词
-    load_userdict(dict_file=dict_file)
+    jieba.enable_parallel(cpu_count())
+    if dict_file:
+        jieba.load_userdict(dict_file)
+    stopwords = set()
     if stopwords_file:
-        stopwords = open(stopwords_file, 'r', encoding='utf-8').readlines()
-    else:
-        stopwords = []
-
-
-
+        try:
+            with open(stopwords_file, 'r', encoding='utf-8') as f:
+                stopwords = set([line.strip() for line in f if line.strip()])
+        except Exception as e:
+            print(f"Warning: Failed to load stopwords file: {e}")
+            
 
         # 检查缓存文件是否存在且不为空
     if cache_corpus_txt_file.exists() and cache_corpus_txt_file.stat().st_size > 0:

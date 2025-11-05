@@ -1,6 +1,6 @@
 from pathlib import Path
 import time
-from ..model.utils import load_userdict, load_stopwords, preprocess_line,  get_optimal_threshold
+from ..model.utils import preprocess_line,  get_optimal_threshold
 from tqdm import tqdm
 from gensim.models import word2vec
 from gensim.models.word2vec import LineSentence
@@ -8,11 +8,13 @@ import gc
 import psutil
 from tqdm import tqdm
 from gensim.models import Phrases
-import numpy as np
 import smart_open
 from functools import partial
 from multiprocessing import Pool, cpu_count
-
+import jieba
+import logging
+jieba_logger = logging.getLogger('jieba')
+jieba_logger.setLevel(logging.CRITICAL)
 
 
 
@@ -30,7 +32,7 @@ def Word2Vec(corpus_file, lang='chinese', dict_file=None, stopwords_file=None, v
         corpus_file (str): 语料库txt文件的路径。utf-8编码。
         lang (str, optional): 语料库的语言。默认为'chinese'。
         dict_file (str): 自定义词典txt文件路径，默认为None。utf-8编码。
-        stopwords_file (str, optional): 停用词txt文件路径，每行一个词，txt文件为utf-8编码。默认为 None。
+        stopwords_file (str, optional): 停用词文件路径，默认为 None。
         vector_size (int, optional): 词向量的维度。默认为100。
         window_size (int, optional): 窗口大小。默认为10。
         min_count (int, optional): 最小词频。默认为5。
@@ -46,12 +48,20 @@ def Word2Vec(corpus_file, lang='chinese', dict_file=None, stopwords_file=None, v
     
     start  = time.time()
     
+
     # 加载用户词典和停用词
-    load_userdict(dict_file=dict_file)
+    jieba.enable_parallel(cpu_count())
+    if dict_file:
+        jieba.load_userdict(dict_file)
+    
+    stopwords = set()
     if stopwords_file:
-        stopwords = open(stopwords_file, 'r', encoding='utf-8').readlines()
-    else:
-        stopwords = []
+        try:
+            with open(stopwords_file, 'r', encoding='utf-8') as f:
+                stopwords = set([line.strip() for line in f if line.strip()])
+        except Exception as e:
+            print(f"Warning: Failed to load stopwords file: {e}")
+            
 
     
     # 设置路径

@@ -9,16 +9,11 @@ from nltk.tokenize import word_tokenize
 import pandas as pd
 from tqdm import tqdm
 from prettytable import PrettyTable  # 用于美化表格输出
-import multiprocessing
 import psutil  # 用于获取系统内存信息
 import re
 import logging
-import platform
 from scipy import spatial
 from scipy.stats import spearmanr
-from typing import List, Set, Optional
-
-
 # 在文件开头添加
 jieba_logger = logging.getLogger('jieba')
 jieba_logger.setLevel(logging.CRITICAL)
@@ -196,11 +191,11 @@ def get_optimal_threshold():
     total_mem = psutil.virtual_memory().total / (1024 ** 3)  # 获取总内存，单位GB
     used_mem = psutil.virtual_memory().used / (1024 ** 3)    # 获取已用内存
     if total_mem < 8:
-        return 0.5  # 小内存系统
+        return 0.6  # 小内存系统
     elif total_mem < 16:
-        return 0.6  # 中等内存系统
+        return 0.7  # 中等内存系统
     elif total_mem < 32:
-        return 0.7  # 大内存系统
+        return 0.8  # 大内存系统
     elif total_mem < 64:
         return 0.8  # 非常大内存系统
     else:
@@ -209,140 +204,27 @@ def get_optimal_threshold():
     
 
 
-def load_userdict(dict_file=None):
-    """
-    加载用户自定义词典。
 
-    Args:
-        dict_file (str): 词典txt文件路径。每行一个词
-    """
-    if dict_file:
-        jieba.load_userdict(dict_file)
-        
-    system = platform.system()
-    
-    if system == 'Windows':
-        print('Windows System, Unable Parallel Processing')
-    else:
-        print('Mac(Linux) System, Enable Parallel Processing')
-        jieba.enable_parallel(multiprocessing.cpu_count())
-    
+def preprocess_line(line, lang='chinese', stopwords=None):
+    # 1. 去除多余空白
+    line = re.sub(r'\s+', ' ', line.strip())
 
-
-            
-    
-
-
-
-
-
-
-
-
-
-
-
-
-# ==============================
-# 全局常量：内部使用
-# ==============================
-# 1. 空停用词集合
-_EMPTY_STOPWORDS = frozenset()
-
-# 2. 中文字符 + 英文字母 + 数字 + 空格 + 常见中文标点
-_CHINESE_CHARS = r'\u4e00-\u9fff'
-_ENGLISH_CHARS = r'a-zA-Z'
-_DIGITS = r'0-9'
-_PUNCTUATION = r'，。！？；：""''（）【】《》、·…—'
-# 用于保留基本字符的模式
-_KEEP_PATTERN = f'[^{_CHINESE_CHARS}{_ENGLISH_CHARS}{_DIGITS}\\s{_PUNCTUATION}]'
-
-# 3. 数字归一化标记
-_NUM_TOKEN = 'NUM'
-
-# 4. 是否启用数字归一化
-_REPLACE_NUMBERS = True
-
-# 5. ✅ 新增：URL 正则表达式（支持 http/https/www 及常见域名）
-# 这个正则可以匹配大多数常见的 URL 形式
-_URL_PATTERN = re.compile(
-    r'https?://[^\s]+|www\.[^\s]+|[a-zA-Z0-9][-a-zA-Z0-9]*\.(?:com|net|org|gov|cn|io|app|me|edu|mil)[/\w\d\.\?\=\&\%\#\-\_\~\:\@\+]*',
-    re.IGNORECASE
-)
-
-
-# ==============================
-# 核心函数：仅暴露 3 个接口
-# ==============================
-def preprocess_line(
-    line: str,
-    lang: str = 'chinese',
-    stopwords: Optional[Set[str]] = None
-) -> List[str]:
-    """
-    根据语言对单行文本进行预处理。
-    自动剔除 URL、归一化数字、清洗噪声字符。
-
-    Args:
-        line (str): 输入的一行文本。
-        lang (str): 语言类型，支持 'chinese' 或 'english'。
-        stopwords (set, optional): 停用词集合。默认为 None（不过滤停用词）。
-
-    Returns:
-        list: 预处理后的分词结果。
-    """
-    # 去除首尾空白并检查空行
-    line = line.strip()
-    if not line:
-        return []
-
-    # 处理停用词
-    stopwords_set = frozenset(stopwords) if stopwords else _EMPTY_STOPWORDS
-
+    # 2. 根据语言选择数字处理策略
     if lang == 'chinese':
-        # 转小写（统一英文字母）
-        cleaned_line = line.lower()
-
-        # ✅ 步骤1: 移除 URL（在其他清洗之前）
-        # 这样可以避免 URL 中的特殊字符干扰后续处理
-        cleaned_line = _URL_PATTERN.sub('', cleaned_line)
-
-        # 步骤2: 数字归一化
-        if _REPLACE_NUMBERS:
-            cleaned_line = re.sub(r'\d+\.?\d*', _NUM_TOKEN, cleaned_line)
-        
-        # 步骤3: 清除剩余噪声字符（只保留指定字符）
-        cleaned_line = re.sub(_KEEP_PATTERN, '', cleaned_line)
-        
-        # 步骤4: 分词
-        word_generator = (w.strip() for w in jieba.cut(cleaned_line))
-        
-        # 步骤5: 过滤
-        tokens = [
-            word for word in word_generator
-            if word and word not in stopwords_set and len(word) > 1
-        ]
-
+        line = re.sub(r'\d+', '数字', line)  # 中文用“数字”
+        words = jieba.lcut(line)
     elif lang == 'english':
-        cleaned_line = line.lower()
-        cleaned_line = _URL_PATTERN.sub('', cleaned_line)  # ✅ 移除 URL
-        
-        if _REPLACE_NUMBERS:
-            cleaned_line = re.sub(r'\d+\.?\d*', _NUM_TOKEN, cleaned_line)
-        
-        cleaned_line = re.sub(r'[^a-zA-Z0-9\s\.,;:!?]', '', cleaned_line)
-        
-        word_generator = (w.strip() for w in word_tokenize(cleaned_line))
-        tokens = [
-            word for word in word_generator
-            if word and word not in stopwords_set
-        ]
+        line = re.sub(r'\b\d+\b', ' _num_ ', line)  # 英文用 _num_
+        words = line.split()
     else:
         raise ValueError(f"Unsupported language: {lang}")
 
-    return tokens
-    
-   
+    # 3. 去停用词、长度过滤
+    if stopwords:
+        words = [w for w in words if w not in stopwords]
+    words = [w for w in words if len(w) > 1]
+
+    return [w.lower() for w in words]
 
 ######################################################################################################################
 
