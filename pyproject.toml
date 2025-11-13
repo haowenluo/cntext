@@ -44,8 +44,10 @@ instructor="^1.11.2"
 openai = "^1.107.0"
 PyYAML='^6.0.2'
 contractions='^0.1.73'
+spacy = {version = "^3.0.0", optional = true}  # Enhanced English NLP
 
-
+[tool.poetry.extras]
+english = ["spacy"]  # Install with: pip install cntext[english]
 
 [build-system]
 requires = ["poetry-core"]

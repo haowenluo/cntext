@@ -205,17 +205,40 @@ def get_optimal_threshold():
 
 
 
-def preprocess_line(line, lang='chinese', stopwords=None):
+def preprocess_line(line, lang='chinese', stopwords=None, lemmatize=False):
+    """
+    Preprocess a line of text for word embedding training.
+
+    Args:
+        line (str): Input line of text
+        lang (str): Language - 'chinese' or 'english' (default: 'chinese')
+        stopwords (set, optional): Set of stopwords to remove
+        lemmatize (bool): Whether to lemmatize English words (default: False)
+                         Note: Only applies when lang='english'
+
+    Returns:
+        list: List of preprocessed tokens
+    """
     # 1. 去除多余空白
     line = re.sub(r'\s+', ' ', line.strip())
 
     # 2. 根据语言选择数字处理策略
     if lang == 'chinese':
-        line = re.sub(r'\d+', '数字', line)  # 中文用“数字”
+        line = re.sub(r'\d+', '数字', line)  # 中文用"数字"
         words = jieba.lcut(line)
     elif lang == 'english':
-        line = re.sub(r'\b\d+\b', ' _num_ ', line)  # 英文用 _num_
-        words = line.split()
+        line = re.sub(r'\b\d+\.?\d*\b', ' _num_ ', line)  # 英文用 _num_ (支持小数)
+
+        # Use enhanced English tokenization if available
+        try:
+            from ..english_nlp import tokenize_english
+            words = tokenize_english(line, lemmatize=lemmatize, remove_punct=True, lowercase=True)
+        except ImportError:
+            # Fallback to basic tokenization
+            from nltk.tokenize import word_tokenize
+            import string
+            words = word_tokenize(line.lower())
+            words = [w for w in words if w not in string.punctuation]
     else:
         raise ValueError(f"Unsupported language: {lang}")
 
