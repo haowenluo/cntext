@@ -1,6 +1,23 @@
+===============================================================================
+FORK ATTRIBUTION
+===============================================================================
+
+This is a fork of cntext (https://github.com/hiDaDeng/cntext) originally
+created by DaDeng and Peng Nan at Harbin Institute of Technology.
+
+This fork has been adapted for English text analysis while maintaining the
+original project's MIT License and preserving attribution to the original
+authors.
+
+Original Project: https://github.com/hiDaDeng/cntext
+Original Authors: Xudong Deng (DaDeng), Peng Nan
+
+===============================================================================
+
 MIT License
 
-Copyright (c) 2022 DaDeng
+Copyright (c) 2022 DaDeng (Original cntext project)
+Copyright (c) 2025 Fork Maintainer (English adaptation modifications)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

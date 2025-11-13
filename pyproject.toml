@@ -1,10 +1,14 @@
 [tool.poetry]
 name = "cntext"
-version = "2.2.0"
-description = "Chinese text analysis library, which can perform word frequency statistics, dictionary expansion, sentiment analysis, similarity, readability, co-occurrence analysis, social computing (attitude, prejudice, culture) on texts; Now support Ollama(LLM) analysis"
-authors = ["DaDeng"]
+version = "3.0.0"
+description = "English text analysis library forked from cntext, specialized for social science research with word embeddings, sentiment analysis, semantic projection, and readability metrics. Supports LLM integration via Ollama."
+authors = ["Fork Maintainer <your.email@example.com>", "DaDeng (Original Author)"]
 license = "MIT"
 readme = "README.md"
+homepage = "https://github.com/yourusername/cntext"
+repository = "https://github.com/yourusername/cntext"
+documentation = "https://github.com/yourusername/cntext#readme"
+keywords = ["english", "text-mining", "sentiment-analysis", "nlp", "semantic-projection", "word-embeddings", "social-science"]
 
 # 包含非 Python 文件
 packages = [
