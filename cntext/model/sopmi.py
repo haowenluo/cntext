@@ -3,6 +3,9 @@ import jieba.posseg as pseg
 import math, time
 import jieba
 import logging
+from nltk.tokenize import word_tokenize
+import string
+
 # 在文件开头添加
 jieba_logger = logging.getLogger('jieba')
 jieba_logger.setLevel(logging.CRITICAL)
@@ -17,6 +20,17 @@ def read_seed_words(seed_file):
         return []
 
 def preprocess_corpus(corpus_file, seed_file, lang='chinese'):
+    """
+    Preprocess corpus for SoPmi dictionary expansion.
+
+    Args:
+        corpus_file: Path to corpus file
+        seed_file: Path to seed words file
+        lang: Language ('chinese' or 'english')
+
+    Returns:
+        seg_data: List of tokenized and filtered sentences
+    """
     sentiment_words = read_seed_words(seed_file)
     if lang == 'chinese':
         for word in sentiment_words:
@@ -28,7 +42,17 @@ def preprocess_corpus(corpus_file, seed_file, lang='chinese'):
             for line in f:
                 line = line.strip()
                 if line:
-                    seg_data.append([word.word for word in pseg.cut(line) if word.flag[0] not in ['u', 'w', 'x', 'p', 'q', 'm']])
+                    if lang == 'chinese':
+                        # Chinese: Use jieba POS tagging and filter by POS tags
+                        # u=auxiliary, w=punctuation, x=other, p=preposition, q=quantifier, m=numeral
+                        seg_data.append([word.word for word in pseg.cut(line)
+                                       if word.flag[0] not in ['u', 'w', 'x', 'p', 'q', 'm']])
+                    else:  # English
+                        # English: Use word_tokenize and filter punctuation
+                        tokens = word_tokenize(line.lower())
+                        # Remove punctuation and very short tokens
+                        tokens = [t for t in tokens if t not in string.punctuation and len(t) > 1]
+                        seg_data.append(tokens)
     except FileNotFoundError:
         print(f"Corpus file {corpus_file} not found.")
     return seg_data

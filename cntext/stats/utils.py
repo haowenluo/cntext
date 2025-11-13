@@ -66,28 +66,49 @@ def en_split_sentences(text):
 
 
 
-def word_count(text, lang='chinese', return_df=False):
+def word_count(text, lang='chinese', return_df=False, lemmatize=False):
     """
-    统计文本中的词频
+    统计文本中的词频 (Word frequency statistics)
 
     Args:
-        text (str): 待分析的文本数据
+        text (str): 待分析的文本数据 (Text to analyze)
         lang (str, optional): 文本的语言； 支持中英文，默认为chinese
+                             Language of text; supports Chinese and English
         return_df (bool, optional): 返回结果是否为 dataframe . 默认False
+                                   Whether to return DataFrame (default: False)
+        lemmatize (bool, optional): 是否对英文词进行词形还原 (default: False)
+                                   Whether to lemmatize English words
+                                   Note: Only applies when lang='english'
 
     Returns:
-        _type_: _description_
+        Counter or DataFrame: Word frequency counts
+
+    Examples:
+        >>> word_count("innovation transforms industries", lang='english')
+        Counter({'innovation': 1, 'transforms': 1, 'industries': 1})
+
+        >>> word_count("innovation transforms industries", lang='english', lemmatize=True)
+        Counter({'innovation': 1, 'transform': 1, 'industry': 1})
     """
 
-    # remove punctuation
-    if lang=='chinese':
+    # Process text based on language
+    if lang == 'chinese':
         #text = ''.join(re.findall('[\u4e00-\u9fa5]+', text))
         words = list(jieba.cut(text))
         words = [w for w in words if w not in STOPWORDS_zh]
-    else:
-        words = text.lower().split(" ")
-        words = [w for w in words if w not in STOPWORDS_en]
-        
+    else:  # English
+        # Use enhanced English tokenization if available
+        try:
+            from ..english_nlp import tokenize_english
+            words = tokenize_english(text, lemmatize=lemmatize, remove_punct=True, lowercase=True)
+            words = [w for w in words if w not in STOPWORDS_en and len(w) > 1]
+        except ImportError:
+            # Fallback to basic tokenization
+            import string
+            words = word_tokenize(text.lower())
+            words = [w for w in words if w not in string.punctuation]
+            words = [w for w in words if w not in STOPWORDS_en]
+
     if return_df:
         return pd.DataFrame(Counter(words).items(), columns=['word', 'freq'])
     else:

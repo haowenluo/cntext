@@ -15,6 +15,9 @@ setup(
                       'gensim==4.3.2', 'nltk', 'pandas', 'chardet', 'h5py', 'networkx', 'distinctiveness',
                       'tqdm', 'python-docx', 'scipy>=1.12.0', 'scienceplots', 'PyMuPDF', 'ftfy', 'opencc-python-reimplemented',
                       "ollama>=0.2.1", "pydantic>=2.8.2", "instructor>=1.6.0", "openai>=1.61.1","contractions>=0.1.73"],
+    extras_require={
+        'english': ['spacy>=3.0.0'],  # Optional: Enhanced English NLP support
+    },
     python_requires='>=3.9',  # Updated to match documentation
     license="MIT",
     keywords=['english', 'text mining', 'sentiment', 'sentiment analysis', 'natural language processing',
