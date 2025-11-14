@@ -1,7 +1,15 @@
 # cntext/hello.py
 
-from IPython.display import display, HTML
 import sys
+
+# Make IPython optional
+try:
+    from IPython.display import display, HTML
+    IPYTHON_AVAILABLE = True
+except ImportError:
+    IPYTHON_AVAILABLE = False
+    display = None
+    HTML = None
 
 _called = False
 
@@ -137,8 +145,10 @@ def _create_welcome_html():
 def hello():
     global _called
 
-    if 'ipykernel' not in sys.modules:
+    if not IPYTHON_AVAILABLE or 'ipykernel' not in sys.modules:
         print("💡 提示：此功能在 Jupyter Notebook 中有图形化展示效果。")
+        print("   cntext - 中文文本分析工具包")
+        print("   访问官方文档: https://textdata.cn/")
         return
 
     display(HTML(_create_welcome_html()))
