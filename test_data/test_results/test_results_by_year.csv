@@ -1,0 +1,4 @@
+fiscal_year,freq_total_digital_mean,freq_total_digital_median,freq_total_digital_std,freq_core_digital_mean,freq_technology_mean,freq_ai_ml_mean,digital_net_sentiment_mean,digital_net_sentiment_std,cik_count,sem_digital_embrace_mean,sem_digital_embrace_std,sem_ai_enthusiasm_mean,sem_ai_enthusiasm_std,sem_innovation_leadership_mean,sem_innovation_leadership_std
+2022,185.0157,179.0123,28.5918,34.2513,57.5798,54.5942,0.1033,0.4818,15,-0.3046,0.0108,0.2035,0.0088,-0.7454,0.0301
+2023,187.1414,191.0828,29.4289,34.5365,57.5507,53.0943,0.0506,0.4723,15,-0.3016,0.0091,0.201,0.0073,-0.7369,0.0248
+2024,185.0157,179.0123,28.5918,34.2513,57.5798,54.5942,0.1033,0.4818,15,-0.3046,0.0108,0.2035,0.0088,-0.7454,0.0301
