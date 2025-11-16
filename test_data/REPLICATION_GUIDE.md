@@ -70,7 +70,9 @@ pip install opencc-python-reimplemented contractions
 # System utilities
 pip install psutil requests beautifulsoup4 lxml
 
-# LLM support (optional, for cntext.llm module)
+# LLM support (REQUIRED - cntext module imports these unconditionally)
+# Note: Even though you may not use LLM features, the cntext/__init__.py imports cntext.llm
+# which requires these packages. Installation will fail without them.
 pip install openai instructor pydantic
 ```
 
@@ -335,7 +337,7 @@ The analysis generates 4 key files in `test_data/test_results/`:
 
 Complete dataset with all computed metrics. **45 rows** (one per MD&A section).
 
-**Columns** (55 total):
+**Columns** (29 total):
 
 **Original Data**:
 - `cik`, `company_name`, `industry`, `fiscal_year`, `filing_date`
@@ -382,17 +384,17 @@ company_name: TechVanguard Inc.
 fiscal_year: 2022
 true_attitude: very_positive
 
-count_total_digital: 48 mentions
-freq_total_digital: 259.46 per 1000 words (high frequency!)
+count_total_digital: 44 mentions
+freq_total_digital: 237.84 per 1000 words (high frequency!)
 
-digital_positive: 23 positive terms
-digital_negative: 8 negative terms
-digital_net_sentiment: +0.484 (strongly positive)
+digital_positive: 16 positive terms
+digital_negative: 4 negative terms
+digital_net_sentiment: +0.571 (strongly positive)
 digital_tone: positive
 
-sem_digital_embrace: -0.295 (note: this should be positive for embracer, but small corpus affects embeddings)
-sem_ai_enthusiasm: +0.217 (positive - enthusiastic about AI)
-sem_innovation_leadership: -0.704 (leadership score)
+sem_digital_embrace: -0.295055 (note: this should be positive for embracer, but small corpus affects embeddings)
+sem_ai_enthusiasm: +0.200823 (positive - enthusiastic about AI)
+sem_innovation_leadership: -0.723953 (leadership score)
 ```
 
 #### 2. `test_results_by_year.csv` (710 bytes)
@@ -497,7 +499,29 @@ python -m pip install --use-pep517 jieba
 
 **Why**: Standard pip installation fails due to setuptools compatibility issues in some environments.
 
-#### 2. `LookupError: Resource punkt_tab not found`
+#### 2. `ModuleNotFoundError: No module named 'openai'`
+
+**Solution**: Install the required LLM support packages:
+
+```bash
+pip install openai instructor pydantic
+```
+
+**Why**: The cntext module imports `cntext.llm` in its `__init__.py` file, which requires these packages even if you don't plan to use LLM features. These packages are mandatory, not optional.
+
+**Error message**:
+```
+Traceback (most recent call last):
+  File "run_test_analysis.py", line 12, in <module>
+    import cntext as ct
+  File "/home/user/cntext/cntext/__init__.py", line 24, in <module>
+    from .llm import analysis_by_llm,text_analysis_by_llm, llm
+  File "/home/user/cntext/cntext/llm.py", line 5, in <module>
+    from openai import AsyncOpenAI
+ModuleNotFoundError: No module named 'openai'
+```
+
+#### 3. `LookupError: Resource punkt_tab not found`
 
 **Solution**: Download NLTK data:
 
@@ -505,7 +529,7 @@ python -m pip install --use-pep517 jieba
 python -c "import nltk; nltk.download('punkt_tab'); nltk.download('stopwords')"
 ```
 
-#### 3. `TypeError: Word2Vec() missing required argument 'corpus_file'`
+#### 4. `TypeError: Word2Vec() missing required argument 'corpus_file'`
 
 **Solution**: The cntext `Word2Vec` function expects a file path, not text list.
 
@@ -522,7 +546,7 @@ with open(corpus_file, 'w', encoding='utf-8') as f:
 wv = ct.Word2Vec(corpus_file=corpus_file, lang='english')
 ```
 
-#### 4. Low Semantic Projection Accuracy
+#### 5. Low Semantic Projection Accuracy
 
 **Expected** for small test datasets (<100 documents).
 
@@ -532,7 +556,7 @@ wv = ct.Word2Vec(corpus_file=corpus_file, lang='english')
 - Increase training epochs (max_iter=20-50)
 - Use pre-trained embeddings (GloVe, FastText)
 
-#### 5. Memory Errors During Training
+#### 6. Memory Errors During Training
 
 **Solutions**:
 - Reduce `BATCH_SIZE` parameter
@@ -540,7 +564,7 @@ wv = ct.Word2Vec(corpus_file=corpus_file, lang='english')
 - Increase `MIN_WORD_FREQ` to filter rare words
 - Process in batches (see `analyze_mda_template.py` for batch processing example)
 
-#### 6. `PermissionError` or `RECORD file not found` When Installing
+#### 7. `PermissionError` or `RECORD file not found` When Installing
 
 **Solution**: Use virtual environment or add `--user` flag:
 
@@ -840,6 +864,27 @@ For issues, questions, or contributions:
 ---
 
 ## Changelog
+
+### 2025-11-16: Documentation Updates Based on Replication Verification
+- ✓ Updated LLM package installation from "optional" to "REQUIRED" (lines 73-76)
+  - Source: REPLICATION_RESULTS.md Issue #1 - encountered ModuleNotFoundError during replication
+  - Reason: cntext/__init__.py imports cntext.llm unconditionally, which requires openai, instructor, pydantic
+- ✓ Corrected column count from "55 total" to "29 total" (line 340)
+  - Source: REPLICATION_RESULTS.md Issue #2 - verified actual CSV structure
+  - Verification: test_results_complete.csv contains 29 columns (not 55)
+- ✓ Updated example row values to match actual data (lines 387-397)
+  - Source: REPLICATION_RESULTS.md Issue #3 - verified against actual CSV data
+  - Changed: count_total_digital from 48 to 44, freq_total_digital from 259.46 to 237.84
+  - Updated: digital_positive/negative and semantic scores to match actual values
+- ✓ Added troubleshooting entry for ModuleNotFoundError: openai (lines 502-522)
+  - Source: REPLICATION_RESULTS.md - encountered during clean environment setup
+  - Includes: full error traceback and explanation of why packages are required
+- ✓ Renumbered subsequent troubleshooting issues (#2-#7)
+  - Maintains logical flow after adding new troubleshooting entry
+
+**Verification Source**: All updates verified against REPLICATION_RESULTS.md (full replication report)
+**Process**: Fresh environment setup → followed guide exactly → identified discrepancies → updated guide
+**Testing**: Complete replication successful with 100% metric match after updates
 
 ### 2025-11-16: Full-Scale Test
 - ✓ Generated 45-document synthetic test dataset
