@@ -1,0 +1,21 @@
+VALIDATION REPORT
+================================================================================
+
+Ground Truth Distribution:
+true_attitude
+neutral          18
+very_positive     9
+negative          9
+positive          6
+very_negative     3
+
+Predicted Tone Distribution:
+digital_tone
+negative    20
+positive    15
+neutral     10
+
+Correlation Analysis:
+  Semantic approach: r = -0.054
+  Keyword approach: r = 0.954
+  Improvement: -100.8%
