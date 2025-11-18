@@ -100,13 +100,13 @@ git checkout claude/modify-chinese-text-analysis-011CV4ffA8qngax7KnSMNReR
 We created a realistic test dataset with synthetic MD&A content. The generation script is located at:
 
 ```bash
-/home/user/cntext/test_data/generate_test_mda_data.py
+/home/user/cntext/replication/generate_test_mda_data.py
 ```
 
 To generate the test data:
 
 ```bash
-cd /home/user/cntext/test_data
+cd /home/user/cntext/replication
 python generate_test_mda_data.py
 ```
 
@@ -150,15 +150,15 @@ The dataset contains these columns:
 The analysis script is at:
 
 ```bash
-/home/user/cntext/test_data/run_test_analysis.py
+/home/user/cntext/replication/run_test_analysis.py
 ```
 
-**Key configuration** (lines 26-51):
+**Key configuration** (lines 23-24):
 
 ```python
 # Test data location
-DATA_SOURCE = '/home/user/cntext/test_data/test_mda_dataset.csv'
-OUTPUT_DIR = '/home/user/cntext/test_data/test_results'
+DATA_SOURCE = '/home/user/cntext/replication/test_mda_dataset.csv'
+OUTPUT_DIR = '/home/user/cntext/replication/test_results'
 
 # Column mapping
 COLUMNS = {
@@ -184,7 +184,7 @@ MIN_WORD_FREQ = 2       # Lower for small corpus
 Execute the complete analysis:
 
 ```bash
-cd /home/user/cntext/test_data
+cd /home/user/cntext/replication
 python run_test_analysis.py
 ```
 
@@ -253,7 +253,7 @@ STEP 6: APPROACH 4 - SEMANTIC PROJECTION ANALYSIS
 ================================================================================
 Training domain-specific word embeddings...
   Corpus size: 45 documents, 7,641 words
-  Saved corpus to: /home/user/cntext/test_data/temp_corpus.txt
+  Saved corpus to: /home/user/cntext/replication/temp_corpus.txt
 
 Processing Corpus: 100%|██████████| 45/45
 Word2Vec Training Cost 2 s.
@@ -305,10 +305,10 @@ Sample Predictions vs Ground Truth:
 ================================================================================
 STEP 9: SAVING TEST RESULTS
 ================================================================================
-✓ Saved: test_results/test_results_complete.csv
-✓ Saved: test_results/test_results_by_year.csv
-✓ Saved: test_results/validation_report.txt
-✓ Saved: test_results/word_embeddings.model
+✓ Saved: /home/user/cntext/replication/test_results/test_results_complete.csv
+✓ Saved: /home/user/cntext/replication/test_results/test_results_by_year.csv
+✓ Saved: /home/user/cntext/replication/test_results/validation_report.txt
+✓ Saved: /home/user/cntext/replication/test_results/word_embeddings.model
 
 ================================================================================
 TEST COMPLETE! ✓
@@ -331,7 +331,7 @@ Summary Statistics:
 
 ### Output Files
 
-The analysis generates 4 key files in `test_data/test_results/`:
+The analysis generates 4 key files in `replication/test_results/`:
 
 #### 1. `test_results_complete.csv` (130KB)
 
@@ -841,7 +841,7 @@ Repository: [your GitHub URL]
 ### Example Scripts
 - **General MD&A analysis**: `analyze_mda_template.py`
 - **Digital attitudes analysis**: `analyze_digital_attitudes_template.py`
-- **This test**: `test_data/run_test_analysis.py`
+- **This test**: `replication/run_test_analysis.py`
 
 ### External Tools
 - **SEC EDGAR crawler**: https://github.com/lefterisloukas/edgar-crawler
@@ -864,6 +864,20 @@ For issues, questions, or contributions:
 ---
 
 ## Changelog
+
+### 2025-11-16: Folder Reorganization
+- ✓ Created dedicated `/home/user/cntext/replication/` folder
+  - Moved all replication files from `test_data/` to `replication/`
+  - Updated all path references in scripts and documentation
+- ✓ Added comprehensive README.md in replication folder
+  - Quick start guide
+  - File structure documentation
+  - Expected results table
+  - Troubleshooting quick reference
+- ✓ Updated script paths:
+  - `run_test_analysis.py`: test_data → replication
+  - `REPLICATION_GUIDE.md`: All path references updated
+- **Reason**: Better organization and clearer separation of replication materials from core library
 
 ### 2025-11-16: Documentation Updates Based on Replication Verification
 - ✓ Updated LLM package installation from "optional" to "REQUIRED" (lines 73-76)

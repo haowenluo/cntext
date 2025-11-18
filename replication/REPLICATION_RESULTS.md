@@ -52,7 +52,7 @@ pip install openai instructor pydantic
 
 **Actions taken:**
 ```bash
-cd /home/user/cntext/test_data
+cd /home/user/cntext/replication
 python generate_test_mda_data.py
 ```
 
@@ -77,7 +77,7 @@ Saved to: test_mda_dataset.csv
 
 **Actions taken:**
 ```bash
-cd /home/user/cntext/test_data
+cd /home/user/cntext/replication
 python run_test_analysis.py
 ```
 
@@ -385,7 +385,7 @@ Semantic axes created:
 All expected files were successfully created:
 
 ```
-test_data/
+replication/
 ├── test_mda_dataset.csv              ✅ (45 rows, 7,641 words)
 └── test_results/
     ├── test_results_complete.csv     ✅ (45 rows, 29 columns, 130KB)
@@ -479,7 +479,48 @@ The replication was **100% successful**. All numeric results, file outputs, and 
 
 ---
 
+## Post-Replication Updates
+
+### November 16, 2025: Folder Reorganization
+
+After successful replication verification, all replication materials were reorganized:
+
+**Changes Made**:
+- ✅ Created dedicated `/home/user/cntext/replication/` folder
+- ✅ Moved all files from `test_data/` to `replication/`
+- ✅ Updated all path references in scripts:
+  - `run_test_analysis.py`: test_data → replication (3 locations)
+  - `generate_test_mda_data.py`: No changes needed
+- ✅ Updated all documentation:
+  - REPLICATION_GUIDE.md: All path references updated
+  - REPLICATION_RESULTS.md: This file updated
+  - TEST_SUMMARY.md: All path references updated
+- ✅ Created comprehensive README.md in replication folder
+- ✅ Removed empty `test_data/` directory
+
+**Reason**: Better organization and clearer separation of replication materials from core library code.
+
+**New Structure**:
+```
+/home/user/cntext/replication/
+├── README.md                      # Package overview
+├── REPLICATION_GUIDE.md           # Step-by-step guide
+├── REPLICATION_RESULTS.md         # This verification report
+├── TEST_SUMMARY.md                # Executive summary
+├── generate_test_mda_data.py      # Data generation
+├── run_test_analysis.py           # Analysis script
+├── test_mda_dataset.csv           # Test data
+├── temp_corpus.txt                # Corpus file
+├── output/                        # Word2Vec cache
+└── test_results/                  # All results (4 files)
+```
+
+**Impact**: All paths now reference `replication/` instead of `test_data/`. Scripts and documentation have been updated accordingly. Replication process remains identical; only folder names have changed.
+
+---
+
 **Replication completed by**: Claude (Sonnet 4.5)
 **Date**: November 16, 2025
 **Environment**: Linux 4.4.0, Python 3.11.14
 **Status**: ✅ **FULLY VERIFIED**
+**Last Updated**: November 16, 2025 (folder reorganization)

@@ -109,7 +109,7 @@ Trends tracked across all metrics
 
 ### 1. Test Scripts
 ```bash
-test_data/
+replication/
 ├── generate_test_mda_data.py      # Generates 45 synthetic MD&A sections
 ├── run_test_analysis.py           # Runs complete analysis
 └── temp_corpus.txt                # Corpus file for Word2Vec
@@ -117,7 +117,7 @@ test_data/
 
 ### 2. Test Data
 ```bash
-test_data/
+replication/
 └── test_mda_dataset.csv           # 45 MD&A sections with ground truth
                                     # Columns: cik, company_name, industry,
                                     #          fiscal_year, mda_text, etc.
@@ -125,8 +125,8 @@ test_data/
 
 ### 3. Test Results
 ```bash
-test_data/test_results/
-├── test_results_complete.csv      # Full results (45 rows, 55 columns)
+replication/test_results/
+├── test_results_complete.csv      # Full results (45 rows, 29 columns)
 ├── test_results_by_year.csv       # Temporal trends (3 years)
 ├── validation_report.txt          # Accuracy metrics
 └── word_embeddings.model          # Trained Word2Vec model (510 vocab)
@@ -134,8 +134,10 @@ test_data/test_results/
 
 ### 4. Documentation
 ```bash
-test_data/
+replication/
+├── README.md                      # Replication package overview (NEW)
 ├── REPLICATION_GUIDE.md           # Complete step-by-step guide (400+ lines)
+├── REPLICATION_RESULTS.md         # Verification report
 └── TEST_SUMMARY.md                # This file
 ```
 
@@ -161,7 +163,7 @@ python -c "import nltk; nltk.download('punkt_tab'); nltk.download('stopwords')"
 ### Step 2: Generate Test Data
 
 ```bash
-cd /home/user/cntext/test_data
+cd /home/user/cntext/replication
 python generate_test_mda_data.py
 ```
 
@@ -331,20 +333,26 @@ See `REPLICATION_GUIDE.md` for complete troubleshooting!
 
 ## Files Committed
 
-All test files have been committed and pushed to:
+All test files have been organized and committed:
 
-**Branch**: `claude/modify-chinese-text-analysis-011CV4ffA8qngax7KnSMNReR`
+**Branch**: `claude/follow-replication-guide-014jJPxfVg89dKeBZm62Goga`
 
-**Commit**: "Add comprehensive test suite and replication guide"
+**Latest Updates**:
+- Folder reorganization: `test_data/` → `replication/`
+- Updated all path references in scripts and documentation
+- Added comprehensive README.md for replication package
 
 **Files**:
 - ✅ `.gitignore` - Ignore cache files
-- ✅ `test_data/generate_test_mda_data.py`
-- ✅ `test_data/run_test_analysis.py`
-- ✅ `test_data/test_mda_dataset.csv`
-- ✅ `test_data/test_results/` (4 output files)
-- ✅ `test_data/REPLICATION_GUIDE.md`
-- ✅ `test_data/TEST_SUMMARY.md`
+- ✅ `replication/README.md` - Replication package overview (NEW)
+- ✅ `replication/REPLICATION_GUIDE.md` - Complete guide (UPDATED)
+- ✅ `replication/REPLICATION_RESULTS.md` - Verification report (UPDATED)
+- ✅ `replication/TEST_SUMMARY.md` - This file (UPDATED)
+- ✅ `replication/generate_test_mda_data.py` - Data generation script
+- ✅ `replication/run_test_analysis.py` - Analysis script (UPDATED)
+- ✅ `replication/test_mda_dataset.csv` - Test dataset
+- ✅ `replication/test_results/` - All output files (4 files)
+- ✅ `replication/output/` - Word2Vec cache files
 
 ---
 

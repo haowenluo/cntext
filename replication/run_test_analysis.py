@@ -20,8 +20,8 @@ import numpy as np
 # ============================================================================
 
 # Test data location
-DATA_SOURCE = '/home/user/cntext/test_data/test_mda_dataset.csv'
-OUTPUT_DIR = '/home/user/cntext/test_data/test_results'
+DATA_SOURCE = '/home/user/cntext/replication/test_mda_dataset.csv'
+OUTPUT_DIR = '/home/user/cntext/replication/test_results'
 
 # Column names in test data
 COLUMNS = {
@@ -239,7 +239,7 @@ if TRAIN_EMBEDDINGS and len(df) >= 10:
     print(f"  Corpus size: {len(df)} documents, {df['word_count'].sum():,} words")
 
     # Save texts to temporary corpus file
-    corpus_file = '/home/user/cntext/test_data/temp_corpus.txt'
+    corpus_file = '/home/user/cntext/replication/temp_corpus.txt'
     with open(corpus_file, 'w', encoding='utf-8') as f:
         for text in df['text_clean']:
             f.write(text + '\n')
