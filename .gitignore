@@ -1,3 +1,23 @@
 __pycache__/
 *.pyc
 output/
+
+# MD&A analysis outputs (test data and results)
+mda_*.parquet
+mda_*.csv
+mda_analysis*.log
+mda_analysis_results.*
+mda_analysis_summary_stats.*
+
+# Downloaded packages
+jieba-*.tar.gz
+jieba-*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
