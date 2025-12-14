@@ -1,0 +1,340 @@
+# Technology Keywords for 10-K Text Classification
+#
+# This dictionary contains technology-related terms commonly found in SEC 10-K filings.
+# Use with build_labeling_sample.py to identify sentences discussing technology.
+#
+# Categories:
+#   - ai_ml: Artificial intelligence and machine learning
+#   - cloud_infrastructure: Cloud computing and digital infrastructure
+#   - automation_robotics: Automation and robotics technologies
+#   - data_analytics: Data science and analytics
+#   - cybersecurity: Security and privacy technologies
+#   - software_platforms: Software and platform technologies
+#   - innovation_rd: Innovation and R&D terms
+#   - emerging_tech: Blockchain, IoT, quantum, and other emerging tech
+#   - digital_business: E-commerce and digital transformation
+#   - connectivity: Networks and connectivity technologies
+
+Dictionary:
+
+  ai_ml:
+    - artificial intelligence
+    - machine learning
+    - deep learning
+    - neural network
+    - neural networks
+    - natural language processing
+    - nlp
+    - computer vision
+    - image recognition
+    - speech recognition
+    - voice recognition
+    - predictive analytics
+    - predictive model
+    - recommendation system
+    - recommendation engine
+    - algorithm
+    - ai-powered
+    - ai-driven
+    - ml model
+    - training data
+    - supervised learning
+    - unsupervised learning
+    - reinforcement learning
+    - generative ai
+    - large language model
+    - chatbot
+    - virtual assistant
+    - cognitive computing
+    - intelligent automation
+
+  cloud_infrastructure:
+    - cloud computing
+    - cloud infrastructure
+    - cloud platform
+    - cloud service
+    - cloud-based
+    - aws
+    - amazon web services
+    - azure
+    - microsoft azure
+    - google cloud
+    - gcp
+    - saas
+    - software as a service
+    - paas
+    - platform as a service
+    - iaas
+    - infrastructure as a service
+    - hybrid cloud
+    - multi-cloud
+    - private cloud
+    - public cloud
+    - cloud migration
+    - cloud storage
+    - data center
+    - server infrastructure
+    - virtualization
+    - containerization
+    - kubernetes
+    - docker
+    - microservices
+    - edge computing
+    - distributed computing
+
+  automation_robotics:
+    - automation
+    - automated
+    - robotic process automation
+    - rpa
+    - robot
+    - robotics
+    - robotic
+    - autonomous
+    - self-driving
+    - autonomous vehicle
+    - drone
+    - automated system
+    - process automation
+    - workflow automation
+    - intelligent automation
+    - industrial automation
+    - factory automation
+    - automated manufacturing
+    - automated production
+    - automated testing
+    - autonomous system
+
+  data_analytics:
+    - big data
+    - data analytics
+    - data science
+    - business intelligence
+    - predictive analytics
+    - advanced analytics
+    - real-time analytics
+    - data mining
+    - data warehouse
+    - data lake
+    - data platform
+    - analytics platform
+    - data visualization
+    - dashboard
+    - reporting tool
+    - data-driven
+    - data processing
+    - data pipeline
+    - etl
+    - extract transform load
+    - hadoop
+    - spark
+    - data infrastructure
+    - structured data
+    - unstructured data
+    - metadata
+
+  cybersecurity:
+    - cybersecurity
+    - cyber security
+    - information security
+    - data security
+    - network security
+    - security infrastructure
+    - encryption
+    - encrypted
+    - authentication
+    - multi-factor authentication
+    - mfa
+    - access control
+    - firewall
+    - intrusion detection
+    - threat detection
+    - vulnerability
+    - penetration testing
+    - security audit
+    - compliance
+    - data privacy
+    - privacy protection
+    - secure communication
+    - security protocol
+    - zero trust
+    - endpoint security
+    - cloud security
+    - application security
+    - security monitoring
+
+  software_platforms:
+    - software platform
+    - digital platform
+    - application
+    - mobile application
+    - mobile app
+    - web application
+    - web app
+    - enterprise software
+    - custom software
+    - proprietary software
+    - software development
+    - software engineer
+    - api
+    - application programming interface
+    - database
+    - database management
+    - sql
+    - nosql
+    - content management system
+    - cms
+    - customer relationship management
+    - crm
+    - enterprise resource planning
+    - erp
+    - integration platform
+    - middleware
+    - backend system
+    - frontend
+    - user interface
+    - ui ux
+    - software stack
+    - technology stack
+
+  innovation_rd:
+    - research and development
+    - r&d
+    - r&d investment
+    - innovation
+    - innovative technology
+    - technological innovation
+    - proprietary technology
+    - patent
+    - intellectual property
+    - breakthrough technology
+    - cutting-edge
+    - state-of-the-art
+    - next-generation
+    - advanced technology
+    - emerging technology
+    - disruptive technology
+    - technology roadmap
+    - product innovation
+    - technical expertise
+    - engineering capability
+    - technical capability
+    - technology development
+    - prototype
+    - proof of concept
+    - pilot program
+    - technology investment
+
+  emerging_tech:
+    - blockchain
+    - distributed ledger
+    - cryptocurrency
+    - bitcoin
+    - ethereum
+    - smart contract
+    - internet of things
+    - iot
+    - connected device
+    - smart device
+    - sensor
+    - sensor network
+    - wearable
+    - wearable device
+    - augmented reality
+    - ar
+    - virtual reality
+    - vr
+    - mixed reality
+    - metaverse
+    - 3d printing
+    - additive manufacturing
+    - quantum computing
+    - quantum technology
+    - 5g
+    - fifth generation
+    - edge device
+    - biometric
+    - facial recognition
+    - geolocation
+    - gps technology
+
+  digital_business:
+    - digital transformation
+    - digitalization
+    - digitization
+    - e-commerce
+    - online platform
+    - digital channel
+    - online marketplace
+    - digital payment
+    - mobile payment
+    - payment processing
+    - fintech
+    - financial technology
+    - digital service
+    - online service
+    - subscription platform
+    - digital content
+    - streaming platform
+    - digital media
+    - social media platform
+    - digital marketing
+    - online advertising
+    - digital experience
+    - omnichannel
+    - digital ecosystem
+    - platform economy
+    - sharing economy
+    - digital innovation
+
+  connectivity:
+    - network infrastructure
+    - telecommunications
+    - broadband
+    - fiber optic
+    - wireless network
+    - cellular network
+    - wifi
+    - satellite communication
+    - network connectivity
+    - high-speed internet
+    - network architecture
+    - network protocol
+    - bandwidth
+    - latency
+    - network performance
+    - network optimization
+    - content delivery network
+    - cdn
+    - load balancing
+    - network monitoring
+
+# Usage notes:
+#
+# These keywords are designed to capture technology-related discussions in 10-K filings.
+# They include:
+#   - Multi-word phrases (e.g., "artificial intelligence")
+#   - Common abbreviations (e.g., "ai", "nlp", "rpa")
+#   - Product names (e.g., "aws", "azure")
+#   - Technology categories (e.g., "cloud computing", "blockchain")
+#
+# The matching is case-insensitive and uses word boundaries to avoid partial matches.
+#
+# You can customize this file by:
+#   1. Adding industry-specific terms
+#   2. Removing overly broad terms that cause false positives
+#   3. Adding company-specific technology names
+#   4. Creating subcategories for finer-grained classification
+#
+# Example customization:
+#
+# Dictionary:
+#   industry_specific:
+#     - healthcare_tech:
+#       - telemedicine
+#       - electronic health record
+#       - medical imaging
+#     - automotive_tech:
+#       - electric vehicle
+#       - battery technology
+#       - autonomous driving
