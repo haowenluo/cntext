@@ -17,6 +17,12 @@ Usage:
     conda activate <your_env_name>
     cd local_pipeline_test
     python run_local_test.py
+
+For large-scale processing (100k+ files), this approach:
+- Prevents memory crashes by processing one year at a time
+- Enables parallel processing of different years
+- Provides fault tolerance (if one year fails, others are saved)
+- Makes incremental updates easy (just process new year)
 """
 
 import sys
@@ -42,6 +48,9 @@ OUTPUT_DIR = Path(__file__).parent / "output"
 
 # Pipeline scripts location
 PIPELINE_DIR = REPO_ROOT / "tech_adoption_project"
+
+# Output format: 'parquet' (recommended), 'csv', or 'both'
+OUTPUT_FORMAT = 'parquet'
 
 # ============================================================================
 # TRANSFORMATION FUNCTIONS
@@ -129,7 +138,7 @@ def collect_and_group_by_year(sample_dir):
 
 
 # ============================================================================
-# MAIN PIPELINE
+# MAIN PIPELINE - BATCH PROCESSING BY YEAR
 # ============================================================================
 
 def main():
@@ -297,6 +306,14 @@ def main():
     print("✓ YEARLY BATCH PROCESSING COMPLETE!")
     print("=" * 80)
     print(f"\nFinished: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"""
+Benefits of this approach for large-scale processing:
+  ✓ Memory safe: One year at a time
+  ✓ Fault tolerant: If one year fails, others are saved
+  ✓ Parallelizable: Run different years on different machines
+  ✓ Incremental: Easy to add new years later
+  ✓ Compact: Parquet files are 3-4x smaller than CSV
+    """)
 
     print(f"\n💡 Scalability Notes:")
     print(f"  - Each year processed separately → memory efficient")
