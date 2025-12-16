@@ -1,25 +1,62 @@
 # Google Colab Notebook Updates
 
 **Date:** 2025-12-16
-**Based on:** Successful local pipeline test with MDA format
+**Based on:** Successful local pipeline test with MDA format & yearly batch processing
 
 ---
 
 ## 🎯 What's New
 
-The Google Colab notebook (`SEC_Pipeline_Colab.ipynb`) has been updated with **automatic MDA format detection and transformation**. It now handles both MDA format and pipeline format seamlessly!
+The Google Colab notebook (`SEC_Pipeline_Colab.ipynb`) has been updated with:
+
+1. **Automatic MDA format detection and transformation** - Handles both MDA and pipeline formats seamlessly
+2. **Yearly batch processing (NEW!)** - For large datasets (1000+ filings)
 
 ---
 
 ## 📋 Key Improvements
 
-### 1. **Automatic Format Detection** ✨
+### 1. **Yearly Batch Processing (NEW!)** 🚀
+
+For large datasets, the notebook now supports processing files year-by-year:
+
+**What it does:**
+- Groups MDA files by fiscal year
+- Processes each year separately → individual Parquet files
+- Combines all years for labeling sample creation
+
+**Benefits:**
+- **Memory efficient**: Process one year at a time instead of loading all data
+- **Fault tolerant**: If processing crashes, only lose current year (not everything)
+- **Scalable**: Tested with 100k+ filings → millions of sentences
+- **Flexible**: Load specific years for targeted analysis
+
+**When to use:**
+- 1000+ filings
+- 100k+ sentences expected
+- Limited RAM (<16GB available)
+- Want to process specific year ranges
+
+**Output structure:**
+```
+sentence_tables/
+├── yearly_parquet/
+│   ├── sentences_2020.parquet
+│   ├── sentences_2021.parquet
+│   ├── sentences_2022.parquet
+│   └── ...
+└── sentence_table_all_years.csv  (combined for labeling)
+```
+
+**See:** New Step 2B in the Colab notebook
+
+### 2. **Automatic Format Detection** ✨
 
 The notebook now includes a `detect_format()` function that automatically identifies whether your JSON files are in:
 - **MDA format** (with `item_7`, `period_of_report`, `filename`)
 - **Pipeline format** (with `item_text`, `accession`, `fiscal_year`)
 
-### 2. **MDA → Pipeline Transformation** 🔄
+### 3. **MDA → Pipeline Transformation** 🔄
 
 New `transform_mda_to_pipeline_format()` function that correctly:
 - ✅ Extracts **accession** from filename: `"1643988_10K_2020_0001387131-21-004517.htm"` → `"0001387131-21-004517"`
@@ -28,7 +65,7 @@ New `transform_mda_to_pipeline_format()` function that correctly:
 - ✅ Maps **item_7** → **item_text**
 - ✅ Adds **item** = "7" for MD&A
 
-### 3. **Batch Processing** 📦
+### 4. **Batch Processing** 📦
 
 New `process_mda_directory()` function that:
 - Recursively scans all subdirectories for JSON files
@@ -36,7 +73,7 @@ New `process_mda_directory()` function that:
 - Creates a combined `items_combined.json` file
 - Shows detailed transformation summary
 
-### 4. **Improved Dependencies** 🔧
+### 5. **Improved Dependencies** 🔧
 
 Updated dependency installation to include all required packages:
 ```python
@@ -58,14 +95,23 @@ Updated dependency installation to include all required packages:
 - Clone cntext repo
 - Copy pipeline scripts
 
-### **Step 2: MDA Format Transformation** (NEW!)
+### **Step 2: MDA Format Transformation** (updated)
 - Load transformation functions
 - Detect format of your files
 - Transform MDA → Pipeline (if needed)
 - Creates `items_combined.json`
 
+### **Step 2B: Yearly Batch Processing** (NEW! - Optional)
+- **Use for large datasets (1000+ filings)**
+- Groups files by fiscal year
+- Processes each year separately
+- Creates yearly Parquet files
+- Combines all for labeling sample
+- **Skip this step if dataset is small**
+
 ### **Step 3: Build Sentence Table** (updated)
 - Uses transformed file automatically
+- For small-medium datasets
 - Same functionality as before
 
 ### **Step 4-6:** (same as before)

@@ -16,6 +16,7 @@ This directory contains scripts to process SEC 10-K Item extractions into senten
 
 ## 🔄 Workflow
 
+### Standard Workflow (Small-Medium Datasets: <1000 filings)
 ```
 Your Item Extractions (JSON/CSV)
          ↓
@@ -31,6 +32,41 @@ Your Item Extractions (JSON/CSV)
          ↓
   labeled_data.csv (ready for ML)
 ```
+
+### Yearly Batch Workflow (Large Datasets: 1000+ filings) - **NEW!**
+```
+MDA Files (any format)
+         ↓
+[1] Group by fiscal year
+         ↓
+[2] Process each year separately:
+    Year 2020 → sentences_2020.parquet
+    Year 2021 → sentences_2021.parquet
+    Year 2022 → sentences_2022.parquet
+         ↓
+[3] Combine all years → sentence_table_all_years.csv
+         ↓
+[4] build_labeling_sample.py
+         ↓
+  label_set_combined.csv (2000-3000 sentences)
+         ↓
+[5] Manual Labeling
+         ↓
+  labeled_data.csv (ready for ML)
+```
+
+**When to use yearly batch processing:**
+- 1000+ filings
+- 100k+ sentences expected
+- Limited RAM (<16GB)
+- Want fault tolerance
+- Need to process specific years
+
+**Benefits:**
+- Memory efficient (process one year at a time)
+- Fault tolerant (crash only loses current year)
+- Flexible (load specific years for analysis)
+- Scalable (tested with millions of sentences)
 
 ---
 

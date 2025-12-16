@@ -24,9 +24,11 @@ This folder contains a complete pipeline for processing SEC 10-K Item extraction
 4. **NEW:** Notebook automatically handles MDA format conversion!
 
 ### For Local/Server Users
+
+**Small Dataset (< 1000 filings):**
 1. Install dependencies:
    ```bash
-   pip install pandas numpy tqdm pyyaml spacy ftfy contractions
+   pip install pandas numpy tqdm pyyaml spacy ftfy contractions pyarrow
    python -m spacy download en_core_web_sm
    ```
 
@@ -41,6 +43,19 @@ This folder contains a complete pipeline for processing SEC 10-K Item extraction
    python build_labeling_sample.py --input sentences.csv --output label_set.csv
    ```
 
+**Large Dataset (1000+ filings) - Yearly Batch Processing:**
+1. Use the local test script with yearly batching:
+   ```bash
+   cd local_pipeline_test
+   python run_local_test.py
+   ```
+
+   This will:
+   - Group files by fiscal year
+   - Create `yearly_parquet/sentences_YYYY.parquet` for each year
+   - Generate combined labeling sample across all years
+   - See `local_pipeline_test/README.md` for details
+
 ## 📖 Documentation
 
 - **Complete Guide**: See `SEC_PIPELINE_README.md` for full documentation
@@ -49,6 +64,7 @@ This folder contains a complete pipeline for processing SEC 10-K Item extraction
 
 ## 🎯 Workflow Overview
 
+### Standard Workflow (< 1000 filings):
 ```
 Item Extractions (JSON/CSV)
          ↓
@@ -64,6 +80,29 @@ Item Extractions (JSON/CSV)
          ↓
   labeled_data.csv
 ```
+
+### Yearly Batch Workflow (1000+ filings) - **NEW!**:
+```
+MDA Files (grouped by year)
+         ↓
+  Process Year 2020 → sentences_2020.parquet
+  Process Year 2021 → sentences_2021.parquet
+  Process Year 2022 → sentences_2022.parquet
+         ↓
+  Combine all years → sentence_table_all_years.csv
+         ↓
+  build_labeling_sample.py
+         ↓
+  label_set_combined.csv (2500 sentences)
+         ↓
+  Manual Labeling
+```
+
+**Scalability Benefits:**
+- ✅ Memory efficient: Process one year at a time
+- ✅ Fault tolerant: Crash only loses current year
+- ✅ Handles 100k+ filings → millions of sentences
+- ✅ Load specific years for targeted analysis
 
 ## 📊 Input Format
 
