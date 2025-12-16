@@ -1,16 +1,22 @@
 """
-Local Pipeline Test for SEC MDA Analysis
+Local Pipeline Test for SEC MDA Analysis - Batch Processing Version
 
 This script:
 1. Reads MDA JSON files from the sample folder
-2. Transforms them to pipeline-expected format
-3. Runs build_sentence_table.py and build_labeling_sample.py
-4. Outputs results to local_pipeline_test/output/
+2. Groups them by fiscal year
+3. Processes each year separately → yearly Parquet files
+4. Creates a combined labeling sample from all years
 
 Usage:
     conda activate <your_env_name>
     cd F:\github\cntext\local_pipeline_test
     python run_local_test.py
+
+For large-scale processing (100k+ files), this approach:
+- Prevents memory crashes by processing one year at a time
+- Enables parallel processing of different years
+- Provides fault tolerance (if one year fails, others are saved)
+- Makes incremental updates easy (just process new year)
 """
 
 import sys
@@ -18,6 +24,7 @@ import json
 import glob
 from pathlib import Path
 from datetime import datetime
+from collections import defaultdict
 
 # Add cntext to path
 REPO_ROOT = Path(__file__).parent.parent
@@ -35,6 +42,9 @@ OUTPUT_DIR = Path(__file__).parent / "output"
 
 # Pipeline scripts location
 PIPELINE_DIR = REPO_ROOT / "tech_adoption_project"
+
+# Output format: 'parquet' (recommended), 'csv', or 'both'
+OUTPUT_FORMAT = 'parquet'
 
 # ============================================================================
 # TRANSFORMATION FUNCTIONS
@@ -78,14 +88,17 @@ def transform_mda_to_pipeline_format(mda_json_path):
     }
 
 
-def collect_and_transform_mda_files(sample_dir):
+def collect_and_group_mda_files_by_year(sample_dir):
     """
-    Find all MDA JSON files and transform them to pipeline format.
+    Find all MDA JSON files and group them by fiscal year.
+    
+    Returns:
+        dict: {year: [list of transformed records]}
     """
-    all_records = []
+    records_by_year = defaultdict(list)
     json_files = list(Path(sample_dir).rglob("*.json"))
     
-    # Filter out non-MDA files (like sampling_log.csv, etc.)
+    # Filter out non-MDA files
     json_files = [f for f in json_files if f.name != 'sampling_log.csv']
     
     print(f"Found {len(json_files)} MDA JSON files")
@@ -94,23 +107,24 @@ def collect_and_transform_mda_files(sample_dir):
         try:
             record = transform_mda_to_pipeline_format(filepath)
             if record['item_text']:  # Skip empty MD&A
-                all_records.append(record)
-                print(f"  ✓ {filepath.name} (CIK: {record['cik']}, Year: {record['fiscal_year']})")
+                year = record['fiscal_year']
+                records_by_year[year].append(record)
+                print(f"  ✓ {filepath.name} → Year {year}")
             else:
                 print(f"  ⚠ {filepath.name} - Empty item_7, skipped")
         except Exception as e:
             print(f"  ✗ Error processing {filepath.name}: {e}")
     
-    return all_records
+    return dict(records_by_year)
 
 
 # ============================================================================
-# MAIN PIPELINE
+# MAIN PIPELINE - BATCH PROCESSING BY YEAR
 # ============================================================================
 
 def main():
     print("=" * 80)
-    print("LOCAL PIPELINE TEST FOR SEC MDA ANALYSIS")
+    print("LOCAL PIPELINE TEST - BATCH PROCESSING BY YEAR")
     print("=" * 80)
     print(f"\nStarted: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
@@ -125,53 +139,77 @@ def main():
     print(f"✓ Output directory: {OUTPUT_DIR}")
     
     # ========================================================================
-    # STEP 2: Transform MDA files
+    # STEP 2: Group MDA files by year
     # ========================================================================
     print("\n" + "=" * 80)
-    print("STEP 2: TRANSFORMING MDA FILES TO PIPELINE FORMAT")
+    print("STEP 2: GROUPING MDA FILES BY YEAR")
     print("=" * 80)
     
-    records = collect_and_transform_mda_files(MDA_SAMPLE_DIR)
+    records_by_year = collect_and_group_mda_files_by_year(MDA_SAMPLE_DIR)
     
-    if not records:
+    if not records_by_year:
         print("✗ No records found! Check MDA_SAMPLE_DIR path.")
         return
     
-    # Save combined file
-    combined_json_path = OUTPUT_DIR / "combined_items.json"
-    with open(combined_json_path, 'w', encoding='utf-8') as f:
-        json.dump(records, f, indent=2, ensure_ascii=False)
-    
-    print(f"\n✓ Created {combined_json_path}")
-    print(f"  Total records: {len(records)}")
+    print(f"\n✓ Grouped into {len(records_by_year)} years:")
+    for year in sorted(records_by_year.keys()):
+        print(f"  {year}: {len(records_by_year[year])} files")
     
     # ========================================================================
-    # STEP 3: Run sentence table builder
+    # STEP 3: Process each year separately
     # ========================================================================
     print("\n" + "=" * 80)
-    print("STEP 3: BUILDING SENTENCE TABLE")
+    print("STEP 3: PROCESSING EACH YEAR (BATCH MODE)")
     print("=" * 80)
     
-    # Import pipeline module
+    # Import pipeline modules
     sys.path.insert(0, str(PIPELINE_DIR))
     from build_sentence_table import build_sentence_table
     
-    sentence_table_path = OUTPUT_DIR / "sentence_table.csv"
-    sentence_df = build_sentence_table(
-        input_path=str(combined_json_path),
-        output_path=str(sentence_table_path),
-        output_format='both'
-    )
+    all_sentence_dfs = []
+    year_stats = {}
     
-    print(f"\n✓ Sentence table created: {len(sentence_df)} sentences")
+    for year in sorted(records_by_year.keys()):
+        print(f"\n{'─' * 60}")
+        print(f"Processing Year {year} ({len(records_by_year[year])} files)")
+        print(f"{'─' * 60}")
+        
+        # Save year's records to temp JSON
+        year_json_path = OUTPUT_DIR / f"temp_items_{year}.json"
+        with open(year_json_path, 'w', encoding='utf-8') as f:
+            json.dump(records_by_year[year], f, indent=2, ensure_ascii=False)
+        
+        # Process this year
+        year_output_path = OUTPUT_DIR / f"sentences_{year}.parquet"
+        
+        try:
+            sentence_df = build_sentence_table(
+                input_path=str(year_json_path),
+                output_path=str(year_output_path),
+                output_format=OUTPUT_FORMAT
+            )
+            
+            all_sentence_dfs.append(sentence_df)
+            year_stats[year] = len(sentence_df)
+            print(f"✓ Year {year}: {len(sentence_df)} sentences → sentences_{year}.parquet")
+            
+        except Exception as e:
+            print(f"✗ Error processing year {year}: {e}")
+            continue
+        
+        finally:
+            # Clean up temp file
+            if year_json_path.exists():
+                year_json_path.unlink()
     
     # ========================================================================
-    # STEP 4: Run labeling sample builder
+    # STEP 4: Create combined labeling sample
     # ========================================================================
     print("\n" + "=" * 80)
-    print("STEP 4: BUILDING LABELING SAMPLE")
+    print("STEP 4: CREATING COMBINED LABELING SAMPLE")
     print("=" * 80)
     
+    import pandas as pd
     from build_labeling_sample import build_labeling_sample
     import warnings
     warnings.filterwarnings('ignore')
@@ -179,24 +217,37 @@ def main():
     from tqdm import tqdm
     tqdm.pandas()
     
-    # Copy tech_keywords.yaml to output if needed
-    keywords_src = PIPELINE_DIR / "tech_keywords.yaml"
-    keywords_dst = OUTPUT_DIR / "tech_keywords.yaml"
-    if keywords_src.exists() and not keywords_dst.exists():
+    # Combine all years for sampling
+    if all_sentence_dfs:
+        combined_df = pd.concat(all_sentence_dfs, ignore_index=True)
+        combined_csv_path = OUTPUT_DIR / "all_sentences_combined.csv"
+        combined_df.to_csv(combined_csv_path, index=False)
+        
+        print(f"✓ Combined all years: {len(combined_df)} total sentences")
+        
+        # Copy tech_keywords.yaml to output
         import shutil
-        shutil.copy(keywords_src, keywords_dst)
-    
-    label_set_path = OUTPUT_DIR / "label_set.csv"
-    sample_size = min(500, len(sentence_df))  # Sample up to 500 or all available
-    
-    label_df = build_labeling_sample(
-        input_path=str(sentence_table_path),
-        output_path=str(label_set_path),
-        keywords_file=str(keywords_dst),
-        sample_size=sample_size
-    )
-    
-    print(f"\n✓ Label set created: {len(label_df)} sentences")
+        keywords_src = PIPELINE_DIR / "tech_keywords.yaml"
+        keywords_dst = OUTPUT_DIR / "tech_keywords.yaml"
+        if keywords_src.exists() and not keywords_dst.exists():
+            shutil.copy(keywords_src, keywords_dst)
+        
+        # Create balanced labeling sample
+        label_set_path = OUTPUT_DIR / "label_set.csv"
+        sample_size = min(500, len(combined_df))
+        
+        label_df = build_labeling_sample(
+            input_path=str(combined_csv_path),
+            output_path=str(label_set_path),
+            keywords_file=str(keywords_dst),
+            sample_size=sample_size
+        )
+        
+        print(f"✓ Label set created: {len(label_df)} sentences")
+        
+        # Clean up combined CSV (keep parquet files)
+        if combined_csv_path.exists():
+            combined_csv_path.unlink()
     
     # ========================================================================
     # STEP 5: Summary
@@ -206,25 +257,39 @@ def main():
     print("=" * 80)
     
     print(f"\nOutput files in: {OUTPUT_DIR}")
-    print(f"  - combined_items.json: {len(records)} MDA records")
-    print(f"  - sentence_table.csv: {len(sentence_df)} sentences")
-    print(f"  - sentence_table.parquet: {len(sentence_df)} sentences")
-    print(f"  - label_set.csv: {len(label_df)} sentences for labeling")
+    print(f"\nYearly Parquet files:")
+    total_sentences = 0
+    for year in sorted(year_stats.keys()):
+        print(f"  sentences_{year}.parquet: {year_stats[year]:,} sentences")
+        total_sentences += year_stats[year]
+    
+    print(f"\n  Total: {total_sentences:,} sentences across {len(year_stats)} years")
+    print(f"\nLabeling sample:")
+    print(f"  label_set.csv: {len(label_df) if 'label_df' in dir() else 0} sentences")
     
     # Show sample results
-    print(f"\nSample sentences from label set:")
-    print("-" * 80)
-    
-    for idx, row in label_df.head(5).iterrows():
-        print(f"\n[{idx+1}] CIK: {row['cik']} | Year: {row['fiscal_year']} | Item: {row['item']}")
-        print(f"    Tech hit: {row['tech_hit']} | Pool: {row['source_pool']}")
-        text = row['sentence_text'][:150] + "..." if len(row['sentence_text']) > 150 else row['sentence_text']
-        print(f"    {text}")
+    if 'label_df' in dir() and len(label_df) > 0:
+        print(f"\nSample sentences from label set:")
+        print("-" * 80)
+        
+        for idx, row in label_df.head(3).iterrows():
+            print(f"\n[{idx+1}] CIK: {row['cik']} | Year: {row['fiscal_year']}")
+            print(f"    Tech hit: {row['tech_hit']} | Pool: {row['source_pool']}")
+            text = row['sentence_text'][:120] + "..." if len(row['sentence_text']) > 120 else row['sentence_text']
+            print(f"    {text}")
     
     print("\n" + "=" * 80)
-    print("LOCAL PIPELINE TEST COMPLETE! ✓")
+    print("BATCH PROCESSING COMPLETE! ✓")
     print("=" * 80)
     print(f"\nFinished: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"""
+Benefits of this approach for large-scale processing:
+  ✓ Memory safe: One year at a time
+  ✓ Fault tolerant: If one year fails, others are saved
+  ✓ Parallelizable: Run different years on different machines
+  ✓ Incremental: Easy to add new years later
+  ✓ Compact: Parquet files are 3-4x smaller than CSV
+    """)
 
 
 if __name__ == '__main__':
