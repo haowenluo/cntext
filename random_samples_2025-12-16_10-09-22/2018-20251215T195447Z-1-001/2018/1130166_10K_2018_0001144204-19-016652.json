@@ -1,0 +1,873 @@
+{
+    "cik": "1130166",
+    "company": "Company_1130166",
+    "filing_type": "10-K",
+    "filing_date": "2018-01-01",
+    "period_of_report": "2018-12-31",
+    "sic": "Unknown",
+    "state_of_inc": "Unknown",
+    "state_location": "Unknown",
+    "fiscal_year_end": "1231",
+    "filing_html_index": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1130166",
+    "htm_filing_link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1130166",
+    "complete_text_filing_link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1130166",
+    "filename": "1130166_10K_2018_0001144204-19-016652.htm",
+    "special_items": [
+        {
+            "type": "other",
+            "keywords_matched": [
+                "other income"
+            ],
+            "confidence": 0.5,
+            "source_section": "item_8",
+            "context": "\"padding:3.25pt 0pt 2pt 0pt;border-bottom:3px double #000000; min-width:13.5pt; text-align:right; white-space:nowrap;\">(10<font style=\"position:absolute;\">)</font></td>\n<td style=\"padding:0pt;padding-left:5.335pt;width:0pt;\">​</td>\n<td style=\"padding:0pt; width:0pt;\">​</td>\n</tr>\n<tr style=\"height:4...",
+            "amount_raw": "$0.1 million",
+            "amount_value": 0.1,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 71406512
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": ", among other possibilities, the Board of Directors approves the transaction. Our Board of Directors could use this provision to prevent changes in management. The existence of the foregoing provisions could limit the price that investors might be willing to pay in the future for shares of our commo...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 33477055
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": ", if such person acted in good faith and in a manner that he reasonably believed to be in, or not opposed to, the best interests of the corporation, and, with respect to any criminal action or proceeding, if he or she had no reason to believe his or her conduct was unlawful. In a derivative action, ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 78604370
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "-bottom:0pt; line-height:12pt; text-align:left; width:415.5pt;\">decreased demand for our product candidates and loss of revenues; </div>\n<div style=\"clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;\">​</div>\n<div style=\" float:left; margin-left:20pt; line-height:12pt; margin-top:7.1...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 14294544
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "-top:9.38pt; margin-bottom:0pt; line-height:12pt; text-align:left; width:415.5pt;\">be required to redesign the manufacturing process or formulation of a drug candidate so it does not infringe which may not be possible or could require substantial funds and time. </div>\n<div style=\"clear:both; paddin...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 93328842
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "0pt;margin:0pt;font-family:calibri, arial, sans-serif;font-weight:normal;font-style:normal;font-size:8pt;line-height:8pt;\">\n<a href=\"#TOC\" style=\"text-decoration:none;color:#003366;\">TABLE OF CONTENTS</a>\n</div>\n<div style=\"margin-top:46pt;height:660pt;margin-left:70pt;width:456pt;\">\n<div style=\"wid...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 9643836
+        },
+        {
+            "type": "other",
+            "keywords_matched": [
+                "other income"
+            ],
+            "confidence": 0.5,
+            "source_section": "item_8",
+            "context": ";width:0pt;\">​</td>\n<td style=\"padding:0pt; width:0pt;\">​</td>\n</tr>\n<tr style=\"height:4pt;line-height:4pt;\">\n<td colspan=\"26\" style=\"padding:0pt;font-size:0pt;line-height:0pt;\">​</td>\n</tr>\n</table>\n<div style=\"text-indent:20pt; margin-top:12.98pt; width:456pt; line-height:12pt;\">Total other income...",
+            "amount_raw": "0.9 million",
+            "amount_value": 0.9,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 79333927
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "Our activities could be subject to challenge for many reasons, including the broad scope and complexity of these laws and regulations, the difficulties in interpreting and applying these legal requirements, and the high degree of prosecutorial resources and attention being devoted to the biopharmace...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 40727193
+        },
+        {
+            "type": "other",
+            "keywords_matched": [
+                "foreign exchange"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "U.S. dollar relative to other currencies may adversely affect our results of operations. </div>\n<div style=\"text-indent:20pt; margin-top:6pt; width:456pt; line-height:12pt;\">We have a number of intercompany loans in place between our parent company based in New Jersey and our subsidiary based in Sco...",
+            "amount_raw": "$9.3 million",
+            "amount_value": 9.3,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 12005216
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "although the form of transaction could affect how the holders of preferred stock are treated. In such an event, although such a transaction would be subject to the approval of our holders of common stock, we cannot assure our common stockholders that we will be able to negotiate terms that would pro...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 13900795
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "argin:0pt;font-family:calibri, arial, sans-serif;font-weight:normal;font-style:normal;font-size:8pt;line-height:8pt;\">\n<a href=\"#TOC\" style=\"text-decoration:none;color:#003366;\">TABLE OF CONTENTS</a>\n</div>\n<div style=\"margin-top:46pt;height:660pt;margin-left:70pt;width:456pt;\">\n<div style=\"width:45...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 92755144
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "arket prices for stocks of biotechnology-related and technology companies frequently reach levels that bear no relationship to the performance of these companies. These market prices generally are not sustainable and are highly volatile. </div>\n<div style=\"text-indent:20pt; margin-top:6pt; width:456...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 5462544
+        },
+        {
+            "type": "other",
+            "keywords_matched": [
+                "other income"
+            ],
+            "confidence": 0.5,
+            "source_section": "item_8",
+            "context": "ase Agreement, or APA, whereby Xcyte Therapies, Inc., or Xcyte (a business acquired by the Company in March 2006) sold certain assets and intellectual property to ThermoFisher Scientific Company, or TSC (formerly Life Technologies Corporation) through an APA and other related agreements. The assets ...",
+            "amount_raw": "$682,000 ",
+            "amount_value": 682000.0,
+            "amount_scale": "dollars",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 64658755
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "because the patent application process can take several years to complete, there may be currently pending applications, unknown to us, which may later result in issued patents that cover the production, manufacture, commercialization or use of our drug candidates. If we wish to use the technology or...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 18986291
+        },
+        {
+            "type": "other",
+            "keywords_matched": [
+                "Other income"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "becomes foreseeable. Unfavorable unrealized foreign exchange movements related to intercompany loans resulted in a loss of $9.3 million for the year ended December 31, 2018 and a favorable unrealized foreign exchange movement resulted in a gain of $14.6 million for the year ended December 31, 2017. ...",
+            "amount_raw": "14.6 million",
+            "amount_value": 14.6,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 89213680
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "severance"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "ch reduction, may seek future employment with our business partners or competitors. Although our employees are required to sign a confidentiality agreement at the time of hire, the confidential nature of certain proprietary information may not be maintained in the course of any such future employmen...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 77118324
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ch, if held valid, could potentially restrict the scope of our research, development or manufacturing operations. If competitors prepare and file patent applications in the United States that claim technology that we also claim, we may have to participate in interference proceedings in the United St...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 64369238
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "d unexpired patents owned by others, we will need to obtain a license from the owner, enter into litigation to challenge the validity of the patents or incur the risk of litigation in the event that the owner asserts that we infringe its patents. In one case we have opposed a European patent relatin...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 99819742
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "dequate surplus. Even if adequate surplus is available to pay cash dividends on our preferred stock, we may not have sufficient cash to pay dividends on the preferred stock or we may choose not to declare the dividends. </div>\n<div style=\"margin-top:12pt; width:456pt; line-height:11pt;font-style:ita...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 90598888
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "e such period is 20 days, our restated certificate of incorporation and our restated bylaws authorize the claimant to bring an action against us and prescribe what constitutes a defense to such action. </div>\n<div style=\"text-indent:20pt; margin-top:6pt; width:456pt; line-height:12pt;\">Section 145 o...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 39771867
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "e that investors would be willing to pay in the future for our stock. </div>\n<div style=\"text-indent:20pt; margin-top:6pt; width:456pt; line-height:12pt;\">These provisions also make it more difficult for our stockholders to replace members of our Board of Directors. Because our Board of Directors is...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 57698603
+        },
+        {
+            "type": "other",
+            "keywords_matched": [
+                "foreign exchange"
+            ],
+            "confidence": 0.5,
+            "source_section": "item_8",
+            "context": "ected to be repaid in the foreseeable future and the nature of the funding advanced is of a long-term investment nature. Therefore, all unrealized foreign exchange gains or losses arising on the intercompany loans are recognized in other comprehensive income until repayment of the intercompany loan ...",
+            "amount_raw": "$14.6 million",
+            "amount_value": 14.6,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 77726923
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ed States, the European Union or elsewhere and manufactured in facilities licensed and regulated by the FDA, EMA or other such regulatory authorities. We have secured limited product liability insurance coverage, but may not be able to maintain such insurance on acceptable terms with adequate covera...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 90536812
+        },
+        {
+            "type": "other",
+            "keywords_matched": [
+                "other income"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ed agreements. The assets and technology were not part of the Company’s product development plan following the transaction between Xcyte and Cyclacel in March 2006. Accordingly, the company recognized $949,000 and $682,000 of other income arising from sales related to this transaction during the yea...",
+            "amount_raw": "$682,000 ",
+            "amount_value": 682000.0,
+            "amount_scale": "dollars",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 92094940
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ed at a duly called stockholder meeting and prohibit stockholder action by written consent. </div>\n<div style=\"clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;\">​</div>\n<div style=\"text-indent:20pt; margin-top:6pt; width:456pt; line-height:12pt;\">In addition, because we are incorpo...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 9385516
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ed the market prices for publicly traded securities. The market prices of the securities of biotechnology companies, particularly companies like us without product revenues and earnings, have been highly volatile and are likely to remain highly volatile in the future. This volatility has often been ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 77843903
+        },
+        {
+            "type": "other",
+            "keywords_matched": [
+                "foreign exchange"
+            ],
+            "confidence": 0.5,
+            "source_section": "item_8",
+            "context": "ercompany loans in place between our parent company based in New Jersey and our subsidiary based in Scotland. The intercompany loans outstanding are not expected to be repaid in the foreseeable future and the nature of the funding advanced is of a long-term investment nature. Therefore, all unrealiz...",
+            "amount_raw": "$9.3 million",
+            "amount_value": 9.3,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 55407308
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ever, we do not currently have sufficient funds to complete development and commercialization of any of our drug candidates. Current business and capital market risks could have a detrimental effect on the availability of sources of funding and our ability to access them in the future, which may del...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 8185731
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ferred stock that remains outstanding and its rights, privileges and preferences are unaffected or are converted into or exchanged for preferred stock of the surviving entity having rights, preferences and limitations substantially similar, but no less favorable, to our convertible preferred stock. ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 71613712
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "Litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "gh we intend to continue to monitor the pending applications, it is not possible to predict whether these claims will ultimately be allowed or if they were allowed what their breadth would be. In addition, we may need to commence litigation to enforce any patents issued to us or to determine the sco...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 54614411
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "h dividends will require the availability of adequate surplus. Even if adequate surplus is available to pay cash dividends on our preferred stock, we may not have sufficient cash to pay dividends on the preferred stock or we may choose not to declare the dividends. </div>\n<div style=\"margin-top:12pt...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 76627960
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "hly volatile. </div>\n<div style=\"text-indent:20pt; margin-top:6pt; width:456pt; line-height:12pt;\">As a result of our recent announcement of top-line results from the pivotal Phase 3 SEAMLESS study, our stock price declined substantially. In the past, securities class action litigation has often bee...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 61018093
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "severance"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "in our executive employment agreements may make an acquisition more difficult and could result in the entrenchment of management. </div>\n<div style=\"text-indent:20pt; margin-top:6pt; width:456pt; line-height:12pt;\">In March 2008 (as subsequently amended, and most recently renewed as of January 1, 20...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 83408515
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "iv>\n<div style=\"margin-top:12pt; width:456pt; line-height:11pt;font-style:italic;font-weight:bold;\">In the event of an acquisition of our common stock, we cannot assure our common stockholders that we will be able to negotiate terms that would provide for a price equivalent to, or more favorable tha...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 468352
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ive’s employment is terminated without “cause” or as a result of a “change of control” (as each such term is defined in each agreement). The financial obligations triggered by these provisions may prevent a business combination or acquisition that would be attractive to stockholders and could limit ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 61257942
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "business combination"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "kholder actions must be effected at a duly called stockholder meeting and prohibit stockholder action by written consent. </div>\n<div style=\"clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;\">​</div>\n<div style=\"text-indent:20pt; margin-top:6pt; width:456pt; line-height:12pt;\">In ad...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 55267570
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "line-height:12pt; text-align:left; width:415.5pt;\">termination of clinical trial sites or entire trial programs; </div>\n<div style=\"clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;\">​</div>\n<div style=\" float:left; margin-left:20pt; line-height:12pt; margin-top:7.19pt; margin-botto...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 1835822
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "mately be allowed and if allowed what their scope would be. In addition, because the patent application process can take several years to complete, there may be currently pending applications, unknown to us, which may later result in issued patents that cover the production, manufacture, commerciali...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 72958960
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "business combination"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "most recently renewed as of January 1, 2019), we entered into employment agreements with our President and Chief Executive Officer and our Executive Vice President, Finance, Chief Financial Officer and Chief Operating Officer, which contain severance arrangements in the event that such executive’s e...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 38375254
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "nt:20pt; margin-top:6pt; width:456pt; line-height:12pt;\">In addition, we understand that other applications and patents exist relating to potential uses of sapacitabine, seliciclib and CYC065 that are not part of our current clinical programs for those compounds. Although we intend to continue to mo...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 28970517
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "of January 1, 2019), we entered into employment agreements with our President and Chief Executive Officer and our Executive Vice President, Finance, Chief Financial Officer and Chief Operating Officer, which contain severance arrangements in the event that such executive’s employment is terminated w...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 31688342
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "severance"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "of its capital stock until the holder has held the stock for three years unless, among other possibilities, the Board of Directors approves the transaction. Our Board of Directors could use this provision to prevent changes in management. The existence of the foregoing provisions could limit the pri...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 30437326
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "om ongoing or completed clinical trials for our product candidates could result in delays in our regulatory approval efforts and significantly increase our costs. In addition, there can be no assurance that we will promptly detect any such disruption or security breach, if at all. To the extent that...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 15613910
+        },
+        {
+            "type": "unusual",
+            "keywords_matched": [
+                "non-recurring"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "op:6pt; width:456pt; line-height:12pt;\">Our operating losses may fluctuate significantly on a quarterly basis. Some of the factors that may cause our operating losses to fluctuate on a period-to-period basis include the status of our preclinical and clinical development programs, level of expenses i...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 91582228
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "pt; width:456pt; line-height:12pt;\">We lease our corporate headquarters in Berkeley Heights, New Jersey and a research and development facility in Dundee, Scotland. We believe that our existing facilities are adequate to accommodate our business needs. </div>\n<div style=\"margin-top:12pt; width:456pt...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 34235475
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "reports on us, we could lose visibility in the financial markets, which in turn could cause our stock price or trading volume to decline. Moreover, if one or more of the analysts who cover us downgrade our stock or if our operating results do not meet their expectations, our stock price could declin...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 45563973
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "rets or other proprietary information of their former employers. Litigation may be necessary to defend against these claims. If we fail in defending such claims, in addition to paying monetary damages, we may lose valuable intellectual property rights or personnel. A loss of key research personnel o...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 85635256
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "Litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "rmer employers. </div>\n<div style=\"text-indent:20pt; margin-top:6pt; width:456pt; line-height:12pt;\">Many of our employees were previously employed at universities or other biotechnology or pharmaceutical companies, including our competitors or potential competitors. Although no claims against us ar...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 43198955
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "business combination"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "t stockholder action by written consent. </div>\n<div style=\"clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;\">​</div>\n<div style=\"text-indent:20pt; margin-top:6pt; width:456pt; line-height:12pt;\">In addition, because we are incorporated in Delaware, we are governed by the provision...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 30211934
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "t;\">regulatory developments in both the United States and abroad; </div>\n<div style=\"clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;\">​</div>\n<div style=\" float:left; margin-left:20pt; line-height:12pt; margin-top:6.6pt; margin-bottom:0pt; text-align:left; width:20pt;white-space:n...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 7708305
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ties in the United States, the European Union or elsewhere and manufactured in facilities licensed and regulated by the FDA, EMA or other such regulatory authorities. We have secured limited product liability insurance coverage, but may not be able to maintain such insurance on acceptable terms with...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 66108520
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "to generate the pricing-related information are complex and require the exercise of judgment. If we fail to accurately and timely report product pricing-related information or to comply with any of these or any other laws or regulations, various negative consequences could result, including criminal...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 89796328
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "vent that the owner asserts that we infringe its patents. In one case we have opposed a European patent relating to human aurora kinase and the patent has been finally revoked (no appeal was filed). </div>\n<div style=\"text-indent:20pt; margin-top:6pt; width:456pt; line-height:12pt;\">There has been s...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 62409988
+        },
+        {
+            "type": "other",
+            "keywords_matched": [
+                "Foreign exchange"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "weight:normal;font-variant:normal;text-transform:none;color:#000000;font-family:Times New Roman, Times, serif;font-size:10pt;\">\n<div style=\"padding:0pt;margin:0pt;font-family:calibri, arial, sans-serif;font-weight:normal;font-style:normal;font-size:8pt;line-height:8pt;\">\n<a href=\"#TOC\" style=\"text-d...",
+            "amount_raw": "$51,000 ",
+            "amount_value": 51000.0,
+            "amount_scale": "dollars",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 85517958
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "business combination"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "without the consent of our Board of Directors. These provisions could also delay the removal of management by the Board of Directors with or without cause. In addition, our directors may only be removed for cause and amended and restated bylaws limit the ability our stockholders to call special meet...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 47211388
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "written consent. </div>\n<div style=\"clear:both; padding:0pt; margin:0pt;font-size:0pt;line-height:0pt;\">​</div>\n<div style=\"text-indent:20pt; margin-top:6pt; width:456pt; line-height:12pt;\">In addition, because we are incorporated in Delaware, we are governed by the provisions of Section 203 of the ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 40264953
+        },
+        {
+            "type": "other",
+            "keywords_matched": [
+                "Foreign exchange"
+            ],
+            "confidence": 0.5,
+            "source_section": "item_8",
+            "context": "ze:10pt;\">\n<div style=\"padding:0pt;margin:0pt;font-family:calibri, arial, sans-serif;font-weight:normal;font-style:normal;font-size:8pt;line-height:8pt;\">\n<a href=\"#TOC\" style=\"text-decoration:none;color:#003366;\">TABLE OF CONTENTS</a>\n</div>\n<div style=\"margin-top:46pt;margin-left:70pt;width:456pt;...",
+            "amount_raw": "$51,000 ",
+            "amount_value": 51000.0,
+            "amount_scale": "dollars",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 46286881
+        }
+    ],
+    "item_7": "Item 7.\nManagement’s Discussion and Analysis of Financial Condition and Results of Operations\nCautionary Statement Regarding Forward-Looking Statements\nThis report contains certain statements that may be deemed ‘forward-looking statements’ within the meaning of United States securities laws. All statements, other than statements of historical fact, that address activities, events or developments that we intend, expect, project, believe or anticipate will or may occur in the future are forward-looking statements. Such statements are based upon certain assumptions and assessments made by our management in light of their experience and their perception of historical trends, current conditions, expected future developments and other factors they believe to be appropriate. Certain factors that could cause results to differ materially from those projected or implied in the forward looking statements are set forth in this Annual Report on Form 10-K for the year ended December 31, 2018 under the caption “Item 1A - Risk factors”.\nWe encourage you to read those descriptions carefully. We caution you not to place undue reliance on the forward-looking statements contained in this report. These statements, like all statements in this report, speak only as of the date of this report (unless an earlier date is indicated) and we undertake no obligation to update or revise the statements except as required by law. Such forward-looking statements are not guarantees of future performance and actual results will likely differ, perhaps materially, from those suggested by such forward-looking statements.\nOverview\nDuring 2018, our primary focus has been on our transcriptional regulation program where we are evaluating CYC065, our cyclin dependent kinase, or CDK, inhibitor and our DNA damage response, or DDR, program where we are evaluating sapacitabine in combination with our CDK inhibitor seliciclib in Phase 1/2 studies in patients with solid tumors. Additionally in our SEAMLESS study of sapacitabine in\nAcute Myeloid Leukemia, or AML, stratified and exploratory subgroup analyses have been completed and have defined a patient population who may benefit from treatment with the experimental arm. We have begun discussing the SEAMLESS data with certain regulatory authorities.\nTranscriptional Regulation Program\nCDKs are a family of enzymes first discovered as regulators of the cell cycle, but that are now understood to also provide pivotal functions in the regulation of transcription, DNA repair and metastatic spread. The precise selectivity of an individual CDK inhibitor molecule for certain specific CDKs is key to targeting particular tumor types and minimizing undesirable side effects through non-specific antiproliferative activity.\nIn general, cell cycle regulation is less well controlled in cancer cells than in normal cells, which explains in part why cancer cells divide uncontrollably. Different CDKs are responsible for control of different aspects of proliferation, and when dysregulated, can be drivers of particular cancer sub-sets. Modulating CDK activity with targeted therapies is an attractive strategy to reinforce cell cycle control and decrease the rate of abnormal proliferation of cancer cells. The first FDA approval in March 2015 of a CDK inhibitor for palbociclib, and more recently in 2017, ribociclib and abemaciclib, for a type of breast cancer, has led to great interest in the development of this class of drugs as oncology therapeutics.\nCyclacel’s founding scientist, Professor Sir David Lane, is a globally recognized authority in cell cycle biology, who discovered p53, a key tumor suppressor that malfunctions in about two-thirds of human cancers. Under his guidance, Cyclacel’s drug discovery and development programs concentrated on the CDK2/9 isoforms, which operate as key components of the p53 pathway. These efforts resulted in bringing two molecules into clinical trials: seliciclib, a first-generation CDK inhibitor, and CYC065, a second-generation CDK inhibitor, which has benefited from the Company’s clinical experience with seliciclib.\nCYC065 has been evaluated in a first-in-human, Phase 1 trial in patients with advanced solid tumors and a recommended Phase 2 dose established. The study demonstrated that CYC065 durably suppresses Mcl-1, a member of the Bcl-2 family of survival proteins. CYC065 is under investigation in combination with other anticancer drugs, including Bcl-2 inhibitors such as venetoclax. Preclinical data suggests that CYC065 may benefit adults and children with hematological malignancies, including acute myeloid leukemias (AML), acute lymphocytic leukemias (ALL), and in particular leukemias with rearrangement of the Mixed Lineage Leukemia gene (MLL-r), chronic lymphocytic leukemias (CLL), B-cell lymphomas, multiple myelomas, and patients with certain solid tumors, including breast and uterine cancers, and neuroblastomas.\nDNA Damage Response, or DDR, Program\nMany cancers have defects in the way in which cells monitor and repair damaged DNA, collectively termed DNA damage response, or DDR. These deficiencies in DDR pathways render cells more susceptible to DNA damage. Many traditional cancer treatments, such as DNA-damaging chemotherapy and radiotherapy, are based on this finding. However, such treatments are often accompanied by significant and unwanted side effects. Developing treatments which target specific DDR deficiencies to preferentially kill cancer cells, while minimizing the impact on normal cells, has potential for more selective, better tolerated therapies to improve survival in multiple cancers.\nWe have focused on developing treatments targeting DNA damage pathways for several years. For example, sapacitabine is an oral nucleoside analogue prodrug whose metabolite, CNDAC, generates single-strand DNA breaks, or SSB, either leading to arrest of the cell cycle at G2 phase or development of double-strand DNA breaks, or DSB. Repair of CNDAC-induced DSB is dependent on the homologous recombination, or HR repair pathway. BRCA mutations in cancer cells are a cause of HR deficiency, making such cancer cells more susceptible to cell death induced by sapacitabine.\nWe are evaluating sapacitabine in a Phase 1/2 combination study with seliciclib in patients with BRCA mutations. A Phase 1b/2 investigator-sponsored clinical trial is underway to evaluate the safety and effectiveness of sapacitabine in combination with olaparib in patients with BRCA mutant breast cancer. The trial is being conducted at the Dana-Farber Cancer Institute with collaborators Cyclacel and AstraZeneca providing sapacitabine investigational drug and the approved PARP-inhibitor olaparib, respectively.\nCYC140\nCYC140 is a novel, small molecule, selective polo-like-kinase 1 (PLK1) inhibitor which is open for enrollment in a FIH study in patients with advanced leukemias and MDS. CYC140 is differentiated from previous clinical PLK1 inhibitors, demonstrating potent and selective target inhibition and high activity in xenograft models of human cancers when dosed orally at non-toxic doses and is the subject of a translational biology program focused on acute leukemias and esophageal cancer.\nMD Anderson Clinical Collaboration\nOn October 1, 2018, the Company entered into a three-year Clinical Collaboration Agreement, or CCA with The University of Texas MD Anderson Cancer Center, or MD Anderson. The main objective of the CCA is to clinically evaluate the safety and efficacy of three Cyclacel medicines in patients with hematological malignancies, including chronic lymphocytic leukemias, acute myeloid leukemias, myelodysplastic syndromes and other advanced leukemias. Under the terms of the CCA, MD Anderson will conduct four clinical studies with a total projected enrollment of up to 170 patients. Under the risk-sharing agreement MD Anderson will assume the patient costs for all studies and Cyclacel, who is the sponsor, will provide investigational drugs and other limited support. Upon first commercial sale in specific indications studied in the alliance, Cyclacel will make certain payments to MD Anderson.\nCyclacel currently retains virtually all marketing rights worldwide to the compounds associated with the Company’s drug programs.\nCorporate Developments\nOn October 4, 2018, the Company entered into a Common Stock Sales Agreement, or the Sales Agreement, with H.C. Wainwright & Co., LLC, or Wainwright, as sales agent, pursuant to which Wainwright may sell shares of our common stock, par value $0.001 per share, having an aggregate offering price of up to $5,000,000, by any method that is deemed to be an “at the market offering” as defined in Rule 415 promulgated under the Securities Act of 1933, as amended. Shares sold under the Sales Agreement will be offered and sold pursuant to the Company’s previously filed and effective Registration Statement on Form S-3 and a prospectus supplement and accompanying base prospectus. The Company will pay Wainwright a commission of 3.0% of the gross sales price per share sold.\nDividend on Preferred Stock\nOn December 11, 2018, the Board of Directors declared a quarterly cash dividend in the amount of $0.15 per share on the Company’s Preferred Stock. The cash dividend was paid on February 1, 2019 to the holders of record of the Preferred Stock as of the close of business on January 14, 2019.\nResults of Operations\nYears Ended December 31, 2017 and 2018\nResults of Continuing Operations\nRevenues\nOn January 1, 2018, we adopted ASC Topic 606, Revenue from Contracts with Customers (“ASC 606”). Under this new guidance, we recognize revenue when we transfer control of promised goods or services to customers, in amounts that reflects the consideration to which we expect to be entitled. We adopted ASC 606 on a modified retrospective basis, meaning that we did not restate the results of the 2017 comparative period. However, the adoption of ASC 606 did not have a material effect on our reported revenues, net loss, assets, or shareholders’ equity.\nThe following table summarizes the components of our revenues for the years ended December 31, 2017 and 2018 (in thousands except percentages):\nCollaboration and research and development revenue represents a milestone payment in respect to a collaboration, licensing and supply agreement with ManRos Therapeutics SA or ManRos, entered into in June 2015. We had no revenue in 2017 relating to this agreement.\nThe future\nRecognition of any further revenue from milestones under a collaboration, licensing and supply agreement with ManRos Therapeutics SA is dependent on the clinical progress of the program, which we do not control.\nResearch and development\nWe expense all research and development costs as they are incurred. Research and development expenses primarily include:\n•\nClinical trial and regulatory-related costs;\n•\nPayroll and personnel-related expenses, including consultants and contract research organizations;\n•\nPreclinical studies and laboratory supplies and materials;\n•\nTechnology license costs;\n•\nStock-based compensation; and\n•\nRent and facility expenses for our office and laboratories.\nThe following table provides information with respect to our research and development expenditures for the years ended December 31, 2017 and 2018 (in thousands except percentages):\nResearch and development expenses represented 45% of our operating expenses for each of the years ended December 31, 2017 and 2018.\nResearch and development expenses remained relatively flat at $4.2 million and $4.3 million for the years ended December 31, 2017 and 2018 respectively. Research and development expenses relating to transcriptional regulation increased by $1.5 million from $1.1 million for the year ended December 31, 2017 to $2.5 million for the year ended December 31, 2018, as the clinical evaluation of CYC065 progresses. Research and development expenses relating to sapacitabine decreased by $1.7 million from $2.5 million for the year ended December 31, 2017 to $0.8 million for the year ended December 31, 2018, primarily as a result of a reduction in expenditures associated with the SEAMLESS Phase 3 trial and related costs.\nThe future\nWe anticipate that overall research and development expenses for the year ended December 31, 2019 will increase compared to the year ended December 31, 2018, as we progress the clinical development of CYC065. The timing and extent of any future SEAMLESS expenditure, including the possibility of registration submissions to regulatory authorities in Europe and the U.S., are dependent upon the outcome of discussions with regulatory authorities.\nGeneral and administrative\nGeneral and administrative expenses include costs for administrative personnel, legal and other professional expenses and general corporate expenses. The following table summarizes the total general and administrative expenses for the years ended December 31, 2017 and 2018 (in thousands except percentages):\nTotal general and administrative expenses represented 55% of our operating expenses for each of the years ended December 31, 2017 and 2018.\nOur general and administrative expenditures increased by 2% from $5.3 million for the year ended December 31, 2017 compared to $5.4 million for the year ended December 31, 2018.\nThe future\nWe expect general and administrative expenditures for the year ended December 31, 2019 to decrease as compared to our expenditures for the year ended December 31, 2018 due to reduced recruitment and professional consultancy costs\nOther income (expense), net\nThe following table summarizes the other income (expense) for years ended December 31, 2017 and 2018 (in thousands except percentages):\nTotal other income, net, decreased by approximately $0.1 million from approximately $1.0 million for the year ended December 31, 2017 to approximately $0.9 million for the year ended 31 December, 2018. The decrease in other income is primarily related to lower royalties receivable under a December 2005 Asset Purchase Agreement, or APA, whereby Xcyte Therapies, Inc., or Xcyte (a business acquired by the Company in March 2006) sold certain assets and intellectual property to ThermoFisher Scientific Company, or TSC (formerly Life Technologies Corporation) through an APA and other related agreements. The assets and technology were not part of the Company’s product development plan following the transaction between Xcyte and Cyclacel in March 2006. Accordingly, the company recognized $949,000 and $682,000 of other income arising from sales related to this transaction during the years ended 31 December 31, 2017 and 2018, respectively. We have no knowledge of TSC’s activities and cannot predict when we may receive income under the APA, if any. Partially offsetting the decline in other income from the TSC APA was an increase in interest income, resulting from higher yields on cash held on deposit in 2018.\nForeign exchange gains (losses)\nForeign exchange losses increased by $51,000 to a loss of approximately $90,000 for the year ended December 31, 2018 compared to a loss of approximately $39,000 for the year ended December 31, 2017. The announcement in June 2017 of the referendum of the United Kingdom’s Membership of the European Union, or Brexit, advising for the exit of the United Kingdom from the European Union caused significant volatility in currency exchange rate fluctuations that resulted in the strengthening of the U.S. dollar against foreign currencies in which we conduct business, primarily the Euro and British Pound. The significant currency exchange rate fluctuations of the U.S. dollar relative to other currencies may adversely affect our results of operations.\nWe have a number of intercompany loans in place between our parent company based in New Jersey and our subsidiary based in Scotland. The intercompany loans outstanding are not expected to be repaid in the foreseeable future and the nature of the funding advanced is of a long-term investment nature. Therefore, all unrealized foreign exchange gains or losses arising on the intercompany loans are recognized in other comprehensive income until repayment of the intercompany loan becomes foreseeable. Unfavorable unrealized foreign exchange movements related to intercompany loans resulted in a loss of $9.3 million for the year ended December 31, 2018 and a favorable unrealized foreign exchange movement resulted in a gain of $14.6 million for the year ended December 31, 2017.\nThe future\nOther income (expense), net will continue to be impacted by changes in foreign exchange rates and the receipt of income under the APA. As we are not in control of sales made by TSC, we are unable to estimate the level and timing of income under the APA, if any.\nAs the funding advanced through intercompany loans is that of a long-term investment in nature, unrealized foreign exchange gains and losses on such funding will be recognized in other comprehensive income (loss) until repayment of the intercompany loan becomes foreseeable.\nIncome tax benefit\nCredit is taken for research and development tax credits, which are claimed from the United Kingdom’s taxation and customs authority, in respect of qualifying research and development costs incurred.\nThe following table summarizes total income tax benefit for the years ended December 31, 2017 and 2018 (in thousands except percentages):\nThe income tax benefit increased by approximately $0.3 million to $1.3 million for the year ended December 31, 2018 from $1.0 million for the year ended December 31, 2017. The level of tax credits recoverable is linked directly to qualifying research and development expenditure incurred in any one year.\nThe future\nWe expect to continue to be eligible to receive United Kingdom research and development tax credits for the foreseeable future and will continue to elect to receive payment of the tax credit. The amount of tax credits we will receive is entirely dependent on the amount of eligible expenses we incur. As we expect our eligible expenses to be higher in the fiscal year ended December 31, 2019, the level of tax credits recoverable is anticipated to be higher in 2019 compared to the fiscal year ended December 31, 2018. The US Tax Cuts and Jobs Act enacted in December 2017 has not had a material effect on the company’s results of operations or financial position.\n Liquidity and Capital Resources\nThe following is a summary of our key liquidity measures as of December 31, 2017 and 2018 (in thousands):\nSince our inception, we have relied primarily on the proceeds from sales of common and preferred equity securities to finance our operations and internal growth. Additional funding has come through research and development tax credits, government grants, the sale of product rights, interest on investments, licensing revenue, royalty income, and a limited amount of product revenue from operations discontinued in September 2012. We have incurred significant loses since our inception. As of December 31, 2018, we had an accumulated deficit of $349.8 million.\nCash Flows\nCash provided by (used in operating, investing and financing activities for the years ended December 31, 2017 and 2018 is summarized as follows (in thousands):\nOperating activities\nNet cash used in operating activities decreased by $0.8 million, from $7.5 million for the year ended December 31, 2017 to $6.7 million for the year ended December 31, 2018. The decrease in cash used by operating activities was primarily the result of a change in working capital of $0.5 million and a reduction in net loss of $0.2 million.\nInvesting activities\nNet cash used in investing activities increased by approximately $26,000 for the year ended December 31, 2018 due to additional capital expenditure on IT equipment in 2018.\nFinancing activities\nNet cash provided by financing activities was $0.4 million for the year ended December 31, 2018, primarily as a result of approximately $0.6 million in net proceeds from the issuance of common stock under the Sales Agreement with Wainright, offset by dividend payments of approximately $0.2 million to the holders of our 6% Preferred Stock.\nNet cash provided by financing activities was $14.8 million for the year ended December 31, 2017, primarily as a result of the approximately $13.7 million in net proceeds from the July 2017 underwritten public offering and approximately $1.1 million in net proceeds from the issuance of common stock under the FBR Sales Agreement entered into in June 2016 offset by dividend payments of approximately $0.2 million to the holders of our 6% Preferred Stock.\nOperating Capital and Capital Expenditure Requirements\nWe expect to continue to incur substantial operating losses in the future and cannot guarantee that we will generate any significant product revenues until a product candidate has been approved by the FDA or EMA in other countries and successfully commercialized.\nWe believe that existing funds together with cash generated from operations, including the R&D tax credit, and recent financing activities, are sufficient to satisfy our planned working capital, capital expenditures and other financial commitments through the second quarter of 2020. However, we do not currently have sufficient funds to complete development and commercialization of any of our drug candidates. Current business and capital market risks could have a detrimental effect on the availability of sources of funding and our ability to access them in the future, which may delay or impede our progress of advancing our drugs currently in the clinical pipeline to approval by the FDA or EMA for commercialization. Additionally, we plan to continue to evaluate in-licensing and acquisition opportunities to gain access to new drugs or drug targets that would fit with our strategy. Any such transaction would likely increase our funding needs in the future.\nOur future funding requirements will depend on many factors, including but not limited to:\n•\nthe rate of progress and cost of our clinical trials, preclinical studies and other discovery and research and development activities;\n•\nthe costs associated with establishing manufacturing and commercialization capabilities;\n•\nthe costs of acquiring or investing in businesses, product candidates and technologies;\n•\nthe costs of filing, prosecuting, defending and enforcing any patent claims and other intellectual property rights;\n•\nthe costs and timing of seeking and obtaining FDA and EMA approvals;\n•\nthe effect of competing technological and market developments; and\n•\nthe economic and other terms and timing of any collaboration, licensing or other arrangements into which we may enter.\nUntil we can generate a sufficient amount of product revenue to finance our cash requirements, which we may never do, we expect to finance future cash needs primarily through public or private equity offerings, debt financings or strategic collaborations. Although we are not reliant on institutional credit finance and therefore not subject to debt covenant compliance requirements or potential withdrawal of credit by banks, we are reliant on the availability of funds and activity in equity markets. We do not know whether additional funding will be available on acceptable terms, or at all. If we are not able to secure additional funding when needed, we may have to delay, reduce the scope of or eliminate one or more of our clinical trials or research and development programs or make changes to our operating plan. In addition, we may have to partner one or more of our product candidate programs at an earlier stage of development, which would lower the economic value of those programs to us.\nContractual Obligations\nThe following table summarizes our long-term contractual obligations as of December 31, 2018 (in thousands):\n(1)\nOperating lease obligations relate primarily to leasing of office and laboratory space at 1 James Lindsay Place, Dundee, UK. The lease, which was entered into in October 2000, expires in October 2025.\nOff-Balance Sheet Arrangements\nSince our inception, we have not had any off-balance sheet arrangements or relationships with unconsolidated entities or financial partnerships, such as entities often referred to as structured finance or variable interest entities, which are typically established for the purpose of facilitating off-balance sheet arrangements or other contractually narrow or limited purposes.\nCritical Accounting Policies\nOur discussion and analysis of our financial condition and results of operations is based on our financial statements, which have been prepared in accordance with accounting principles generally accepted in the United States. The preparation of these financial statements requires us to make estimates and judgments that affect the reported amounts of assets, liabilities and expenses and related disclosure of contingent assets and liabilities. We review our estimates on an ongoing basis. We base our estimates on historical experience and on various other factors that we believe to be reasonable under the circumstances. Actual results may differ from these estimates. We believe the judgments and estimates required by the following accounting policies to be critical in the preparation of our consolidated financial statements.\nOur significant accounting policies are more fully described in Note 2 to our consolidated financial statements included elsewhere in this report. We believe the following critical accounting policies reflect our more significant estimates and assumptions used in the preparation of our consolidated financial statements.\nClinical Trial Accounting\nData management and monitoring of our clinical trials are performed with the assistance of contract research organizations, or CROs, or clinical research associates, or CRAs, in accordance with our standard operating procedures. Typically, CROs and CRAs bill monthly for services performed, and others bill based upon milestones achieved. For outstanding amounts, we accrue unbilled clinical trial expenses based on estimates of the level of services performed each period. Costs of setting up clinical trial sites for participation in the trials are expensed immediately as research and development expenses. Clinical trial costs related to patient enrollment are accrued as patients are entered into and progress through the trial. Any initial payment made to the clinical trial site is recognized upon execution of the clinical trial agreements and expensed as research and development expenses.\nStock-based Compensation\nWe grant stock options, restricted stock units and restricted stock to officers, employees, directors and consultants under the Company’s 2018 Equity Incentive Plan, or the 2018 Plan. The 2018 Plan replaced the 2015 Equity Incentive Plan, or the 2015 Plan. We measure compensation cost for all stock-based awards at fair value on date of grant and recognize compensation over the requisite service period. The fair value of restricted stock and restricted stock units is determined based on the number of shares granted and the quoted price of our common stock on the date of grant. The determination of grant-date fair value for stock option awards is estimated using an option-pricing model, which includes variables such as the expected volatility of our share price, the anticipated exercise behavior of our employees, interest rates, and dividend yields. These variables are projected based on our historical data, experience, and other factors. Changes in any of these variables could result in significant adjustments to the expense recognized for share-based payments.\nWe grant certain stock compensation awards that vest only upon achievement of certain performance conditions. If, in our judgment, achievement of those performance conditions is not probable, we do not recognize any compensation cost for those awards. As of December 31, 2018, we have outstanding approximately 518,000 stock option awards that contain one or more performance conditions. Approximately 76,000 of these awards have vested during the year, and we have recognized approximately $103,000 of compensation cost related to these specific awards during the year ended December 31, 2018. Had we determined that the performance conditions for all of the stock compensation awards were probable of being met, we would have recognized significantly more compensation cost in our December 31, 2018 consolidated statement of operations (loss).\nRecent Accounting Pronouncements Not Yet Effective\nIn July 2017, the FASB issued Accounting Standards Update (“ASU”) No. 2017-11, Accounting for Certain Financial Instruments with Down Round Features (“ASU 2017-11), which simplifies the accounting for certain financial instruments with down-round features. A down round feature is a provision in a financial instrument that reduces the strike price of an issued financial instrument if the issuer sells shares of its stock for an amount less than the currently stated strike price of the issued financial instrument or issues an equity-linked financial instrument with a strike price below the currently stated strike price of the issued financial instrument. ASU 2017-11 is effective for fiscal years, and interim periods within those fiscal years, beginning after December 15, 2018. Early adoption is permitted, including adoption in an interim period. ASU 2017-11 should be adopted retrospectively for each prior reporting period presented or retrospectively as of the beginning of the year of adoption. The Company anticipates this standard will not have a material impact on its consolidated financial statements.\nIn February 2016, the FASB issued guidance on accounting for leases in ASU No, 2016-02. The guidance requires that lessees recognize a lease liability, which is a lessee’s obligation to make lease payments arising from a lease, measured on a discounted basis; and a right-of-use asset, which is an asset that represents the lessee’s right to use, or control the use of, a specified asset for the lease term at the commencement date. The guidance is effective for fiscal years beginning after December 15, 2018. The Company plans to initially apply the new leases standard at the adoption date by recognizing any necessary cumulative-effect adjustment to the opening balance of retained earnings in the period of adoption. That is, the Company will not recast prior period financial statements for the effects of this new standard. The Company is still finalizing its evaluation of the new standard, but expects that it will initially recognize an operating lease liability, and a corresponding right-of-use asset, of approximately $1.6 million on transition to the new guidance."
+}

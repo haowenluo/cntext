@@ -1,0 +1,1173 @@
+{
+    "cik": "809248",
+    "company": "Company_809248",
+    "filing_type": "10-K",
+    "filing_date": "2023-01-01",
+    "period_of_report": "2023-12-31",
+    "sic": "Unknown",
+    "state_of_inc": "Unknown",
+    "state_location": "Unknown",
+    "fiscal_year_end": "1231",
+    "filing_html_index": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=809248",
+    "htm_filing_link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=809248",
+    "complete_text_filing_link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=809248",
+    "filename": "809248_10K_2023_0000809248-23-000041.htm",
+    "special_items": [
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.8,
+            "source_section": "item_8",
+            "context": "\"3\" style=\"background-color:#ffffff;padding:0 1pt\"></td><td colspan=\"2\" style=\"background-color:#ffffff;padding:2px 0 2px 1pt;text-align:right;vertical-align:bottom\">75 </td><td style=\"background-color:#ffffff;padding:2px 1pt 2px 0;text-align:right;vertical-align:bottom\"></td><td colspan=\"3\" style=\"...",
+            "amount_raw": "(3)",
+            "amount_value": -3.0,
+            "amount_scale": "dollars",
+            "footnote_reference": "(3)",
+            "footnote_id": "3",
+            "anchor_hash": 10870318
+        },
+        {
+            "type": "other",
+            "keywords_matched": [
+                "Other income"
+            ],
+            "confidence": 0.7,
+            "source_section": "item_8",
+            "context": "\"></td><td colspan=\"3\" style=\"background-color:#cceeff;padding:0 1pt\"></td><td colspan=\"2\" style=\"background-color:#cceeff;padding:2px 0 2px 1pt;text-align:right;vertical-align:bottom\">1,678 </td><td style=\"background-color:#cceeff;padding:2px 1pt 2px 0;text-align:right;vertical-align:bottom\"></td><...",
+            "amount_raw": "(4)",
+            "amount_value": -4.0,
+            "amount_scale": "dollars",
+            "footnote_reference": "(4)",
+            "footnote_id": "4",
+            "anchor_hash": 25647636
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.8,
+            "source_section": "item_8",
+            "context": "\"></td><td colspan=\"3\" style=\"background-color:#ffffff;padding:0 1pt\"></td><td colspan=\"2\" style=\"background-color:#ffffff;padding:2px 0 2px 1pt;text-align:right;vertical-align:bottom\">4,470 </td><td style=\"background-color:#ffffff;padding:2px 1pt 2px 0;text-align:right;vertical-align:bottom\"></td><...",
+            "amount_raw": "(1)",
+            "amount_value": -1.0,
+            "amount_scale": "dollars",
+            "footnote_reference": "(1)",
+            "footnote_id": "1",
+            "anchor_hash": 39162931
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.8,
+            "source_section": "item_8",
+            "context": "\"background-color:#cceeff;padding:0 1pt\"></td><td colspan=\"2\" style=\"background-color:#cceeff;padding:2px 0 2px 1pt;text-align:right;vertical-align:bottom\">4,470 </td><td style=\"background-color:#cceeff;padding:2px 1pt 2px 0;text-align:right;vertical-align:bottom\"></td><td colspan=\"3\" style=\"display...",
+            "amount_raw": "(1)",
+            "amount_value": -1.0,
+            "amount_scale": "dollars",
+            "footnote_reference": "(1)",
+            "footnote_id": "1",
+            "anchor_hash": 79657845
+        },
+        {
+            "type": "other",
+            "keywords_matched": [
+                "Other income"
+            ],
+            "confidence": 0.7,
+            "source_section": "item_8",
+            "context": "\"background-color:#ffffff;padding:0 1pt\"></td><td colspan=\"2\" style=\"background-color:#ffffff;padding:2px 0 2px 1pt;text-align:right;vertical-align:bottom\">1,678 </td><td style=\"background-color:#ffffff;padding:2px 1pt 2px 0;text-align:right;vertical-align:bottom\"></td><td colspan=\"3\" style=\"display...",
+            "amount_raw": "(4)",
+            "amount_value": -4.0,
+            "amount_scale": "dollars",
+            "footnote_reference": "(4)",
+            "footnote_id": "4",
+            "anchor_hash": 2759208
+        },
+        {
+            "type": "unusual",
+            "keywords_matched": [
+                "non-recurring"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "\"margin-top:4.5pt;padding-left:36pt;text-align:justify\">other income, net. Adjusted Restaurant-Level EBITDA represents loss from operations as adjusted to exclude general and administrative expenses, depreciation and amortization, impairment and other lease charges, restaurant pre-opening costs and ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 19875944
+        },
+        {
+            "type": "asset_sale",
+            "keywords_matched": [
+                "loss on sale"
+            ],
+            "confidence": 0.75,
+            "source_section": "item_8",
+            "context": "(3)Executive transition, litigation and other professional expenses for the twelve months ended January 1, 2023 and January 2, 2022 include executive recruiting and transition costs, costs pertaining to an ongoing lawsuit with one of the Company's former vendors and other non-recurring professional ...",
+            "amount_raw": "$0.4 million",
+            "amount_value": 0.4,
+            "amount_scale": "million",
+            "footnote_reference": "(4)",
+            "footnote_id": "4",
+            "anchor_hash": 56521740
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.8,
+            "source_section": "item_8",
+            "context": "-left:18pt;text-align:justify;text-indent:-18pt\">(4)Other income, net for the twelve months ended January 1, 2023 included a loss on sale leaseback transactions of $0.4 million, a loss on disposal of assets of $1.2 million and a gain from a settlement with a vendor of $2.5 million.</div><div style=\"...",
+            "amount_raw": "1.1 million",
+            "amount_value": 1.1,
+            "amount_scale": "million",
+            "footnote_reference": "(5)",
+            "footnote_id": "5",
+            "anchor_hash": 57116373
+        },
+        {
+            "type": "unusual",
+            "keywords_matched": [
+                "non-operating"
+            ],
+            "confidence": 0.6,
+            "source_section": "item_8",
+            "context": ".1 million primarily related to eight restaurants closed during 2022 of $1.7 million. </div><div style=\"margin-top:4.5pt;text-align:justify;text-indent:24.75pt\">We recorded impairment and other lease charges of $4.5 million in 2021 consisting of $1.5 million related to initial impairment charges for...",
+            "amount_raw": "1.9 million",
+            "amount_value": 1.9,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 25334113
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "impairment"
+            ],
+            "confidence": 0.7,
+            "source_section": "item_8",
+            "context": ".75pt;width:100%\"><div> </div></div><div style=\"margin-top:9pt;text-align:justify;text-indent:24.75pt\">Depreciation and Amortization. Depreciation and amortization expense decreased to $78.1 million in 2022 from $80.8 million in 2021.  </div><div style=\"margin-top:9pt;text-align:justify;text-indent:...",
+            "amount_raw": "0.2 million",
+            "amount_value": 0.2,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 31596148
+        },
+        {
+            "type": "unusual",
+            "keywords_matched": [
+                "non-recurring"
+            ],
+            "confidence": 0.5,
+            "source_section": "item_8",
+            "context": "023 and January 2, 2022 include training, labor and occupancy costs incurred during the construction of new restaurants.</div><div style=\"margin-bottom:3pt;margin-top:3pt;padding-left:18pt;text-align:justify;text-indent:-18pt\">(3)Executive transition, litigation and other professional expenses for t...",
+            "amount_raw": "(4)",
+            "amount_value": -4.0,
+            "amount_scale": "dollars",
+            "footnote_reference": "(4)",
+            "footnote_id": "4",
+            "anchor_hash": 91690352
+        },
+        {
+            "type": "asset_sale",
+            "keywords_matched": [
+                "loss on disposal"
+            ],
+            "confidence": 0.55,
+            "source_section": "item_8",
+            "context": "21 consisting of $1.5 million related to initial impairment charges for nine underperforming restaurants, $0.5 million of capital expenditures at previously impaired restaurants, other lease charges of $0.6 million and $1.9 million related to impairment of certain owned non-operating properties.</di...",
+            "amount_raw": "0.4 million",
+            "amount_value": 0.4,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 29940357
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "5pt;padding-left:36pt;text-align:justify\">other income, net. Adjusted Restaurant-Level EBITDA represents loss from operations as adjusted to exclude general and administrative expenses, depreciation and amortization, impairment and other lease charges, restaurant pre-opening costs and other income, ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 26187229
+        },
+        {
+            "type": "other",
+            "keywords_matched": [
+                "Other income"
+            ],
+            "confidence": 0.5,
+            "source_section": "item_8",
+            "context": "5pt;text-align:justify;text-indent:24.75pt\">We recorded impairment and other lease charges of $4.5 million in 2021 consisting of $1.5 million related to initial impairment charges for nine underperforming restaurants, $0.5 million of capital expenditures at previously impaired restaurants, other lea...",
+            "amount_raw": "$0.9 million",
+            "amount_value": 0.9,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 83114420
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "Impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": ";padding:0 1pt\"></td><td colspan=\"2\" style=\"background-color:#cceeff;border-top:1pt solid #000000;padding:2px 0 2px 1pt;text-align:right;vertical-align:bottom\">61,401 </td><td style=\"background-color:#cceeff;border-top:1pt solid #000000;padding:2px 1pt 2px 0;text-align:right;vertical-align:bottom\"><...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 91237878
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "</div><div style=\"height:42.75pt;position:relative;width:100%\"><div style=\"bottom:0;position:absolute;width:100%\"><div style=\"text-align:center\">20</div></div></div><hr style=\"page-break-after:always\"/><div style=\"min-height:42.75pt;width:100%\"><div> </div></div><div style=\"margin-top:4.5pt;text-ali...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 80277220
+        },
+        {
+            "type": "unusual",
+            "keywords_matched": [
+                "non-recurring"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "</div><div style=\"margin-top:4.5pt;padding-left:36pt;text-align:justify;text-indent:-18pt\">•EBITDA, Adjusted EBITDA, Adjusted Restaurant-Level EBITDA and Adjusted Net Loss are non-GAAP financial measures. EBITDA represents net loss before income taxes, interest expense and depreciation and amortizat...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 45373046
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "goodwill impairment"
+            ],
+            "confidence": 0.7,
+            "source_section": "item_8",
+            "context": "<hr style=\"page-break-after:always\"/><div style=\"min-height:42.75pt;width:100%\"><div> </div></div><div style=\"margin-top:9pt;text-align:justify;text-indent:24.75pt\">Depreciation and Amortization. Depreciation and amortization expense decreased to $78.1 million in 2022 from $80.8 million in 2021.  </...",
+            "amount_raw": "16.7 million",
+            "amount_value": 16.7,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 42655759
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "><div style=\"height:42.75pt;position:relative;width:100%\"><div style=\"bottom:0;position:absolute;width:100%\"><div style=\"text-align:center\">35</div></div></div><hr style=\"page-break-after:always\"/><div style=\"min-height:42.75pt;width:100%\"><div> </div></div><div style=\"margin-top:4.5pt;padding-left:...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 54646996
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.8,
+            "source_section": "item_8",
+            "context": "January 2, 2022 include executive recruiting and transition costs, costs pertaining to an ongoing lawsuit with one of the Company's former vendors and other non-recurring professional service expenses.</div><div style=\"margin-bottom:3pt;margin-top:3pt;padding-left:18pt;text-align:justify;text-indent...",
+            "amount_raw": "$2.5 million",
+            "amount_value": 2.5,
+            "amount_scale": "million",
+            "footnote_reference": "(5)",
+            "footnote_id": "5",
+            "anchor_hash": 60369020
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "severance"
+            ],
+            "confidence": 0.7,
+            "source_section": "item_8",
+            "context": "Restaurant-Level EBITDA and loss from operations see page 45.</div><div style=\"margin-top:9pt;text-align:justify;text-indent:24.75pt\">General and Administrative Expenses. General and administrative expenses increased to $88.1 million in 2022 from $83.7 million in 2021, and, as a percentage of total ...",
+            "amount_raw": "0.5 million",
+            "amount_value": 0.5,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 2523474
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "a percentage of sales as required under our franchise and operating agreements and additional local marketing and promotional expenses in certain of our markets.</div><div style=\"margin-top:6pt;padding-left:36pt;text-align:justify;text-indent:-18pt\">•General and administrative expenses are comprised...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 21546864
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "a result of entering into the Amended ADA in January 2021. </div><div style=\"height:42.75pt;position:relative;width:100%\"><div style=\"bottom:0;position:absolute;width:100%\"><div style=\"text-align:center\">20</div></div></div><hr style=\"page-break-after:always\"/><div style=\"min-height:42.75pt;width:10...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 24981731
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "and Adjusted Restaurant-Level EBITDA do not reflect the cash required to fund such replacements.</div><div style=\"margin-top:2pt;padding-left:72pt;text-align:justify;text-indent:-24.75pt\">◦EBITDA, Adjusted EBITDA, Adjusted Restaurant-Level EBITDA and Adjusted Net Loss do not reflect the effect of ea...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 7692359
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "impairment"
+            ],
+            "confidence": 0.7,
+            "source_section": "item_8",
+            "context": "arges were $21.9 million in 2022 consisting of $16.7 million in goodwill impairment charges, $0.2 million in franchise rights impairment charges, initial impairment charges for 15 underperforming restaurants of $2.1 million, capital expenditures at previously impaired restaurants of $0.7 million, an...",
+            "amount_raw": "$4.5 million",
+            "amount_value": 4.5,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 73345799
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "argin-top:2pt;padding-left:72pt;text-align:justify;text-indent:-24.75pt\">◦For property and equipment and finite-lived intangible assets, a potential impairment charge is evaluated whenever events or changes in circumstances indicate that the carrying amounts of these assets may not be fully recovera...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 39043475
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "Impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "ay reoccur.</div><div style=\"margin-top:4.5pt;padding-left:36pt;text-align:justify;text-indent:-18pt\">•Depreciation and amortization primarily includes the depreciation of fixed assets, including equipment, owned buildings and leasehold improvements utilized in our restaurants, the amortization of f...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 21180221
+        },
+        {
+            "type": "unusual",
+            "keywords_matched": [
+                "non-operating"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ca855104e09_22\"></div><div style=\"margin-top:13.5pt\">ITEM 1B.  UNRESOLVED STAFF COMMENTS</div><div style=\"margin-bottom:9pt;margin-top:9pt;text-indent:22.5pt\">None.</div><div id=\"i0c9a28fff6de40ba89a12ca855104e09_25\"></div><div style=\"margin-top:13.5pt\">ITEM 2.  PROPERTIES</div><div style=\"margin-to...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 9664260
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.8,
+            "source_section": "item_8",
+            "context": "cceeff;padding:0 1pt\"></td><td colspan=\"2\" style=\"background-color:#cceeff;padding:2px 0 2px 1pt;text-align:right;vertical-align:bottom\">75 </td><td style=\"background-color:#cceeff;padding:2px 1pt 2px 0;text-align:right;vertical-align:bottom\"></td><td colspan=\"3\" style=\"display:none\"></td><td colspa...",
+            "amount_raw": "(3)",
+            "amount_value": -3.0,
+            "amount_scale": "dollars",
+            "footnote_reference": "(3)",
+            "footnote_id": "3",
+            "anchor_hash": 59032787
+        },
+        {
+            "type": "asset_sale",
+            "keywords_matched": [
+                "loss on disposal"
+            ],
+            "confidence": 0.75,
+            "source_section": "item_8",
+            "context": "ctions of $0.4 million, a loss on disposal of assets of $1.2 million and a gain from a settlement with a vendor of $2.5 million.</div><div style=\"margin-bottom:3pt;margin-top:3pt;padding-left:18pt;text-align:justify;text-indent:-18pt\">(5)Other income, net for the twelve months ended January 2, 2022 ...",
+            "amount_raw": "$1.2 million",
+            "amount_value": 1.2,
+            "amount_scale": "million",
+            "footnote_reference": "(6)",
+            "footnote_id": "6",
+            "anchor_hash": 55573809
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "div style=\"min-height:42.75pt;width:100%\"><div> </div></div><div style=\"margin-top:4.5pt;padding-left:36pt;text-align:justify\">other income, net. Adjusted Restaurant-Level EBITDA represents loss from operations as adjusted to exclude general and administrative expenses, depreciation and amortization...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 93631661
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "e;width:100%\"><div style=\"text-align:center\">36</div></div></div><hr style=\"page-break-after:always\"/><div style=\"min-height:42.75pt;width:100%\"><div> </div></div><div style=\"margin-top:2pt;padding-left:72pt;text-align:justify;text-indent:-24.75pt\">◦For property and equipment and finite-lived intang...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 44895401
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "Impairment"
+            ],
+            "confidence": 0.7,
+            "source_section": "item_8",
+            "context": "e=\"bottom:0;position:absolute;width:100%\"><div style=\"text-align:center\">43</div></div></div><hr style=\"page-break-after:always\"/><div style=\"min-height:42.75pt;width:100%\"><div> </div></div><div style=\"margin-top:9pt;text-align:justify;text-indent:24.75pt\">Depreciation and Amortization. Depreciatio...",
+            "amount_raw": "$21.9 million",
+            "amount_value": 21.9,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 18151546
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "e=\"margin-top:3pt;padding-left:36pt;text-align:justify;text-indent:-18pt\">•engage in sale and leaseback transactions;</div><div style=\"margin-top:3pt;padding-left:36pt;text-align:justify;text-indent:-18pt\">•sell all, or substantially all, of our assets;</div><div style=\"margin-top:3pt;padding-left:3...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 64354722
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "Impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "ed to the respective carrying value of franchise rights for each acquisition. If an asset is determined to be impaired, the loss is measured by the excess of the carrying amount of the asset over its fair value. </div><div style=\"margin-top:2pt;padding-left:72pt;text-align:justify;text-indent:-24.75...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 59119737
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "future, and EBITDA, Adjusted EBITDA and Adjusted Restaurant-Level EBITDA do not reflect the cash required to fund such replacements.</div><div style=\"margin-top:2pt;padding-left:72pt;text-align:justify;text-indent:-24.75pt\">◦EBITDA, Adjusted EBITDA, Adjusted Restaurant-Level EBITDA and Adjusted Net ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 76993015
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.6,
+            "source_section": "item_8",
+            "context": "harges for nine underperforming restaurants, $0.5 million of capital expenditures at previously impaired restaurants, other lease charges of $0.6 million and $1.9 million related to impairment of certain owned non-operating properties.</div><div style=\"margin-top:9pt;text-align:justify;text-indent:2...",
+            "amount_raw": "$2.5 million",
+            "amount_value": 2.5,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 95280421
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "he right of first refusal assigned to us from BKC pursuant to the ADA was forfeited by us as a result of entering into the Amended ADA in January 2021. </div><div style=\"height:42.75pt;position:relative;width:100%\"><div style=\"bottom:0;position:absolute;width:100%\"><div style=\"text-align:center\">20<...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 80687540
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "impairment"
+            ],
+            "confidence": 0.7,
+            "source_section": "item_8",
+            "context": "in franchise rights impairment charges, initial impairment charges for 15 underperforming restaurants of $2.1 million, capital expenditures at previously impaired restaurants of $0.7 million, and other lease charges of $2.1 million primarily related to eight restaurants closed during 2022 of $1.7 mi...",
+            "amount_raw": "1.5 million",
+            "amount_value": 1.5,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 27183220
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ion.</div><div style=\"margin-top:9pt;text-align:justify\">Our strategy may include pursuing acquisitions of additional Burger King and Popeyes restaurants and we may not find Burger King restaurants or Popeyes restaurants that are suitable acquisition candidates or successfully operate or integrate a...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 82398994
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "transaction costs"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ited pro forma impact on the results of operations for the 2021 acquisitions is included below. The unaudited results of operations are not necessarily indicative of the results that would have occurred had the acquisitions been consummated at the beginning of the periods presented, nor are they nec...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 88561905
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "Impairment"
+            ],
+            "confidence": 0.7,
+            "source_section": "item_8",
+            "context": "ition:relative;width:100%\"><div style=\"bottom:0;position:absolute;width:100%\"><div style=\"text-align:center\">43</div></div></div><hr style=\"page-break-after:always\"/><div style=\"min-height:42.75pt;width:100%\"><div> </div></div><div style=\"margin-top:9pt;text-align:justify;text-indent:24.75pt\">Deprec...",
+            "amount_raw": "$21.9 million",
+            "amount_value": 21.9,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 72980826
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "le=\"margin-top:4.5pt;padding-left:36pt;text-align:justify;text-indent:-18pt\">•EBITDA, Adjusted EBITDA, Adjusted Restaurant-Level EBITDA and Adjusted Net Loss are non-GAAP financial measures. EBITDA represents net loss before income taxes, interest expense and depreciation and amortization. Adjusted ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 54787433
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "locations could adversely affect our results of operations and financial condition, regardless of whether the allegations are true, or whether we are ultimately held liable. Any cases filed against us could materially adversely affect our results of operations and financial condition if we lose such...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 18678856
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "ment and operations of our restaurants, legal, auditing and other professional fees, acquisition costs and stock-based compensation expense. </div><div style=\"margin-top:4.5pt;padding-left:36pt;text-align:justify;text-indent:-18pt\">•EBITDA, Adjusted EBITDA, Adjusted Restaurant-Level EBITDA and Adjus...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 53312254
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "mmon stock might also decline in reaction to events that affect other companies in our industry or related industries even if these events do not directly affect us. </div><div style=\"margin-top:4.5pt;text-align:justify;text-indent:24.75pt\">In the past, following periods of volatility in the market ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 79530983
+        },
+        {
+            "type": "asset_sale",
+            "keywords_matched": [
+                "loss on sale"
+            ],
+            "confidence": 0.55,
+            "source_section": "item_8",
+            "context": "mpairment and other lease charges of $4.5 million in 2021 consisting of $1.5 million related to initial impairment charges for nine underperforming restaurants, $0.5 million of capital expenditures at previously impaired restaurants, other lease charges of $0.6 million and $1.9 million related to im...",
+            "amount_raw": "0.9 million",
+            "amount_value": 0.9,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 73212210
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "n indicator of impairment exists, an estimate of the aggregate undiscounted cash flows from the acquired restaurants is compared to the respective carrying value of franchise rights for each acquisition. If an asset is determined to be impaired, the loss is measured by the excess of the carrying amo...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 5747974
+        },
+        {
+            "type": "asset_sale",
+            "keywords_matched": [
+                "loss on disposal"
+            ],
+            "confidence": 0.75,
+            "source_section": "item_8",
+            "context": "nal expenses for the twelve months ended January 1, 2023 and January 2, 2022 include executive recruiting and transition costs, costs pertaining to an ongoing lawsuit with one of the Company's former vendors and other non-recurring professional service expenses.</div><div style=\"margin-bottom:3pt;ma...",
+            "amount_raw": "0.4 million",
+            "amount_value": 0.4,
+            "amount_scale": "million",
+            "footnote_reference": "(4)",
+            "footnote_id": "4",
+            "anchor_hash": 83922976
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "impairment"
+            ],
+            "confidence": 0.7,
+            "source_section": "item_8",
+            "context": "nd other lease charges of $2.1 million primarily related to eight restaurants closed during 2022 of $1.7 million. </div><div style=\"margin-top:4.5pt;text-align:justify;text-indent:24.75pt\">We recorded impairment and other lease charges of $4.5 million in 2021 consisting of $1.5 million related to in...",
+            "amount_raw": "1.9 million",
+            "amount_value": 1.9,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 94254404
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.8,
+            "source_section": "item_8",
+            "context": "nd quarter of 2021, which were included in general and administrative expenses. </div><div style=\"margin-bottom:3pt;margin-top:3pt;padding-left:18pt;text-align:justify;text-indent:-18pt\">(2)Pre-opening costs for the twelve months ended January 1, 2023 and January 2, 2022 include training, labor and ...",
+            "amount_raw": "(3)",
+            "amount_value": -3.0,
+            "amount_scale": "dollars",
+            "footnote_reference": "(3)",
+            "footnote_id": "3",
+            "anchor_hash": 77850069
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ndent:-18pt\">•cash from sales is usually received before related liabilities for supplies and payroll become due.</div><div style=\"margin-top:4.5pt;text-align:justify;text-indent:24.75pt\">Interest payments under our debt obligations, capital expenditures (including for restaurant remodeling), paymen...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 60244102
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "nditure.</div><div style=\"margin-top:9pt;text-align:center\">Site Selection</div><div style=\"margin-top:9pt;text-align:justify;text-indent:22.5pt\">We believe that the location of our restaurants is a critical component of each restaurant's success. We evaluate potential new sites on many critical cri...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 55839503
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.8,
+            "source_section": "item_8",
+            "context": "olspan=\"3\" style=\"background-color:#cceeff;padding:2px 1pt;text-align:right;vertical-align:bottom\">50,718</td><td colspan=\"3\" style=\"background-color:#cceeff;padding:0 1pt\"></td><td colspan=\"3\" style=\"background-color:#cceeff;padding:2px 1pt;text-align:right;vertical-align:bottom\">49,899</td><td col...",
+            "amount_raw": "(1)",
+            "amount_value": -1.0,
+            "amount_scale": "dollars",
+            "footnote_reference": "(1)",
+            "footnote_id": "1",
+            "anchor_hash": 50095810
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "Impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "or:#ffffff;padding:0 1pt\"></td><td colspan=\"3\" style=\"display:none\"></td><td colspan=\"3\" style=\"display:none\"></td></tr><tr><td colspan=\"3\" style=\"display:none\"></td><td colspan=\"3\" style=\"display:none\"></td><td colspan=\"3\" style=\"display:none\"></td><td colspan=\"3\" style=\"display:none\"></td><td cols...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 50255768
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "orth Carolina, Ohio, Pennsylvania, Rhode Island, South Carolina, Tennessee, Vermont and Virginia (subject to certain exceptions for certain limited geographic areas within certain states) and (b) any other geographic locations that Carrols LLC enters after the commencement date of the Amended ADA pu...",
+            "amount_raw": "$0.6 m",
+            "amount_value": 0.6,
+            "amount_scale": "m",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 6475508
+        },
+        {
+            "type": "other",
+            "keywords_matched": [
+                "Other income"
+            ],
+            "confidence": 0.7,
+            "source_section": "item_8",
+            "context": "other non-recurring professional service expenses.</div><div style=\"margin-bottom:3pt;margin-top:3pt;padding-left:18pt;text-align:justify;text-indent:-18pt\">(4)Other income, net for the twelve months ended January 1, 2023 included a loss on sale leaseback transactions of $0.4 million, a loss on disp...",
+            "amount_raw": "(5)",
+            "amount_value": -5.0,
+            "amount_scale": "dollars",
+            "footnote_reference": "(5)",
+            "footnote_id": "5",
+            "anchor_hash": 39050949
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "Litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "our Burger King restaurants and one of our regional support offices. We also lease nine small regional offices that support the management of our Burger King restaurants, two offices in Tennessee, and two smaller administrative offices in Syracuse, NY that support administrative operations. </div><d...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 93074487
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "our common stock could decline for reasons unrelated to our business, results of operations or financial condition. The trading price of our common stock might also decline in reaction to events that affect other companies in our industry or related industries even if these events do not directly af...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 57258669
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "our regional support offices. We also lease nine small regional offices that support the management of our Burger King restaurants, two offices in Tennessee, and two smaller administrative offices in Syracuse, NY that support administrative operations. </div><div id=\"i0c9a28fff6de40ba89a12ca855104e0...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 44801406
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "pt\">In the past, following periods of volatility in the market price of a company's securities, class action securities litigation has often been brought against that company. Due to the potential volatility of our stock price, we may be the target of securities litigation in the future. Securities ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 69856778
+        },
+        {
+            "type": "unusual",
+            "keywords_matched": [
+                "non-operating"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "pt;padding-left:36pt;text-align:justify;text-indent:-18pt\">•Depreciation and amortization primarily includes the depreciation of fixed assets, including equipment, owned buildings and leasehold improvements utilized in our restaurants, the amortization of franchise rights from our restaurant acquisi...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 2082559
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "r style=\"page-break-after:always\"/><div style=\"min-height:42.75pt;width:100%\"><div> </div></div><div style=\"margin-top:4.5pt;padding-left:36pt;text-align:justify\">other income, net. Adjusted Restaurant-Level EBITDA represents loss from operations as adjusted to exclude general and administrative exp...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 31467042
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "required to fund such replacements.</div><div style=\"margin-top:2pt;padding-left:72pt;text-align:justify;text-indent:-24.75pt\">◦EBITDA, Adjusted EBITDA, Adjusted Restaurant-Level EBITDA and Adjusted Net Loss do not reflect the effect of earnings or charges resulting from matters that our management ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 96843496
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "s include non-operating charges resulting from the following circumstances:</div><div style=\"height:42.75pt;position:relative;width:100%\"><div style=\"bottom:0;position:absolute;width:100%\"><div style=\"text-align:center\">36</div></div></div><hr style=\"page-break-after:always\"/><div style=\"min-height:...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 81118682
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.6,
+            "source_section": "item_8",
+            "context": "s of $0.6 million and $1.9 million related to impairment of certain owned non-operating properties.</div><div style=\"margin-top:9pt;text-align:justify;text-indent:24.75pt\">Other Income, net. Other income, net, was $0.9 million in 2022 and included loss on sale leaseback transactions of $0.4 million,...",
+            "amount_raw": "1.1 million",
+            "amount_value": 1.1,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 63177915
+        },
+        {
+            "type": "other",
+            "keywords_matched": [
+                "Other income"
+            ],
+            "confidence": 0.5,
+            "source_section": "item_8",
+            "context": "s, $0.5 million of capital expenditures at previously impaired restaurants, other lease charges of $0.6 million and $1.9 million related to impairment of certain owned non-operating properties.</div><div style=\"margin-top:9pt;text-align:justify;text-indent:24.75pt\">Other Income, net. Other income, n...",
+            "amount_raw": "2.5 million",
+            "amount_value": 2.5,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 98867325
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "s, including class action lawsuits, alleging, among other things, violations of federal and state law regarding workplace and employment matters, discrimination, harassment, wrongful termination and wage, rest break, meal break and overtime compensation issues and, in the case of quick-service resta...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 21515898
+        },
+        {
+            "type": "asset_sale",
+            "keywords_matched": [
+                "loss on disposal"
+            ],
+            "confidence": 0.55,
+            "source_section": "item_8",
+            "context": "t-indent:24.75pt\">Other Income, net. Other income, net, was $0.9 million in 2022 and included loss on sale leaseback transactions of $0.4 million, a loss on disposal of assets of $1.2 million and a gain from a settlement with a vendor of $2.5 million. Other income, net, was $1.2 million in 2021 and ...",
+            "amount_raw": "$1.2 million",
+            "amount_value": 1.2,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 13118289
+        },
+        {
+            "type": "other",
+            "keywords_matched": [
+                "Other income"
+            ],
+            "confidence": 0.7,
+            "source_section": "item_8",
+            "context": "t;margin-top:3pt;padding-left:18pt;text-align:justify;text-indent:-18pt\">(3)Executive transition, litigation and other professional expenses for the twelve months ended January 1, 2023 and January 2, 2022 include executive recruiting and transition costs, costs pertaining to an ongoing lawsuit with ...",
+            "amount_raw": "(4)",
+            "amount_value": -4.0,
+            "amount_scale": "dollars",
+            "footnote_reference": "(4)",
+            "footnote_id": "4",
+            "anchor_hash": 49627127
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "Impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "td colspan=\"3\" style=\"background-color:#cceeff;padding:0 1pt\"></td><td colspan=\"2\" style=\"background-color:#cceeff;padding:2px 0 2px 1pt;text-align:right;vertical-align:bottom\">80,798 </td><td style=\"background-color:#cceeff;padding:2px 1pt 2px 0;text-align:right;vertical-align:bottom\"></td><td cols...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 73526083
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "terms or at all. Our Senior Credit Facilities contain restrictive covenants that may prevent us from incurring additional debt to acquire additional Burger King or Popeyes restaurants.</div><div style=\"margin-top:9pt;text-align:justify\">We may incur significant liability or reputational harm if clai...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 88406024
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "tion to events that affect other companies in our industry or related industries even if these events do not directly affect us. </div><div style=\"margin-top:4.5pt;text-align:justify;text-indent:24.75pt\">In the past, following periods of volatility in the market price of a company's securities, clas...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 32045862
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "tising and promotion, or the cost of television or radio advertising increases, or BKC's, PLK's or our advertising and promotions are less effective than our competitors', it could have a material adverse effect on our results of operations and financial condition.</div><div style=\"margin-top:9pt;te...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 40641109
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ts, legal, auditing and other professional fees, acquisition costs and stock-based compensation expense. </div><div style=\"margin-top:4.5pt;padding-left:36pt;text-align:justify;text-indent:-18pt\">•EBITDA, Adjusted EBITDA, Adjusted Restaurant-Level EBITDA and Adjusted Net Loss are non-GAAP financial ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 59762674
+        },
+        {
+            "type": "other",
+            "keywords_matched": [
+                "Other Income"
+            ],
+            "confidence": 0.5,
+            "source_section": "item_8",
+            "context": "tyle=\"margin-top:4.5pt;text-align:justify;text-indent:24.75pt\">We recorded impairment and other lease charges of $4.5 million in 2021 consisting of $1.5 million related to initial impairment charges for nine underperforming restaurants, $0.5 million of capital expenditures at previously impaired res...",
+            "amount_raw": "$0.9 million",
+            "amount_value": 0.9,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 78264740
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "impairment"
+            ],
+            "confidence": 0.7,
+            "source_section": "item_8",
+            "context": "v></div><div style=\"margin-top:9pt;text-align:justify;text-indent:24.75pt\">Depreciation and Amortization. Depreciation and amortization expense decreased to $78.1 million in 2022 from $80.8 million in 2021.  </div><div style=\"margin-top:9pt;text-align:justify;text-indent:24.75pt\">Impairment and Othe...",
+            "amount_raw": "$2.1 million",
+            "amount_value": 2.1,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 90584085
+        }
+    ],
+    "item_7": "ITEM 7. MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS\nOur fiscal years consist of 52 or 53 weeks ending on the Sunday closest to December 31. The fiscal years ended January 1, 2023 and January 2, 2022 both contained 52 weeks.\nIntroduction\nWe are a holding company and conduct all of our operations through our direct and indirect wholly-owned subsidiaries Carrols Corporation and New CFH, LLC and their wholly-owned subsidiaries, and have no assets other than the shares of capital stock of Carrols Holdco, Inc. and New CFH, LLC, our direct wholly-owned subsidiaries. The following \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" (\"MD&A\") is written to help the reader understand our company. The MD&A is provided as a supplement to, and should be read in conjunction with, our Consolidated Financial Statements appearing elsewhere in this Annual Report on Form 10-K. The overview provides our perspective on the individual sections of MD&A, which include the following:\nCompany Overview-a general description of our business and our key financial measures.\nRecent and Future Events Affecting Our Results of Operations-a description of recent events that affect, and future events that may affect, our results of operations.\nResults of Operations-an analysis of our consolidated results of operations for the years ended January 1, 2023, and January 2, 2022, including a review of the material items and known trends and uncertainties. See Item 7 of our 2021 Annual Report on Form 10-K for an analysis of our consolidated results of operations for the years ended January 2, 2022 and January 3, 2021.\nLiquidity and Capital Resources-an analysis of our cash flows, including capital expenditures, changes in capital resources and known trends that may impact liquidity.\nApplication of Critical Accounting Estimates-an overview of accounting policies requiring critical judgments and estimates.\nNew accounting pronouncements-a discussion of new accounting pronouncements, dates of implementation, and the impact on our consolidated financial position or results of operations, if any.\nCompany Overview\nCarrols Restaurant Group, Inc. and its consolidated subsidiaries (collectively, \"Carrols Restaurant Group\", the \"Company\", \"we\", \"our\" or \"us\") is one of the largest restaurant companies in the United States and has been operating restaurants for more than 60 years. We are the largest Burger King franchisee in the United States, based on number of restaurants, and have operated Burger King restaurants since 1976. As of January 1, 2023 we operated, as a franchisee, a total of 1,087 restaurants in 23 states under the trade names of Burger King and Popeyes. This included 1,022 Burger King restaurants in 23 Northeastern, Midwestern, Southcentral and Southeastern states and 65 Popeyes restaurants in seven Southeastern states.\nAny reference to \"BKC\" refers to Burger King Company LLC (previously Burger King Corporation) and its indirect parent company, Restaurant Brands International Inc. (\"RBI\"). Any reference to \"PLK\" refers to Popeyes Louisiana Kitchen, Inc. and its indirect parent company, RBI.\nThe following is an overview of the key financial measures discussed in our results of operations:\n•Restaurant sales consists of food and beverage sales at our restaurants, net of sales discounts and refunds and excluding sales tax. Restaurant sales are influenced by changes in comparable restaurant sales, our franchisors' marketing and promotional activities, new restaurant development, restaurant acquisitions, franchisor promotions and closures of restaurants. Comparable restaurant sales reflect the change in year-over-year sales for a comparable restaurant base. Restaurants we acquire are included in comparable restaurant sales after they have been owned for 12 months and newly developed restaurants are included in comparable restaurant sales after they have been open for 15 months and are influenced by menu price increases, guest traffic and brand promotional activity. Restaurants are excluded from comparable restaurant sales during extended periods of closure, which primarily occur due to restaurant remodeling activity. For comparative purposes, where applicable, the calculation of the changes in comparable restaurant sales is based either on a 53-week or 52-week year and compares against the respective 52-week prior period.\n•Food, beverage and packaging costs consists of food, beverage and packaging costs and delivery commissions, less purchase discounts and vendor rebates. Food, beverage and packaging costs are generally influenced by changes in commodity costs, the mix of items sold, the level of promotional discounting, the effectiveness of our restaurant-level controls to manage food and paper costs and the relative contribution of delivery sales.\n•Restaurant wages and related expenses include all restaurant management and hourly productive labor costs and related benefits, employer payroll taxes and restaurant-level bonuses. Payroll and related benefits are subject to inflation, including minimum wage increases as well as competitive wage increases required to adequately staff our restaurants and increased costs for health insurance, workers' compensation insurance and federal and state unemployment insurance.\n•Restaurant rent expense includes straight-lined lease costs and variable rent on our restaurant leases characterized as operating leases.\n•Other restaurant operating expenses include all other restaurant-level operating costs, the major components of which are royalty expenses paid to BKC and PLK, utilities, repairs and maintenance, operating supplies, real estate taxes and credit card fees.\n•Advertising expense includes advertising payments to BKC and PLK based on a percentage of sales as required under our franchise and operating agreements and additional local marketing and promotional expenses in certain of our markets.\n•General and administrative expenses are comprised primarily of salaries and expenses associated with corporate and administrative functions that support the development and operations of our restaurants, legal, auditing and other professional fees, acquisition costs and stock-based compensation expense.\n•EBITDA, Adjusted EBITDA, Adjusted Restaurant-Level EBITDA and Adjusted Net Loss are non-GAAP financial measures. EBITDA represents net loss before income taxes, interest expense and depreciation and amortization. Adjusted EBITDA represents EBITDA adjusted to exclude impairment and other lease charges, acquisition costs, stock-based compensation expense, restaurant pre-opening costs, executive transition, non-recurring litigation and other professional expenses, loss on extinguishment of debt and\nother income, net. Adjusted Restaurant-Level EBITDA represents loss from operations as adjusted to exclude general and administrative expenses, depreciation and amortization, impairment and other lease charges, restaurant pre-opening costs and other income, net. Adjusted Net Loss represents net loss as adjusted, net of tax, to exclude impairment and other lease charges, acquisition costs, restaurant pre-opening costs, executive transition, non-recurring litigation and other professional expenses, other income, net, loss on extinguishment of debt and the valuation charge on our deferred tax assets.\n•We are presenting Adjusted EBITDA, Adjusted Restaurant-Level EBITDA and Adjusted Net Loss because we believe that they provide a more meaningful comparison than EBITDA and net loss of our core business operating results, as well as with those of other similar companies. We present Adjusted Restaurant-Level EBITDA as a measure of restaurant-level profitability excluding the impact of restaurant pre-opening costs, other income, net, and the impact of general and administrative expenses such as salaries and expenses associated with corporate and administrative functions that support the development and operations of our restaurants, legal, auditing and other professional fees. Although these costs are not directly related to restaurant-level operations, these costs are necessary for the profitability of our restaurants.\nManagement believes that Adjusted EBITDA, Adjusted Restaurant-Level EBITDA, and Adjusted Net Loss, when viewed with our results of operations in accordance with U.S. GAAP and the accompanying reconciliations on page 45, provide useful information about operating performance and period-over-period growth, and provide additional information that is useful for evaluating the operating performance of our core business without regard to potential distortions. Additionally, management believes that Adjusted EBITDA and Adjusted Restaurant-Level EBITDA permit investors to gain an understanding of the factors and trends affecting our ongoing cash earnings, from which capital investments are made and debt is serviced.\nHowever, EBITDA, Adjusted EBITDA, Adjusted Restaurant-Level EBITDA and Adjusted Net Loss are not measures of financial performance or liquidity under U.S. GAAP and, accordingly, should not be considered as alternatives to net loss, loss from operations or cash flow from operating activities as indicators of operating performance or liquidity. Also, these measures may not be comparable to similarly titled captions of other companies. For the reconciliation between Net Loss to EBITDA, Adjusted EBITDA and Adjusted Net Loss and the reconciliation of loss from operations to Adjusted Restaurant-Level EBITDA, see page 45.\nEBITDA, Adjusted EBITDA, Adjusted Restaurant-Level EBITDA and Adjusted Net Loss have important limitations as analytical tools. These limitations include the following:\n◦EBITDA, Adjusted EBITDA and Adjusted Restaurant-Level EBITDA do not reflect our capital expenditures, future requirements for capital expenditures or contractual commitments to purchase capital equipment.\n◦EBITDA, Adjusted EBITDA and Adjusted Restaurant-Level EBITDA do not reflect the interest expense or the cash requirements necessary to service principal or interest payments on our debt.\n◦Although depreciation and amortization are non-cash charges, the assets that we currently depreciate and amortize will likely have to be replaced in the future, and EBITDA, Adjusted EBITDA and Adjusted Restaurant-Level EBITDA do not reflect the cash required to fund such replacements.\n◦EBITDA, Adjusted EBITDA, Adjusted Restaurant-Level EBITDA and Adjusted Net Loss do not reflect the effect of earnings or charges resulting from matters that our management does not consider to be indicative of our ongoing operations. However, some of these charges (such as impairment and other lease charges, acquisition costs, valuation allowance for deferred taxes and litigation costs) have recurred and may reoccur.\n•Depreciation and amortization primarily includes the depreciation of fixed assets, including equipment, owned buildings and leasehold improvements utilized in our restaurants, the amortization of franchise rights from our restaurant acquisitions and the amortization of franchise fees paid to BKC and PLK.\n•Impairment and other lease charges include non-operating charges resulting from the following circumstances:\n◦For property and equipment and finite-lived intangible assets, a potential impairment charge is evaluated whenever events or changes in circumstances indicate that the carrying amounts of these assets may not be fully recoverable. If an indicator of impairment exists, an estimate of the aggregate undiscounted cash flows from the acquired restaurants is compared to the respective carrying value of franchise rights for each acquisition. If an asset is determined to be impaired, the loss is measured by the excess of the carrying amount of the asset over its fair value.\n◦For infinite lived intangible assets including goodwill, a potential impairment charge is evaluated whenever events or changes in circumstances indicate that the carrying amount may be impaired. Impairment charges are determined by a comparison of the carrying value of a reporting unit to its fair value.\n◦For restaurant closures prior to their lease or franchise end dates, lease charges are recorded for our obligations under the related leases and franchise agreements for closed locations that are not otherwise recoverable.\n•Interest expense consists of interest expense associated with our Term B and Term B-1 Loans under our Senior Credit Facilities, our 5.875% Senior Notes Due 2029 (the \"Notes\"), our revolving credit borrowings under our Senior Credit Facilities, finance lease liabilities, amortization of deferred financing costs, amortization of original issue discount, and payments and receipts made in connection with our interest rate swap arrangement.\nRecent and Future Events Affecting our Results of Operations\nCapital Expenditures\nDuring 2022, we completed the development for and opened six new Burger King restaurants and remodeled nine Burger King restaurants. In 2021, we opened four new Burger King restaurants and remodeled seven Burger King restaurants and one Popeyes restaurant. We expect that our capital expenditures in 2023 will remain at levels similar to our capital expenditures in 2022 and 2021. We continue to review on an ongoing basis our future development and remodel plans in relation to our available capital resources, supply chain availability and our return on investment.\nBKC's \"Reclaim the Flame\" Plan\nIn September 2022, BKC announced its \"Reclaim the Flame\" plan, which was developed in collaboration with its franchisees to accelerate sales growth and drive restaurant-level profitability. The plan includes Burger King investing $400 million through 2024, comprised of $150 million in advertising and digital investments to \"Fuel the Flame\" and $250 million for a \"Royal Reset\" involving investments in restaurant technology, kitchen equipment, building enhancements and high-quality remodels and relocations.\nIn the third quarter of 2022, we entered into an agreement with BKC in connection with their \"Reclaim the Flame\" investment plan. Pursuant to this initiative, BKC has agreed to fund $120 million in additional advertising expenditures over the period October 1, 2022 through December 31, 2024. Following the investment period in 2023 and 2024, participating franchisees, including us, have agreed to increase our advertising fund contributions by 50 basis points through 2026 if a profitability threshold for the Burger King system is met for the full fiscal year 2024, and further through 2028 if a secondary profitability threshold is met for the full fiscal year 2026.\nUnder BKC's \"Royal Reset\" program, BKC will make certain contributions towards franchisee remodel costs, which increase in value if BKC owns the property and/or if the franchisee agrees to pay a 1% higher royalty rate over the 20-year franchise term renewal. At this time, we do not expect participation in the \"Royal Reset\" program to materially impact our levels of capital expenditures. It may, however, allow us to complete more projects with the same level of capital expenditure.\nArea Development and Remodeling Agreement\nThe Company, Carrols Corporation, Carrols LLC, and BKC entered into an Amended Area Development Agreement on January 4, 2021 (the \"Amended ADA\"). Under the Amended ADA, Carrols LLC has agreed to open, build and operate a total of 50 new Burger King restaurants, 80% of which must be in Kentucky, Tennessee and Indiana. This includes four Burger King restaurants by September 30, 2021 (which were completed in 2021), 10 additional Burger King restaurants by September 30, 2022, 12 additional Burger King restaurants by September 30, 2023, 12 additional Burger King restaurants by September 30, 2024 and 12 additional Burger King restaurants by September 30, 2025. There is a 90-day cure period to meet the required restaurant development each development year. We are in ongoing discussions with BKC regarding our development plans, and do not believe that the penalties, if any, associated with not meeting these commitments will be material.\nIn addition, pursuant to the Amended ADA, BKC granted Carrols LLC franchise pre-approval to build new Burger King restaurants or acquire Burger King restaurants from Burger King franchisees with respect to 500 Burger King restaurants in the aggregate in (i) Kentucky, Tennessee and Indiana (excluding certain geographic areas in Indiana) and (ii) (a) 16 states, which include Arkansas, Indiana, Kentucky, Louisiana, Maine, Maryland, Michigan, Mississippi, North Carolina, Ohio, Pennsylvania, Rhode Island, South Carolina, Tennessee, Vermont and Virginia (subject to certain exceptions for certain limited geographic areas within certain states) and (b) any other geographic locations that Carrols LLC enters after the commencement date of the Amended ADA pursuant to BKC procedures subject to certain limitations.\nWe assumed a development agreement for Popeyes in connection with an acquisition of restaurants in 2019, which included an assignment by PLK of its right of first refusal under its franchise agreements with its franchisees for acquisitions in two southern states, as well as a development commitment to open, build and operate approximately 80 new Popeyes restaurants over six years. This development agreement with PLK was terminated on March 17, 2021, with certain covenants applicable to us surviving the termination. PLK reserved the right to charge us a $0.6 million fee if the parties to the termination agreement are not able to come to a mutually agreeable solution with respect to such fee within a six-month period. We have not recorded a liability for such amounts as the risk of loss is only considered reasonably possible at this time.\nRestaurant Acquisitions\nIn 2021, we acquired 19 restaurants in two separate transactions, which we refer to as the \"2021 acquired restaurants\" from other franchisees in the following transactions ($ in thousands):\n(1) The 2021 acquisitions included the purchase of 13 fee-owned restaurants, of which 12 were sold in sale-leaseback transactions during the third quarter of 2021 for net proceeds of approximately $20.2 million.\n(2) One of the fee-owned properties was closed at the end of 2021, and subsequently sold in the second quarter of 2022 for proceeds of $0.2 million.\nThe unaudited pro forma impact on the results of operations for the 2021 acquisitions is included below. The unaudited results of operations are not necessarily indicative of the results that would have occurred had the acquisitions been consummated at the beginning of the periods presented, nor are they necessarily indicative of any future consolidated operating results. This pro forma financial information does not give effect to any anticipated synergies, operating efficiencies or cost savings or any transaction costs related to the 2021 acquired restaurants. The following table summarizes certain pro forma financial information related to our operating results for the year ended January 2, 2022 (in thousands):\nIssuance of Notes and Amendments to our Senior Credit Facilities\nSenior Credit Facilities. On April 30, 2019, we entered into senior secured credit facilities in an aggregate principal amount of $550.0 million, consisting of (i) a term loan B facility in an aggregate principal amount of $425.0 million (the \"Term Loan B Facility\") maturing on April 30, 2026 and (ii) a revolving credit facility (including a sub-facility of $35.0 million for standby letters of credit) in an aggregate principal amount of $125.0 million maturing on April 30, 2024 (the \"Revolving Credit Facility\" and, together with the Term Loan B Facility, the \"Senior Credit Facilities\"). On December 15, 2022 we executed an amendment to our Senior Credit Facilities to transition from LIBOR to SOFR as the benchmark rate for purposes of calculating interest. No other changes were made to the Senior Credit Facilities. As of January 1, 2023 the Senior Credit Facilities, as amended, provide for an aggregate maximum commitment available for borrowings under the Revolving Credit Facility of $215.0 million and the Revolving Credit Facility matures on January 29, 2026.\nOur obligations under the Senior Credit Facilities are guaranteed by our subsidiaries and are secured by first priority liens on substantially all of our assets, including a pledge of all of the capital stock and equity interests of our subsidiaries.\nUnder the Senior Credit Facilities, we are required to make mandatory prepayments of borrowings in the event of dispositions of assets, debt issuances and insurance and condemnation proceeds (all subject to certain exceptions).\nThe Senior Credit Facilities contain certain covenants, including, without limitation, those limiting our and our subsidiaries' ability to, among other things, incur indebtedness, incur liens, sell or acquire assets or businesses, change the character of our business in all material respects, engage in transactions with related parties, make certain investments, make certain restricted payments or pay dividends.\nIn addition, the Senior Credit Facilities require us to meet a First Lien Leverage Ratio (as defined in the Senior Credit Facilities) under certain circumstances. We are only required to maintain a First Lien Leverage Ratio (as defined in the Senior Credit Facilities) of not greater than 5.75 to 1.00 (as measured on a most recent four quarter basis) if, and only if, on the last day of any fiscal quarter, the sum of the aggregate principal amount of outstanding revolving credit borrowings under the Revolving Credit Facility and the aggregate face amount of letters of credit issued under the Revolving Credit Facility (excluding undrawn letters of credit in an aggregate face amount up to $12.0 million) exceed 35% of the aggregate borrowing capacity under the Revolving Credit Facility.\nSenior Notes due 2029. On June 28, 2021, we issued $300.0 million principal amount of 5.875% Senior Notes due 2029 (the \"Notes\") in a private placement. The proceeds of the offering, together with $46.0 million of revolving credit borrowings under our Senior Credit Facilities, were used (i) to repay $74.4 million of outstanding term B-1 loans and $243.6 million of outstanding term B loans under our Senior Credit Facilities (which included scheduled principal payments), (ii) to pay fees and expenses related to the offering of the Notes and the Seventh Amendment and (iii) for working capital and general corporate purposes.\nCarrols Restaurant Group and certain of its subsidiaries (the \"Guarantors\") entered into the Indenture (the \"Indenture\") dated as of June 28, 2021 with the Bank of New York Mellon Trust Company governing the Notes. The Indenture provides that the Notes will mature on July 1, 2029 and will bear interest at the rate of 5.875% per annum, payable semi-annually on July 1 and January 1 of each year, beginning on January 1, 2022. The entire principal amount of the Notes will be due and payable in full on the maturity date. The Indenture further provides that we (i) may redeem some or all of the Notes at any time after July 1, 2024 at the redemption prices described therein, (ii) may redeem up to 40% of the Notes using the proceeds of certain equity offerings completed before July 1, 2024 and (iii) must offer to purchase the Notes if it sells certain of its assets or if specific kinds of changes in control occur, all as set forth in the Indenture. The Notes are senior unsecured obligations of Carrols Restaurant Group and are guaranteed on an unsecured basis by the Guarantors. The Indenture contains certain covenants that limit the ability of Carrols Restaurant Group and the Guarantors to, among other things: incur indebtedness or issue preferred stock; incur liens; pay dividends or make distributions in respect of capital stock or make certain other restricted payments or investments; sell assets; agree to payment restrictions affecting Restricted Subsidiaries (as defined in the Indenture); enter into transactions with affiliates; or merge, consolidate or sell substantially all of the assets. Such restrictions are subject to certain exceptions and qualifications all as set forth in the Indenture.\nAs of January 1, 2023, there were $12.5 million revolving credit borrowings outstanding and $9.6 million of letters of credit issued under the Revolving Credit Facility. After reserving for issued letters of credit and outstanding revolving credit borrowings, $192.9 million was available for revolving credit borrowings under the Revolving Credit Facility at January 1, 2023.\nInterest Rate Swap Agreement\nWe entered into a five year interest rate swap agreement commencing March 3, 2020 and ending February 28, 2025 with a notional amount of $220.0 million to swap variable rate interest payments under our Senior Credit Facilities for fixed interest payments bearing an interest rate of 0.915% plus the applicable margin in our Senior Credit Facilities. On November 12, 2021, we partially terminated this interest rate swap to reduce the notional amount hedged from $220.0 million to $120.0 million, and obtain the flexibility to repay borrowings under the Senior Credit Facilities which previously needed to be maintained at the hedged $220.0 million notional amount. The fixed rate and other terms of the swap arrangement remained unchanged as a result of the partial termination, which settled with net proceeds to us of $0.2 million. On December 15, 2022, we executed an amendment to the interest rate swap agreement to transition from LIBOR to SOFR as the benchmark rate for purposes of calculating interest, which also changed the fixed rate of interest from 0.915% plus the applicable margin to 0.847% plus the applicable margin. No other changes were made to the terms of the interest rate swap.\nStock Repurchase Program\nOn August 2, 2019, our Board of Directors approved a stock repurchase plan (the \"Repurchase Program\") under which we may repurchase up to $25 million of our outstanding common stock. The authorization became effective August 2, 2019, and on August 10, 2021, was extended through August 2, 2023. Purchases under the Repurchase Program may be made from time to time in open market transactions at prevailing market prices or in privately negotiated transactions (including, without limitation, the use of Rule 10b5-1 plans) in compliance with applicable federal securities laws, including Rule 10b-18 under the Securities Exchange Act of 1934, as amended.\nWe did not repurchase any shares in the year ended January 1, 2023. During the year ended January 3, 2021, we repurchased 1,534,304 shares in open market transactions of our common stock at an average share price of $6.52 for a total cost of $10.0 million under the Repurchase Program. As of January 1, 2023, $11.0 million was available to repurchase shares under the Repurchase Program. We have no obligation to repurchase additional shares of stock under the Repurchase Program, and the timing, actual number and value of shares purchased will depend on our stock price, trading volume, general market and economic conditions and other factors.\nRestaurant Closures\nWe evaluate the performance of our restaurants on an ongoing basis including an assessment of the current and future operating results of each restaurant in relation to its cash flow and future occupancy costs and, with\nregard to franchise agreement renewals, the cost of required capital improvements. We may elect to close restaurants based on these evaluations.\nIn 2022, we permanently closed ten Burger King restaurants. We currently anticipate between ten and fifteen restaurant closures in 2023, outside of any restaurants being relocated within their trade area.\nOur determination of whether to close restaurants in the future is subject to further evaluation and may change. We may incur lease charges in the future from closures of underperforming restaurants prior to the expiration of their contractual lease term. We do not believe that the future impact on our results of operations due to restaurant closures will be material, although there can be no assurance in this regard.\nEffect of Minimum Wage Increases\nA certain number of the states and municipalities in which we operate have increased their minimum wage rates for 2021 and in many cases have also approved additional increases for future periods. Most notably, New York State has increased the minimum wage applicable to our business to $15.00 an hour on July 1, 2021, from $14.50 an hour as of January 1, 2021, $13.75 an hour in 2020 and $12.75 per hour in 2019. New York State has a Youth Jobs Program which we have received tax credits from annually since 2016 that currently extends through 2027. We received $1.0 million from New York State related to these credits for 2021 and expect to receive approximately $0.7 million for 2022. We had 124 restaurants in New York State as of January 1, 2023. We also had one restaurant in Massachusetts that has annual minimum wage increases reaching $15.00 per hour in 2023, 10 restaurants in New Jersey that have annual minimum wage increases reaching $15.00 per hour in 2024, and 45 total restaurants in Illinois and Maryland that also have annual minimum wage increases reaching $15.00 per hour in 2025, all as of January 1, 2023.\nIn the current labor market we have seen competitive pressure on wage rates that have well outpaced statutory minimums as the re-opening of the economy has increased demand for labor at all levels in the workforce.\nWe typically attempt to offset the effects of wage inflation, at least in part, through periodic menu price increases. However, no assurance can be given that we will be able to offset these wage increases in the future.\nInflation Reduction Act\nThe Inflation Reduction Act of 2022 implements, among other things, a 15% minimum tax on book income of certain large corporations, a 1% excise tax on net stock repurchases and several tax incentives to promote clean energy. The alternative minimum tax and excise tax are effective in taxable years beginning after December 31, 2022. The alternative minimum tax would not be applicable in our next fiscal year since it is based on a three-year average annual adjusted financial statement income in excess of $1 billion. We will evaluate any impact related to the excise tax on net stock repurchases based on our relative activity.\nResults of Operations\nFiscal 2022 compared to Fiscal 2021\nThe following table highlights the key components of sales and the number of restaurants in operation for the years ended January 1, 2023 and January 2, 2022:\n(a) Restaurants we acquire are included in comparable restaurant sales after they have been operated by us for 12 months. Sales from restaurants that we develop are included in comparable restaurant sales after they have been open for 15 months. The calculation of changes in comparable restaurant sales is based on a comparison to the comparable 52-weeks prior.\n(b) There were no restaurant relocations during 2022. For the year ended January 2, 2022, one restaurant closure was relocated within its existing market.\nRestaurant Sales. Total restaurant sales in 2022 increased 4.7% to $1,730.4 million from $1,652.4 million in 2021. Comparable restaurant sales increased 4.0% in 2022, which reflected an increase in average check of 10.8% which was partially offset by a decrease in customer traffic of 6.1%. The change in average check included a 9.4% effective price increase compared to 2021 for our Burger King restaurants. Promotional sales discounts in 2022 were 15.8% of restaurant sales compared to 19.8% in 2021. Restaurant sales were also impacted by the six new Burger King restaurants built since the end of 2021 and the ten Burger King restaurants closed since the end of 2021.\nOperating Costs and Expenses (percentages stated as a percentage of total restaurant sales unless otherwise noted). The following table sets forth selected operating results for the years ended January 1, 2023 and January 2, 2022:\nFood, beverage and packaging costs increased as a percentage of restaurant sales to 30.9% in 2022 from 30.2% in 2021. Compared to last year, with its impact as a percentage of total restaurant sales, 2022 reflected increased commodity pricing at our Burger King restaurants (3.9%) and increased commodities pricing at our Popeyes restaurants (0.2%), which were partially offset by the favorable impact of menu price increases taken at our Burger King restaurants since the end of 2021 (2.7%) and lower promotional discounting in 2022 at our Burger King restaurants (1.1%).\nRestaurant wages and related expenses increased to 33.8% in 2022 from 33.3% in 2021. Since late in the second quarter of 2021, we have been impacted by competitive pressure on wage rates that has significantly outpaced statutory minimums as the re-opening of the economy has increased demand for labor at all levels of the workforce. The impact of base hourly labor rate increases in 2022, inclusive of minimum wage increases, was 9.3% when compared to the prior year period. This rate of increase has moderated over the course of our 2022 fiscal year, as we began lapping the inflationary period that began late in the second quarter of 2021.\nRestaurant rent expense decreased to 7.3% in 2022 from 7.4% in 2021 due to the impact of higher sales volumes on generally fixed rental costs.\nOther restaurant operating expenses increased to 15.9% in 2022 from 15.6% in 2021. In 2022, we saw higher spending on insurance (0.2%), utilities (0.1%), security (0.1%) and repair and maintenance (0.1%), which were offset in part by lower spending in other areas.\nAdvertising expense was 4.0% in both 2022 and 2021.\nAdjusted Restaurant-Level EBITDA. As a result of the factors above, Adjusted Restaurant-Level EBITDA decreased $15.1 million, or 9.6%, to $141.9 million in 2022 compared to $157.0 million in 2021, and, as a percentage of total revenue was 8.2% in 2022 and 9.5% in 2021. For a reconciliation between Adjusted Restaurant-Level EBITDA and loss from operations see page 45.\nGeneral and Administrative Expenses. General and administrative expenses increased to $88.1 million in 2022 from $83.7 million in 2021, and, as a percentage of total revenue, remained flat at 5.1%. The increase in total general and administrative expenses in 2022 was due to higher salaries and training labor ($2.3 million, including $0.5 million higher executive severance in 2022 than in 2021), higher conference and travel expenses ($1.6 million), higher professional fees ($1.4 million, including certain executive transition and placement costs) and higher performance bonus accruals ($0.4 million) which were partially offset by lower stock compensation expense ($1.3 million).\nAdjusted EBITDA. As a result of the factors above, Adjusted EBITDA decreased $19.1 million to $62.5 million in 2022 from $81.6 million in 2021. For a reconciliation between net loss and EBITDA and Adjusted EBITDA see page 45.\nDepreciation and Amortization. Depreciation and amortization expense decreased to $78.1 million in 2022 from $80.8 million in 2021.\nImpairment and Other Lease Charges. Impairment and other lease charges were $21.9 million in 2022 consisting of $16.7 million in goodwill impairment charges, $0.2 million in franchise rights impairment charges, initial impairment charges for 15 underperforming restaurants of $2.1 million, capital expenditures at previously impaired restaurants of $0.7 million, and other lease charges of $2.1 million primarily related to eight restaurants closed during 2022 of $1.7 million.\nWe recorded impairment and other lease charges of $4.5 million in 2021 consisting of $1.5 million related to initial impairment charges for nine underperforming restaurants, $0.5 million of capital expenditures at previously impaired restaurants, other lease charges of $0.6 million and $1.9 million related to impairment of certain owned non-operating properties.\nOther Income, net. Other income, net, was $0.9 million in 2022 and included loss on sale leaseback transactions of $0.4 million, a loss on disposal of assets of $1.2 million and a gain from a settlement with a vendor of $2.5 million. Other income, net, was $1.2 million in 2021 and included $1.1 million gain from the sale of a litigation claim during the period, a gain from insurance recoveries of $1.3 million related to property damage at two of the Company's restaurants and a loss on disposal of assets of $1.2 million.\nInterest Expense. Interest expense increased to $30.8 million in 2022 from $28.8 million in 2021. The weighted average interest rate on borrowings under our long-term debt increased to 5.3% in 2022 from 4.8% in 2021, due to the impact of the 5.875% interest rate on our new Notes issued in June of 2021 as well as higher variable rates on the unhedged portion of our Senior Credit Facilities. Variable rate increases on our Senior Credit Facilities have and will be offset by our interest rate swap which fixes the interest rate on $120.0 million of debt outstanding under our Senior Credit Facilities. Prior to November 12, 2021, the interest rate swap hedged a notional value of $220.0 million. As of January 1, 2023, after consideration of our interest rate swap, approximately 90% of our long-term debt (including current portion) was at a fixed rate.\nBenefit for Income Taxes. The benefit for income taxes during 2022 of $0.8 million was derived using an estimated effective annual income tax rate for all of 2022 of 29.4%, which excludes any discrete tax adjustments. The difference compared to the statutory rate for 2022 is attributable to various permanent non-deductible expenses and non-refundable business credits which are not directly related to the amount of pre-tax loss recorded in the period as well as the impact of increases to our valuation allowance on our deferred income tax assets of $21.1 million. There was $0.5 million in discrete tax benefits during 2022.\nIn 2021, we recorded income tax benefit of $5.2 million and our effective income tax rate was 32% prior to the impact of a tax valuation allowance charge. The difference to the federal statutory rate for 2021 of 21% is primarily due to the tax benefit of employment tax credits which are not directly related to the amount of pre-tax loss and the tax benefit of state income taxes. There was a charge in the period of $11.3 million to establish additional valuation allowance reserves against our deferred income tax assets for general business tax credits that may expire unused.\nNet Loss. As a result of the above, our net loss was $75.6 million in 2022, or $1.49 per diluted share, compared to net loss of $43.0 million in 2021, or $0.86 per diluted share.\nReconciliations of net loss to EBITDA, Adjusted EBITDA and Adjusted Net Loss and loss from operations to Adjusted Restaurant-Level EBITDA for the years ended January 1, 2023 and January 2, 2022 are as follows (in thousands):\n(1)Acquisition costs for twelve months ended January 2, 2022 mostly include integration, travel, legal and professional fees incurred in connection with restaurants acquired during the second quarter of 2021, which were included in general and administrative expenses.\n(2)Pre-opening costs for the twelve months ended January 1, 2023 and January 2, 2022 include training, labor and occupancy costs incurred during the construction of new restaurants.\n(3)Executive transition, litigation and other professional expenses for the twelve months ended January 1, 2023 and January 2, 2022 include executive recruiting and transition costs, costs pertaining to an ongoing lawsuit with one of the Company's former vendors and other non-recurring professional service expenses.\n(4)Other income, net for the twelve months ended January 1, 2023 included a loss on sale leaseback transactions of $0.4 million, a loss on disposal of assets of $1.2 million and a gain from a settlement with a vendor of $2.5 million.\n(5)Other income, net for the twelve months ended January 2, 2022 included $1.1 million gain from the sale of a litigation claim during the period, a gain from insurance recoveries of $1.3 million related to property damage at two of the Company's restaurants and a loss on disposal of assets of $1.2 million.\n(6)The income tax effect related to the adjustments to Adjusted Net Loss during the periods presented was calculated using an incremental income tax rate of 25.0% for the twelve months ended January 1, 2023 and January 2, 2022, respectively.\n(7)Reflects the removal of the income tax expense recorded in connection with an increase to our valuation allowance on deferred income tax assets during the years ended January 1, 2023 and January 2, 2022.\n(8)Adjusted diluted net loss per share is calculated based on Adjusted Net Loss and the diluted weighted average common shares outstanding for the respective periods, where applicable.\nLiquidity and Capital Resources\nAs is common in the restaurant industry, we maintain relatively low levels of accounts receivable and inventories and receive trade credit based upon negotiated terms for purchasing food products and other supplies. As a result, we may at times maintain current liabilities in excess of current assets, which results in a working capital deficit. We are able to operate with a substantial working capital deficit because:\n•restaurant operations are primarily conducted on a cash basis;\n•rapid turnover results in a limited investment in inventories; and\n•cash from sales is usually received before related liabilities for supplies and payroll become due.\nInterest payments under our debt obligations, capital expenditures (including for restaurant remodeling), payments of royalties and advertising to BKC and PLK, and payments related to our lease obligations represent significant liquidity requirements for us, not including any discretionary expenditures for the acquisition or development of additional Burger King and Popeyes restaurants.\nIf our future financing needs increase, we may need to arrange additional debt or equity financing. We continually evaluate and consider various financing alternatives to enhance or supplement our existing financial resources, including our Senior Credit Facilities. However, there can be no assurance that we will be able to enter into any such arrangements on acceptable terms or at all.\nWe believe our cash balances, cash generated from our operations and availability of revolving credit borrowings under our Senior Credit Facilities provide sufficient cash availability to cover our anticipated working capital needs, capital expenditures and debt service requirements for at least the next twelve months.\nOperating activities. Net cash provided from operating activities for the years ended January 1, 2023 and January 2, 2022 was $20.8 million and $70.9 million, respectively. Net cash provided by operating activities in 2022 decreased by $50.1 million compared to 2021 due primarily to a decrease of Adjusted EBITDA of $19.1 million and a decrease in cash provided by working capital components of $27.6 million. Working capital changes in 2022 included the repayment of $10.8 million of employer payroll taxes deferred in 2020 under the CARES Act as well as semi-annual interest payments on our Notes which commenced in 2022.\nNet cash provided from operating activities in 2021 decreased by $33.1 million compared to 2020 due primarily to a decrease in Adjusted EBITDA of $26.2 million and a change in working capital of $9.9 million, primarily related to favorable timing of required interest payments as well as 2020 including our deferral of the employer portion of social security taxes through the end of 2020 of $21.6 million (which did not recur in 2021).\nInvesting activities. Net cash used for investing activities for the years ended January 1, 2023 and January 2, 2022 was $37.2 million and $58.6 million, respectively. In 2021, we acquired 19 Burger King restaurants in two acquisitions for $30.8 million. This cost included the purchase of 13 fee-owned restaurants, of which 12 were sold in sale-leaseback transactions during 2021 for net proceeds of approximately $20.2 million and one that was closed and then sold in 2022 for proceeds of $0.2 million.\nCapital expenditures are a large component of our investing activities and include: (1) new restaurant development, which may include the purchase of real estate; (2) restaurant remodeling, which includes the renovation or rebuilding of the interior and exterior of our existing restaurants including expenses associated with our franchise agreement renewals and certain restaurants that we acquire; (3) other restaurant capital expenditures, which include capital maintenance expenditures for the ongoing reinvestment and enhancement of our restaurants, and from time to time, to support BKC's and PLK's initiatives; and (4) corporate and restaurant information systems, including expenditures for our point-of-sale software for restaurants that we acquire.\nThe following table sets forth our capital expenditures for the periods presented (dollar amounts in thousands):\nIn 2022, investing activities also included proceeds from the sale of other assets of $0.9 million. In 2021, investing activities also included proceeds from property insurance recoveries of $1.5 million as well as sale leasebacks of $22.3 million which includes $20.2 million related to the 2021 acquisitions as described above.\nFinancing activities. Net cash provided by financing activities in 2022 was $5.7 million and included $12.5 million net revolving credit borrowings under our Senior Credit Facilities, principal payments of $4.3 million of outstanding term B loans under our Senior Credit Facilities, and principal payments on finance leases of $2.6 million.\nNet cash provided by financing activities in 2021 was $48.1 million and included issuance of $300.0 million principal amount of the Notes, principal payments of $321.4 million of outstanding term B and B-1 loans under our Senior Credit Facilities, payment of a special dividend of $24.9 million, $5.4 million in financing costs paid in connection with the Notes issuance and amendments to our Senior Credit Facilities, and proceeds from lease financing obligations of $4.6 million. We also made principal payments on finance leases of $1.0 million.\nSenior Notes due 2029. On June 28, 2021, we issued $300.0 million principal amount of the Notes in a private placement as described above under \"-Recent and Future Events Affecting our Results of Operations-Issuance of Notes and Amendments to our Senior Credit Facilities\". The proceeds of the offering, together with $46.0 million of revolving credit borrowings under our Senior Credit Facilities, were used to (i) repay $74.4 million of outstanding term B-1 loans and $243.6 million of outstanding term B loans under our Senior Credit Facilities (which included scheduled principal payments), (ii) to pay fees and expenses related to the offering of the Notes and the Seventh Amendment and (iii) for working capital and general corporate purposes.\nSenior Credit Facilities. As described above under \"-Recent and Future Events Affecting Our Results of Operations-Issuance of Notes and Amendments to our Senior Credit Facilities\", we entered into the Senior Credit Facilities and subsequent amendments to the Senior Credit Facilities.\nOur obligations under the Senior Credit Facilities are guaranteed by our subsidiaries and are secured by first priority liens on substantially all of our assets, including a pledge of all of the capital stock and equity interests of our subsidiaries. Under the Senior Credit Facilities, we are required to make mandatory prepayments of borrowings following dispositions of assets, debt issuances and the receipt of insurance and condemnation proceeds (all subject to certain exceptions).\nThe Senior Credit Facilities contain certain covenants, including, without limitation, those limiting our and our subsidiaries' ability to, among other things, incur indebtedness, incur liens, sell or acquire assets or businesses, change the character of its business in any material respect, engage in transactions with related parties, make certain investments, make certain restricted payments or pay dividends. In addition, the Senior Credit Facilities require us to meet a First Lien Leverage Ratio (as defined in the Senior Credit Facilities) of not greater than 5.75 to 1.00 (as measured on a most recent four quarter basis) if, and only if, on the last day of any fiscal quarter, the sum of the aggregate principal amount of outstanding revolving credit borrowings under the Revolving Credit Facility and the aggregate face amount of letters of credit issued under the Revolving Credit Facility (excluding undrawn letters of credit in an aggregate face amount up to $12.0 million) exceed 35% of the aggregate borrowing capacity under the Revolving Credit Facility.\nThe Senior Credit Facilities contain customary default provisions, including that the lenders may terminate their obligation to advance and may declare the unpaid balance of borrowings, or any part thereof, immediately due and payable upon the occurrence and during the continuance of customary events of default which include, without\nlimitation, payment default, covenant default, bankruptcy default, cross-default on other indebtedness, judgment default and the occurrence of a change of control.\nAs of January 1, 2023, there were $12.5 million revolving credit borrowings outstanding and $9.6 million of letters of credit issued under the Revolving Credit Facility. After reserving for issued letters of credit and outstanding revolving credit borrowings, $192.9 million was available for revolving credit borrowings at January 1, 2023 under the Revolving Credit Facility.\nAs the $12.5 million borrowings under the Revolving Credit Facility (and only $9.6 million of letters of credit) at January 1, 2023 did not exceed 35% of our aggregate borrowing capacity, no First Lien Leverage Ratio calculation was required. However, if the Company had been subject to the First Lien Leverage Ratio, the Company's First Lien Leverage Ratio was 2.63x to 1.00 as of January 1, 2023 which was below the required First Lien Leverage Ratio of 5.75x to 1.00. As a result, we do not expect to have to reduce our term loan borrowings mandatorily with Excess Cash Flow (as defined in the Senior Credit Facilities). We were in compliance with the financial covenants under our Senior Credit Facilities at January 1, 2023.\nAt January 1, 2023, borrowings under our Senior Credit Facilities bore interest as follows:\n(i) Revolving Credit Facility: at a rate per annum equal to (a) the Alternate Base Rate (as defined in the Senior Credit Facilities) plus 2.25% or (b) Adjusted Term SOFR (as defined in the Senior Credit Facilities) plus 3.25%.\n(ii) Term loan B borrowings: at a rate per annum equal to (a) the Alternate Base Rate (as defined in the Senior Credit Facilities) plus 2.25% or (b) Adjusted Term SOFR (as defined in the Senior Credit Facilities) plus 3.25%.\nThe weighted average interest rate for borrowings on long-term debt balances was 5.3% and 4.8% the years ended January 1, 2023 and January 2, 2022, respectively.\nThe Term loan B borrowings are due and payable in quarterly installments, which began on September 30, 2019. Amounts outstanding at January 1, 2023 are due and payable as follows:\n(i) thirteen quarterly installments of $1.1 million;\n(ii) one final payment of $153.8 million on April 30, 2026.\nInterest Rate Swap. In March 2020, we entered into an interest rate swap agreement with certain of our lenders under the Senior Credit Facilities to mitigate the risk of increases in the variable interest rate related to term loan borrowings under the Term Loan B Facility. The interest rate swap fixed the interest rate on $220.0 million of outstanding borrowings under the Senior Credit Facilities at 0.915% plus the applicable margin in its Senior Credit Facilities. The agreement matures on February 28, 2025. On November 12, 2021, we partially terminated this interest rate swap to reduce the notional amount hedged from $220.0 million to $120.0 million and obtain flexibility to repay borrowings under the Senior Credit Facilities which previously needed to be maintained at the hedged $220.0 million notional amount. The fixed rate and other terms of the swap arrangement remained unchanged as a result of the partial termination, which settled with net proceeds to us of $0.2 million.\nOn December 15, 2022, the Company executed an amendment to its interest rate swap agreement to transition from LIBOR to SOFR as the benchmark rate for purposes of calculating interest, which also changed the fixed rate of interest from 0.915% plus the applicable margin to 0.847% plus the applicable margin. No other changes were made to the terms of the interest rate swap.\nThe differences between the variable and fixed rates are settled monthly. We received net payments of $1.0 million during the twelve months ended January 1, 2023 and made payments of $1.7 million to settle the interest rate swap during the twelve months ended January 2, 2022. The fair value of our interest rate swap agreement was an asset of $8.6 million as of January 1, 2023 which is included in other assets in the accompanying consolidated balance sheets. Changes in the valuation of our interest rate swap were included as a component of other comprehensive income, and will be reclassified to earnings as the gain or losses are realized. We expect to reclassify net gains totaling $4.7 million into earnings in the next twelve months.\nContractual Obligations\nThe following table summarizes our contractual obligations and commitments as of January 1, 2023 (in thousands):\n(1)Our long-term debt at January 1, 2023 included $167.6 million of term B loans under our Senior Credit Facilities and $300.0 million of Notes. Total interest payments on our Notes of $114.6 million for all years presented are included at the coupon rate of 5.875% per annum. Interest on our term B loans under our Senior Credit Facilities of $30.8 million for all years presented are included at a rate of 7.67% per annum for the variable portion and -3.47% for the $120 million subject to our interest rate swap. Interest on our Revolving Credit Facility of $3.2 million for all years presented are included at a rate of 7.67% per annum.\n(2)Includes total interest of $1.8 million for all years presented.\n(3)Includes total interest of $449.1 million for all years presented.\nWe have not included obligations under our postretirement medical benefit plans in the contractual obligations table as our postretirement plan is not required to be funded in advance, but is funded as retiree medical claims are paid. Also excluded from the contractual obligations table are payments we may make for workers' compensation, general liability and employee healthcare claims for which we pay all claims, subject to annual stop-loss limitations both for individual claims and claims in the aggregate. The majority of our recorded liabilities related to self-insured employee health and insurance plans represent estimated reserves for incurred claims that have yet to be filed or settled. The total of these liabilities was $12.3 million at January 1, 2023.\nFuture new restaurant development and restaurant remodeling obligations to BKC and PLK have also been excluded from the table above as well as contractual obligations related to royalties and advertising payable to BKC and PLK.\nLong-Term Debt Obligations. Refer to Note 9 of our consolidated financial statements for details of our long-term debt.\nLease Guarantees. Fiesta Restaurant Group, Inc. (\"Fiesta\"), our former wholly-owned subsidiary, was spun-off in 2012 to our stockholders. As of January 1, 2023, we are a guarantor under 17 Fiesta restaurant property leases from the time when Fiesta was its subsidiary, which have lease terms expiring on various dates through 2030. As of January 1, 2023, the guarantees include eight Fiesta restaurant property leases and nine Taco Cabana leases of which all but one Fiesta-owned restaurant is still operating. Eight of these guarantees are for leases with Pollo Operations, Inc., a wholly owned subsidiary of Fiesta, and nine of these guarantees are for leases with Texas Taco Cabana, L.P., an indirect subsidiary of Taco Cabana, Inc. (together with all direct and indirect subsidiaries, \"Taco\"). Taco was a wholly owned subsidiary of Fiesta until August 16, 2021 when Fiesta sold all of its outstanding capital stock of Taco Cabana, Inc. to YTC Enterprises, LLC, an affiliate of Yadav Enterprises, Inc. We are fully liable for all obligations under the terms of the leases in the event that a tenant fails to pay any sums due under the lease, subject to indemnification provisions of the separation and distribution agreement entered into in connection with the spin-off.\nThe maximum potential amount of future undiscounted rental payments we could be required to make under these leases at January 1, 2023 was $7.0 million. The obligations under these leases will generally continue to decrease over time as these operating leases expire, other than execution of option renewals that exist under the original lease. No payments have been made to date and none are expected to be required to be made in the future. We have not recorded a liability for those guarantees in accordance with ASC 460 - Guarantees as Fiesta has indemnified us for all such obligations and we did not believe it was probable we would be required to perform under any of the guarantees or direct obligations.\nOff-Balance Sheet Arrangements\nWe have no off-balance sheet arrangements.\nInflation\nThe inflationary factors that have historically affected our results of operations include increases in food and paper costs, labor and other operating expenses, the cost of providing medical and prescription drug insurance to our employees and energy costs. Wages paid in our restaurants are impacted by changes in the federal and state hourly minimum wage rates and the Fair Labor Standards Act. Accordingly, changes in the federal and state hourly minimum wage rates directly affect our labor costs.\nIn the current labor market, we have seen competitive pressure on wage rates that have significantly outpaced statutory minimums as the re-opening of the economy has increased demand for labor at all levels in the workforce. In 2021 and 2022, we have experienced inflationary cost pressures in labor and commodity costs as a result of challenges impacting our restaurants and our supply chains. The COVID-19 pandemic has increased the difficulty and cost of maintaining adequate staffing levels at our restaurants as well as for businesses in our supply chain that we depend on for commodities. At this point, there is limited visibility as to when these inflationary pressures may revert to normal levels.\nWe typically attempt to offset the effect of inflation, at least in part, through periodic menu price increases and various cost reduction programs. However, no assurance can be given that we will be able to offset such inflationary cost increases in the future.\nApplication of Critical Accounting Estimates\nOur consolidated financial statements are prepared in accordance with accounting principles generally accepted in the United States of America. Preparing consolidated financial statements requires us to make estimates and assumptions that affect the reported amounts of assets, liabilities, revenue and expenses. These estimates and assumptions are affected by the application of our accounting policies. Our significant accounting policies are described in the \"Significant Accounting Policies\" footnote in the notes to our consolidated financial statements. Critical accounting estimates are those that require application of management's most difficult, subjective or complex judgments, often as a result of matters that are inherently uncertain and may change in subsequent periods.\nSales recognition at our restaurants is straightforward as customers pay for products at the time of sale and inventory turns over very quickly. Payments to vendors for products sold in the restaurants are generally settled within 30 days. The earnings reporting process is covered by our system of internal controls and generally does not require significant management estimates and judgments. However, critical accounting estimates and judgments, as noted below, are inherent in the assessment and recording of the fair market values of acquired restaurant assets and liabilities, insurance liabilities, assessing impairment of long-lived assets, lease accounting matters and the valuation of deferred income tax assets. While we apply our judgment based on assumptions believed to be reasonable under the circumstances, actual results could vary from these assumptions. It is possible that materially different amounts would be reported using different assumptions.\nAcquisition Accounting. We account for business combinations under the acquisition method of accounting in accordance with ASC 805, \"Business Combinations\" (\"ASC 805\"). As required by ASC 805, assets acquired and liabilities assumed in a business combination are recorded at their respective fair values as of the business combination date. Our acquisition accounting methodology contains uncertainties because it requires us to make significant estimates and assumptions, and to apply judgment to estimate the fair value of assets acquired and liabilities assumed, especially with respect to those involving long-lived assets, such as property, equipment, favorable and unfavorable leases and intangible assets. We use available information to make these fair value determinations and, when necessary, engage an independent valuation specialist to assist in the fair value determination of favorable or unfavorable leases and intangible assets.\nIf actual results are materially different than the assumptions we used to determine the fair value of the assets acquired and liabilities assumed through an acquisition as well as the estimated useful lives of the acquired intangible assets, it is possible that adjustments will have a material impact on our financial position and results of\noperations. See Note 3 to our consolidated financial statements in this report for more information regarding our business acquisitions.\nInsurance Liabilities. The amount of liability we record for claims related to insurance requires us to make judgments about the amount of expenses that will ultimately be incurred. We are insured for certain losses related to workers' compensation, general liability and medical insurance claims under policies where we pay all claims, subject to annual stop-loss insurance limitations both for individual claims and claims in the aggregate. We record insurance liabilities based on historical trends, which are continually monitored, and adjust accruals as warranted by changing circumstances. Since there are estimates and assumptions inherent in recording these insurance liabilities, including the ability to estimate the future development of incurred claims based on historical claims experience and loss reserves, current claim data, and the severity of the claims, differences between actual future events and prior estimates and assumptions could result in adjustments to these liabilities. As of January 1, 2023, we had $12.3 million accrued for these insurance claims.\nFranchise Rights. We assess the potential impairment of franchise rights whenever events or changes in circumstances indicate that the carrying value may not be recoverable, which include closures of restaurants, change in restaurant-level cash flow, as well as consideration of the impact of a decline in the Company's market value. If an indicator of impairment exists, an estimate of the aggregate undiscounted cash flows from the acquired restaurants is compared to the respective carrying value of franchise rights for each acquisition. If an asset is determined to be impaired, the loss is measured by the excess of the carrying amount of the asset over its fair value. When measuring impairment of franchise rights, we make assumptions and apply judgment in estimating future cash flows, including annual revenue growth rates, labor rates, commodity costs and other operating cost assumptions.\nWe do not believe there is a reasonable likelihood that there will be a material change in the future estimates or assumptions we use to assess franchise right impairment losses. However, if actual results are not consistent with our estimates or assumptions, we may be exposed to an impairment charge that could materially adversely impact our consolidated financial position and results of operations.\nGoodwill. Goodwill represents the excess of purchase price over the value assigned to the net tangible and identifiable intangible assets of the businesses acquired. Goodwill is not amortized, but is tested for impairment annually, or more frequently when events and circumstances indicate that the carrying amount may be impaired. As part of our goodwill impairment analysis, we consider certain qualitative factors, such as performance, business forecasts and expansion plans. Using both the income approach and the market approach, we compare the fair value of each of our reporting units to carrying value. If the carrying amount of a reporting unit exceeds its estimated fair value, an impairment loss is recognized.\nWe determined a sustained decline in the Company's stock price due to the impact of sustained increases in input costs on our operating margins during the second quarter of 2022 resulted in an implied equity premium that was outside of an observable range and was a sufficient indicator to trigger an interim goodwill impairment analysis as of April 30, 2022. Based on the results of our goodwill impairment analysis, the fair value of the PLK reporting unit was less than the carrying value and a full write-down of the PLK goodwill was required. See Note 5 in our consolidated financial statements in this report for more information.\nWhen measuring impairment of goodwill using discounted cash flows, we make assumptions and apply judgment in estimating future cash flows and asset fair values, including annual revenue growth rates, a terminal year growth rate and selecting a discount rate that reflects the risk inherent in future cash flows. We do not believe there is a reasonable likelihood that there will be a material change in the future estimates or assumptions we use to assess goodwill impairment losses. However, if actual results are not consistent with our estimates or assumptions, we may be exposed to an impairment charge that could materially adversely impact our consolidated financial position and results of operations.\nImpairment of Long-lived Assets. We assess the potential impairment of long-lived assets, principally property and equipment, whenever events or changes in circumstances indicate that the carrying amount of an asset may not be recoverable. Impairment indicators at the restaurant level include low operating cash flows, declining sales, if the ratio of trailing twelve months cash flows extended over the remaining lease term does not exceed the net book value of the asset group and consideration of the impact of a decline in the Company's market value. We determine if the asset is recoverable by comparing the carrying amount of the asset to the future undiscounted cash flows\nexpected to be generated by our restaurants. If assets are determined to not be recoverable, the impairment charge is measured by calculating the amount by which the asset's carrying amount exceeds its fair value. In determining future cash flows, significant estimates are made by us with respect to future operating results of each restaurant over its remaining lease term, including sales trends, labor rates, commodity costs and other operating cost assumptions which can be impacted by changes in the business or economic conditions. Our fair value estimates are also subject to a high degree of judgment, including our ability to sell the related assets and changing market conditions. Should actual cash flows and our future estimates vary from those estimates used, we may be required to record impairment charges for these assets in the future.\nLease Accounting. In accordance with ASC 842, we determine if an arrangement is an operating lease or a finance lease at inception. Operating leases are included in operating lease right-of-use (\"ROU\") assets and current and long-term operating lease liabilities on our consolidated balance sheets. Finance leases are included in property and equipment and other current and long-term liabilities on our consolidated balance sheets. Lease liabilities are calculated using the effective interest method and recognized at the commencement date based on the present value of lease payments over the reasonably certain lease term, regardless of classification, while the amortization of ROU assets varies depending upon classification. As our leases generally do not provide an implicit rate, we use a collateralized incremental borrowing rate (\"IBR\") to determine the present value of lease payments. This analysis considers qualitative and quantitative factors. We adjust our selected IBR quarterly with a company-specific yield curve that approximates our market risk profile. The collateralized IBR is also based upon the estimated impact that the collateral has on the IBR.\nWhile we believe our estimates and judgments are reasonable, changes in these assumptions may have a material impact on our consolidated financial positions and results of operations.\nValuation of Deferred Income Tax Assets. Deferred tax assets and liabilities are measured using enacted tax rates expected to apply to the years in which those differences are expected to be recovered or settled. Deferred tax assets are recognized to the extent we believe these assets will more likely than not be realized. In evaluating the realizability of our net deferred tax assets, we perform an assessment of positive and negative evidence, as required by ASC 740. ASC 740 prescribes that objective historical evidence, in particular our three-year cumulative loss position at January 1, 2023, be given a greater weight than subjective evidence, including our forecast of future taxable income, which include assumptions that cannot be objectively verified. In determining the likelihood of future realization of the deferred income tax assets as of January 1, 2023 and January 2, 2022 we considered both positive and negative evidence and weighted the effect of such evidence based upon its objectivity. Based on the required weight of evidence under ASC 740, as of January 1, 2023 we determined that a valuation allowance was needed for certain income tax credits in the amount of $44.3 million as they may expire prior to their utilization. The amount of the deferred tax asset considered realizable, however, could be adjusted if estimates of future taxable income during the carryforward period are reduced or increased or if objective negative evidence in the form of cumulative losses is no longer present and additional weight may be given to subjective evidence such as projections for growth. We will continue to monitor and evaluate the positive and negative evidence considered in arriving at the above conclusion, in order to assess whether such conclusion remains appropriate in future periods.\nWe must also make estimates of certain items that relate to current and deferred tax liabilities. These estimates include employer tax credits for items such as the Work Opportunity Tax Credit, as well as estimates of tax depreciation based on methods anticipated to be used on our tax returns. These estimates are made based on the best available information at the time of the estimate and historical experience.\nAlthough we believe that the judgments and estimates discussed herein are reasonable, actual results could differ, and we may be exposed to losses or gains that could be material. To the extent actual results differ from estimated amounts recorded, such differences will impact the income tax provision in the period in which the determination is made."
+}

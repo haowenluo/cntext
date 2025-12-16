@@ -1,0 +1,663 @@
+{
+    "cik": "1596946",
+    "company": "Company_1596946",
+    "filing_type": "10-K",
+    "filing_date": "2020-01-01",
+    "period_of_report": "2020-12-31",
+    "sic": "Unknown",
+    "state_of_inc": "Unknown",
+    "state_location": "Unknown",
+    "fiscal_year_end": "1231",
+    "filing_html_index": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1596946",
+    "htm_filing_link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1596946",
+    "complete_text_filing_link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1596946",
+    "filename": "1596946_10K_2020_0001564590-20-029174.htm",
+    "special_items": [
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "arbitration"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "/p>\n<p style=\"margin-bottom:0pt;margin-top:0pt;text-indent:0%;font-family:Times New Roman;font-size:10pt;\"> </p>\n<p style=\"margin-bottom:0pt;margin-top:0pt;text-indent:0%;font-family:Times New Roman;font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">We are...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 29013912
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "0pt;text-indent:0%;font-family:Times New Roman;font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">We are currently involved in an arbitration dispute with Ortho regarding our termination of the Ortho Agreement. See Part I, Item 3. “Legal Proceedings.” In a...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 33994109
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "arbitration"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": ":0%;font-family:Times New Roman;font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">We are currently involved in an arbitration dispute with Ortho regarding our termination of the Ortho Agreement. See Part I, Item 3. “Legal Proceedings.” In addition, we may...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 49546659
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "arbitration"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": ":none;font-variant: normal;font-family:'Times New Roman';\"><font style=\"font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;font-family:'Times New Roman';\">•</font></p></td>\n<td valign=\"top\">\n<p style=\"margin-bottom:0pt;margin-top:6pt;font-weight:normal;font-...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 80777735
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "Litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "We may become involved in disputes relating to our intellectual property rights, and may need to resort to litigation in order to defend and enforce our intellectual property rights. </p>\n<p style=\"margin-bottom:0pt;margin-top:6pt;text-indent:0%;font-family:Times New Roman;font-size:10pt;font-weight...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 98946931
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "affect our industry or our products, or to a lesser extent our markets. In addition, more recently, the stock market has experienced significant price and volume fluctuations as a result of the COVID-19 pandemic. This volatility has had a significant impact on the market price of securities issued b...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 77041625
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "and claims involving healthcare items or services reimbursed by non-governmental third-party payors, including private insurers. </p>\n<p style=\"margin-bottom:0pt;margin-top:12pt;text-indent:0%;font-family:Times New Roman;font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-va...",
+            "amount_raw": "$5,500 ",
+            "amount_value": 5500.0,
+            "amount_scale": "dollars",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 47719720
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ant: normal;font-family:'Times New Roman';\"><font style=\"font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;font-family:'Times New Roman';\">•</font></p></td>\n<td valign=\"top\">\n<p style=\"margin-bottom:0pt;margin-top:6pt;font-weight:normal;font-style:normal;te...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 51840178
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "applications for our products. </p>\n<p style=\"margin-bottom:0pt;margin-top:12pt;text-indent:0%;font-family:Times New Roman;font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">Regardless of merit or outcome, our involvement in any litigation, interference or...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 61250344
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "argin-bottom:0pt;margin-top:0pt;text-indent:0%;font-family:Times New Roman;font-size:10pt;\"> </p>\n<p style=\"margin-bottom:0pt;margin-top:0pt;text-indent:0%;font-family:Times New Roman;font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">We are currently invo...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 36947826
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "argin-top:6pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;font-family:'Times New Roman';font-size:10pt;\"><font style=\"font-family:Times New Roman;\">increased legal and accounting compliance costs. </font></p></td></tr></table></div>\n<p style=\"margin-bottom:0pt;margi...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 31483953
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "as appointed Chief Financial Officer in February 2020 upon the resignation of Christopher Lindop from such position. From 2017 to 2019, Mr. Buhler served as Group Chief Financial Officer at Zaluvida Corporate AG, a life sciences company focused on obesity, antibiotic resistance and other global heal...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 37120034
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "arbitration"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ating to the collection, use, retention, security and transfer of personally identifiable information could result in regulatory or litigation-related actions against us, legal liability, fines, damages, ongoing audit requirements and other significant costs. </p>\n<p style=\"margin-bottom:0pt;margin-...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 71910843
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "e fail to timely cure, we might no longer have the right to produce or sell some or all of our products and we may be subject to other liabilities, which could have a material adverse effect on our business. </p>\n<p style=\"margin-bottom:0pt;margin-top:18pt;text-indent:0%;font-weight:bold;font-style:...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 30740710
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "arbitration"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "e of any current or future disputes, claims, arbitration and litigation could have a material adverse effect on our business, financial condition and results of operations. </p>\n<p style=\"margin-bottom:0pt;margin-top:0pt;text-indent:0%;font-family:Times New Roman;font-size:10pt;\"> </p>\n<p style=\"mar...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 23255500
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ed but not yet published. Certain of our competitors and other companies have substantial patent portfolios, and may attempt to use patent litigation as a means to obtain a competitive advantage or to extract licensing revenue. In addition to patent infringement claims, we may also be subject to oth...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 64426300
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "arbitration"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ed to development or commercialization activities. If any conflicts arise with our current or future collaborators, they may act in their self-interest, which may be adverse to our best interest, and they may breach their obligations to us. In addition, we have limited control over the amount and ti...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 70759798
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "Litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ent:0%;font-family:Times New Roman;font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">As is common our industry, we employ individuals who were previously employed at other companies in our industry or in related industries, including our competitors or po...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 1490256
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "font-weight:bold;font-style:italic;font-family:Times New Roman;font-size:10pt;text-transform:none;font-variant: normal;\">We may become involved in disputes relating to our intellectual property rights, and may need to resort to litigation in order to defend and enforce our intellectual property righ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 13116321
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "arbitration"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\"> by the FDA.  We also sell a range of whole blood control products, red blood cell products and ancillary products to Ortho worldwide, many of which have been launched over the past five years. </font></p>\n<p style=\"marg...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 34002664
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "Litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ghts. </p>\n<p style=\"margin-bottom:0pt;margin-top:6pt;text-indent:0%;font-family:Times New Roman;font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">Extensive litigation regarding patents and other intellectual property rights has been common in the medical...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 58879859
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "have or obtain patents or other intellectual property rights that could limit our ability to manufacture or commercialize MosaiQ, or may claim that our research, development and commercialization activities infringe patents or other intellectual property rights owned by them of which we may be unawa...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 51490730
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "igations related to development or commercialization activities. If any conflicts arise with our current or future collaborators, they may act in their self-interest, which may be adverse to our best interest, and they may breach their obligations to us. In addition, we have limited control over the...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 23656277
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "arbitration"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ir self-interest, which may be adverse to our best interest, and they may breach their obligations to us. In addition, we have limited control over the amount and timing of resources that our current collaborators or any future collaborators devote to our collaborators’ or our future products. Dispu...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 4787949
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "lection, use, retention, security and transfer of personally identifiable information could result in regulatory or litigation-related actions against us, legal liability, fines, damages, ongoing audit requirements and other significant costs. </p>\n<p style=\"margin-bottom:0pt;margin-top:18pt;text-in...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 7506444
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ncertainty as to their interpretation and application.We have made changes to, and continue to make enhancements of, our business practices to help attain compliance with these evolving and complex regulations. Any failure by us or our business partners to comply with U.S. federal or state or intern...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 56389665
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "arbitration"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ng developed for the patient testing market. We had previously contracted with Ortho to commercialize the MosaiQ IH Microarray in the patient testing market pursuant to a distribution and supply agreement, which we refer to as the Ortho Agreement. However, we terminated the Ortho Agreement, effectiv...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 90530252
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "nged third party trademarks. The risks of being involved in such litigation may also increase as we gain greater visibility as a public company and as we gain commercial acceptance of our products and move into new markets and applications for our products. </p>\n<p style=\"margin-bottom:0pt;margin-to...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 42639606
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "normal;\">As is common our industry, we employ individuals who were previously employed at other companies in our industry or in related industries, including our competitors or potential competitors. We may be subject to claims that these employees or we have inadvertently or otherwise used or discl...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 3817836
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "normal;font-style:normal;text-transform:none;font-variant: normal;font-family:'Times New Roman';\"><font style=\"font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;font-family:'Times New Roman';\">•</font></p></td>\n<td valign=\"top\">\n<p style=\"margin-bottom:0pt;...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 90917692
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "of the COVID-19 pandemic. This volatility has had a significant impact on the market price of securities issued by many companies across many industries.  In the past, securities class action litigation has often been initiated against companies following periods of volatility in their stock price. ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 39729800
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "arbitration"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "on of funding sources,  including with available cash and short-term investment balances, cash generated through sales of our COVID-19 Microarray, and the issuance of new equity or debt. Our ability to raise additional capital may be significantly affected by general market conditions, the market pr...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 90626058
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "or to assuming his current role in January 2020.  Mr. Larnach has over 25 years of financial experience gained through various roles in industry and public accounting. From 2004 to 2017, Mr. Larnach held a number of roles with Charles River Laboratories Inc., including European Controller (Preclinic...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 57960050
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "or will be, adequate. If we were to seek to pursue a claim that a third party had illegally obtained and was using our trade secrets, it would be expensive and time consuming, and the outcome would be unpredictable. Further, courts outside the United States may be less willing to protect trade secre...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 73336529
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ose companies. As we operate in a single industry, we are especially vulnerable to these factors to the extent that they affect our industry or our products, or to a lesser extent our markets. In addition, more recently, the stock market has experienced significant price and volume fluctuations as a...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 2914414
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ources,  including with available cash and short-term investment balances, cash generated through sales of our COVID-19 Microarray, and the issuance of new equity or debt. Our ability to raise additional capital may be significantly affected by general market conditions, the market price of our ordi...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 42510960
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "p. The costs of these proceedings could be substantial, and it is possible that such efforts would be unsuccessful, resulting in our inability to obtain or retain any U.S. patent rights with respect to such invention. </p>\n<p style=\"margin-bottom:0pt;margin-top:12pt;text-indent:0%;font-family:Times ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 40489469
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "patent rights with respect to such invention. </p>\n<p style=\"margin-bottom:0pt;margin-top:12pt;text-indent:0%;font-family:Times New Roman;font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">Some of our competitors may be better able to sustain the costs of ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 89739225
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "reakAEIOU10\"></a><font style=\"font-weight:bold;font-family:Times New Roman;font-size:10pt;font-style:normal;text-transform:none;font-variant: normal;\">Donor Testing </font></p>\n<p style=\"margin-top:6pt;margin-bottom:0pt;text-indent:0%;font-family:Times New Roman;font-size:10pt;font-weight:normal;fon...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 98049770
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "arbitration"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "rmal;font-style:normal;text-transform:none;font-variant: normal;font-family:'Times New Roman';\"><font style=\"font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;font-family:'Times New Roman';\">•</font></p></td>\n<td valign=\"top\">\n<p style=\"margin-bottom:0pt;ma...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 57476425
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "arbitration"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ur conventional reagents products are terminated, particularly our agreement with Ortho, or the scope of our OEM customer relationships is otherwise reduced, our product sales could decrease, and our results of operations may be negatively impacted. In particular, a change of control of any of our O...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 16259093
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "restructuring"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "usiness practices may not comply with current or future statutes, regulations or case law involving applicable fraud and abuse or other healthcare laws and regulations. If our operations are found to be in violation of any of these laws or any other governmental regulations that may apply to us, we ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 11990538
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "y:Times New Roman;font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">We employ a variety of proprietary and patented technologies and methods in connection with the products we sell or are developing, including MosaiQ. We license some of these technologies...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 21111058
+        }
+    ],
+    "item_7": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations\nYou should read the following discussion and analysis of our financial condition and results of operations in conjunction with the financial statements and the related notes to those statements included later in this Annual Report on Form 10-K. In addition to historical financial information, the following discussion contains forward-looking statements that reflect our plans, estimates, beliefs and expectations that involve risks and uncertainties. Our actual results and the timing of events could differ materially from those discussed in these forward-looking statements. Factors that could cause or contribute to these differences include those discussed below and elsewhere in this Annual Report, particularly in “Risk Factors.”\nOverview\nWe were incorporated in Jersey, Channel Islands on January 18, 2012. On February 16, 2012, we acquired the entire issued share capital of Alba Bioscience Limited (or Alba), Quotient Biodiagnostics, Inc. (or QBDI) and QBD (QS IP) Limited (or QSIP) from Quotient Biodiagnostics Group Limited (or QBDG), our predecessor.\nOur Business\nWe are a commercial-stage diagnostics company committed to reducing healthcare costs and improving patient care through the provision of innovative tests within established markets. Our initial focus is on blood grouping and donor disease screening, which is commonly referred to as transfusion diagnostics. Blood grouping involves specific procedures performed at donor or patient testing laboratories to characterize blood, which includes antigen typing and antibody detection. Disease screening involves the screening of donor blood for unwanted pathogens using two different methods, a serological approach (testing for specific antigens or antibodies) and a molecular approach (testing for DNA or RNA).\nWe have over 35 years of experience developing, manufacturing and commercializing conventional reagent products used for blood grouping within the global transfusion diagnostics market. We are developing MosaiQ, our proprietary technology platform, to better address the comprehensive needs of this large and established market. We believe MosaiQ has the potential to transform transfusion diagnostics, significantly reducing the cost of blood grouping in the donor and patient testing environments, while improving patient outcomes.\nWe currently operate as one business segment with over 415 employees in the United Kingdom, Switzerland and the United States as of March 31, 2020. Our principal markets are the United States, Europe and Japan. Based on the location of the customer, revenues outside the United States accounted for 45%, 49% and 48% of total revenue during the years ended March 31, 2020, 2019 and 2018, respectively.\nWe have incurred net losses and negative cash flows from operations in each year since we commenced operations in 2007. As of March 31, 2020, we had an accumulated deficit of $483.4 million. We expect our operating losses will continue for at least the next fiscal year as we continue our investment in the commercialization of MosaiQ. Our total revenue was $32.7 million for the year ended March 31, 2020, $29.1 million for the year ended March 31, 2019 and $24.7 million for the year ended March 31, 2018. Our net loss was $102.8 million for the year ended March 31, 2020, $105.4 million for the year ended March 31, 2019 and $82.3 million for the year ended March 31, 2018.\nFrom our incorporation in 2012 to March 31, 2019, we have raised $160.0 million of gross proceeds through the private placement of our ordinary and preference shares and warrants, $250.1 million of gross proceeds from public offerings of our shares and issuances of ordinary shares upon exercise of warrants and $120.0 million of gross proceeds from the issuance of 12% Senior Secured Notes, or the “Secured Notes”.\nOn May 15, 2019, we issued an additional $25.0 million aggregate principal amount of the Secured Notes. On May 15, 2019, we paid $1.5 million of the net proceeds of the issuance into the cash reserve account maintained with the collateral agent under the terms of the indenture governing the Secured Notes, which together with the $7.2 million paid into the cash reserve account in respect of previous issuances, brought the total in the cash reserve account to $8.7 million at December 31, 2019.\nOn November 12, 2019, we completed a public offering of 13,800,000 newly issued ordinary shares at a price of $7.00 per share, which raised $96.6 million of gross proceeds before underwriting discounts and other offering expenses.\nAs of March 31, 2020, we had available cash, cash equivalents and short-term investments of $120.8 million and $9.0 million of restricted cash held as part of the arrangements relating to our Secured Notes and the lease of our property in Eysins, Switzerland.\n- 47 -\nRegulatory and Commercial Milestones\nYou should read the following regulatory and commercial milestones update in conjunction with the discussion included under the sections “Item 1. Business” and “Item 1A. Risk Factors”.\n•\nInitial European Regulatory Approval - we filed for European regulatory approval for our initial MosaiQ IH Microarray in late September 2018 and were notified of its approval on April 30, 2019. We also filed for European regulatory approval of the initial MosaiQ SDS Microarray in June 2019 and were notified of its approval on February 14, 2020.\n•\nEuropean and U.S. Hypercare Launch - following the CE mark for our initial MosaiQ IH Microarray, we have commenced and completed hypercare testing with four selected customers.\n•\nOngoing Microarray Menu Development - our activities for the expansion of our IH and SDS, testing menus included the completion of the validation and verification, or “V&V”, concordance study for the expanded MosaiQ IH Microarray menu, which we announced in October 2019. The V&V study for the expanded MosaiQ SDS Microarray is planned for the third quarter of calendar year 2020.\n•\nField Trials - we commenced field trials for the expanded MosaiQ IH Microarray in Europe in the first quarter of calendar year 2020. These trials were suspended due to the COVID-19 pandemic in March 2020, but in May 2020 quarantine and containment measures and restrictions were eased in two of the three trial locations allowing the work to recommence. Further, these two trials have recommenced from the point at which they were suspended with no requirement to repeat any of the work already performed. The commencement of field trials in the United States for the expanded MosaiQ IH Microarray has also been postponed due to the COVID-19 pandemic. These trials will commence as soon as the circumstances permit, which we expect will be in the second half of calendar year 2020. We expect field trials for the expanded MosaiQ SDS Microarray to commence in the second half of calendar year 2020 in Europe, and in the first half of calendar year 2021 in the United States.\n•\nOngoing Regulatory Approval Process - we filed for U.S. regulatory approval for our initial MosaiQ SDS Microarray on December 23, 2019. Initial European regulatory submissions for our expanded MosaiQ IH Microarray are expected during the fourth quarter of calendar year 2020 with U.S. regulatory submissions following in the first half of calendar year 2021. European regulatory submission for the expanded MosaiQ SDS Microarray is expected in the second half of calendar year 2021.\nCOVID-19 Pandemic\nYou should read the following update regarding the COVID-19 pandemic in conjunction with the discussion included under the sections “Item 1. Business” and “Item 1A. Risk Factors”.\nOn March 11, 2020, the World Health Organization declared the novel strain of coronavirus (COVID-19) a global pandemic and recommended containment and mitigation measures worldwide. The governments of each of the major locations in which we operate, the United Kingdom, Switzerland and the United States, have implemented varying measures and restrictions to combat the COVID-19 pandemic.\nThese restrictions have directly impacted our on-going clinical trials for our expanded MosaiQ IH Microarray in Europe and the commencement of clinical trials for our expanded MosaiQ IH Microarray in the United States. All external work on these trials was suspended in March 2020 until such time as the existing restrictions in the relevant jurisdictions are removed or moderated. In May 2020, quarantine and containment measures and restrictions were eased in two of the three European trial locations allowing the work to recommence. These two trials have recommenced from the point at which they were suspended with no requirement to repeat any of the work already performed.\nIn addition, on April 6, 2020, we announced the completion of the development phase of the MosaiQ COVID-19 Microarray, in response to the COVID-19 pandemic. On April 27, 2020, we published the final performance data for the MosaiQ COVID-19 Microarray, achieving 100% sensitivity and 99.8% specificity, and on May 1, 2020 we annaounced the CE Mark for this Microarray. In addition, in May 2020, we submitted an application to the FDA for an Emergency Use Authorization (EUA) of the MosaiQ COVID-19 Microarray in the United States. Having completed the required notification and submitted the EUA within the required timeframe, our test is officially listed on the FDA webpages as a test that is now allowed to be distributed in the United States. We signed the first commercial contract for the sale of the MosaiQ COVID-19 Microarray in May, 2020 and we have subsequently entered into several additional contracts with customers in Europe and the United States.\n- 48 -\nTo date, the COVID-19 pandemic and the associated restrictions have not had a material adverse impact on our conventional reagent business. Customer demand has remained robust over the last two months and, to date, supply chain disruptions have been minimal. Our manufacturing operations in Edinburgh, Scotland have been adapted to meet social distancing requirements, and we continue to be able to meet our customer requirements. Nevertheless, we are continuing to closely monitor the performance of our conventional reagent business in light of the uncertainty created by the COVID-19 pandemic.\nThe extent to which the COVID-19 pandemic will impact our business, operations and financial results will depend on future developments and numerous evolving factors, which are highly uncertain and difficult to predict. See Item 1A. Risk Factors - \"We face risks related to health pandemics, epidemics and outbreaks, including the outbreak of the current COVID-19 pandemic, which could significantly disrupt our operations and could have a material adverse impact on us.\"\nRevenue\nWe generate product sales revenue from the sale of conventional reagent products directly to hospitals, donor collection agencies and independent testing laboratories in the United States, the United Kingdom and to distributors in Europe and the rest of the world, and indirectly through sales to our OEM customers. We recognize revenues in the form of product sales when the goods are shipped. Products sold by standing purchase orders as a percentage of product sales revenue were 70%, 68% and 75% for the years ended March 31, 2020, 2019 and 2018, respectively. We also provide product development services to our OEM customers. We recognize revenue from these contractual relationships in the form of product development fees, which are included in Other revenues. In addition, as a result of the CE Marking of the MosaiQ COVID-19 Microarray, we expect to generate product sales revenue from this product in Europe during the fiscal year ended March 31, 2021. For a description of our revenue recognition policies, see “-Critical Accounting Policies and Significant Judgments and Estimates-Revenue Recognition and Accounts Receivable.” In the year ended March 31, 2018, other revenues also included the sale of two MosaiQ instruments to a development partner.\nOur revenue is denominated in multiple currencies. Sales in the United States and to certain of our OEM customers are denominated in U.S. Dollars. Sales in Europe and the rest of the world are denominated primarily in U.S. Dollars, Pounds Sterling or Euros. Our expenses are generally denominated in the currencies in which our operations are located, which are primarily in the United Kingdom, Switzerland and the United States. We operate globally and therefore changes in foreign currency exchange rates may become material to us in the future due to factors beyond our control. See “-Quantitative and Qualitative Disclosure About Market Risk-Foreign Currency Exchange Risk.”\nCost of revenue and operating expenses\nCost of revenue consists of direct labor expenses, including employee benefits, overhead expenses, material costs and freight costs, along with the depreciation of manufacturing equipment and leasehold improvements. Our gross profit represents total revenue less the cost of revenue, gross margin represents gross profit expressed as a percentage of total revenue, and gross margin on product sales represents gross margin excluding other revenues as a percentage of revenues excluding other revenues. We expect our overall cost of revenue to increase in absolute U.S. Dollars as we continue to increase our product sales volumes. However, we also believe that we can achieve efficiencies in our manufacturing operations, primarily through increasing production volumes.\nOur sales and marketing expenses include costs associated with our sales organization for conventional reagent products, including our direct sales force, as well as our marketing and customer service personnel, and the costs of the MosaiQ commercial team. These expenses consist principally of salaries, commissions, bonuses and employee benefits, as well as travel and other costs related to our sales and product marketing activities. We expense all sales and marketing costs as incurred. We expect sales and marketing expense to increase in absolute U.S. Dollars, primarily as a result of commissions on increased product sales in the United States and as we grow the MosaiQ commercial team.\nOur research and development expenses include costs associated with performing research, development, field trials and our regulatory activities, as well as production costs incurred in advance of the commercial launch of MosaiQ. Research and development expenses include research personnel-related expenses, fees for contractual and consulting services, travel costs, laboratory supplies and depreciation of laboratory equipment.\n- 49 -\nWe expense all research and development costs as incurred, net of government grants received and tax credits. Our UK subsidiary claims certain tax credits on its research and development expenditures and these are included as an offset to our research and development expenses. Our research and development efforts are focused on developing new products and technologies for the global transfusion diagnostics market. We segregate research and development expenses for the MosaiQ project from expenses for other research and development projects. We do not maintain detailed records of these other costs by activity. We are nearing completion of the initial development of MosaiQ and expect our costs associated with field trials and regulatory approvals will increase at the same time as our development costs decrease. As we move to commercialization of MosaiQ in the donor testing market, we expect our overall research and development expense to decrease.\nOur general and administrative expenses include costs for our executive, accounting and finance, legal, corporate development, information technology and human resources functions. We expense all general and administrative expenses as incurred. These expenses consist principally of salaries, bonuses and employee benefits for the personnel performing these functions, including travel costs. These expenses also include share-based compensation, professional service fees (such as audit, tax and legal fees), costs related to our Board of Directors, and general corporate overhead costs, which include depreciation and amortization. We expect our general and administrative expenses to increase as our business develops and also due to the costs of operating as a public company, such as additional legal, accounting and corporate governance expenses, including expenses related to compliance with the Sarbanes-Oxley Act, directors’ and officers’ insurance premiums and investor relations expenses.\nNet interest expense consists primarily of interest charges on our Secured Notes and the amortization of debt issuance costs (which includes amortization of the one-time consent payment of $3.9 million paid to holders of our Secured Notes in December 2018), as well as accrued dividends on the 7% cumulative redeemable preference shares issued in January 2015. We amortize debt issuance costs over the life of the note and report them as interest expense in our statements of operations. Net interest also includes the expected costs of the royalty rights agreements we entered into in October 2016, June 2018, December 2018 and May 2019 with the purchasers or holders of the Secured Notes, as applicable. See Note 3 “Debt” and Note 8 “Ordinary and Preference Shares - Preference shares” to our consolidated financial statements included in this Annual Report for additional information.\nOther income (expense), net consists primarily of exchange fluctuations. These include realized exchange fluctuations resulting from the settlement of transactions in currencies other than the functional currencies of our businesses. Monetary assets and liabilities that are denominated in foreign currencies are measured at the period-end closing rate with resulting unrealized exchange fluctuations. The functional currencies of our business are Pounds Sterling, Swiss Franc and U.S. Dollars depending on the entity. Other income (expense) also includes exceptional costs related to deferred debt issue costs expensed on the repayment of debt facilities and certain other non-recurring items as mentioned below under “-Results of Operations- Comparison of Years ended March 31, 2020 and 2019- Other income (expense)” and “-Results of Operations- Comparison of Years ended March 31, 2019 and 2018- Other income (expense).”\nProvision for income taxes in the years ended March 31, 2020 and March 31, 2019 reflected a reduction in the net operating losses available to be carried forward in a subsidiary as a result of the offset of historic tax losses against the profits of this subsidiary and adjustments for uncertain tax positions. Provision for income taxes in the year ended March 31, 2018 reflected a reduction in the valuation allowance against deferred tax assets in a subsidiary as a result of an improvement in the profitability of this subsidiary.\n- 50 -\nResults of Operations\nComparison of Years ended March 31, 2020 and 2019\nThe following table sets forth, for the periods indicated, the amounts of certain components of our statements of operations and the percentage of total revenue represented by these items, showing period-to-period changes.\nRevenue\nProduct sales revenue increased by 10% to $31.6 million for the year ended March 31, 2020, compared with $28.7 million for the year ended March 31, 2019. The increase in product sales revenue was primarily attributable to incremental direct sales of conventional reagent products to customers in the United States and product sales to OEM customers. Products sold by standing purchase order were 70% of product sales for the year ended March 31, 2020, compared with 68% for the year ended March 31, 2019. Total revenue for the year ended March 31, 2020 increased by 12% to $32.7 million compared with $29.1 million in the year ended March 31, 2019, and included other revenues of $1.1 million and $0.5 million, respectively.\nThe below table sets forth revenue by product group:\nOEM Sales. Product sales to OEM customers increased 5% to $21.2 million for the year ended March 31, 2020, compared with $20.3 million for the year ended March 31, 2019. The increase was due to increased sales to existing customers and the impact of recently launched new products.\nDirect Sales to Customers and Distributors. Direct product sales increased 24% to $10.4 million for the year ended March 31, 2020 compared with $8.4 million for the year ended March 31, 2019. This mainly consisted of direct sales in the United States which\n- 51 -\nincreased to $9.5 million in the year ended March 31, 2020 compared with $7.7 million in the year ended March 31, 2019 as a result of recent product launches and the expansion of our customer base.\nOther Revenues. Other revenues of $1.1 million for the year ended March 31, 2020 and $0.5 million for the year ended March 31, 2019 mainly consisted of product development fees. The product development fees in both years arose as the result of the achievement of product development milestones under the terms of our umbrella supply agreement with Ortho. See Note 1 \"Summary of Significant Accounting Policies - Revenue Recognition\" to our consolidated financial statements included in this Annual Report for additional information.\nCost of revenue and gross margin\nCost of revenue increased by 3% to $17.8 million for the year ended March 31, 2020, compared with $17.2 million for the year ended March 31, 2019. The increase in cost of revenue partially reflected incremental costs associated with greater sales volumes. In addition, in the year ended March 31, 2019, we were in the process of moving our conventional reagents manufacturing operations to our new ARC facility in Edinburgh, Scotland from our other Edinburgh manufacturing facility and we incurred additional expenditure of $1.5 million as a result of operating two facilities. We completed the relocation at the start of calendar year 2019 and we no longer bear any costs related to our previous facility in Edinburgh.\nGross profit on total revenue in the year ended March 31, 2020 was $14.9 million, an increase of 25% when compared with $11.9 million for the year ended March 31, 2019. This increase was attributable to the increase in gross margin on product sales described below and a $0.6 million increase in other revenues to $1.1 million in the year ended March 31, 2020 as compared with $0.5 million of other revenues in the year ended March 31, 2019 (the associated cost of which was included in research and development expenses).\nGross profit on product sales, which excludes other revenues, was $13.8 million for the year ended March 31, 2020 compared with $11.4 million for the year ended March 31, 2019. This increase was due to the gross profit on increased sales to existing OEM customers and the impact of recently launched new products. In addition, as described above, in the year ended March 31, 2019, we were in the process of moving our conventional reagents manufacturing operations to our new ARC facility in Edinburgh, Scotland and we incurred additional expenditure of $1.5 million as a result of operating two facilities. Gross margin on product sales, which excludes other revenues, was 44% for the year ended March 31, 2020 compared with 40% for the year ended March 31, 2019.\nSales and marketing expenses\nSales and marketing expense increased by 14% to $9.9 million for the year ended March 31, 2020, compared with $8.6 million for the year ended March 31, 2019. The growth in sales and marketing expenses in the year ended March 31, 2020 was mainly attributable to greater personnel and other expenses related to the planned commercial launch of MosaiQ.\nResearch and development expenses\n- 52 -\nResearch and development expenses increased by 6% or $3.1 million to $53.7 million for the year ended March 31, 2020, compared with $50.7 million for the year ended March 31, 2019. Our research and development expenses included an expense of $1.0 million in the year ended March 31, 2020 and an expense of $0.5 million in the year ended March 31, 2019 related to the costs of our intellectual property license with TTP for MosaiQ. Activities associated with completed and on-going field trials increased research and development expenses by $0.8 million in the year ended March 31, 2020. Termination benefit costs of $0.7 million were also included in the year ended March 31, 2020. There were no termination benefit costs in the year ended March 31, 2019. The remainder of the year on year increase in research and development expenses related to higher expenditure with development partners.\nGeneral and administrative expenses\nGeneral and administrative expenses increased 1% to $32.0 million for the year ended March 31, 2020, compared with $31.5 million for the year ended March 31, 2019. Our general and administrative expenses included termination and transition benefit costs of $1.3 million in the year ended March 31, 2020. We also incurred additional legal and advisory expenses in the year ended March 31, 2020 compared to the year ended March 31, 2019 related to our dispute with Ortho and the termination of the Ortho Agreement, as well as incremental costs associated with operating as a public company. In the year ended March 31, 2019, we incurred approximately $1.6 million of costs associated with the relocation of our conventional reagents manufacturing operations to our new ARC facility, which did not recur in the year ended March 31, 2020. We recognized $4.5 million of stock compensation expense in the year ended March 31, 2020 compared with $5.0 million in the year ended March 31, 2019. Stock compensation expense is recognized over the expected vesting period of incentive awards. As a percentage of total revenue, general and administrative expenses decreased to 99% for the year ended March 31, 2020, compared with 107% for the year ended March 31, 2019.\nOther income (expense)\nNet interest expense was $23.9 million for the year ended March 31, 2020, compared with $20.0 million for the year ended March 31, 2019. Interest expense in the year ended March 31, 2020 included $17.1 million of interest charges on our Secured Notes compared with $13.3 million in the year ended March 31, 2019. The increase was due to the additional issuance of $25 million of Secured Notes on May 15, 2019. Interest expense in the years ended March 31, 2020 and March 31, 2019 included amortization of deferred debt issue costs of $7.0 million and $5.9 million, respectively, which included, in the year ended March 31, 2020, amortization of the expected costs of the royalty rights agreements entered into in October 2016, June 2018, December 2018 and May 2019 in connection with the issuances of the Secured Notes and the amendment of the indenture relating to the Secured Notes and, in the year ended March 31, 2019, amortization of the expected costs of the royalty rights agreements entered into in October 2016, June 2018 and December 2018 in connection with the issuance of the Secured Notes and the amendment of the indenture relating to the Secured Notes. The additional royalty rights agreements entered into in May 2019 increased in aggregate the amount of royalties payable pursuant to royalty rights agreements from 3% to 3.4% of net sales of MosaiQ instruments and consumables made in the donor testing market in the United States and the European Union. In each of the years ended March 31, 2020 and March 31, 2019, net interest expense also included $1.1 million of accrued dividends on the 7% cumulative redeemable preference shares issued in January 2015. In addition, in the year ended March 31, 2020 we earned interest income of $1.3 million on our money market deposits as compared with $0.3 million in the year ended March 31, 2019.\nOther income for the year ended March 31, 2020 included $2.4 million of foreign exchange gains arising on monetary assets and liabilities denominated in foreign currencies. Other expense for the year ended March 31, 2019 included $5.4 million of foreign exchange losses arising on monetary assets and liabilities denominated in foreign currencies and $1.0 million of fees related to the amendment of the indenture relating to the Secured Notes in December 2018.\nProvision for income taxes\nProvision for income taxes in the year ended March 31, 2020 reflects both adjustments to net operating losses carried forward and current tax accruals in a subsidiary as a result of an uncertain tax position. Provision for income taxes in the year ended March 31, 2019 reflected a reduction in the net operating losses available to be carried forward in a subsidiary as a result of the offset of historic tax losses against the profits of this subsidiary.\n- 53 -\nResults of Operations\nComparison of Years ended March 31, 2019 and 2018\nThe following table sets forth, for the periods indicated, the amounts of certain components of our statements of operations and the percentage of total revenue represented by these items, showing period-to-period changes.\nRevenue\nProduct sales revenue increased by 20% to $28.7 million for the year ended March 31, 2019, compared with $23.9 million for the year ended March 31, 2018. The increase in product sales was primarily attributable to growth in product sales to OEM customers and incremental direct sales of conventional reagent products to customers in the United States. Products sold by standing purchase order were 68% of product sales for the year ended March 31, 2019, compared with 75% for the year ended March 31, 2018. Total revenue for the year ended March 31, 2019 increased by 18% to $29.1 million compared with $24.7 million in the year ended March 31, 2018, and included other revenues of $0.5 million and $0.8 million, respectively.\nThe below table sets forth revenue by product group:\nOEM Sales. Product sales to OEM customers increased 20% to $20.3 million for the year ended March 31, 2019, compared with $16.9 million for the year ended March 31, 2018. The increase was due to increased sales to existing customers and the impact of recently launched new products.\n- 54 -\nDirect Sales to Customers and Distributors. Direct product sales increased 19% to $8.4 million for the year ended March 31, 2019 compared with $7.0 million for the year ended March 31, 2018. This mainly consisted of direct sales in the United States which increased to $7.7 million in the year ended March 31, 2019 compared with $5.9 million in the year ended March 31, 2018 as a result of recent product launches and the expansion of our customer base.\nOther Revenues. Other revenues of $0.5 million for the year ended March 31, 2019 mainly consisted of product development fees. Other revenues of $0.8 million in the year ended March 31, 2018 consisted of $0.6 million of product development fees and $0.2 million of sales of MosaiQ instruments and related products to a development partner. The product development fees in both years arose as the result of the achievement of product development milestones under the terms of our umbrella supply agreement with Ortho. See Note 1 \"Summary of Significant Accounting Policies - Revenue Recognition\" to our consolidated financial statements included in this Annual Report for additional information. In the year ended March 31, 2018, the cost of the instruments sold to our development partner was included in research and development expenses.\nCost of revenue and gross margin\nCost of revenue increased by 65% to $17.2 million for the year ended March 31, 2019, compared with $10.5 million for the year ended March 31, 2018. The increase in cost of revenue partially reflected incremental costs associated with greater sales volumes. In addition, in the year ended March 31, 2019, we were in the process of moving our conventional reagents manufacturing operations to the ARC facility, our new facility in Edinburgh, Scotland, the construction of which was completed early in 2018, from our other Edinburgh manufacturing facility. In the year ended March 31, 2019, we incurred additional costs of operating our new ARC facility as well as our previous facility amounting to approximately $3.8 million, $1.6 million of which were non-cash expenses, as compared with the single facility that existed in the year ended March 31, 2018. We vacated our previous Edinburgh facility in January 2019.\nGross profit on total revenue in the year ended March 31, 2019 was $11.9 million, a decrease of 17% when compared with $14.3 million in the year ended March 31, 2018. This decrease was attributable to the decrease in gross margin on product sales described below and a decrease of $0.3 million in other revenues to $0.5 million in the year ended March 31, 2019 as compared with $0.8 million of other revenues in the year ended March 31, 2018 (the associated cost of which was included in research and development expenses).\nGross profit on product sales, which excludes other revenues, was $11.4 million for the year ended March 31, 2019 compared with $13.4 million for the year ended March 31, 2018. This decrease was due to the additional costs of approximately $3.8 million, $1.6 million of which were non-cash expenses, of operating two conventional reagent manufacturing facilities in the year ended March 31, 2019 as compared with the single facility that existed in the year ended March 31, 2018, partially offset by the effect of increased sales to existing customers and the impact of recently launched new products. Gross margin on product sales, which excludes other revenues, was 40% for the year ended March 31, 2019 compared with 56% for the year ended March 31, 2018.\nSales and marketing expenses\nSales and marketing expense increased by 18% to $8.6 million for the year ended March 31, 2019, compared with $7.3 million for the year ended March 31, 2018. The growth in sales and marketing expenses in the year ended March 31, 2019 was mainly attributable to expansion of the MosaiQ commercial team.\nResearch and development expenses\n- 55 -\nResearch and development expenses decreased by $0.5 million to $50.7 million for the year ended March 31, 2019, compared with $51.2 million for the year ended March 31, 2018. The decrease in costs mainly reflected reduced expenditure with our development partners as the initial development of MosaiQ nears completion. Research and development expenses for the year ended March 31, 2019 included a $0.5 million expense related to the cost of our intellectual property license with TTP for MosaiQ. There was no equivalent TTP license expense in the year ended March 31, 2018.\nGeneral and administrative expenses\nGeneral and administrative expenses increased 23% to $31.5 million for the year ended March 31, 2019, compared with $25.7 million for the year ended March 31, 2018, reflecting greater personnel-related costs as a result of our preparations for the commercialization of MosaiQ, increased advisory fees and costs of $1.6 million associated with the relocation to our ARC facility. We recognized $5.0 million of stock compensation expense in the year ended March 31, 2019 compared with $4.2 million in the year ended March 31, 2018. Stock compensation expense is recognized over the expected vesting period of incentive awards. As a percentage of total revenue, general and administrative expenses increased to 107% for the year ended March 31, 2019, compared with 104% for the year ended March 31, 2018.\nOther income (expense)\nNet interest expense was $20.0 million for the year ended March 31, 2019, compared with $15.4 million for the year ended March 31, 2018. Interest expense in the year ended March 31, 2019 included $13.3 million of interest charges on our Secured Notes compared with $10.1 million in the year ended March 31, 2018. The increase was due to the additional issuance of $36 million of Secured Notes on June 29, 2018 Interest expense in the years ended March 31, 2019 and March 31, 2018 included amortization of deferred debt issue costs of $5.9 million and $4.4 million, respectively, which included, in the year ended March 31, 2019, amortization of the expected costs of the royalty rights agreements entered into in October 2016, June 2018 and December 2018 in connection with the issuances of the Secured Notes and the amendment of the indenture relating to the Secured Notes and, in the year ended March 31, 2018, amortization of the expected costs of the royalty rights agreements entered into in October 2016 in connection with the issuance of the Secured Notes. In each of the years ended March 31, 2019 and March 31, 2018, net interest expense also included $1.1 million of accrued dividends on the 7% cumulative redeemable preference shares issued in January 2015. In addition, in the year ended March 31, 2019 we earned interest income of $0.3 million on our money market deposits as compared with $0.2 million in the year ended March 31, 2018.\nOther expense for the year ended March 31, 2019 included $5.4 million of foreign exchange losses arising on monetary assets and liabilities denominated in foreign currencies and $1.0 million of fees related to the amendment of the indenture relating to the Secured Notes in December 2018. Other income for the year ended March 31, 2018 included $2.4 million of foreign exchange gains arising on monetary assets and liabilities denominated in foreign currencies.\nProvision for income taxes\nProvision for income taxes in the year ended March 31, 2019 reflected a reduction in the net operating losses available to be carried forward in a subsidiary as a result of the offset of historic tax losses against the profits of this subsidiary. Provision for income taxes in the year ended March 31, 2018 reflected a reduction in the valuation allowance against deferred tax assets in a subsidiary as a result of an improvement in the profitability of this subsidiary.\n- 56 -\nQuarterly Results of Operations\nThe following table sets forth selected unaudited consolidated quarterly statements of operations data for our eight most recent completed fiscal quarters. We have prepared the consolidated quarterly operations data on a basis consistent with the audited consolidated financial statements included elsewhere in this Annual Report. In the opinion of management, the quarterly consolidated operations data reflects all necessary adjustments, consisting only of normal recurring adjustments, necessary for a fair presentation of this data. Historical results are not necessarily indicative of the results to be expected in future periods and the results for a quarterly period are not necessarily indicative of the operating results for a full year. This information should be read in conjunction with the consolidated financial statements included elsewhere in this Annual Report.\nOur quarterly product sales can fluctuate depending upon the shipment cycles for our red blood cell-based products, which account for approximately two-thirds of our current product sales. For these products, we typically experience 13 shipping cycles per year. This equates to three shipments of each product per quarter, except for one quarter per year when four shipments occur. In fiscal 2020 and in fiscal 2019, the greatest impact of extra product shipments occurred in our first quarter. The timing of shipment of bulk antisera products to our OEM customers may also move revenues from quarter to quarter. We also experience some seasonality in demand around holiday periods in both Europe and the United States. As a result of these factors, we expect to continue to see seasonality and quarter-to-quarter variations in our product sales.\nThe timing of product development fees included in other revenues is mostly dependent upon the achievement of pre-negotiated project milestones.\nLiquidity and Capital Resources\nSince our commencement of operations in 2007, we have incurred net losses and negative cash flows from operations. As of March 31, 2020, we had an accumulated deficit of $483.4 million. During the year ended March 31, 2020, we incurred a net loss of $102.8 million and used $80.6 million of cash for operating activities. During the year ended March 31, 2019, we incurred a net loss of $105.4 million and used $75.7 million of cash for operating activities. During the year ended March 31, 2018, we incurred a net loss of $82.3 million and used $68.4 million of cash for operating activities. As described under results of operations, our use of cash during the years ended March 31, 2020 and March 31, 2019 was primarily attributable to our investment in the development of MosaiQ and corporate costs, including costs related to being a public company.\n- 57 -\nFrom our incorporation in 2012 to March 31, 2019, we have raised $160.0 million of gross proceeds through the private placement of our ordinary and preference shares and warrants, $250.1 million of gross proceeds from public offerings of our shares and issuances of ordinary shares upon exercise of warrants and $120.0 million of gross proceeds from the issuance of the Secured Notes.\nOn May 15, 2019, we issued an additional $25.0 million aggregate principal amount of the Secured Notes. On May 15, 2019, we paid $1.5 million of the net proceeds of the issuance into the cash reserve account maintained with the collateral agent under the terms of the indenture governing the Secured Notes, which together with the $7.2 million paid into the cash reserve account in respect of previous issuances, brought the total in the cash reserve account to $8.7 million at March 31, 2020.\nOn November 12, 2019, we completed a public offering of 13,800,000 newly issued ordinary shares at a price of $7.00 per share, which raised $96.6 million of gross proceeds before underwriting discounts and other offering expenses.\nAs of March 31, 2020, we had available cash, cash equivalents and short-term investments of $120.8 million and $9.0 million of restricted cash held as part of the arrangements relating to our Secured Notes and the lease of our property in Eysins, Switzerland.\n12% Senior Secured Notes Due 2024\nOn October 14, 2016, we completed a private placement of our Secured Notes. Our obligations under the Secured Notes and the related indenture are unconditionally guaranteed on a secured basis by the guarantors, which include all our subsidiaries, and the indenture contains customary events of default. We are also required to comply with certain customary affirmative and negative covenants, including a requirement to maintain six-months of interest in a cash reserve account maintained with the collateral agent.\nWe issued $84 million aggregate principal amount of the Secured Notes on October 14, 2016, an additional $36 million aggregate principal amount of the Secured Notes on June 29, 2018 and an additional $25 million of the Secured Notes on May 15, 2019.\nUpon the occurrence of a Change of Control, subject to certain conditions, or certain Asset Sales (each, as defined in the indenture), holders of the Secured Notes may require us to repurchase for cash all or part of their Secured Notes at a repurchase price equal to 101% or 100%, respectively, of the principal amount of the Secured Notes to be repurchased, plus accrued and unpaid interest to the date of repurchase.\nWe paid $7.2 million of the total proceeds of the October 2016 and June 2018 issuances into the cash reserve account maintained with the collateral agent under the terms of the indenture, $2.2 million of which related to the second issuance. We paid a further $1.5 million into the cash reserve account on May 15, 2019 in connection with the issuance of the additional $25 million of Secured Notes on that date.\nInterest on the Secured Notes accrues at a rate of 12% per annum and is payable semi-annually on April 15 and October 15 of each year commencing on April 15, 2017. Commencing on April 15, 2021, we will also pay an installment of principal of the Secured Notes on each April 15 and October 15 until April 15, 2024 pursuant to a fixed amortization schedule.\nIn connection with the October 2016, June 2018 and May 2019 issuances of the Secured Notes as well as the December 2018 amendment of the related indenture, we entered into royalty rights agreements, pursuant to which we agreed to pay 3.4% of the aggregate net sales of MosaiQ instruments and consumables made in the donor testing market in the United States and the European Union. The royalties will be payable beginning on the date that we make our first sale of MosaiQ consumables in the donor testing market in the European Union or the United States and will end on the last day of the calendar quarter in which the eighth anniversary of the first sale date occurs.\nCash Flows for the Years Ended March 31, 2020 and 2019\nOperating activities\nNet cash used in operating activities was $80.6 million during the year ended March 31, 2020, which included net losses of $102.8 million and non-cash items of $26.3 million. Non-cash items were depreciation and amortization expense of $12.3 million, share-based compensation expense of $4.5 million, deferred lease rentals of $0.3 million, Swiss pension costs of $0.8 million, amortization of deferred debt issue costs of $7.0 million, accrued preference share dividends of $1.0 million and deferred income taxes of $0.4 million. We also experienced a net cash outflow of $4.1 million from changes in operating assets and liabilities during the period, consisting of a $5.0 million increase in inventories, a $0.7 million increase in other assets and a $2.1 million increase in accounts receivable, offset by a $2.5 million increase in accounts payable and accrued liabilities and a $1.2 million increase in accrued compensation and benefits.\n- 58 -\nNet cash used in operating activities was $75.7 million during the year ended March 31, 2019, which included net losses of $105.4 million and non-cash items of $25.7 million. Non-cash items were depreciation and amortization expense of $12.8 million, share-based compensation expense of $5.0 million, deferred lease rentals of $0.4 million, Swiss pension costs of $0.6 million, amortization of deferred debt issue costs of $5.9 million and accrued preference share dividends of $1.0 million. We also experienced a net cash inflow of $4.1 million from changes in operating assets and liabilities during the period, consisting of a $3.3 million decrease in other assets, a $0.4 million increase in accounts payable and accrued liabilities and a $1.1 million increase in accrued compensation and benefits offset by a $0.1 million increase in inventories and a $0.6 million increase in accounts receivable.\nInvesting activities\nNet cash used in investing activities was $30.2 million in the year ended March 31, 2020 and $89.1 million in the year ended March 31, 2019. We invested $25.6 million net and $84.3 million net in short-term money market funds in the years ended March 31, 2020 and March 31, 2019, respectively. Purchases of property and equipment in the year ended March 31, 2020 were $4.6 million and were mainly related to payments for an additional assembly unit for our MosaiQ manufacturing facility. Purchases of property and equipment in the year ended March 31, 2019 were $4.8 million, and were mainly related to the payment of final costs related to the construction of our new ARC conventional reagents manufacturing facility.\nFinancing activities\nNet cash provided by financing activities was $114.6 million during the year ended March 31, 2020, consisting of $24.1 million of net proceeds from the issuance of additional Secured Notes on May 15, 2019, $90.5 million of net proceeds from the issuance of ordinary shares on November 12, 2019 and $0.5 million of proceeds from the exercise of share options, offset by $0.5 million of repayments on finance leases.\nNet cash provided by financing activities was $145.4 million during the year ended March 31, 2019, consisting of $34.8 million of net proceeds from the issuance of additional Secured Notes on June 29, 2018, payment of $3.9 million of consent fees in December 2018 related to the amendment of the indenture governing the Secured Notes and $115.0 million of proceeds from the issuance of ordinary shares (including $50.1 million in connection with the exercise of warrants and share options), offset by $0.5 million of repayments on finance leases.\nCash Flows for the Years Ended March 31, 2019 and 2018\nOperating activities\nNet cash used in operating activities was $75.7 million during the year ended March 31, 2019, which included net losses of $105.4 million and non-cash items of $25.7 million. Non-cash items were depreciation and amortization expense of $12.8 million, share-based compensation expense of $5.0 million, deferred lease rentals of $0.4 million, Swiss pension costs of $0.6 million, amortization of deferred debt issue costs of $5.9 million and accrued preference share dividends of $1.0 million. We also experienced a net cash inflow of $4.1 million from changes in operating assets and liabilities during the period, consisting of a $3.3 million decrease in other assets, a $0.4 million increase in accounts payable and accrued liabilities and a $1.1 million increase in accrued compensation and benefits offset by a $0.1 million increase in inventories and a $0.6 million increase in accounts receivable.\nNet cash used in operating activities was $68.4 million during the year ended March 31, 2018, which included net losses of $82.3 million and non-cash items of $19.5 million. Non-cash items were depreciation and amortization expense of $10.4 million, share-based compensation expense of $4.2 million, Swiss pension costs of $0.7 million, amortization of deferred debt issue costs of $4.4 million and accrued preference share dividends of $1.0 million, offset by deferred income taxes of $0.6 million and amortization of lease incentives of $0.4 million. We also experienced a net cash outflow of $5.6 million from changes in operating assets and liabilities during the period, consisting of a $3.3 million reduction in accounts payable and accrued liabilities, a $1.7 million increase in inventories, a $0.1 million increase in accounts receivable and a $2.1 million increase in other assets offset by a $1.6 million increase in accrued compensation and benefits.\nInvesting activities\nNet cash used in investing activities was $89.1 million in the year ended March 31, 2019 and net cash from investing activities was $3.3 million in the year ended March 31, 2018. We invested $84.3 million net in a short-term money market fund in the year ended March 31, 2019 and withdrew $10.4 million net in the year ended March 31, 2018. Purchases of property and equipment in the years ended March 31, 2019 and March 31, 2018 were $4.8 million and $21.6 million, respectively. Most of these expenditures related to the construction of the ARC facility and we generated $14.7 million, net of a rent deposit payment in the year ended March 31, 2018 from the sale and leaseback of this building. We also invested $0.2 million in the year March 31, 2018 on new product licenses within our conventional reagent operations.\n- 59 -\nFinancing activities\nNet cash provided by financing activities was $145.4 million during the year ended March 31, 2019, consisting of $34.8 million of net proceeds from the issuance of additional Secured Notes on June 29, 2018, payment of $3.9 million of consent fees in December 2018 related to the amendment of the indenture governing the Secured Notes and $115.0 million of proceeds from the issuance of ordinary shares (including $50.1 million in connection with the exercise of warrants and share options), offset by $0.5 million of repayments on finance leases.\nNet cash provided by financing activities was $83.3 million (including our April 2017 public offering of ordinary shares and our October 2017 private placement of ordinary shares and warrants) during the year ended March 31, 2018, consisting of $85.0 million of net proceeds from the issuance of ordinary shares and warrants and exercise of share options offset by $1.7 million of repayments on finance leases.\nOperating and Capital Expenditure Requirements\nWe have not achieved profitability on an annual basis since we commenced operations in 2007 and we expect to incur net losses for at least the next fiscal year. As we move towards the commercial launch of MosaiQ in the donor testing market, we expect our operating expenses during the year ended March 31, 2021 to be similar to those of the year ended March 31, 2020, as we continue to invest in growing our customer base, expanding our marketing and distribution channels, completing field trials and regulatory filings, hiring additional employees and investing in other product development opportunities while development expenditure on MosaiQ reduces.\nAs of March 31, 2020, we had available cash, cash equivalents and short-term investments of $120.8 million and $9.0 million of restricted cash held as part of the arrangements relating to our Secured Notes and the lease of our property in Eysins, Switzerland.\nOur future capital requirements will depend on many factors, including:\n•\nour progress in developing and commercializing MosaiQ and the cost required to complete development, obtain regulatory approvals and complete our manufacturing scale up;\n•\nour ability to pursue successful alternatives for commercializing MosaiQ in the patient market;\n•\nour ability to manufacture and sell our conventional reagent products, including the costs and timing of further expansion of our sales and marketing efforts;\n•\nthe impact of the COVID-19 pandemic on the global economy, our business and our development timeline for MosaiQ;\n•\nthe outcome of our ongoing arbitration with Ortho;\n•\nour ability to collect our accounts receivable;\n•\nour ability to generate cash from operations;\n•\nany acquisition of businesses or technologies that we may undertake; and\n•\nour ability to penetrate our existing market and new markets.\nWe expect to fund our operations, including the ongoing development of MosaiQ through successful field trial completion, achievement of required regulatory authorizations and commercialization from the use of existing available cash and short-term investment balances, cash generated through sales of our MosaiQ COVID-19 Microarray, and the issuance of new equity or debt, and accordingly have prepared the financial statements on the going concern basis. However, there can be no assurance that we will be able to obtain adequate financing when necessary and the terms of any financings may not be advantageous to us and may result in dilution to our shareholders.\n- 60 -\nContractual Obligations\nWe have contractual obligations for non-cancelable facilities leases, our Secured Notes and related royalty rights agreements, equipment leases and purchase commitments. The following table sets forth a summary of our contractual obligations as of March 31, 2020.\n(1)\nThe 7% Cumulative Redeemable Preference Shares are redeemable at the option of the shareholders on a date not before January 29, 2022, which can be extended at our option in one year increments until January 29, 2025. We can pay dividends on the 7% Cumulative Redeemable Preference Shares at any time, but are not obligated to do so until redemption.\n(2)\nWe have entered into a manufacturing agreement with STRATEC in connection with the supply of MosaiQ instruments over a six year period. The total remaining purchase obligation under this agreement is $62.7 million (€57.0 million) using March 31, 2020 exchange rates.\nCritical Accounting Policies and Significant Judgments and Estimates\nWe have prepared our consolidated financial statements in accordance with U.S. GAAP. Our preparation of these consolidated financial statements requires us to make estimates, assumptions and judgments that affect the reported amounts of assets, liabilities, expenses and related disclosures at the date of the consolidated financial statements, as well as revenue and expenses during the reporting periods. We evaluate our estimates and judgments on an ongoing basis. We base our estimates on historical experience and on various other factors that we believe are reasonable under the circumstances, the results of which form the basis for making judgments about the carrying value of assets and liabilities that are not readily apparent from other sources. Actual results could therefore differ materially from these estimates under different assumptions or conditions.\nWhile our significant accounting policies are described in more detail in Note 1 to our consolidated financial statements included in this Annual Report, we believe the following accounting policies to be critical to the judgments and estimates used in the preparation of our financial statements.\nRevenue recognition and accounts receivable\nRevenue is recognized in accordance with Accounting Standards Update, or ASU, 2014-09, Revenue from Contracts with Customers. Product revenue is recognized at a point in time upon transfer of control of a product to a customer, which is generally at the time of delivery at an amount based on the transaction price. Customers have no right of return except in the case of damaged goods and the Company has not experienced any significant returns of its products.\n- 61 -\nWe also earn revenue from the provision of development services to a small number of OEM customers. These development service contracts are reviewed individually to determine the nature of the performance obligations and the associated transaction prices. In recent years, our product development revenues have been commensurate with achieving milestones specified in the respective development agreements relating to those products. These milestones may include the approval of new products by the European or U.S. regulatory authorities, which are not within our control. While there can be no assurance that this will continue to be the case, the nature of the milestones has been such that they effectively represent completion of our performance obligations under a particular part of a development program. Should we fail to achieve these milestones we are not entitled under the terms of the development agreements to any compensation related to the work undertaken to date. As a result, we typically fully recognize milestone-related revenues as the contractual milestones are achieved.\nUnder certain development contracts, we also manufacture and supply the customer with finished products once they have been approved for use by relevant regulatory agencies. These agreements reflect both arrangements for product development and the sales prices and other contractual terms for subsequent supply of the product to the customer. Under these development contracts, we view the development service revenue as distinct from subsequent product sales revenue, and we recognize each separately as described above.\nAccounts receivable consist primarily of amounts due from OEM customers, hospitals, donor testing laboratories, and distributors. Accounts receivable are reported net of an allowance for uncollectible accounts, which we also refer to as doubtful accounts. The allowance for doubtful accounts represents a reserve for estimated losses resulting from our inability to collect amounts due from our customers. Direct sales, where we may make many low value sales to a large number of customers, represents a larger risk of doubtful accounts, as opposed to OEM customer sales consisting primarily of a small number of well established businesses with whom we have a long trading history. The collectability of our trade receivables balances is regularly evaluated based on a combination of factors such as the aging profile of our receivables, past history with our customers, changes in customer payment patterns, customer credit-worthiness and any other relevant factors. Based on these assessments, we adjust the reserve for doubtful accounts recorded in our financial statements.\nInventories\nWe record inventories at the lower of cost (at standard costs, approximating average costs) or market (net realizable value), net of reserves. We record adjustments to inventory based upon historic usage, expected future demand and shelf life of the products held in inventory. We also calculate our inventory value based on the standard cost of each product. This approach requires us to analyze variances arising in the production process to determine whether they reflect part of the normal cost of production, and should therefore be reflected as inventory value, or whether they are a period cost and should thus not be included in inventory.\nIncome taxes\nWe account for income taxes under the asset and liability method, which requires, among other things, that deferred income taxes be provided for temporary differences between the tax basis of our assets and liabilities and their financial statement reported amounts. In addition, deferred tax assets are recorded for the future benefit of utilizing NOLs and research and development credit carry forwards. A valuation allowance is established when necessary to reduce deferred tax assets to the amount expected to be realized.\nWe follow the accounting guidance for uncertainties in income taxes, which prescribes a recognition threshold and measurement process for recording uncertain tax positions taken, or expected to be taken, in a tax return in the financial statements. Additionally, the guidance also prescribes the derecognition, classification, accounting in interim periods and disclosure requirements for uncertain tax positions. We accrue for the estimated amount of taxes for uncertain tax positions if it is more likely than not that we would be required to pay such additional taxes. An uncertain tax position will not be recognized if it has less than a 50% likelihood of being sustained. We did not have any accrued interest or penalties associated with any unrecognized tax positions, and there were no such interest or penalties recognized during the years ended March 31, 2020, 2019 or 2018.\nStock compensation expense\nStock compensation expense is measured at the grant date based on the fair value of the award and is recognized as an expense in the income statement over the vesting period of the award. The calculation of the stock compensation expense is sensitive to the fair value of the underlying ordinary shares. The fair value of option awards and multi-year performance based restricted share units or MRSUs at the grant date is calculated using the Black-Scholes model or other valuation models, which use a number of assumptions to determine the fair value. Details of the assumptions used are set out in the notes to the financial statements included in this Annual Report.\n- 62 -\nDefined benefit pension obligations\nWe account for the pension obligations of our Swiss subsidiary as a defined benefit plans under Accounting Standards Codification, or ASC, 715 Compensation - Retirement Benefits. This requires that an actuarial valuation be performed to determine the funded status of the pension arrangements. The actuarial valuation is based on a number of assumptions, details of which are set out in the notes to the financial statements included in this Annual Report.\nRoyalty liability\nThe royalty rights agreements entered into in connection with the issue of the Secured Notes are treated as sales of future revenues that meet the requirements of ASC Topic 470 “Debt” to be treated as debt. The estimated future cash outflows under the royalty rights agreements have been combined with the issuance costs and interest payable to calculate the effective interest rate of the Secured Notes and will be expensed through interest expenses using the effective interest rate method over the term of the Secured Notes and royalty rights agreements. Estimating the future cash outflows under the royalty rights agreements requires us to make certain estimates and assumptions about future sales of MosaiQ products. These estimates of the magnitude and timing of MosaiQ sales are subject to significant variability due to the current status of development of MosaiQ products, and thus are subject to significant uncertainty. Therefore, the estimates are likely to change as we gain experience of marketing MosaiQ, which may result in future adjustments to the accretion of the interest expense and the amortized cost based carrying value of the Secured Notes.\nLeases\nIn February 2016, the Financial Accounting Standards Board, or FASB, issued ASU 2016-02, Leases, to enhance the transparency and comparability of financial reporting related to leasing arrangements. We adopted ASU 2016-02 on April 1, 2019, or the effective date, and used the effective date as our date of initial application.\nAt the inception of an arrangement, we determine whether the arrangement is or contains a lease based on the unique facts and circumstances present. We also review the terms of the lease in accordance with ASU 2016-02 in order to determine whether the lease concerned is a finance or an operating lease. Most leases with a term greater than one year are recognized on the balance sheet as right-of-use assets, lease liabilities and, if applicable, long-term lease liabilities. We have elected not to recognize on the balance sheet leases with terms of one year or less.\nFor finance leases, an asset is included within property and equipment and a lease liability equal to the present value of the minimum lease payments is included in current or long-term liabilities. Interest expense is recorded over the life of the lease at a constant rate.\nOperating lease liabilities and their corresponding right-of-use assets are recorded based on the present value of lease payments over the expected remaining lease term. The operating lease right-of-use assets also include any lease payments made prior to the commencement date and any initial direct costs incurred, less any lease incentives received. The interest rate implicit in lease contracts is typically not readily determinable. As a result, we utilize our incremental borrowing rates, which are the rates incurred to borrow on a collateralized basis over a similar term an amount equal to the lease payments in a similar economic environment. The incremental borrowing rate is determined at lease commencement, or as of April 1, 2019 for operating leases existing upon the adoption of ASU 2016-02. The incremental borrowing rate is subsequently reassessed upon modification to the lease arrangement. Operating lease expense is recognized on a straight-line basis over the lease term.\nIn accordance with the guidance in ASU 2016-02, components of a lease should be split into three categories: lease components (e.g., land, building, etc.), non-lease components (e.g., common area maintenance, maintenance, consumables, etc.), and non-components (e.g., property taxes, insurance, etc.). Although separation of lease and non-lease components is required, certain practical expedients are available. In particular, entities may elect a practical expedient to not separate lease and non-lease components and instead account for each lease component and the related non-lease component together as a single component. We have elected to account for the lease and non-lease components of each of its operating leases as a single lease component and allocate all of the contract consideration to the lease component only. The lease component results in an operating lease right-of-use asset being recorded on the balance sheet and amortized on a straight-line basis as lease expense.\n- 63 -\nThe finance lease assets and operating lease right-of-use assets are assessed for impairment in accordance with our accounting policy for long-lived assets.\nOff-Balance Sheet Arrangements\nWe do not have any relationships with unconsolidated entities or financial partnerships, such as entities often referred to as structured finance or special purpose entities, which would have been established for the purpose of facilitating off-balance sheet arrangements or for any other contractually narrow or limited purpose.\nRecent Accounting Pronouncements\nRefer to Note 1 to our accompanying audited financial statements included elsewhere in this report for a discussion of recently issued accounting pronouncements.\n- 64 -"
+}

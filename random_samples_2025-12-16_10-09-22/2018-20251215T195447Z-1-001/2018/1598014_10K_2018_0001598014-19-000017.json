@@ -1,0 +1,1489 @@
+{
+    "cik": "1598014",
+    "company": "Company_1598014",
+    "filing_type": "10-K",
+    "filing_date": "2018-01-01",
+    "period_of_report": "2018-12-31",
+    "sic": "Unknown",
+    "state_of_inc": "Unknown",
+    "state_location": "Unknown",
+    "fiscal_year_end": "1231",
+    "filing_html_index": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1598014",
+    "htm_filing_link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1598014",
+    "complete_text_filing_link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1598014",
+    "filename": "1598014_10K_2018_0001598014-19-000017.htm",
+    "special_items": [
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": ",” “Company,” “Group,” or “Our”</font></div></td><td style=\"vertical-align:bottom;padding-left:2px;padding-top:2px;padding-bottom:2px;padding-right:2px;\"><div style=\"overflow:hidden;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"> </font></div></td><td style=\"vertical-align:top;pa...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 76392275
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "-family:inherit;font-size:10pt;font-weight:bold;\">History and Development of the Company</font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;text-align:left;text-in...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 82170622
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">In the past, certain of our business practices have been investigated by government antitrust or competition agencies, and we have on multiple occasions been sued by private parties for a...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 26788273
+        },
+        {
+            "type": "unusual",
+            "keywords_matched": [
+                "Non-recurring"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "-size:10pt;\"><br/></font></div><table cellpadding=\"0\" cellspacing=\"0\" style=\"font-family:Times New Roman; font-size:10pt;\"><tr><td style=\"width:66px;\"></td><td></td></tr><tr><td style=\"vertical-align:top\"><div style=\"line-height:120%;font-size:10pt;padding-left:36px;\"><font style=\"font-family:inheri...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 78370487
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "0%;padding-left:48px;text-align:left;text-indent:30px;\"><font style=\"text-align:left;font-family:inherit;font-size:10pt;padding-right:18px;\">•</font><font style=\"font-family:inherit;font-size:10pt;\">A change in segments.</font></div><div style=\"line-height:120%;text-align:center;font-size:10pt;\"><fo...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 59055387
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "0px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">On July 12, 2016, IHS Inc. (“IHS”), a Delaware corporation, Markit Ltd. (“Markit”)...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 92207583
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "120%;font-size:10pt;padding-left:36px;\"><font style=\"font-family:inherit;font-size:10pt;\">•</font></div></td><td style=\"vertical-align:top;\"><div style=\"line-height:120%;text-align:left;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;font-style:italic;\">Acquisitive</font><font style...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 75129144
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">We believe that, based on current law, Section 7...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 58892143
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": ":10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">“Merger”</font></div></td><td style=\"vertical-align:bottom;padding-left:2px;padding-top:2px;padding-bottom:2px;padding-right:2px;\"><div style=\"overflow:hidden;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"> </font></div></...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 46163542
+        },
+        {
+            "type": "unusual",
+            "keywords_matched": [
+                "one-time"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": ":30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">On December 22, 2017, a law commonly known as the Tax Cuts and Jobs Act (“TCJA”) was enacted in ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 74630676
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": ":left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">On July 12, 2016, the Merger was completed pursuant to the Merger Agreement between IHS, Markit, and Merger Sub, and Merger Sub merged with and into IHS, with IHS continuing as the surviving corporation and an ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 75112349
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": ";\"><br/></font></div><div style=\"line-height:120%;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">This MD&amp;A includes the financial results of Markit Ltd. beginning July 12, 2016. The comparability of our operating results for fiscal 2017 to fiscal 2016 is sign...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 75590109
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": ";font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">If IHS stockholders were treated as having acquired 80% of our common shares for U.S. federal income tax purposes, IHS Markit would be ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 59836073
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": ";font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">On July 12, 2016, the Merger was completed pursuant to the Merger Agreement between I...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 33471161
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": ">November 30, 2018</font><font style=\"font-family:inherit;font-size:10pt;\"> for a total purchase price of approximately $1.9 billion. In 2017, we completed two acquisitions for a total purchase price of approximately $0.4 billion. We paid a total purchase price of approximately $1.1 billion for two ...",
+            "amount_raw": "1.1 billion",
+            "amount_value": 1.1,
+            "amount_scale": "billion",
+            "footnote_reference": "Note 3",
+            "footnote_id": "3",
+            "anchor_hash": 98354250
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "A. Risk Factors” in this Form 10-K.</font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 63772268
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "a exempted company, and Marvel Merger Sub, Inc. (“Merger Sub”), a Delaware corporation and an indirect and wholly owned subsidiary of Markit, completed a merger (“Merger”) pursuant to which Merger Sub merged with and into IHS, with IHS surviving the Merger as an indirect and wholly owned subsidiary ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 66310737
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "also includes Ipreo from the date of acquisition in August 2018), and we have included revenue and expense attributable to legacy Markit in the Financial Services segment from the date of the Merger. In our discussion and analysis of comparative periods, we have quantified the legacy Markit contribu...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 54540566
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "and the world’s leading financial institutions. Headquartered in London, we are committed to sustainable, profitable growth. </font></div><div style=\"line-height:120%;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;te...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 96101307
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ation matters, due to inherent uncertainties and the inherent shortcomings of the estimation process, the uncertainties involved in litigation, and other factors.</font></div><div style=\"line-height:120%;text-align:left;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font><...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 6066028
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "cing=\"0\" style=\"font-family:Times New Roman; font-size:10pt;\"><tr><td style=\"width:96px;\"></td><td></td></tr><tr><td style=\"vertical-align:top\"><div style=\"line-height:120%;font-size:10pt;padding-left:77px;\"><font style=\"font-family:inherit;font-size:10pt;\">◦</font></div></td><td style=\"vertical-ali...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 71493759
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "costly, and the costs associated with prosecuting and defending litigation and investigation matters could have a material adverse effect on our business, results of operations, and financial condition. In light of the potential cost and uncertainty involved in litigation and investigations, we may ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 81723843
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "div></div><hr style=\"page-break-after:always\"/><div><div style=\"line-height:120%;font-size:10pt;\"><a href=\"#s4DA02DC5D73457CD8C24C8E12C1FDED9\" style=\"font-family:inherit;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">Table of Contents</font></a></div></div><div><br/></div><div st...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 53971862
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "e is limited guidance regarding the application of Section 7874, and there can be no assurance that the IRS will agree with the position that the former IHS stockholders will be treated as holding less than 60% of our common shares (by vote and value) after the Merger by reason of holding IHS common...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 15430055
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "e-height:120%;font-size:10pt;padding-left:30px;\"><font style=\"font-family:inherit;font-size:10pt;\">•</font></div></td><td style=\"vertical-align:top;\"><div style=\"line-height:120%;text-align:left;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;font-style:italic;\">Financial Services</...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 68659539
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "e:10pt;\">“Merger”</font></div></td><td style=\"vertical-align:bottom;padding-left:2px;padding-top:2px;padding-bottom:2px;padding-right:2px;\"><div style=\"overflow:hidden;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"> </font></div></td><td style=\"vertical-align:top;padding-left:2px...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 23067394
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "e=\"line-height:120%;font-size:10pt;padding-left:30px;\"><font style=\"font-family:inherit;font-size:10pt;\">•</font></div></td><td style=\"vertical-align:top;\"><div style=\"line-height:120%;text-align:left;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;font-style:italic;\">Financial Serv...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 51260686
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "equired by the lenders under our term loan and revolving credit agreements. We define EBITDA as net income plus or minus net interest, plus provision for income taxes, depreciation, and amortization. Our definition of Adjusted EBITDA further excludes primarily non-cash items and other items that we ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 11935115
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "failure to establish, maintain or protect our intellectual property or proprietary rights could have a material adverse effect on our business, financial condition or results of operations.</font></div><div style=\"line-height:120%;text-align:left;font-size:10pt;\"><font style=\"font-family:inherit;fon...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 51640050
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">As part of our business strategy, we pursue selective acquisitions of complementary businesses, products or technologies,...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 92855258
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "font style=\"font-family:inherit;font-size:10pt;\">Misappropriation, misuse, improper modification, or disclosure, destruction, corruption, or unavailability of data and information or ransom demands due to cyber-attacks or other security breaches could damage our brand and reputation, and customers a...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 41302888
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">Markit Ltd., which was the name of IHS Markit prior to completion of the</font></div><div style=\"text-align:left;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">Merger, and its subsidiaries</font></div></td></tr><t...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 50747765
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "font></div></td></tr></table><div style=\"line-height:120%;text-align:left;padding-left:48px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">Many of th...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 50214768
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "for each component, the selection of which requires considerable judgment. Our estimates and assumptions may be based, in part, on the availability of listed market prices or other transparent market data. These determinations will affect the amount of amortization expense recognized in future perio...",
+            "amount_raw": "$745.3 million",
+            "amount_value": 745.3,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 22322426
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ft;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;font-style:italic;\">Cost of operating our business.  </font><font st...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 90598934
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "g additional restrictions. These laws and regulations are increasing in complexity and number, change frequently and increasingly conflict among the various countries in which we operate, which has resulted in greater compliance risk and cost for us. It is possible that we could be prohibited or con...",
+            "amount_raw": "20 million",
+            "amount_value": 20.0,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 72880617
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "gainst such third-party claims under indemnification clauses in our agreements.</font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;text-align:left;text-indent:30px...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 56868744
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "gations, and insurance coverage decisions, we cannot predict the outcome of these matters, which could have a material adverse effect on our business, results of operations, and financial condition. Litigation and investigations are very costly, and the costs associated with prosecuting and defendin...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 49932918
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ht:2px;\"><div style=\"overflow:hidden;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"> </font></div></td><td style=\"vertical-align:top;padding-left:2px;padding-top:2px;padding-bottom:2px;padding-right:2px;\"><div style=\"text-align:left;font-size:10pt;\"><font style=\"font-family:inher...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 57764613
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ily:inherit;font-size:10pt;\"> </font></div><div style=\"line-height:120%;text-indent:32px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 95646180
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "in the incurrence of debt, contingent liabilities or amortization expenses, or write-offs of goodwill and other intangible assets, any of which could harm our financial condition.</font></div><div style=\"line-height:120%;text-align:left;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10p...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 64623698
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ing-top:2px;padding-bottom:2px;padding-right:2px;\"><div style=\"overflow:hidden;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"> </font></div></td><td style=\"vertical-align:top;padding-left:2px;padding-top:2px;padding-bottom:2px;padding-right:2px;\"><div style=\"text-align:left;font-...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 88993547
+        },
+        {
+            "type": "unusual",
+            "keywords_matched": [
+                "non-recurring"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "inherit;font-size:10pt;\">•</font></div></td><td style=\"vertical-align:top;\"><div style=\"line-height:120%;text-align:left;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;font-style:italic;\">Non-recurring revenue</font><font style=\"font-family:inherit;font-size:10pt;\"> represents cons...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 94289260
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ion, we may receive routine requests for information from governmental agencies in connection with their regulatory or investigatory authority. Because of the uncertain nature of litigation, investigations, and insurance coverage decisions, we cannot predict the outcome of these matters, which could...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 63884759
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "itions for a total purchase price of approximately $0.4 billion. We paid a total purchase price of approximately $1.1 billion for two acquisitions we completed during the year ended </font><font style=\"font-family:inherit;font-size:10pt;\">November 30, 2016</font><font style=\"font-family:inherit;font...",
+            "amount_raw": "1.1 billion",
+            "amount_value": 1.1,
+            "amount_scale": "billion",
+            "footnote_reference": "Note 3",
+            "footnote_id": "3",
+            "anchor_hash": 93760612
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ize:10pt;\"><br/></font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">On July 12, 2016, IHS Inc. (“IHS”), a Delaware corporation, Markit Ltd. (“Markit”), a Bermuda exempted company, and Marvel Merger Sub, Inc. (“...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 42970230
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "lations, which could, individually or in the aggregate, result in materially higher compliance costs to us. New legislation, or a significant change in laws, rules, regulations, or standards could also result in some of our products and services becoming obsolete or prohibited, reduce demand for our...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 27755709
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "le=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">Although IHS Markit is incorporated in Bermuda and is and has been treated as tax resident in the United Kingdom, the IRS may assert that IHS Markit should be treated as a U.S. co...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 39427217
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "leading financial institutions. Headquartered in London, we are committed to sustainable, profitable growth. </font></div><div style=\"line-height:120%;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;text-align:left;te...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 48873663
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "lent, malicious, or accidental breach of data security controls could also result in unintentional disclosure of, or unauthorized access to, or misappropriation or misuse of, customer, vendor, employee, or other confidential or sensitive data or information, which could potentially result in additio...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 68638059
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "licable regulatory requirements, at management’s discretion. The share repurchase program does not, however, obligate us to repurchase any set dollar amount or number of shares and may be modified, suspended, or terminated at any time without prior notice. The share repurchase program carries risks ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 94697312
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "line-height:120%;font-size:10pt;\"><a href=\"#s4DA02DC5D73457CD8C24C8E12C1FDED9\" style=\"font-family:inherit;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">Table of Contents</font></a></div></div><div><br/></div><div style=\"line-height:120%;text-align:left;font-size:10pt;\"><font sty...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 92434156
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.5,
+            "source_section": "item_8",
+            "context": "lion. We paid a total purchase price of approximately $1.1 billion for two acquisitions we completed during the year ended </font><font style=\"font-family:inherit;font-size:10pt;\">November 30, 2016</font><font style=\"font-family:inherit;font-size:10pt;\">, in addition to the Merger. Our consolidated ...",
+            "amount_raw": "1.1 billion",
+            "amount_value": 1.1,
+            "amount_scale": "billion",
+            "footnote_reference": "Note 3",
+            "footnote_id": "3",
+            "anchor_hash": 59561937
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "mily:inherit;font-size:10pt;\"> 7</font></div></div><hr style=\"page-break-after:always\"/><div><div style=\"line-height:120%;font-size:10pt;\"><a href=\"#s4DA02DC5D73457CD8C24C8E12C1FDED9\" style=\"font-family:inherit;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">Table of Contents</fon...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 68951202
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "n:left;font-family:inherit;font-size:10pt;padding-right:18px;\">•</font><font style=\"font-family:inherit;font-size:10pt;\">A change in segments.</font></div><div style=\"line-height:120%;text-align:center;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"l...",
+            "amount_raw": "$4.5 billion",
+            "amount_value": 4.5,
+            "amount_scale": "billion",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 26614562
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ndent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">As part of our business strategy, we pursue selective acquisitions of compl...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 50776619
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ned by the acquired U.S. corporation’s non-U.S. subsidiaries, in each case without incurring substantial U.S. tax liabilities.</font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"li...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 92464047
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "business combination"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ng=\"0\" cellspacing=\"0\" style=\"font-family:Times New Roman; font-size:10pt;\"><tr><td style=\"width:48px;\"></td><td></td></tr><tr><td style=\"vertical-align:top\"><div style=\"line-height:120%;font-size:10pt;padding-left:29px;\"><font style=\"font-family:inherit;font-size:10pt;\">•</font></div></td><td style...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 46241246
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "nts we make regarding: guidance and predictions relating to expected operating results, such as revenue growth and earnings; strategic actions such as acquisitions, joint ventures, and dispositions, the anticipated benefits therefrom, and our success in integrating acquired businesses; anticipated l...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 60197746
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "o us after the Merger because the former IHS stockholders held, for purposes of the relevant Section 7874 rules, less than 60% of our common shares (by vote and value) after the Merger by reason of holding IHS common stock.  However, there is limited guidance regarding the application of Section 787...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 38126698
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "om;padding-left:2px;padding-top:2px;padding-bottom:2px;padding-right:2px;\"><div style=\"overflow:hidden;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"> </font></div></td><td style=\"vertical-align:top;padding-left:2px;padding-top:2px;padding-bottom:2px;padding-right:2px;\"><div styl...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": "Note R",
+            "footnote_id": "R",
+            "anchor_hash": 52176306
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "Litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ont-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;font-weight:bold;\">Cautionary Note Regarding Forward-Looking Statements</font></div><div style=\"line-height:120%;text-align:center;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-hei...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": "Note R",
+            "footnote_id": "R",
+            "anchor_hash": 70249982
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ont></div></td><td style=\"vertical-align:bottom;padding-left:2px;padding-top:2px;padding-bottom:2px;padding-right:2px;\"><div style=\"overflow:hidden;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"> </font></div></td><td style=\"vertical-align:top;padding-left:2px;padding-top:2px;pad...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 92242309
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "performance. For example, a measure similar to Adjusted EBITDA is required by the lenders under our term loan and revolving credit agreements. We define EBITDA as net income plus or minus net interest, plus provision for income taxes, depreciation, and amortization. Our definition of Adjusted EBITDA...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 8277398
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "pricing and reference data, indices, valuation and trading services, trade processing, enterprise software, and managed services. Financial Services end users include front- and back-office professionals, such as traders, portfolio managers, risk managers, research professionals, and other financial...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 35644094
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "r agreement, IHS stockholders received 3.5566 common shares of IHS Markit for each share of IHS common stock they owned. IHS was treated as the acquiring entity for accounting purposes, which is reflected in the results of operations, financial position, financial statements, and Management’s Discus...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 35265318
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "results of operations, and financial condition. In light of the potential cost and uncertainty involved in litigation and investigations, we may settle matters even when we believe we have a meritorious defense. We are unable to estimate precisely the ultimate dollar amount of exposure to loss or th...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 80818010
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "rm 10-K.</font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">This MD&amp;A inclu...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 89507551
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "s the financial results of Markit Ltd. beginning July 12, 2016. The comparability of our operating results for fiscal 2017 to fiscal 2016 is significantly impacted by the Merger. As a result of the Merger, we created a new Financial Services segment, which consists entirely of legacy Markit’s busine...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 27448277
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "se program may not ultimately result in enhanced value to our shareholders and may not prove to be the best use of our cash resources.</font></div><div style=\"line-height:120%;text-align:left;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 7382016
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "sed or used inappropriately. We may also face employment-related litigation and investigations, including claims of age discrimination, sexual harassment, gender discrimination, racial discrimination, immigration violations, or other local, state, and federal labor, environmental, health, and safety...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 32037381
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "siness and government customers, including 80 percent of the Fortune Global 500 and the world’s leading financial institutions. Headquartered in London, we are committed to sustainable, profitable growth. </font></div><div style=\"line-height:120%;text-indent:30px;font-size:10pt;\"><font style=\"font-f...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 85618676
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "sition to the first anniversary date of that acquisition. This type of growth comes as a result of our strategy to purchase, integrate, and leverage the value of assets we acquire.  We also include the impact of divestitures in this growth metric. Due to the size of the Merger, we have not included ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 11711241
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "suits, governmental investigations, and contract disputes, as they relate to our products, services, and business. We may face potential commercial or intellectual property claims or liability for, among other things, breach of contract, defamation, libel, fraud, or negligence, with respect to the u...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 67520937
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "t for each share of IHS common stock they owned. IHS was treated as the acquiring entity for accounting purposes, which is reflected in the results of operations, financial position, financial statements, and Management’s Discussion and Analysis of Financial Condition and Results of Operations. Othe...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 83412771
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "t our ability to attract and retain customers, employees, and information suppliers. Any such factors could have a material adverse effect on our financial condition or results of operations. </font></div><div style=\"line-height:120%;text-align:left;font-size:10pt;\"><font style=\"font-family:inherit;...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 67804565
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "t the IRS will agree with the position that the former IHS stockholders will be treated as holding less than 60% of our common shares (by vote and value) after the Merger by reason of holding IHS common stock for purposes of the ownership test.  Further, a subsequent change in law might cause IHS st...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 42689236
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "t-size:10pt;font-weight:bold;\">History and Development of the Company</font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 22061700
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "merger",
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "t:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">On July 12, 2016, IHS Inc. (“IHS”), a Delaware...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 55538492
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "t:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">On July 12, 2016, IHS Inc. (“IHS”), a Delaware corporation, Markit Ltd. (“Markit”), a Bermuda exempted company, and Marvel Merger Sub, Inc. (“Merger Sub”), a Delaware corporation and an indirect and wholly owned subsidiary of ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 84698004
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "t;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;font-style:italic;\">Goodwill and Other Intangible Assets.  </font><font style=\"font-family:inherit;fo...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 38487150
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "t;font-size:10pt;\"> 6</font></div></div><hr style=\"page-break-after:always\"/><div><div style=\"line-height:120%;font-size:10pt;\"><a href=\"#s4DA02DC5D73457CD8C24C8E12C1FDED9\" style=\"font-family:inherit;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">Table of Contents</font></a></div...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 70997871
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "t;font-size:10pt;\"> 7</font></div></div><hr style=\"page-break-after:always\"/><div><div style=\"line-height:120%;font-size:10pt;\"><a href=\"#s4DA02DC5D73457CD8C24C8E12C1FDED9\" style=\"font-family:inherit;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">Table of Contents</font></a></div...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 74815478
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "t;font-style:italic;font-weight:bold;\">We are subject to litigation and investigation risks which could adversely affect our business, results of operations, and financial condition.</font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:i...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 5648167
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "Litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "tions, or other local, state, and federal labor, environmental, health, and safety violations. In addition, we may receive routine requests for information from governmental agencies in connection with their regulatory or investigatory authority. Because of the uncertain nature of litigation, invest...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 81045140
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "to a variety of lenders. However, there can be no assurance that our credit ratings or outlook will not be lowered in the future in response to adverse changes in these metrics and factors caused by our operating results or by actions that we take, that reduce our profitability, or that require us t...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 29438989
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "restructuring"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "to assess our operating performance. For example, a measure similar to Adjusted EBITDA is required by the lenders under our term loan and revolving credit agreements. We define EBITDA as net income plus or minus net interest, plus provision for income taxes, depreciation, and amortization. Our defin...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 94589656
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "tom:2px;padding-right:2px;\"><div style=\"overflow:hidden;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"> </font></div></td><td style=\"vertical-align:top;padding-left:2px;padding-top:2px;padding-bottom:2px;padding-right:2px;\"><div style=\"text-align:left;font-size:10pt;\"><font style...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 82876692
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "tractual restrictions on the use of data, such as if such data is not collected by the third parties in a way which allows us to process the data or use it legally. We are also limited in our ability to monitor and direct the activities of our independent contractors, but if any actions or business ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 83317526
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "tyle=\"vertical-align:top\"><div style=\"line-height:120%;font-size:10pt;padding-left:36px;\"><font style=\"font-family:inherit;font-size:10pt;\">•</font></div></td><td style=\"vertical-align:top;\"><div style=\"line-height:120%;text-align:left;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 53391842
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "uding 80 percent of the Fortune Global 500 and the world’s leading financial institutions. Headquartered in London, we are committed to sustainable, profitable growth. </font></div><div style=\"line-height:120%;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/><...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 53843912
+        },
+        {
+            "type": "unusual",
+            "keywords_matched": [
+                "one-time"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "w commonly known as the Tax Cuts and Jobs Act (“TCJA”) was enacted in the United States. Among other things, the TCJA reduces the U.S. federal corporate income tax rate to 21 percent and implements a new system of taxation for non-U.S. earnings, including by imposing a one-time tax on the deemed rep...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 58205506
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.5,
+            "source_section": "item_8",
+            "context": "xercise price or other consideration, (c) 1.3 million shares reserved for issuance if maximum performance on performance share units is met, and (d) 0.3 million deferred share units payable to non-employee directors upon their termination of service. Of the 25.6 million awards currently outstanding,...",
+            "amount_raw": "0.3 million",
+            "amount_value": 0.3,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 30231396
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "xt-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">On July 12, 2016, IHS Inc. (“IHS”), a Delaware corporat...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 83919566
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "xt-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"><br/></font></div><div style=\"line-height:120%;text-align:left;text-indent:30px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;font-style:italic;\">Goodwill and Other Intangible Assets....",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 83919566
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "y:Times New Roman; font-size:10pt;\"><tr><td style=\"width:144px;\"></td><td></td></tr><tr><td style=\"vertical-align:top\"><div style=\"line-height:120%;font-size:10pt;padding-left:125px;\"><font style=\"font-family:inherit;font-size:10pt;\">▪</font></div></td><td style=\"vertical-align:top;\"><div style=\"lin...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 13172563
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Merger"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "y:inherit;font-size:10pt;font-style:italic;\">Acquisitive</font><font style=\"font-family:inherit;font-size:10pt;\"> – We define acquisitive revenue as the revenue generated from acquired products and services from the date of acquisition to the first anniversary date of that acquisition. This type of ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 87508042
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "yle=\"font-family:Times New Roman; font-size:10pt;\"><tr><td style=\"width:96px;\"></td><td></td></tr><tr><td style=\"vertical-align:top\"><div style=\"line-height:120%;font-size:10pt;padding-left:77px;\"><font style=\"font-family:inherit;font-size:10pt;\">◦</font></div></td><td style=\"vertical-align:top;\"><d...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 25925020
+        }
+    ],
+    "item_7": "Item 7.\nManagement’s Discussion and Analysis of Financial Condition and Results of Operations\nThe following discussion of our financial condition and operating results should be read in conjunction with other information and disclosures elsewhere in this Form 10-K, including “Selected Financial Data,” our consolidated financial statements and accompanying notes, and “Website and Social Media Disclosure.” The following discussion includes forward-looking statements as described in “Cautionary Note Regarding Forward-Looking Statements” in this Form 10-K. A detailed discussion of risks and uncertainties that could cause actual results and events to differ materially from such forward-looking statements is outlined under “Item 1A. Risk Factors” in this Form 10-K.\nThis MD&A includes the financial results of Markit Ltd. beginning July 12, 2016. The comparability of our operating results for fiscal 2017 to fiscal 2016 is significantly impacted by the Merger. As a result of the Merger, we created a new Financial Services segment, which consists entirely of legacy Markit’s business (and also includes Ipreo from the date of acquisition in August 2018), and we have included revenue and expense attributable to legacy Markit in the Financial Services segment from the date of the Merger. In our discussion and analysis of comparative periods, we have quantified the legacy Markit contribution wherever we have deemed such amounts to be meaningful. While identified amounts may provide indications of general trends, the analysis cannot completely address the effects attributable to the Merger.\nExecutive Summary\nBusiness Overview\nWe are a world leader in critical information, analytics, and solutions for the major industries and markets that drive economies worldwide. We deliver next-generation information, analytics, and solutions to customers in business, finance, and government, improving their operational efficiency and providing deep insights that lead to well-informed, confident decisions. We have more than 50,000 business and government customers, including 80 percent of the Fortune Global 500 and the world’s leading financial institutions. Headquartered in London, we are committed to sustainable, profitable growth.\nOn July 12, 2016, the Merger was completed pursuant to the Merger Agreement between IHS, Markit, and Merger Sub, and Merger Sub merged with and into IHS, with IHS continuing as the surviving corporation and an indirect and wholly owned subsidiary of IHS Markit. Upon completion of the Merger, Markit became the combined group holding company and was renamed IHS Markit Ltd. In accordance with the terms of the Merger Agreement, IHS stockholders received 3.5566 common shares of IHS Markit for each share of IHS common stock they owned.\nTo best serve our customers, we are organized into the following four industry-focused segments:\n•Resources, which includes our Energy and Chemicals product offerings;\n•\nTransportation, which includes our Automotive; Maritime & Trade; and Aerospace, Defense & Security product offerings;\n•\nConsolidated Markets & Solutions, which includes our Product Design; Technology, Media & Telecom (“TMT”); and Economics & Country Risk (“ECR”) product offerings; and\n•\nFinancial Services, which includes our financial Information, Processing, and Solutions product offerings, as well as our product offerings from Ipreo, our recent acquisition.\nWe believe that this sales and operating model helps our customers do business with us by providing a cohesive, consistent, and effective product, sales, and marketing approach by segment.\nOur recurring fixed revenue and recurring variable revenue represented approximately 84 percent of our total revenue in 2018. Our recurring revenue is generally stable and predictable, and we have long-term relationships with many of our customers.\nOur business has seasonal aspects. Our first quarter generally has our lowest quarterly levels of revenue and profit. We also experience event-driven seasonality in our business; for instance, CERAWeek, an annual energy conference, is typically held in the second quarter of each year. Another example is the biennial release of the BPVC engineering standard, which generates revenue for us predominantly in the third quarter of every other year. The most recent BPVC release was in the third quarter of 2017.\nDuring 2018, we focused our efforts on integrating our organizational structure, innovating and developing new product offerings, and managing our capital allocation. In 2018, we completed our key Merger integration activities. We also introduced\nor enhanced many of our product offerings, and we took advantage of the opportunity to further enhance our Financial Services product portfolio with the Ipreo acquisition. Related to our capital structure, our corporate credit rating improved to investment-grade in the second quarter of 2018.\nFor 2019, we expect to focus our efforts on the following actions:\n•\nIncrease in geographic, product, and customer penetration. We believe there are continued opportunities to add new customers and to increase the use of our products and services by existing customers. We plan to add new customers and build our relationships with existing customers by leveraging our existing sales channels, broad product portfolio, global footprint, and industry expertise to anticipate and respond to the changing demands of our end markets.\n•\nIntroduce innovative offerings and enhancements. In recent years, we have launched several new product offerings addressing a wide array of customer needs, and we expect to continue to innovate using our existing data sets and industry expertise, converting core information to higher value advanced analytics. Our investment priorities are primarily in energy, automotive, and financial services, and we intend to continue to invest across our business to increase our customer value proposition.\n•\nBalance capital allocation. Our capital allocation focus for the majority of 2019 will be to de-lever to our capital policy target leverage ratio of 2.0-3.0x. Over the long term, we expect to balance capital allocation between returning capital to shareholders (through consistent share repurchases) and completing mergers and acquisitions, focused primarily on targeted transactions in our core end markets that will allow us to continue to build out our strategic position.\nKey Performance Indicators\nWe believe that revenue growth, Adjusted EBITDA (both in dollars and margin), and free cash flow are key financial measures of our success. Adjusted EBITDA and free cash flow are financial measures that are not recognized terms under U.S. generally accepted accounting principles (“non-GAAP”).\nRevenue growth. We review year-over-year revenue growth in our segments as a key measure of our success in addressing customer needs. We measure revenue growth in terms of organic, acquisitive, and foreign currency impacts. We define these components as follows:\n•\nOrganic - We define organic revenue growth as total revenue growth from continuing operations for all factors other than acquisitions and foreign currency movements. We drive this type of revenue growth through value realization (pricing), expanding wallet share of existing customers through up-selling and cross-selling efforts, securing new customer business, and through the sale of new or enhanced product offerings.\n•\nAcquisitive - We define acquisitive revenue as the revenue generated from acquired products and services from the date of acquisition to the first anniversary date of that acquisition. This type of growth comes as a result of our strategy to purchase, integrate, and leverage the value of assets we acquire. We also include the impact of divestitures in this growth metric. Due to the size of the Merger, we have not included Markit’s 2017 reported results versus 2016 results in the acquisitive category, but have broken out those results in the organic, acquisitive (for acquisitions completed by legacy Markit prior to the Merger), and foreign currency growth metrics.\n•\nForeign currency - We define the foreign currency impact on revenue as the difference between current revenue at current exchange rates and current revenue at the corresponding prior period exchange rates. Due to the significance of revenue transacted in foreign currencies, we believe it is important to measure the impact of foreign currency movements on revenue.\nIn addition to measuring and reporting revenue by segment, we also measure and report revenue by transaction type. Understanding revenue by transaction type helps us identify and address broad changes in product mix. We summarize our transaction type revenue into the following three categories:\n•\nRecurring fixed revenue represents revenue generated from contracts specifying a relatively fixed fee for services delivered over the life of the contract. The fixed fee is typically paid annually or more periodically in advance. These contracts typically consist of subscriptions to our various information offerings and software maintenance, and the revenue is usually recognized over the life of the contract. The initial term of these contracts is typically\nannual and non-cancellable for the term of the subscription and may contain provisions for minimum monthly payments.\n•\nRecurring variable revenue represents revenue from contracts that specify a fee for services which is typically not fixed. The variable fee is usually paid monthly in arrears. Recurring variable revenue is based on, among other factors, the number of trades processed, assets under management, or the number of positions we value. Many of these contracts do not have a maturity date, while the remainder have an initial term ranging from one to five years. Recurring variable revenue was derived entirely from the Financial Services segment for all periods presented.\n•\nNon-recurring revenue represents consulting (e.g., research and analysis, modeling, and forecasting), services, single-document product sales, software license sales and associated services, conferences and events, and advertising. Our non-recurring products and services are an important part of our business because they complement our recurring business in creating strong and comprehensive customer relationships.\nNon-GAAP measures. We use non-GAAP financial measures such as EBITDA, Adjusted EBITDA, and free cash flow in our operational and financial decision-making. We believe that such measures allow us to focus on what we deem to be more reliable indicators of ongoing operating performance (Adjusted EBITDA) and our ability to generate cash flow from operations (free cash flow). We also believe that investors may find these non-GAAP financial measures useful for the same reasons, although we caution readers that non-GAAP financial measures are not a substitute for U.S. GAAP financial measures or disclosures. None of these non-GAAP financial measures are recognized terms under U.S. GAAP and do not purport to be an alternative to net income or operating cash flow as an indicator of operating performance or any other U.S. GAAP measure. Throughout this MD&A, we provide reconciliations of these non-GAAP financial measures to the most directly comparable U.S. GAAP measures.\nEBITDA and Adjusted EBITDA. EBITDA and Adjusted EBITDA are used by many of our investors, research analysts, investment bankers, and lenders to assess our operating performance. For example, a measure similar to Adjusted EBITDA is required by the lenders under our term loan and revolving credit agreements. We define EBITDA as net income plus or minus net interest, plus provision for income taxes, depreciation, and amortization. Our definition of Adjusted EBITDA further excludes primarily non-cash items and other items that we do not consider to be useful in assessing our operating performance (e.g., stock-based compensation expense, restructuring charges, acquisition-related costs and performance compensation, exceptional litigation, net other gains and losses, pension mark-to-market and other adjustments, the impact of joint ventures and noncontrolling interests, and discontinued operations).\nFree Cash Flow. We define free cash flow as net cash provided by operating activities less capital expenditures.\nNon-GAAP measures are frequently used by securities analysts, investors, and other interested parties in their evaluation of companies comparable to us, many of which present non-GAAP measures when reporting their results. These measures can be useful in evaluating our performance against our peer companies because we believe the measures provide users with valuable insight into key components of U.S. GAAP financial disclosures. For example, a company with higher U.S. GAAP net income may not be as appealing to investors if its net income is more heavily comprised of gains on asset sales. Likewise, excluding the effects of interest income and expense moderates the impact of a company’s capital structure on its performance. However, non-GAAP measures have limitations as an analytical tool. Because not all companies use identical calculations, our presentation of non-GAAP financial measures may not be comparable to other similarly titled measures of other companies. They are not presentations made in accordance with U.S. GAAP, are not measures of financial condition or liquidity, and should not be considered as an alternative to profit or loss for the period determined in accordance with U.S. GAAP or operating cash flows determined in accordance with U.S. GAAP. As a result, these performance measures should not be considered in isolation from, or as a substitute analysis for, results of operations as determined in accordance with U.S. GAAP.\nStrategic Acquisitions\nAcquisitions have historically been an important part of our growth strategy. We completed three acquisitions during the year ended November 30, 2018 for a total purchase price of approximately $1.9 billion. In 2017, we completed two acquisitions for a total purchase price of approximately $0.4 billion. We paid a total purchase price of approximately $1.1 billion for two acquisitions we completed during the year ended November 30, 2016, in addition to the Merger. Our consolidated financial statements include the results of operations and cash flows for these business combinations beginning on their respective dates of acquisition. For a more detailed description of our recent acquisition activity, see “Item 8 - Financial Statements and Supplementary Data - Notes to Consolidated Financial Statements - Note 3” in Part II of this Form 10-K.\nGlobal Operations\nApproximately 40 percent of our revenue is transacted outside of the United States; however, only about 20 percent of our revenue is transacted in currencies other than the U.S. dollar. As a result, a strengthening U.S. dollar relative to certain currencies has historically resulted in a negative impact on our revenue; conversely, a weakening U.S. dollar has historically resulted in a positive impact on our revenue. However, the impact on operating income is diminished due to certain operating expenses denominated in currencies other than the U.S. dollar. Our largest foreign currency exposures are the British Pound, Euro, Canadian Dollar, Singapore Dollar, and Indian Rupee. See “Quantitative and Qualitative Disclosures About Market Risk - Foreign Currency Exchange Rate Risk” for additional discussion of the impacts of foreign currencies on our operations.\nPricing information\nWe customize many of our sales offerings to meet individual customer needs and base our pricing on a number of factors, including various price segmentation models which utilize customer attributes, value attributes, and other data sources. Attributes can include a proxy for customer size (e.g., barrels of oil equivalent and annual revenue), industry, users, usage, breadth of the content to be included in the offering, and multiple other factors. Because of the level of offering customization we employ, it is difficult for us to evaluate pricing impacts on a period-to-period basis with absolute certainty. This analysis is further complicated by the fact that the offering sets purchased by customers are often not constant between periods. As a result, we are not able to precisely differentiate between pricing and volume impacts on changes in revenue comprehensively across the business.\nOther Items\nCost of operating our business. We incur our cost of revenue primarily through acquiring, managing, and delivering our offerings. These costs include personnel, information technology, data acquisition, and occupancy costs, as well as royalty payments to third-party information providers. Our sales, general, and administrative expenses include wages and other personnel costs, commissions, corporate occupancy costs, and marketing costs. A large portion of our operating expenses are not directly commensurate with volume sold, particularly in our recurring revenue business model.\nStock-based compensation expense. We issue equity awards to our employees primarily in the form of restricted stock units, performance stock units, and stock options, for which we record cost over the respective vesting periods. The typical vesting period is three years. As of November 30, 2018, we had approximately 8.8 million unvested RSUs/RSAs and 6.2 million unvested stock options outstanding.\nCritical Accounting Policies and Estimates\nOur consolidated financial statements are prepared in accordance with U.S. GAAP. In applying U.S. GAAP, we make significant estimates and judgments that affect our reported amounts of assets, liabilities, revenues, and expenses, as well as disclosure of contingent assets and liabilities. We believe that our accounting estimates and judgments are reasonable when made, but in many instances, alternative estimates and judgments would also be acceptable. In addition, changes in the accounting estimates are reasonably likely to occur from period to period. Accordingly, actual results could differ significantly from our estimates. To the extent that there are material differences between these estimates and actual results, our financial condition or results of operations will be affected. We base our estimates on historical experience and other assumptions that we believe are reasonable, and we evaluate these estimates on an ongoing basis. We refer to accounting estimates of this type as critical accounting policies and estimates, which are discussed further below.\nRevenue Recognition. The majority of our offerings are provided under agreements containing standard terms and conditions. Approximately 84 percent of our 2018 revenue was derived from recurring revenue arrangements, which are initially deferred and then recognized ratably as delivered over the term of the agreement for annual contractual periods billed up front, or is billed and recognized on a periodic basis. These standard agreements typically do not require any significant judgments about when revenue should be recognized. For non-standard agreements, we generally make judgments about revenue recognition matters such as whether sufficient legally binding terms and conditions exist and whether customer acceptance has been received.\nWe review customer agreements and utilize advice from legal counsel, as appropriate, in evaluating the binding nature of contract terms and conditions, as well as whether customer acceptance has been achieved. We estimate progress on consulting project deliverables based on our knowledge and judgment about the current status of individual consulting engagements.\nHistorically, our judgments and estimates have been reasonably accurate, as we have not experienced significant disputes with our customers regarding the timing and acceptance of delivered products and services. However, our actual experience in future periods with respect to binding terms and conditions and customer acceptance may differ from our historical experience.\nIn the first quarter of 2019, we will adopt Accounting Standards Update (“ASU”) 2014-09, 2016-08, 2016-10, and 2016-12. These standards establish a comprehensive new revenue recognition model designed to depict the transfer of goods or services to a customer in an amount that reflects the consideration the entity expects to receive in exchange for those goods or services. We will adopt the new revenue guidance using the modified retrospective transition method, which results in a cumulative effect adjustment to the opening balance of retained earnings as of the date of adoption. We currently estimate an increase of approximately $50 million to the opening balance of retained earnings for this transition for the change in revenue recognition, primarily related to the change in accounting for the license rights associated with certain term-based software license arrangements, which were historically recognized over the term of the contract, but will now be recognized at contract inception based on estimated stand-alone selling price.\nThe expected $50 million transition adjustment pertains solely to the impact to retained earnings as of December 1, 2018 on our consolidated balance sheet, and is not indicative of the impact the new standards are expected to have on our future consolidated financial statements. We do not believe that implementation of the new standards will have a significant impact on our annual results of operations, although we anticipate that there may be more quarterly fluctuations in revenue due to the change in accounting treatment for our term-based software license arrangements. We do not expect that application of the new guidance will affect our cash flows or the economics of our business.\nBusiness Combinations. We apply the purchase method of accounting to our business combinations. All of the assets acquired, liabilities assumed, and contingent consideration are allocated based on their estimated fair values. Fair value determinations involve significant estimates and assumptions about several highly subjective variables, including future cash flows, discount rates, and expected business performance. There are also different valuation models and inputs for each component, the selection of which requires considerable judgment. Our estimates and assumptions may be based, in part, on the availability of listed market prices or other transparent market data. These determinations will affect the amount of amortization expense recognized in future periods. We base our fair value estimates on assumptions we believe are reasonable, but recognize that the assumptions are inherently uncertain. Depending on the size of the purchase price of a particular acquisition, the mix of intangible assets acquired, and expected business performance, the purchase price allocation could be materially impacted by applying a different set of assumptions and estimates. In 2018, 2017, and 2016, we recorded approximately $745.3 million, $113.8 million, and $3.6 billion, respectively, of intangible assets associated with business combinations.\nThe structure of certain business combinations may also require the application of significant assumptions and estimates. For example, in 2017, we acquired 78 percent of aM; in exchange for the remaining 22 percent, we issued equity interests in aM’s immediate parent holding company to aM’s founders and certain employees. We will pay cash to acquire these interests over the five years post-acquisition based on put/call provisions that tie the valuation to the underlying adjusted EBITDA performance of aM. Since the purchase of the remaining 22 percent of the business requires continued service of the founders and employees, we are accounting for the arrangement as compensation expense that is remeasured based on changes in the fair value of the equity interests. We had preliminarily estimated a range of $200 million to $225 million of unrecognized compensation expense related to this transaction, to be recognized over a weighted-average remaining recognition period of approximately 4 years. In the third quarter of 2018, upon reassessment of near-term financial expectations and their impact on the earn-out calculations, we reduced our estimated compensation expense range to $150.0 million to $175.0 million, to be recognized over a weighted-average recognition period of approximately 3.5 years. This change did not significantly impact 2018 expense. This arrangement requires the use of a number of significant judgments and estimates, including the expected put/call exercise pattern and the expected value of the cash payout at the time of exercise.\nGoodwill and Other Intangible Assets. We make various assumptions about our goodwill and other intangible assets, including their estimated useful lives and whether any potential impairment events have occurred. We perform impairment analyses on the carrying values of goodwill and other intangible assets at least annually. Additionally, we review the carrying value of goodwill and other intangible assets whenever events or changes in circumstances indicate that their carrying amounts may not be recoverable. Examples of such events or changes in circumstances, many of which are subjective in nature, include the following:\n•Significant negative industry or economic trends;\n•A significant change in the manner of our use of the acquired assets or our strategy;\n•A significant decrease in the market value of the asset;\n•A significant change in legal factors or in the business climate that could affect the value of the asset; and\n•A change in segments.\nIf an impairment indicator is present, we perform an analysis to confirm whether an impairment has actually occurred and if so, the amount of the required charge.\nAs of November 30, 2018 and 2017, we had approximately $4.5 billion and $4.2 billion, respectively, of finite-lived intangible assets. For finite-lived intangible assets, we review the carrying amount at least annually to determine whether current events or circumstances indicate a triggering event which could require an adjustment to the carrying amount. A finite-lived intangible asset is considered to be impaired if its carrying value exceeds the estimated future undiscounted cash flows to be derived from it. We exercise judgment in selecting the assumptions used in the estimated future undiscounted cash flows analysis. Any impairment is measured by the amount that the carrying value of such assets exceeds their fair value.\nAs of November 30, 2018 and 2017, we had approximately $9.8 billion and $8.8 billion, respectively, of goodwill. For goodwill, we use both qualitative and quantitative analysis to determine whether we believe it is more likely than not that goodwill has been impaired. In 2018 and 2017, we used a qualitative analysis for each reporting unit with goodwill in determining that no impairment indicators were present. That determination requires a number of significant assumptions and judgments, including assumptions about future economic conditions, revenue growth, and operating margins, among other factors. The use of different estimates or assumptions could result in significantly different fair values for our goodwill and other intangible assets.\nIncome Taxes. We exercise significant judgment in determining our provision for income taxes, current tax assets and liabilities, deferred tax assets and liabilities, future taxable income (for purposes of assessing our ability to realize future benefit from our deferred tax assets), our permanent reinvestment assertion regarding foreign earnings, and recorded reserves related to uncertain tax positions. A valuation allowance is established to reduce our deferred tax assets to the amount that is considered more likely than not to be realized through the generation of future taxable income and other tax planning opportunities. To the extent that a determination is made to establish or adjust a valuation allowance, the expense or benefit is recorded in the period in which the determination is made.\nIf actual results differ from estimates we have used, or if we adjust these estimates in future periods, our operating results and financial position could be materially affected.\nThe TCJA significantly changed existing U.S. tax law and includes numerous provisions that affect our business. We have recognized a tax charge of $31 million due to transition tax liability and a tax benefit of $172 million due to the impact of the reduction in U.S. tax rates in the period when the TCJA was enacted as a component of our provision for income taxes from continuing operations. We have completed the accounting for all the impacts of the TCJA. See “Item 8 - Financial Statements and Supplementary Data - Notes to Consolidated Financial Statements - Note 10” in Part II of this Form 10-K for further information about these changes. These computations are based on the regulations and guidance already provided by federal and state tax authorities. We will continue to assess the impact of the further guidance from federal and state tax authorities on our business and consolidated financial statements. Any future adjustments will be recognized as discrete income tax expense or benefit in the period the guidance is issued.\nPension Accounting. During the fourth quarter of each fiscal year (or upon any remeasurement date), we immediately recognize net actuarial gains or losses in excess of a corridor in our operating results. The corridor amount is equivalent to 10 percent of the greater of the market-related value of plan assets or the plan’s benefit obligation at the beginning of the year. We use the actual fair value of plan assets at the measurement date as the measure of the market-related value of plan assets.\nOur pension expense and associated pension liability requires the use of judgment in determining assumptions about the estimated long-term rate of return on plan assets and the discount rate, as well as various demographic assumptions. Our pension investment strategy is designed to align the majority of our pension assets with the underlying pension liability, which should minimize volatility caused by changes in asset returns and discount rates. Our pension expense estimates are updated for actual experience through the remeasurement process in the fourth quarter, or sooner if earlier remeasurements are required. For 2018, we used a 4.3 percent expected long-term rate of return on plan assets and a 3.8 percent discount rate for the U.S. Retirement Income Plan (RIP). The actual return on U.S. RIP plan assets during 2018 was negative 4.5 percent.\nDiscount rates and expected rates of return on plan assets are selected at the end of a given fiscal year and will impact expense in the subsequent year. A 50-basis-point change in certain assumptions made at the beginning of 2018 would have resulted in the following effects on 2018 pension expense and the projected benefit obligation (“PBO”) as of November 30, 2018 for the U.S. and U.K. RIP plans (in millions):\nWe have taken initial steps to terminate the U.S. RIP and are awaiting regulatory approval before proceeding. For the year ending November 30, 2018, we have used the same accounting estimate methodology as in prior years.\nStock-Based Compensation. Our stock plans provide for the grant of various equity awards, including performance-based awards. For time-based restricted stock unit grants, we calculate stock-based compensation cost by multiplying the grant date fair market value by the number of shares granted, reduced for estimated forfeitures. For time-based stock option grants, we calculate stock-based compensation cost by multiplying the grant date fair market value by the number of option shares granted, reduced for estimated forfeitures. The estimated forfeiture rate is based on historical experience, and we periodically review our forfeiture assumptions based on actual experience.\nFor performance-based restricted stock unit grants, including those with a market-based adjustment factor, we calculate stock-based compensation cost by multiplying the grant date fair market value by the number of shares granted, reduced for estimated forfeitures. Each quarter, we evaluate the probability of the number of shares that are expected to vest and adjust our stock-based compensation expense accordingly.\nResults of Operations\nTotal Revenue\nTotal revenue for 2018 increased 11 percent compared to the same period of 2017. Total revenue for 2017 increased 32 percent compared to the same period in 2016. The table below displays the percentage point change in revenue due to organic, acquisitive, and foreign currency factors when comparing 2018 to 2017 and 2017 to 2016. Markit’s revenue of $1.233 billion for the year ended November 30, 2017, less the $68 million increase from the year ended November 30, 2016, has been included in the calculation of acquisitive growth in the table immediately below, and the components of Markit’s $68 million revenue growth from 2016 to 2017 have been included in their related factors in the table further below. We have noted Financial Services growth percentages as not meaningful (N/M) where applicable, as absolute growth percentages are not meaningful comparisons due to the timing of the Merger in 2016.\nOrganic revenue growth in 2018 and 2017 was attributable to both recurring and nonrecurring revenue growth. The recurring-based business represented 84 percent of total revenue in 2018, compared to 83 percent and 82 percent of total revenue in 2017 and 2016, respectively. The recurring-based business increased 6 percent organically in 2018 and 3 percent organically in 2017, led in each year by Transportation and Financial Services offerings, with Resources also contributing to the organic growth in 2018. The non-recurring business increased 6 percent organically in 2018, led by Transportation and Resources offerings, and increased 9 percent organically in 2017, led by Transportation and Financial Services offerings. The non-recurring revenue increase in 2017 was also partially due to the timing of the biennial cycle of the BPVC standard, which contributed approximately $12 million of revenue in the 2017 results.\nAcquisition-related revenue growth for 2018 was primarily due to the Ipreo acquisition in the third quarter of 2018 and the aM acquisition in the fourth quarter of 2017. Acquisition-related revenue growth for 2017 was primarily due to the Merger, as well as the run-out of the CARPROOF and OPIS acquisitions from the first quarter of 2016.\nForeign currency movements had a slightly positive effect on our 2018 revenue growth and a slightly negative impact on our 2017 revenue growth. Due to the extent of our global operations, foreign currency movements could continue to positively or negatively affect our results in the future.\nRevenue by Segment\nThe percentage change in revenue for each segment is due to the factors described in the following table.\nResources revenue had encountered significant energy industry headwinds in 2016 and into early 2017 due to lower energy prices and reduced industry spending. However, we saw a more stable price environment and more favorable capital spending budgets as 2017 progressed, and those trends have continued through 2018. During 2016, on a constant currency basis, our Resources annual contract value (“ACV”), which represents the annualized value of recurring revenue contracts, declined approximately 10 percent; in 2017, ACV was relatively flat, and in 2018, ACV increased 3 percent. As a result, Resources recurring revenue improved from a 9 percent organic decline in 2016 to a 5 percent organic decline in 2017 to 4 percent organic growth in 2018. The energy industry improvements have also led to an improvement in our Resources non-recurring revenue results, going from a 12 percent organic decline in 2016 to 3 percent organic growth in 2017 and 8 percent organic growth in 2018.\nTransportation revenue increases for 2017 and 2018 were driven by continued solid organic recurring and non-recurring growth, primarily in our various automotive product offerings. We continue to see strong organic growth in our automotive product category due to continued growth in our used car product offerings and benefits from ongoing innovation in new car product offerings as a result of the increasing use of digital marketing, new automotive technologies, and global regulatory pressure to curb fuel consumption and emissions, along with strong recall activity. The aM acquisition in the fourth quarter of 2017 contributed the acquisitive growth in each of 2018 and 2017.\nCMS organic revenue growth in 2018 was primarily due to recurring and non-recurring revenue growth in our ECR and TMT product offerings, as well as recurring organic revenue growth in our Product Design offerings; our non-recurring organic revenue decline in Product Design in 2018 was primarily due to the prior year BPVC release. CMS organic revenue growth in 2017 was primarily due to growth in our Product Design offerings, including the BPVC release.\nFinancial Services revenue experienced strong total organic growth in both 2018 and 2017. Within our Information product offerings, we experienced 7 percent organic growth in both 2017 and 2018, primarily due to the strong performance of our pricing, indices, and valuation services offerings. Our Processing offerings declined 1 percent organically in 2018, compared to 6 percent organic revenue growth in 2017. The 2017 growth was driven by our loans processing products associated with the strong leveraged finance and syndicated loans markets, partially offset by derivatives processing decreases due to lower credit volumes. The 2018 Processing decline was due to both lower loan processing and derivative processing\norganic revenue. Solutions organic revenue growth of 8 percent in 2017 and 9 percent in 2018 benefitted from broad-based growth across the portfolio, led by our managed loan services and EDM product offerings.\nRevenue by Transaction Type\nRecurring revenue represents a steady and predictable source of revenue for us. Recurring fixed revenue increased 6 percent organically for 2018, compared to 2017, and increased 2 percent organically for 2017, compared to 2016. Recurring variable revenue was comprised entirely of Financial Services revenue for all periods, and grew 6 percent organically in 2018 and 9 percent organically in 2017. These trends are especially important for us, as recurring revenue is at the core of our business model. Transportation recurring revenue offerings provided the largest contribution to the growth, at 11 percent organic growth for 2018 and 10 percent organic growth for 2017. Financial Services recurring revenue provided 7 percent organic growth in 2018 and 6 percent organic growth in 2017. Resources recurring offerings increased 4 percent organically in 2018 and declined 5 percent organically in 2017. CMS recurring offerings delivered 3 percent organic growth in 2018 and 1 percent organic growth in 2017.\nNon-recurring revenue grew 6 percent organically in 2018 and 9 percent organically in 2017. The 2018 increase was primarily driven by strength in our automotive and Resources product offerings, while the 2017 increase was primarily driven by our automotive and Financial Services product offerings, as well as some positive contribution from Resources and the benefit from the 2017 BPVC release.\nOperating Expenses\nThe following table shows our operating expenses and the associated percentages of revenue.\nCost of Revenue and SG&A Expense\nIn managing our business, we evaluate our costs by type (e.g., salaries) rather than by income statement classification. The increase in absolute total costs in 2018 and 2017 was primarily due to recent acquisitions and the Merger. As a percent of revenue, cost of revenue and SG&A expense have steadily decreased since 2015, primarily because of the higher margin\nFinancial Services segment, as well as ongoing cost management and rationalization efforts associated with acquisition integration.\nWithin our cost of revenue and SG&A expense, stock-based compensation expense as a percentage of revenue was 6 percent, 7 percent, and 7 percent for the years ended November 30, 2018, 2017, and 2016, respectively. The higher stock-based compensation percentages in 2017 and 2016 are primarily due to the assumption and revaluation of legacy Markit outstanding awards at the Merger date and the acceleration of certain share awards associated with severance activities post-Merger.\nDepreciation and Amortization Expense\nDepreciation expense has been increasing primarily as a result of increases in capital expenditures for our various infrastructure and software development initiatives, as well as assets acquired through the Merger. Amortization expense has increased primarily because of intangible assets associated with the Merger and subsequent acquisitions.\nAcquisition-related Costs\nIn 2018 and 2017, we incurred $135 million and $113 million, respectively, of costs associated with acquisitions, including employee severance charges and retention costs, contract termination costs for facility consolidations, legal and professional fees, and compensation costs of $54 million in 2018 and $10 million in 2017 related to the performance awards granted in connection with the purchase of aM. We expect to incur additional acquisition-related costs related to the aM performance awards over the next four years.\nWe incurred $161 million of acquisition-related costs in 2016, primarily for the Merger, including $90 million of costs related to advisory and banker fees and another $60 million for costs to achieve Merger synergy targets, including employee severance and retention costs, as well as contract termination costs primarily related to the consolidation of our legacy facilities.\nSegment Adjusted EBITDA\nFor 2017 and 2018, Adjusted EBITDA increased due to the Merger and subsequent acquisitions, profit delivery from revenue growth in Transportation and Financial Services, and ongoing cost management and rationalization efforts associated with acquisition integration.\nAs a percentage of segment revenue, Adjusted EBITDA improved in 2017 and remained flat in 2018 as a result of strengthening revenue results, Merger integration, business leveraging efforts, and recent acquisitions. Transportation segment Adjusted EBITDA margin increases in 2018 and 2017 were aided by margin flow through from high revenue growth in that segment, partially offset in 2018 by lower aM margins. Financial Services segment Adjusted EBITDA margin was also strengthened in 2017 and 2018 by margin flow-through from high revenue growth, partially offset in 2018 by lower Ipreo margins.\nProvision for Income Taxes\nOur effective tax rate for continuing operations for the year ended November 30, 2018 was negative 27.2 percent, compared to negative 13.4 percent in 2017 and negative 3.6 percent in 2016. The reduction in our tax rate for 2018, compared to 2017, is primarily due to net tax benefits associated with U.S. tax reform of $141 million. The reduction in our tax rate for 2017, compared to 2016, is primarily due to tax benefits associated with our capital structure, the benefit from Merger-related expenses, the release of a $29.3 million valuation allowance on tax attributes in the third quarter of 2017, and excess tax benefits on stock-based compensation.\nIn December 2017, the TCJA was enacted in the United States. The TCJA enacted significant changes affecting our fiscal year 2018, including, but not limited to, (1) reducing the U.S. federal corporate income tax rate to 21% and (2) imposing a one-time transition tax on certain unrepatriated earnings of foreign subsidiaries of U.S. companies that had not been previously taxed in the U.S.\nThe TJCA also establishes new tax provisions affecting our fiscal year 2019, including, but not limited to, (1) creating a new provision designed to tax global intangible low-tax income (“GILTI”); (2) generally eliminating U.S. federal taxes on dividends from foreign subsidiaries; (3) eliminating the corporate alternative minimum tax (“AMT”); (4) creating the base erosion anti-abuse tax (“BEAT”); (5) establishing a deduction for foreign derived intangible income (\"FDII\"); (6) repealing domestic production activity deduction; and (7) establishing new limitations on deductible interest expense and certain executive compensation.\nThe TCJA reduced the U.S. federal corporate income tax rate from 35 percent to 21 percent effective January 1, 2018. Due to our fiscal year end, the lower corporate tax rate will be phased in, resulting in a U.S. statutory federal rate of 22.19 percent for our fiscal year ending November 30, 2018 and 21 percent for subsequent fiscal years.\nASC 740, Income Taxes, requires companies to recognize the effect of the tax law changes in the period of enactment. However, the SEC staff issued Staff Accounting Bulletin No. 118 (“SAB 118”) which allowed companies to record provisional amounts during a measurement period not extending beyond one year from the TJCA enactment date. For the year ended November 30, 2018, we recognized income tax benefit related to the TCJA of $141 million which includes (1) an expense of $31 million for U.S. transition tax liability and correlative items on deemed repatriated earnings of non-U.S. subsidiaries and (2) a benefit of $172 million associated with the impact on deferred taxes resulting from the decreased U.S. federal corporate income tax rate as described below. As of November 30, 2018, we have completed the accounting for all the impacts of the TCJA.\nDeemed Repatriation Transition Tax (“Transition Tax”): The Transition Tax is based on the total unrepatriated post-1986 earnings and profits (“E&P”) of our foreign subsidiaries and the amount of non-U.S. taxes paid (Tax Pools) on such earnings. Historically, we permanently reinvested a significant portion of post-1986 E&P outside the U.S. For the remaining portion, we previously accrued deferred taxes. Since the TCJA required all foreign earnings to be taxed currently, we recorded an income tax expense of $31 million for our one-time transition tax liability, which will be paid over 8 years in accordance with the election available under the TCJA. We have completed our accounting for charges related to the Transition Tax.\nReduction of U.S. Federal Corporate Tax Rate: The reduction of the U.S. federal corporate income tax rate requires that we remeasure our deferred tax assets and liabilities as of the date of enactment. The amount recorded for the year ended November 30, 2018 for the remeasurement due to tax rate change is $172 million. We have completed our accounting for the measurement of deferred taxes.\nGILTI: The TCJA subjects a U.S. corporation to tax on its GILTI. U.S. GAAP allows companies to make an accounting policy election to either (1) treat taxes due on future GILTI inclusions in U.S. taxable income as a current-period expense when incurred (“period cost method”) or (2) factor such amounts into the measurement of its deferred taxes (“deferred method”). We have elected to use the period cost method.\nIndefinite Reinvestment Treatment: Prior to the enactment of the TCJA, we treated a significant portion of our undistributed earnings from legacy foreign subsidiaries of IHS as indefinitely reinvested. As a result of the enactment of the TCJA, we have reevaluated our historic assertion and no longer consider certain earnings of legacy foreign subsidiaries of IHS to be indefinitely reinvested. We have recorded a deferred tax liability of $12 million for foreign withholding taxes on repatriation of remaining undistributed earnings.\nEBITDA and Adjusted EBITDA (non-GAAP measure)\nOur Adjusted EBITDA margin performance increased each year primarily because of the Merger and our integration and cost management efforts, partially offset by recent acquisitions. In 2017 and 2018, we also benefitted from margin flow-through from our organic revenue growth. We expect to continue to drive margin improvement through leveraging our business model and continued focus on efficiency and cost management efforts.\nFinancial Condition\nThe increase in our accounts receivable balance was primarily due to the acquisition of Ipreo, along with increased revenue in the current year. The increase in accrued compensation was due primarily to the attainment of certain performance objectives associated with our annual incentive plan as compared to the prior year, along with the acquisition of Ipreo. The increase in deferred revenue was primarily due to the acquisition of Ipreo, as well as increased billings in 2018.\nLiquidity and Capital Resources\nAs of November 30, 2018, we had cash and cash equivalents of $120 million. Our principal sources of liquidity include cash generated by operating activities, cash and cash equivalents on the balance sheet, and amounts available under a revolving credit facility. We had approximately $5.68 billion of debt as of November 30, 2018, consisting primarily of $1.1 billion of\nrevolving facility debt, $1.31 billion of term loan debt, and $3.31 billion of senior notes. As of November 30, 2018, we had approximately $0.9 billion available under our revolving credit facility.\nIn 2018, we entered into the following arrangements:\n•\nWe issued $500 million aggregate principal amount of senior unsecured notes at a 4.000 percent interest rate, due 2026. Net proceeds from this offering were used to repay amounts outstanding under our revolving credit facility.\n•\nWe terminated our previous revolving credit facility and associated term loans and entered into a new revolving credit facility and associated term loans.\n•\nWe borrowed $250 million under a 364-day credit agreement to help fund the acquisition of Ipreo, which was repaid in January 2019 using cash on hand and borrowings under the revolving credit facility.\n•\nWe issued $500 million aggregate principal amount of senior unsecured notes at a 4.125 percent interest rate, due 2023. Net proceeds from this offering were used to repay amounts outstanding under our revolving credit facility.\n•\nWe issued $750 million aggregate principal amount of senior unsecured notes at a 4.750 percent interest rate, due 2028. Net proceeds from this offering were used to repay amounts outstanding under our revolving credit facility.\nOur interest expense in each of 2016, 2017, and 2018 increased primarily because of a higher average debt balance as a result of acquisitions and share repurchases, a higher effective interest rate due to an increased amount of fixed-rate debt, financing fees incurred in conjunction with acquisition and Merger activity, and higher short-term interest rates. We expect that our interest expense will continue to be higher in 2019 compared to 2018 and 2017, primarily due to increasing debt balances and a higher percentage of fixed-rate debt as we execute additional long-term fixed-rate financing.\nOur Board of Directors has authorized a share repurchase program of up to $3.25 billion of IHS Markit common shares through November 30, 2019, to be funded using our existing cash, cash equivalents, marketable securities and future cash flows, or through the incurrence of short- or long-term indebtedness, at management’s discretion. This repurchase program does not obligate us to repurchase any set dollar amount or number of shares and may be modified, suspended, or terminated at any time without prior notice. Under this program, we are authorized to repurchase our common shares on the open market from time to time, in privately negotiated transactions, or through accelerated share repurchase agreements, subject to availability of common shares, price, market conditions, alternative uses of capital, and applicable regulatory requirements, at management’s discretion. As of November 30, 2018, we had repurchased approximately $2.24 billion under this authorization.\nOur Board of Directors has separately authorized, subject to applicable regulatory requirements, the repurchase of our common shares surrendered by employees in an amount equal to the exercise price, if applicable, and statutory tax liability associated with the vesting of their equity awards, for which we pay the statutory tax on behalf of the employee and forgo receipt of the exercise price of the award from the employee, if applicable. Such repurchases have been authorized in addition to the share repurchase program described above.\nBased on our cash, debt, and cash flow positions, we believe we will have sufficient liquidity to meet our ongoing working capital and capital expenditure needs. Our future capital requirements will depend on many factors, including the number and magnitude of future acquisitions, amount of share repurchases, the need for additional facilities or facility improvements, the timing and extent of spending to support product development efforts, information technology infrastructure investments, investments in our internal business applications, and the continued market acceptance of our offerings. We could be required, or could elect, to seek additional funding through public or private equity or debt financings; however, additional funds may not be available on terms acceptable to us.\nSee “Item 8 - Financial Statements and Supplementary Data - Notes to Consolidated Financial Statements - Note 8” in Part II of this Form 10-K for additional information about our debt obligations.\nCash Flows\nNet cash provided by operating activities in 2018 increased primarily by continued increasing operating performance and working capital improvements. In 2017, net cash provided by operating activities increased significantly, primarily as a result of the Merger.\nNet cash used in investing activities for 2018 increased from 2017 primarily due to the Ipreo acquisition in 2018, partially offset by lower capital expenditures compared to the prior year. Net cash used in investing activities for 2017 decreased from 2016 primarily due to lower cost acquisitions, partially offset by increased capital expenditures primarily due to the Merger.\nNet cash provided by financing activities increased in 2018 primarily due to borrowings to fund the Ipreo acquisition and lower share repurchases, partially offset by lower proceeds from stock option exercises. Net cash used in financing activities in 2017 consists primarily of repurchases of common shares in the open market and for payments related to tax withholding for stock-based compensation, partially offset by increased borrowings and cash from stock option exercises.\nFree Cash Flow (non-GAAP measure)\nThe following table reconciles our non-GAAP free cash flow measure to net cash provided by operating activities.\nThe increase in free cash flow was primarily due to higher net cash provided by operating activities and lower capital expenditure activity. Our free cash flow has historically been positive due to the robust cash generation attributes of our business model, and we expect that it will continue to be a significant source of funding for our business strategy of growth through organic and acquisitive means.\nCredit Facility and Other Debt\nPlease refer to “Item 8 - Financial Statements and Supplementary Data - Notes to Consolidated Financial Statements - Note 8” in Part II of this Form 10-K for a discussion of the current status of our debt arrangements.\nShare Repurchase Programs\nPlease refer to Part II, Item 5 and “Item 8 - Financial Statements and Supplementary Data - Notes to Consolidated Financial Statements - Note 14” in Part II of this Form 10-K for a discussion of our share repurchase programs.\nOff-Balance Sheet Transactions\nWe have no off-balance sheet transactions.\nContractual Obligations and Commercial Commitments\nWe have various contractual obligations and commercial commitments that are recorded as liabilities in our consolidated financial statements. Other items, such as certain purchase commitments and other executory contracts, are not recognized as liabilities in our consolidated financial statements but are required to be disclosed. The following table summarizes our contractual obligations and commercial commitments as of November 30, 2018, along with the obligations associated with our term loans and notes, and the future periods in which such obligations are expected to be settled in cash (in millions):\nWe expect to contribute approximately $2 million to our pension and postretirement benefit plans in 2019.\nOver the next one to four years, we expect to pay cash to acquire the remaining 22 percent of aM’s equity interests. The amount of cash to be paid is based on put/call provisions that tie the valuation to underlying adjusted EBITDA performance of aM. Based on our current estimates, we believe that the purchase price for the remaining equity interests will be in a range of $150 million to $175 million.\nIn addition to the term loans and notes, as of November 30, 2018, we also had $1.1 billion of outstanding borrowings under our $2.0 billion 2018 revolving facility at a current annual interest rate of 3.69 percent. The facility has a five-year term ending in June 2023. We also had approximately $7 million in capital lease obligations as of November 30, 2018.\nRecent Accounting Pronouncements\nPlease refer to “Item 8 - Financial Statements and Supplementary Data - Notes to Consolidated Financial Statements - Note 2” in Part II of this Form 10-K for a discussion of recent accounting pronouncements and their anticipated effect on our business."
+}

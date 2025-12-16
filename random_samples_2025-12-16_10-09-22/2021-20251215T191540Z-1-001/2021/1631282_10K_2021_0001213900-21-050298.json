@@ -1,0 +1,513 @@
+{
+    "cik": "1631282",
+    "company": "Company_1631282",
+    "filing_type": "10-K",
+    "filing_date": "2021-01-01",
+    "period_of_report": "2021-12-31",
+    "sic": "Unknown",
+    "state_of_inc": "Unknown",
+    "state_location": "Unknown",
+    "fiscal_year_end": "1231",
+    "filing_html_index": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1631282",
+    "htm_filing_link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1631282",
+    "complete_text_filing_link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1631282",
+    "filename": "1631282_10K_2021_0001213900-21-050298.htm",
+    "special_items": [
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "-bottom: 0pt; font: 10pt Times New Roman, Times, Serif\"> </p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in\">Our Smart Payment service\nprovides customers with comprehensive payment and settlement services by using face recognition and big ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 53416172
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "arbitration"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "/font></p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 20pt\"><font style=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\"> </font></p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-in...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 84445431
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "/p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in\"><font style=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\">With\nthe development of smart ways to submit payment and the settlement system platform, such as PC, mobile termin...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 20262696
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "5pt\"><u>Government Buy\nremote sensing products</u></p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0 0pt 21pt; text-align: justify; text-indent: 15pt\"> </p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in\">Standardized re...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 40018386
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": ">\n<table cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt\"><tr style=\"vertical-align: top\">\n<td style=\"width: 0.5in\"></td><td style=\"width: 0.25in\"><font style=\"font-family: Times New Roman, Times, Serif; font-size: 10p...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 41642972
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "arbitration"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "E. If our consolidated VIE or its shareholders fail to perform their respective obligations under\nthese contractual arrangements, our recourse to the assets held by our consolidated VIE is indirect and we may have to incur substantial\ncosts and expend significant resources to enforce such arrangemen...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 43853058
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "In this fiscal year, we completed the campus direct drinking water project of Guangdong Dingxin Hong Tu Technology Co., LTD.,\nShenzhen Odomke Wine Co., LTD., Shanwei City Jinhua Gas Station and other projects. Now we have put together a variety of payment and\nsettlement on market channels, such as p...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 66456703
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "Station and other projects. Now we have put together a variety of payment and\nsettlement on market channels, such as payment and settlement treasure, WeChat, UnionPay, Jingdong, support for multiple terminals, such\nas PC, mobile terminals, intelligent terminal, and the unity of the POS machine and s...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 17475203
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 21pt\"> </p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in\"><b>4.\nSmart Payment Business</b></p>\n<p style=\"margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 17229141
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "able cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; font: 10pt Times New Roman, Times, Serif; margin-top: 0pt; margin-bottom: 0pt\"><tr style=\"vertical-align: top\">\n<td style=\"width: 0.5in\"></td><td style=\"width: 0.25in\"><font style=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\">●...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 32288808
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "atistics to achieve comprehensive aggregation of collection, settlement and data\nstatistics. The system provides merchants with full-scene intelligent software and hardware payment and settlement solutions, including\nQR code speaker, small white box, facial payment and settlement equipment and other...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 2510200
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "channels, such as payment and settlement treasure, WeChat, UnionPay, Jingdong, support for multiple terminals, such\nas PC, mobile terminals, intelligent terminal, and the unity of the POS machine and so on payment and settlement products, no matter\nmerchants use which kinds of payment and settlement...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 33899233
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ect of Guangdong Dingxin Hong Tu Technology Co., LTD.,\nShenzhen Odomke Wine Co., LTD., Shanwei City Jinhua Gas Station and other projects. Now we have put together a variety of payment and\nsettlement on market channels, such as payment and settlement treasure, WeChat, UnionPay, Jingdong, support for...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 14260574
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "financial center </font></td></tr></table>\n<p style=\"margin-top: 0pt; margin-bottom: 0pt; font: 10pt Times New Roman, Times, Serif\"><font style=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\"> </font></p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: ju...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 89779525
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in\">In order to strengthen cooperation\nin customs, taxation and supervision, promote the implementation of a higher level of integration of customs clearance, strengthen the\ndeepening of industrial digitiza...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 41931189
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "he service ability and product coverage\nof Datasea.</font></p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 20pt\"><font style=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\"> </font></p>\n<p style=\"font: 10pt Times New Roman, Times...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 35593628
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "henzhen Odomke Wine Co., LTD., Shanwei City Jinhua Gas Station and other projects. Now we have put together a variety of payment and\nsettlement on market channels, such as payment and settlement treasure, WeChat, UnionPay, Jingdong, support for multiple terminals, such\nas PC, mobile terminals, intel...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 48177044
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ign: center; vertical-align: top\"><font style=\"font-family: Times New Roman, Times, Serif\"> </font></td>\n<td style=\"vertical-align: top; text-align: left\"><font style=\"font-family: Times New Roman, Times, Serif\">Pinwu (Tianjin) Technology\n    Co., Ltd</font></td>\n<td style=\"text-align: center; verti...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 45139396
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "imes, Serif; margin: 0pt 0; text-align: justify; text-indent: 20pt\"> </p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in\">The Company’s payment\nand settlement system platform can be applied to PC, mobile terminals, intelligent terminal, and...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 15338872
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ment and settlement products, no matter\nmerchants use which kinds of payment and settlement channels, as long as through the payment and settlement system access, You can use\nthe payment and settlement system statement and data statistics to achieve comprehensive aggregation of collection, settlemen...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 17792268
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ms and products, and strengthens the interconnection and linkage between products.</p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 20pt\"> </p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent:...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 24548797
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "obile terminals, intelligent terminal, and the unity of the POS machine and so on payment and settlement products, no matter\nmerchants use which kinds of payment and settlement channels, as long as through the payment and settlement system access, You can use\nthe payment and settlement system statem...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 89648800
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ont: 10pt Times New Roman, Times, Serif\"><font style=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\"> </font></p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in\"></p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin:...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 29865491
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in\"><font style=\"font-family: Times New Roman, Times, Serif\">Intelligent\nPayment. In this fiscal year, we completed the campus direct drinking water project of Guangdong Dingxin Hong Tu Technol...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 27725586
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "s New Roman, Times, Serif\"><b> </b></font></p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-indent: 0.5in; text-align: justify\"><font style=\"font-family: Times New Roman, Times, Serif\"><b>Smart\npayment: </b>With the demand of merchants’ marketing expansion, accounting mana...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 23517033
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "sitioning of target customers, acquisition and service capabilities. The Company helps customers to enter into the overall service\necosystem composed of various systems and products, and strengthens the interconnection and linkage between products.</p>\n<p style=\"font: 10pt Times New Roman, Times, Se...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 50743099
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "solidated VIE. If our consolidated VIE or its shareholders fail to perform their respective obligations under\nthese contractual arrangements, our recourse to the assets held by our consolidated VIE is indirect and we may have to incur substantial\ncosts and expend significant resources to enforce suc...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 59587216
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "style=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\"> </font></p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in\"><font style=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\">With\nthe development of smart ways to...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 26614801
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "t-family: Times New Roman, Times, Serif\"> </font></p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in\"><font style=\"font-family: Times New Roman, Times, Serif\">Intelligent\nPayment. In this fiscal year, we completed the campus direct drinking...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 32428281
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "text-indent: 0.5in\"><font style=\"font-family: Times New Roman, Times, Serif; font-size: 10pt\">As\ntime goes by, the retail ecosystem continues to evolve and change. We intend to use our first-class big data technology platform, smart\nthree-dimensional platform and first-class R&amp;D team to continue...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 77646442
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "tion of local\ngovernment can be real-time access to global tourism big data (such as the source of tourists, age, sex, period, tourist hot spots, consumer\npreferences, etc.), relevant emergency security departments such as transportation, public security, fire control can be fast response\nof tourism...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 53155910
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "tion, settlement and data\nstatistics. The system provides merchants with full-scene intelligent software and hardware payment and settlement solutions, including\nQR code speaker, small white box, facial payment and settlement equipment and other intelligent cashier terminals, and provides cloud\nplat...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 15510179
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ween products.</p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 20pt\"> </p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt 0; text-align: justify; text-indent: 0.5in\">The Company’s payment\nand settlement system platform can be ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 22501747
+        }
+    ],
+    "item_7": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations.\nCautionary Note Regarding Forward-Looking Statements\nThis report contains forward-looking statements within the meaning of Section 27A of the Securities Act and Section 21E of the Exchange Act. All statements other than statements of historical fact are “forward-looking statements” for purposes of federal and state securities laws, including, but not limited to, any projections of earnings, revenue or other financial items; any statements of the plans, strategies and objectives of management for future operations; any statements concerning proposed new services or developments; any statements regarding future economic conditions of performance; and statements of belief; and any statements of assumptions underlying any of the foregoing. Such forward-looking statements involve known and unknown risks, uncertainties and other factors that may cause our actual results, performance or achievements to be materially different from any future results, performance or achievements expressed or implied by such forward-looking statements.\nIn some cases, you can identify forward looking statements by terms such as “may,” “intend,” “might,” “will,” “should,” “could,” “would,” “expect,” “believe,” “anticipate,” “estimate,” “predict,” “potential,” or the negative of these terms. These terms and similar expressions are intended to identify forward-looking statements. The forward-looking statements in this report are based upon management’s current expectations and belief, which management believes are reasonable. However, we cannot assess the impact of each factor on our business or the extent to which any factor or combination of factors, or factors we are aware of, may cause actual results to differ materially from those contained in any forward-looking statements. You are cautioned not to place undue reliance on any forward-looking statements. These statements represent our estimates and assumptions only as of the date of this report. Except to the extent required by federal securities laws, we undertake no obligation to update any forward-looking statement to reflect events or circumstances after the date hereof or to reflect the occurrence of unanticipated events.\nYou should be aware that our actual results could differ materially from those contained in the forward-looking statements due to a number of factors, including:\n● uncertainties relating to our ability to establish and operate our business and generate revenue;\n● uncertainties relating to general economic, political and business conditions in China;\n● industry trends and changes in demand for our products and services;\n● uncertainties relating to customer plans and commitments and the timing of orders received from customers;\n● announcements or changes in our advertising model and related pricing policies or that of our competitors;\n● unanticipated delays in the development, market acceptance or installation of our products and services;\n● changes in Chinese government regulations; and\n● availability, terms and deployment of capital, relationships with third-party equipment suppliers;\n● influences of COVID-19 on China’s economy and society;\n- 72 -\nOverview\nWe are a fast-growing company at the cutting edge of smart security solutions and expand business coverage strategically to areas like 5G messaging and smart payment solutions. Based in Beijing China, our proprietary technologies are geared towards a safer society and answer to security needs of both enterprise and individual clients Up to now, we have established four business categories centered on smart city, acoustic intelligence, 5G messaging, and smart payment.\nSmart city: During the reporting period, the Company completed the First School of Harbin New Area and the Campus security intelligent control platform project of No. 73 Middle School of Harbin city, and the access control, monitoring and alarm project of China Pacific Life Insurance Heilongjiang Branch office building. It shows that the Company’s deep cultivation in northeast China has achieved results, and effective progress has been made in the smart campus market. At the same time, the product service scheme has been recognized by well-known financial and life insurance companies in the industry.\nAcoustic intelligence: During the reporting period, the Company established voice perception and acoustic effect as two major technical directions, forming part of the technical and product achievements, has obtained independent research and development of core technology invention patents 4, 4 software Copyrights, international intellectual property rights are in the process of implementation. At present, the intelligent technology of digital sea acoustics has achieved 1.0 stage, and has achieved certain results in the market application demonstration\n5G messaging: During the reporting period, the Company held 3 product cooperation fairs and successfully signed contracts with more than 14 partners, with the contract amount of $316,718 (RMB 2.046 million) and cash flow income of more than $239,938 (RMB 1.55 million), creating a new high after the launch of 5G messaging business and business growth on the right track\nSmart payment: During the reporting period, the Company implemented and signed agreements with 11 institutions in consumer, financial, business and other industries, covering 8 cities including Shanghai, Shenzhen, Guangzhou, Dongguan, Shanwei, Xiamen and Tianjin.\nResults of Operations\nComparison of the years ending June 30, 2021 and 2020\nThe following table sets forth the results of our operations for the years ended June 30, 2021 and 2020, respectively, indicated as a percentage of net sales. Certain columns may not add up due to rounding.\n- 73 -\nRevenue\nWe had revenue of $175,138 and $1,414,781 for the years ended June 30, 2021 and 2020, respectively. For the year ended in June 30, 2021, the sales mainly consisted of sales of safe campus intelligence control systems and related devices to schools, face temperature measurement access control products and face recognition devices. For the year ended in June 30, 2020, the sales mainly consist of sale of safe campus security management system to schools.\nThe decrease in revenue was majorly due to the expansion of the Company’s business towards 5G messaging and smart payment in fiscal year 2021, which will take a certain period of time for the new business to generate revenue, and we expect that such new revenue will be reflected in the next fiscal year. The Company believes that its business development is on track and supported by a strong product portfolio recognized by the market with purchase orders placed and the expansion of the distribution partners with national positioning.\nAdvance from customers\nThe Company obtained cash advance from 5G messaging agency with $189,527 as of June 30 2021.\nIn September 2021, Hangzhou Shuhai Zhangxun and Hubei Kuanyun Network Technology Co., Ltd. signed a cooperation agreement on SMS business sales, with a contract amount of approximately $4.33 million(RMB 28 million).\nIn September 2021, Hangzhou Shuhai Zhangxun and Quantum Communication (Beijing) Technology Co., Ltd. signed the cooperation agreement on SMS service sales, with the contract amount of approximately $3.87 million (RMB 25 million).\nIn addition, as a significant post-term matter, Datasea and its wholly owned subsidiary company Guozhong Haoze (Beijing) Technology Ltd. (“Guozhong Haoze”), had signed a strategical agreement with Eastcom Smart Chain (Beijing) Network Technology Co., Ltd. to provide smart systems and services for Canteens and restaurants in at least 200 schools and institutions in the next two years, with a total contract amount of not less than US$14,758,359 (RMB 95,339,000).\nCost of Goods Sold\nWe recorded $81,135 and $146,380 cost of goods sold for the years ended June 30, 2021 and 2020, respectively. For the year ended June 30, 2021, the cost of goods sold was mainly the inventory purchase cost for the products sold. For the year ended June 30, 2020, the cost of goods sold was mainly for the CRI orders of Guozhong Times. No significant cost of goods sold was recorded for our sale of the Safe Campus Security Management systems as a substantial portion of the costs were related to research and development costs which were expensed as and when they were incurred.\nGross Profit\nThe gross income for the years ended June 30, 2021 and 2020 was $94,003 and $1,268,400, respectively. The decreased in gross income was mainly due to the hardware cost of products to be sold in 2021 is caused by the market price restriction, which cannot bring profit space of markup, and sales revenue in 2020 will mainly come from self-developed software products.\nSelling, General and Administrative, and Research and Development Expenses\nSelling expenses were $568,034 and $438,621 for the years ended June 30, 2021 and 2020, respectively; an increase of $129,413 or 30%. The increase was mainly due to increased payroll expense of salespersons by $131,550 which was partly offset by decreased travel expense by $2,370.\nWe are currently focusing our efforts on the research and development (“R&D”) of our products and software to assist schools and communities in addressing public health and safety matters, expanding the artificial intelligence application and products, forming a new business model providing online shopping and other value-added services, and developing 5G messaging products. We incurred R&D expenses of $851,839 and $1,114,486 during the years ended June 30, 2021 and 2020, respectively. We intend to invest approximately $10 million in technological product development over the next three years.\nGeneral and administration (“G&A”) expenses increased $1,915,070, or 118% from $1,620,346 during the year ended June 30, 2020 to $3,535,416 during the comparable period in 2021. The increases were attributed to increases in rental expenses by $606,130 , increased payroll expenses by $290,310, increased professional fees by $241,120, increased bad debt expense by $277,640, increased social insurance expenses by $207,290, increased leasehold improvement expenses by $75,450, increased meal and entertainment expense by $60,460, increased property management fee by $51,250, increased office expense by $39,150, increased meeting expense by $20,520, and increased other G&A expenses by $45,750.\n- 74 -\nNon-operating Income (expenses), net\nNon-operating income (expenses) was $(23,030) and $46,958 for the years ended June 30, 2021 and 2020, respectively. For the year ended June 30, 2021, we had interest income $2,517 and other expenses $25,547. For the year ended June 30, 2020, we had interest income $49,455 and other expense $2,497.\nNet Loss\nWe generated net losses of $4,648,477 and $1,863,253 for the years ended June 30, 2021 and 2020, respectively, mainly due to the fact that in 2021, the Company expanded its business layout, established Shenzhen and Hangzhou companies, and the R&D investment also increased compared with the previous fiscal year.\nLiquidity and Capital Resources\nWe have funded our operations to date primarily through the sales of our common stock and shareholder loans. Our management recognizes that we must generate sales and additional cash resources in order for our Company to continue our operations. Given the market space for the industry chain brought by the booming development of 5G technology in China, increased interest in public safety and pandemic control and prevention in different scenarios, the potential for data captured by the Company in the consumer analytics and synergy effect, the expansion of our own 5G business, and the increased demand for our smart community, safe campus, smart payment and other projects, our management believes that our business has the potential to continue to grow.\nWe expect to generate revenue through expanding our current smart city, 5G message and acoustic intelligence , and through continuous product innovation and development as well as various types of value-added services. In order to maintain working capital sufficient to support our operations and finance the future growth of its business, we expect to fund any cash flow shortfall through financial support from our majority stockholders (who are also our board members or officers) and public or private issuance of securities. However, such additional cash resources may not be available to us on desirable terms, or at all, if and when needed by us. We will also generate cash flow through cash income and governmental subsidies to support future operations.\nAs of June 30, 2021, we had a working capital deficit of $2,372,682 or a current ratio of 0.27:1. Our current assets were $885,985. As of June 30, 2020, we had a working capital of $2,609,032. Our current assets on June 30, 2020 were $3,298,523 excluding the restricted cash of $600,000.\n- 75 -\nWe expect the Company will continue to support its operations and investment plans through its financing activities. However, there is no assurance that the Company will be able to secure such additional working capital on commercially viable terms or at all.\nThe following is a summary of cash provided by or used in each of the indicated types of activities during the years ended June 30, 2021 and 2020, respectively.\nCash Flow from Operating Activities\nNet cash used in operating activities was $3,948,349 during the year ended June 30, 2021, compared to net cash used in operating activities of $4,573,352 during the year ended June 30, 2020, a decrease of cash outflow by $625,003. The decrease in cash outflow was mainly due to decreased cash outflow on inventory by $111,813, decreased cash outflow of prepaid expenses and other current assets by $1,393,158, decreased cash outflow from advance from customers by $1,434,472, increased cash inflow on accounts payable by $88,071, increased cash inflow from accrued expense and other payables by $198,042, and non-cash adjustment of bade debt expense and depreciation to net loss by $366,549, despite we had increased net loss by $3,021,063.\nCash Flow from Investing Activities\nNet cash used in investing activities totaled $168,685 for the year ended June 30, 2021, which primarily was for cash paid for the acquisition of office furniture and equipment and leasehold improvements of $142,537, and for intangible assets of $26,148. Net cash used in investing activities totaled $306,813 for the year ended June 30, 2020, which primarily related to cash paid for the acquisition of office furniture and equipment and leasehold improvements of $295,467, and for intangible assets of $11,346.\nCash Flow from Financing Activities\nNet cash provided by financing activities was $2,448,847 during the year ended June 30, 2021, which was the net proceeds from sale of our common stock through an equity financing of $931,000, increase in due to related parties of $68,541 and proceeds from loans payable of $1,449,306. Net cash used in financing activities was $84,842 during the year ended June 30, 2020, which primarily consisted of repayment of a shareholder loan of $84,842.\n- 76 -\nGoing forward\nThe Company has been focusing on the long-term establishment of exclusive advantages through technological development and strategic deployment, helping the Company to sustainable development and accumulation of potential energy. From the combination of visual perception technology and artificial intelligence big data technology at the very beginning, our products can be more active in identification and analysis, and effectively produce intervention and intervention, from passive monitoring to active prevention. Since then, we have seen that the integration of multiple sensing technologies can enhance the effectiveness of intelligent security solutions and enhance the applicability of products, and the Company has purposefully started to deploy acoustic intelligent technologies. Diversified perception technology is not enough. Data science is of great significance to the accuracy of multiple perception technology and the processing of complex environment. Combined with the common and similar underlying technology logic, the Company has strategically entered 5G message and smart payment. In the future development, each sector is not only the source of the Company’s profits, but also mutually reinforcing effect, which can improve the Company’s overall product value and overall ecological viability, help the Company accumulate sustainable development, and promote the potential energy to become the industry leader.\nLooking into the future, Datasea has become an emerging technology company in China dedicated to providing intelligent product solutions and value-added services. We adhere to the fusion of perception (non-visual + visual), cognitive decision-making and emergency management technology application framework; In terms of core business and value-added services, it creates business value for customers and returns capital for shareholders.\nOff-Balance Sheet Arrangements\nThere are no off-balance sheet arrangements that have or are reasonably likely to have a current or future effect on our financial condition, changes in financial condition, revenues, expenses, results of operations, liquidity, capital expenditures or capital resources."
+}

@@ -1,0 +1,648 @@
+{
+    "cik": "1605607",
+    "company": "Company_1605607",
+    "filing_type": "10-K",
+    "filing_date": "2018-01-01",
+    "period_of_report": "2018-12-31",
+    "sic": "Unknown",
+    "state_of_inc": "Unknown",
+    "state_location": "Unknown",
+    "fiscal_year_end": "1231",
+    "filing_html_index": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1605607",
+    "htm_filing_link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1605607",
+    "complete_text_filing_link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1605607",
+    "filename": "1605607_10K_2018_0001564590-19-002868.htm",
+    "special_items": [
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "business combination"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "\"text-align:justify;margin-bottom:0pt;margin-top:0pt;text-indent:3.33%;font-family:Times New Roman;font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">As permitted by the MGCL, our board of directors adopted a resolution exempting any business combinations ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 17533436
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "0pt;margin-top:0pt;text-indent:3.33%;font-family:Times New Roman;font-size:10pt;\"> </p>\n<p style=\"text-align:justify;margin-bottom:0pt;margin-top:0pt;text-indent:3.33%;font-family:Times New Roman;font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">We have a...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 14194362
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": ":normal;font-style:normal;text-transform:none;font-variant: normal;\"><font style=\"font-family:'Times New Roman';font-size:12pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">•</font></p></td>\n<td valign=\"top\">\n<p style=\"text-align:justify;margin-bottom:6pt;margin-top...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 88609355
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "<p style=\"text-align:justify;margin-bottom:0pt;margin-top:0pt;text-indent:3.33%;font-family:Times New Roman;font-size:10pt;\"> </p>\n<p style=\"text-align:justify;margin-bottom:0pt;margin-top:0pt;text-indent:3.33%;font-family:Times New Roman;font-size:10pt;font-weight:normal;font-style:normal;text-tran...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 23055147
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "a tax-deferred basis from certain corporations controlled by the Otto family and Wilhelm von Finck (which we collectively refer to as the “family corporations”) as part of the Formation Transactions, we are subject to U.S. federal income tax, sometimes called the “sting tax,” at the highest regular ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 75346574
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "adverse effect on our financial condition, results of operations, cash flow and trading price of our common stock. </p>\n<p style=\"text-align:justify;margin-bottom:0pt;margin-top:0pt;text-indent:3.33%;font-family:Times New Roman;font-size:10pt;\"> </p>\n<p style=\"text-align:justify;margin-bottom:0pt;ma...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 75176138
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ally from the Formation Transactions, may result in defense costs, settlements, fines or judgments against us, some of which are not, or cannot be, covered by insurance. Payment of any such costs, settlements, fines or judgments that are not insured could have an adverse impact on our financial posi...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 81802651
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "as been in the commercial real estate industry for an average of 22 years, and has worked at our company for an average of 12 years. Our senior management team is highly regarded in the real estate community and has extensive relationships with a broad range of brokers, owners, tenants and lenders. ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 91111604
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "e family corporations through mergers, stock acquisition and similar transactions. As a result of those acquisitions, we inherited any liability for the unpaid taxes of the family corporations for periods prior to the acquisitions. In each case, our acquisition of assets was intended to qualify as a...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 64907313
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "Litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ended, or the Securities Act, and Section 21E of the Securities Exchange Act of 1934, as amended, or the Exchange Act, which are usually identified by the use of words such as “anticipates,” “believes,” “estimates,” “expects,” “intends,” “may,” “plans,” “projects,” “seeks,” “should,” “will,” and var...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 80477276
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "f Section 368(a) of the Code. The requirements of tax-deferred reorganizations are complex, and it is possible that the IRS could interpret the applicable law differently and assert that one or more of the acquisitions failed to qualify as a reorganization under Section 368(a) of the Code. Moreover,...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 47711425
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "family:Times New Roman;font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">As part of the Formation Transactions, we also acquired assets of the family corporations through mergers, stock acquisition and similar transactions. As a result of those acquisitio...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 69299065
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "financing to fund acquisitions and to refinance indebtedness as it matures. As of December 31, 2018, including debt of our unconsolidated joint ventures, we had $4.5 billion of total debt, of which our share is $3.1 billion, substantially all of which was secured debt, and we have $1.0 billion of av...",
+            "amount_raw": "1.0 billion",
+            "amount_value": 1.0,
+            "amount_scale": "billion",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 25067314
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "fitability and impede our growth. </p>\n<p style=\"text-align:justify;margin-bottom:0pt;margin-top:0pt;text-indent:3.33%;font-family:Times New Roman;font-size:10pt;\"> </p>\n<p style=\"text-align:justify;margin-bottom:0pt;margin-top:0pt;text-indent:3.33%;font-family:Times New Roman;font-size:10pt;font-we...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 28328741
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "for an average of 12 years. Our senior management team is highly regarded in the real estate community and has extensive relationships with a broad range of brokers, owners, tenants and lenders. We have developed relationships that enable us to secure high credit-quality tenants on attractive terms ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 8233354
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "gain for U.S. federal income tax purposes to the extent that the fair market value of our stock (and any cash) issued in exchange for the stock of the family corporation or the corporation’s assets, plus debt assumed, exceeded the corporation’s adjusted tax basis in its assets. We would inherit the ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 9919483
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ies include limits and terms we consider commercially reasonable. In addition, there are certain losses (including, but not limited to, losses arising from known environmental conditions or acts of war) that are not insured, in full or in part, because they are either uninsurable or the cost of insu...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 37407857
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "justify;margin-bottom:0pt;margin-top:0pt;text-indent:3.33%;font-family:Times New Roman;font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">As part of the Formation Transactions, we also acquired assets of the family corporations through mergers, stock acqui...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 47917608
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "reorganization"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "lity of the family corporation. In several of the Formation Transactions, the acquired family corporation would have recognized gain for U.S. federal income tax purposes unless the acquisition qualified as a tax-deferred “reorganization” within the meaning of Section 368(a) of the Code. The requirem...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 94334670
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "llectively refer to as the “family corporations”) as part of the Formation Transactions, we are subject to U.S. federal income tax, sometimes called the “sting tax,” at the highest regular corporate tax rate, which is 21%, effective January 1, 2018, on all or a portion of the gain recognized from a ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 82605318
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "n arising in the ordinary course of business. Some of these claims or others, to which we may be subject from time to time, including claims arising specifically from the Formation Transactions, may result in defense costs, settlements, fines or judgments against us, some of which are not, or cannot...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 42139742
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "reorganization"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "nts of tax-deferred reorganizations are complex, and it is possible that the IRS could interpret the applicable law differently and assert that one or more of the acquisitions failed to qualify as a reorganization under Section 368(a) of the Code. Moreover, under the “investment company” rules under...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 16633484
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ont-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">Our ability to identify and acquire properties on favorable terms and successfully operate or redevelop them may be exposed to significant risks. Agreements for the acquisition of properties are subject to customary condi...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 21735218
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "operate or redevelop them may be exposed to significant risks. Agreements for the acquisition of properties are subject to customary conditions to closing, including completion of due diligence investigations and other conditions that are not within our control, which may not be satisfied. In this e...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 18159645
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "our Chairman, Chief Executive Officer and President, has been in the commercial real estate industry for an average of 22 years, and has worked at our company for an average of 12 years. Our senior management team is highly regarded in the real estate community and has extensive relationships with a...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 45288583
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "provision), which we refer to as an opt in to the business combination provisions, with the affirmative vote of a majority of the votes cast on the matter by holders of outstanding shares of our common stock. In addition, as permitted by the MGCL, our bylaws contain a provision exempting from the co...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 8693794
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "rmal;font-style:normal;text-transform:none;font-variant: normal;\"><font style=\"font-family:'Times New Roman';font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">•</font></p></td>\n<td valign=\"top\">\n<p style=\"text-align:justify;margin-bottom:0pt;margin-top:0p...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 50436756
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "business combination"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "s between us and any other person or entity from the business combination provisions of the MGCL. Our bylaws provide that this resolution or any other resolution of our board of directors exempting any business combination from the business combination provisions of the MGCL may only be revoked, alt...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 91890097
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "s of the MGCL may only be revoked, altered or amended, and our board of directors may only adopt any resolution inconsistent with any such resolution (including an amendment to that bylaw provision), which we refer to as an opt in to the business combination provisions, with the affirmative vote of ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 54328587
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "sform:none;font-variant: normal;\">There is substantial competition for qualified personnel in the real estate industry and the loss of our key personnel could have an adverse effect on us. Our continued success and our ability to manage anticipated future growth depend, in large part, upon the effor...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 96412594
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ssure you that we will not change our plans in this regard. </font></p>\n<p style=\"margin-bottom:0pt;margin-top:0pt;text-indent:3.33%;font-family:Times New Roman;font-size:10pt;\"> </p>\n<p style=\"text-align:justify;margin-bottom:0pt;margin-top:0pt;text-indent:3.33%;font-family:Times New Roman;font-siz...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 87174986
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "style=\"font-family:Times New Roman;\">general market and economic conditions. </font></p></td></tr></table></div>\n<p style=\"text-align:justify;margin-bottom:0pt;margin-top:6pt;margin-left:9.07%;text-indent:0%;font-family:Times New Roman;font-size:10pt;\"> </p>\n<p style=\"text-align:justify;margin-botto...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 90565697
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "style=\"text-align:justify;margin-bottom:0pt;margin-top:0pt;text-indent:3.33%;font-family:Times New Roman;font-size:10pt;\"> </p>\n<p style=\"text-align:justify;margin-bottom:0pt;margin-top:0pt;text-indent:3.33%;font-family:Times New Roman;font-size:10pt;\"> </p>\n<p style=\"text-align:justify;margin-botto...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 68115974
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "t:normal;font-style:normal;text-transform:none;font-variant: normal;\"><font style=\"font-family:'Times New Roman';font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">•</font></p></td>\n<td valign=\"top\">\n<p style=\"text-align:justify;margin-bottom:0pt;margin-to...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 50375663
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "text-transform:none;font-variant: normal;\">Our ability to identify and acquire properties on favorable terms and successfully operate or redevelop them may be exposed to significant risks. Agreements for the acquisition of properties are subject to customary conditions to closing, including completi...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 7329465
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "tify;margin-bottom:0pt;margin-top:0pt;text-indent:3.33%;font-family:Times New Roman;font-size:10pt;\"> </p>\n<p style=\"text-align:justify;margin-bottom:0pt;margin-top:0pt;text-indent:3.33%;font-family:Times New Roman;font-size:10pt;\"> </p>\n<p style=\"text-align:justify;margin-bottom:0pt;margin-top:0pt;...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 49874836
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "time, including claims arising specifically from the Formation Transactions, may result in defense costs, settlements, fines or judgments against us, some of which are not, or cannot be, covered by insurance. Payment of any such costs, settlements, fines or judgments that are not insured could have ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 11525889
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "reorganization"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "to the extent that the fair market value of our stock (and any cash) issued in exchange for the stock of the family corporation or the corporation’s assets, plus debt assumed, exceeded the corporation’s adjusted tax basis in its assets. We would inherit the resulting tax liability of the family corp...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 79381655
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "business combination"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "tom:0pt;margin-top:0pt;text-indent:3.33%;font-family:Times New Roman;font-size:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">As permitted by the MGCL, our board of directors adopted a resolution exempting any business combinations between us and any other perso...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 45628675
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "business combination"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "trol share provisions. </p>\n<p style=\"margin-bottom:0pt;margin-top:0pt;text-indent:3.33%;font-family:Times New Roman;font-size:10pt;\"> </p>\n<p style=\"text-align:justify;margin-bottom:0pt;margin-top:0pt;text-indent:3.33%;font-family:Times New Roman;font-size:10pt;font-weight:normal;font-style:normal;...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 18879581
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ustify;margin-bottom:0pt;margin-top:6pt;margin-left:9.07%;text-indent:0%;font-family:Times New Roman;font-size:10pt;\"> </p>\n<p style=\"text-align:justify;margin-bottom:0pt;margin-top:0pt;text-indent:3.33%;font-family:Times New Roman;font-size:10pt;font-weight:normal;font-style:normal;text-transform:n...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 41135532
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "business combination"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ze:10pt;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">In addition, certain provisions of the Maryland General Corporation Law (“MGCL”), may have the effect of inhibiting a third party from making a proposal to acquire us or of impeding a change of control under circ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 22316375
+        }
+    ],
+    "item_7": "ITEM 7.\nMANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS\nThe following discussion of our financial condition and results of operations should be read in conjunction with our consolidated financial statements, including the related notes included therein.\nOverview\nWe are a fully-integrated REIT focused on owning, operating, managing, acquiring and redeveloping high-quality, Class A office properties in select central business district submarkets of New York City, Washington, D.C. and San Francisco. We conduct our business through, and substantially all of our interests in properties and investments are held by, our Operating Partnership. We are the sole general partner of, and owned approximately 90.3% of the Operating Partnership as of December 31, 2018.\nObjectives and Strategy\nOur primary business objective is to enhance stockholder value by increasing cash flow from operations. The strategies we intend to execute to achieve this objective include:\n•\nLeasing vacant and expiring space, at market rents;\n•\nMaintaining a disciplined acquisition strategy focused on owning and operating Class A office properties in select central business district submarkets of New York City, Washington, D.C. and San Francisco;\n•\nRedeveloping and repositioning properties to increase returns; and\n•\nProactively managing our portfolio to increase occupancy and rental rates.\nCritical Accounting Policies\nReal Estate\nReal estate is carried at cost less accumulated depreciation and amortization. Betterments, major renovations and certain costs directly related to the improvement of real estate are capitalized. Maintenance and repair expenses are charged to expense as incurred. Depreciation is recognized on a straight-line basis over estimated useful lives of the assets, which range from 5 to 40 years. Tenant improvements are amortized on a straight-line basis over the lives of the related leases, which approximate the useful lives of the assets.\nUpon the acquisition of real estate, we assess the fair value of acquired assets (including land, buildings and improvements, identified intangibles, such as acquired above-market leases and acquired in-place leases) and acquired liabilities (such as acquired below-market leases) and allocate the purchase price based on these assessments. We assess fair value based on estimated cash flow projections that utilize appropriate discount and capitalization rates and available market information. Estimates of future cash flows are based on a number of factors including historical operating results, known trends, and market/economic conditions. We record acquired intangible assets (including acquired above-market leases and acquired in-place leases) and acquired intangible liabilities (including below-market leases) at their estimated fair value. We amortize acquired above-market and below-market leases as a decrease or increase to rental income, respectively, over the lives of the respective leases. Amortization of acquired in-place leases is included as a component of “depreciation and amortization”.\nOur properties, including any related intangible assets, are individually reviewed for impairment whenever events or changes in circumstances indicate that the carrying amount of an asset may not be recoverable. Impairment analyses are based on our current plans, intended holding periods and available market information at the time the analyses are prepared. An impairment exists when the carrying amount of an asset exceeds the aggregate projected future cash flows over the anticipated holding period on an undiscounted basis. An impairment loss is measured based on the excess of the property’s carrying amount over its estimated fair value. Estimates of fair value are determined using discounted cash flow models, which consider, among other things, anticipated holding periods, current market conditions and utilize unobservable quantitative inputs, including appropriate capitalization and discount rates. If our estimates of the projected future cash flows, anticipated holding periods, or market conditions change, our evaluation of impairment losses may be different and such differences could be material to our consolidated financial statements. The evaluation of anticipated cash flows is subjective and is based, in part, on assumptions regarding future occupancy, rental rates and capital requirements that could differ materially from actual results. Plans to hold properties over longer periods decrease the likelihood of recording impairment losses.\nReal estate and related intangibles are classified as held for sale when all the necessary criteria are met. The criteria include (i) management, having the authority to approve action, commits to a plan to sell the property in its present condition, (ii) the sale of the property is at a price reasonable in relation to its current fair value and (iii) the sale is probable and expected to be completed within one year. Real estate and the related intangibles held for sale are carried at the lower of carrying amounts or estimated fair value less disposal costs. Depreciation and amortization is not recognized on real estate and related intangibles classified as assets held for sale.\nVariable Interest Entities (“VIEs”) and Investments in Unconsolidated Joint Ventures and Funds\nWe consolidate VIEs in which we are considered to be the primary beneficiary. Entities are considered to be the primary beneficiary if they have both of the following characteristics: (i) the power to direct the activities that, when taken together, most significantly impact the VIE’s performance, and (ii) the obligation to absorb losses and right to receive the returns from the VIE that would be significant to the VIE. We consolidate entities that are not VIEs where we have significant decision making control over operations. Our judgment with respect to our level of influence or control of an entity involves the consideration of various factors including the form of our ownership interest, our representation in the entity’s governance, the size of our investment, estimates of future cash flows, our ability to participate in policy making decisions and the rights of the other investors to participate in the decision making process and to replace us as manager and/or liquidate the joint venture, if applicable.\nWe account for investments under the equity method when the requirements for consolidation are not met, and we have significant influence over the operations of the investee. Equity method investments, which consists of investments in unconsolidated joint ventures and funds are initially recorded at cost and subsequently adjusted for our share of net income or loss and cash contributions and distributions each period. To the extent that our cost basis is different than our share of the equity method investment, the basis difference allocated to depreciable assets is amortized into “income from unconsolidated joint ventures” over the estimated useful life of the related asset. The agreements that govern our equity method investments may designate different percentage allocations among investors for profits and losses; however, our recognition of income or loss generally follows the investment’s distribution priorities, which may change upon the achievement of certain investment return thresholds. We account for cash distributions in excess of our basis in the equity method investments as income when we have neither the requirement, nor the intent to provide financial support to the joint venture. Investments accounted for under the equity method are reviewed for impairment whenever events or changes in circumstances indicate that the carrying amount of the investment may not be recoverable. An impairment loss is measured based on the excess of the carrying amount of an investment over its estimated fair value. Impairment analyses are based on current plans, intended holding periods and available information at the time the analyses are prepared.\nInvestments that do not qualify for consolidation or equity method accounting are accounted for under the cost method.\nDerivative Instruments and Hedging Activities\nWe record all derivatives on our consolidated balance sheets at fair value in accordance with ASC Topic 815, Derivatives and Hedging. The accounting for changes in the fair value of derivatives depends on the intended use of the derivative and whether we have designated a derivative as a hedge and whether the hedging relationship has satisfied the criteria necessary to apply hedge accounting. We use derivative financial instruments in the normal course of business to selectively manage or hedge a portion of the risk associated with our indebtedness and interest payments. Our objectives in using interest rate derivatives are to add stability to interest expense and to manage our exposure to interest rate movements. To accomplish these objectives, we primarily use interest rate swaps. Interest rate swaps that are designated as hedges are so designated at the inception of the contract. We require that hedging derivative instruments be highly effective in reducing the risk exposure that they are designated to hedge. The changes in the fair value of interest rate swaps that are designated as hedges are recognized in “other comprehensive income (loss)” (outside of earnings) and subsequently reclassified to earnings over the term that the hedged transaction affects earnings.\nRevenue Recognition\nRental Income\nRental income includes base rents that each tenant pays in accordance with the terms of its respective lease and is reported on a straight-line basis over the non-cancellable term of the lease, which includes the effects of rent steps and rent abatements under the leases. We commence rental revenue recognition when the tenant takes possession of the leased space or controls the physical use of the leased space and the leased space is substantially ready for its intended use. Differences between rental income recognized and amounts due under the respective lease agreements are recorded as an increase or decrease to “deferred rent receivable” on our consolidated balance sheets. Rental income also includes the amortization of acquired above and below-market leases, net.\nTenant Reimbursement Income\nTenant reimbursement income includes revenues arising from tenant leases, which provide for the recovery of all or a portion of the operating expenses and real estate taxes of the property. This revenue is earned in the same period as the expenses are incurred.\nFee and Other Income\nFee income includes (i) property management fees, (ii) asset management fees and (iii) fees related to acquisitions, dispositions and leasing services and (iv) other fee income earned pursuant to contractual agreements. Fee income is recognized as and when we satisfy our performance obligations pursuant to contractual agreements. Property management and asset management services are provided continuously over time and revenue is recognized over that time. Fee income relating to acquisitions, dispositions and leasing services is recognized upon completion of the acquisition, disposition or leasing services as required in the contractual agreements. The amount of fee income to be recognized is stated in the contract as a fixed price or as a stated percentage of revenues, contributed capital or transaction price.\nOther income includes lease termination income, income from tenant requested services, including overtime heating and cooling and parking income. Lease termination income could result from a lessee terminating a lease prior to the stated terms in their agreements. To the extent a lease term is modified, any incremental fees or increased lease payments received as a result of the modification are recognized over the remaining lease term based on the relevant facts and circumstances.\nRecently Issued Accounting Literature\nA summary of recently issued accounting literature and their potential impact on our consolidated financial statements, if any, are included in Note 2, Basis of Presentation and Significant Accounting Policies, to our consolidated financial statements in this Annual Report on Form 10-K.\nBusiness Overview\nDispositions\nOn August 9, 2018, we completed the sale of 2099 Pennsylvania Avenue, a 208,776 square foot, Class A office building in Washington, D.C. for $219,900,000 and recognized a gain of $35,836,000.\nOn September 27, 2018, we completed the sale of 425 Eye Street, a 372,552 square foot, Class A office building in Washington, D.C. for $157,000,000 and recognized a gain of $1,009,000.\nAcquisitions\nOn February 7, 2019, we completed the acquisition of 111 Sutter Street, a 293,000 square foot office building in San Francisco, California. Simultaneously with closing, we brought in a joint venture partner to acquire 51.0% of the equity interest. We will retain the remaining 49.0% equity interest and manage and lease the asset. The purchase price was $227,000,000. In connection with the acquisition, the joint venture completed a $138,200,000 financing of the property. The four-year loan is interest only at LIBOR plus 215 basis points and has three one-year extension options.\nFinancings\nOn January 10, 2018, we amended and restated the credit agreement governing our revolving credit facility. The maturity date of the revolving credit facility was extended from November 2018 to January 2022, with two six-month extension options, and the capacity was increased to $1,000,000,000 from $800,000,000. The interest rate on the extended facility, at current leverage levels, was lowered by 10 basis points from LIBOR plus 125 basis points to LIBOR plus 115 basis points, and the facility fee was reduced by 5 basis points from 25 basis points to 20 basis points.\nStock Repurchase Program\nOn August 1, 2017, we received authorization from our Board of Directors to repurchase up to $200,000,000 of our common stock from time to time, in the open market or in privately negotiated transactions. As of December 31, 2018, we have repurchased an aggregate of 7,555,601 shares, or $105,383,000 of our common stock, at a weighted average price of $13.95 per share. We currently have $94,617,000 available for future repurchases.\nLeasing Results - Year Ended December 31, 2018\nIn the year ended December 31, 2018, we leased 1,014,101 square feet, of which our share was 766,509 square feet that was leased at a weighted average initial rent of $84.44 per square foot. This leasing activity, partially offset by lease expirations during the year, increased our leased occupancy by 290 basis points to 96.4% at December 31, 2018 from 93.5% at December 31, 2017 and increased same store leased occupancy (properties owned by us during both reporting periods) by 310 basis points to 96.4% at December 31, 2018 from 93.3% at December 31, 2017. Of the 1,014,101 square feet leased in the year, 469,463 square feet represented our share of second generation space (space that had been vacant for less than twelve months) for which we achieved rental rate increases of 13.2% on a GAAP basis and 13.3% on a cash basis. The weighted average lease term for leases signed during the year was 9.1 years and weighted average tenant improvements and leasing commissions on these leases were $9.77 per square foot per annum, or 11.6% of initial rent.\nNew York\nIn the year ended December 31, 2018, we leased 576,037 square feet in our New York portfolio, of which our share was 555,969 square feet that was leased at a weighted average initial rent of $84.01 per square foot. This leasing activity, partially offset by lease expirations during the year, increased our leased occupancy and same store leased occupancy by 360 basis points to 96.0% at December 31, 2018 from 92.4% at December 31, 2017. Of the 576,037 square feet leased in the year, 325,646 square feet represented our share of second generation space for which we achieved rental rates increases of 6.9% on a GAAP basis and 7.4% on a cash basis. The weighted average lease term for leases signed during the year was 10.0 years and weighted average tenant improvements and leasing commissions on these leases were $9.49 per square foot per annum, or 11.3% of initial rent.\nWashington, D.C.\nIn the year ended December 31, 2018, we leased 26,381 square feet in our Washington, D.C. portfolio, at a weighted average initial rent of $76.15 per square foot. This leasing activity increased our leased occupancy by 190 basis points in the year to 98.0% at December 31, 2018 from 96.1% at December 31, 2017. Same store leased occupancy, which excludes 2099 Pennsylvania Avenue and 425 Eye Street that were sold in August 2018 and September 2018, respectively, increased by 50 basis points to 98.0% at December 31, 2018 from 97.5% at December 31, 2017. The weighted average lease term for leases signed during the year was 11.1 years and weighted average tenant improvements and leasing commissions on these leases were $11.69 per square foot per annum, or 15.3% of initial rent.\nSan Francisco\nIn the year ended December 31, 2018, we leased 411,683 square feet in our San Francisco portfolio, of which our share was 184,159 square feet that was leased at a weighted average initial rent of $86.65 per square foot. This leasing activity, partially offset by lease expirations during the year, increased our leased occupancy and same store occupancy by 160 basis points to 98.0% at December 31, 2018 from 96.4% at December 31, 2017. Of the 411,683 square feet leased in the year, 136,741 square feet represented our share of second generation space for which we achieved rental rate increases of 29.3% on GAAP basis and 29.0% on a cash basis. The weighted average lease term for leases signed during the year was 6.2 years and weighted average tenant improvements and leasing commissions on these leases were $10.72 per square foot per annum, or 12.4% of initial rent.\nThe following table presents additional details on the leases signed during the year ended December 31, 2018. It is not intended to coincide with the commencement of rental revenue in accordance with GAAP. The leasing statistics, except for square feet leased, represent office space only.\n(1)\nRepresents the weighted average cash basis starting rent per square foot and does not include free rent or periodic step-ups in rent.\n(2)\nRepresents space leased that has been vacant for less than twelve months.\n(3)\nRepresents the weighted average cash basis rents (including reimbursements) per square foot at expiration.\nFinancial Results - Year Ended December 31, 2018 and 2017\nNet Income, FFO and Core FFO\nNet income attributable to common stockholders was $9,147,000, or $0.04 per diluted share, for the year ended December 31, 2018, compared to $86,381,000, or $0.37 per diluted share, for the year ended December 31, 2017. Net income attributable to common stockholders for the year ended December 31, 2018 includes $32,222,000, or $0.13 per diluted share, of gain on sale of real estate, net of “sting” taxes and $41,618,000, or $0.17 per diluted share, of real estate impairment loss. Net income attributable to common stockholders for the year ended December 31, 2017 includes $98,107,000, or $0.42 per diluted share, of gain on sale of real estate.\nFFO attributable to common stockholders was $224,465,000, or $0.94 per diluted share, for year ended December 31, 2018, compared to $205,558,000, or $0.87 per diluted share, for the year ended December 31, 2017. FFO attributable to common stockholders for the years ended December 31, 2018 and 2017 includes the impact of non-core items, which are listed in the table on page 74. The aggregate of these items, net of amounts attributable to noncontrolling interests, decreased FFO attributable to common stockholders for the years ended December 31, 2018 and 2017 by $5,435,000 and $4,514,000, respectively, or $0.02 per diluted share.\nCore FFO attributable to common stockholders, which excludes the impact of the non-core items listed on page 74, was $229,900,000 or $0.96 per diluted share, for the year ended December 31, 2018, compared to $210,072,000, or $0.89 per diluted share, for the year ended December 31, 2017.\nSame Store NOI\nThe table below summarizes the percentage increase in our share of Same Store NOI and Same Store Cash NOI, by segment, for year ended December 31, 2018 versus December 31, 2017\nSee pages 70-75 “Non-GAAP Financial Measures” for a reconciliation of these measures to the most directly comparable GAAP measure and the reasons why we believe these non-GAAP measures are useful.\nResults of Operations - Year Ended December 31, 2018 Compared to December 31, 2017\nThe following pages summarize our consolidated results of operations for the years ended December 31, 2018 and 2017.\nRevenues\nOur revenues, which consist primarily of rental income, tenant reimbursement income, and fee and other income, were $758,961,000 for the year ended December 31, 2018, compared to $718,967,000 for the year ended December 31, 2017, an increase of $39,994,000. Below are the details of the increase (decrease) by segment.\n(1)\nRepresents revenues attributable to 50 Beale Street in San Francisco (acquired in July 2017) for the months in which it was not owned by us in both reporting periods.\n(2)\nRepresents revenues attributable to Waterview, 2099 Pennsylvania Avenue and 425 Eye Street in Washington, D.C. (sold in May 2017, August 2018 and September 2018, respectively) for the months in which they were not owned by us in both reporting periods.\n(3)\nPrimarily due to an increase in occupancy at 1633 Broadway, 1301 Avenue of the Americas and 31 West 52nd Street.\n(4)\nPrimarily due to an increase in occupancy at One Front Street.\n(5)\nPrimarily due to $5,320 of fees relating to the sale of 60 Wall Street in January 2017.\nExpenses\nOur expenses, which consist primarily of operating, depreciation and amortization, general and administrative, transaction related costs and real estate impairment loss, were $637,337,000 for year ended December 31, 2018, compared to $595,777,000 for the year ended December 31, 2017, an increase of $41,560,000. Below are the details of the increase (decrease) by segment.\n(1)\nRepresents expenses attributable to 50 Beale Street in San Francisco (acquired in July 2017) for the months in which it was not owned by us in both reporting periods.\n(2)\nRepresents expenses attributable to Waterview, 2099 Pennsylvania Avenue and 425 Eye Street in Washington, D.C. (sold in May 2017, August 2018 and September 2018, respectively) for the months in which they were not owned by us in both reporting periods.\n(3)\nPrimarily due to accelerated amortization of acquired in-place lease assets in connection with certain tenants’ lease modifications.\n(4)\nPrimarily due to additional expense from stock awards granted in 2018.\n(5)\nRepresents the change in the mark-to-market of investments in our deferred compensation plan liabilities. This change is entirely offset by the change in plan assets which is included in “interest and other income (loss), net”.\nIncome from Unconsolidated Joint Ventures\nIncome from unconsolidated joint ventures was $3,468,000 for the year ended December 31, 2018, compared to $20,185,000 for the year ended December 31, 2017, a decrease of $16,717,000. This decrease resulted from:\n(1)\nAs of December 31, 2018, our basis in the partnership that owns 712 Fifth Avenue, was negative $17,611 resulting from distributions made to us in excess of our share of earnings recognized. Accordingly, we no longer recognize our proportionate share of earnings from the venture because we have no further obligation to fund additional capital to the venture. Instead, we only recognize earnings to the extent we receive cash distributions from the venture.\nLoss from Unconsolidated Real Estate Funds\nLoss from unconsolidated real estate funds was $269,000 for the year ended December 31, 2018, compared to $6,143,000 for the year ended December 31, 2017, a decrease in loss of $5,874,000. This decrease was primarily due to a reversal of carried interest in the year ended December 31, 2017 of $5,590,000.\nInterest and Other Income (Loss), net\nInterest and other income was $8,117,000 for the year ended December 31, 2018, compared to a loss of $9,031,000 for the year ended December 31, 2017, an increase in income of $17,148,000. This increase resulted from:\n(1)\nRepresents the valuation allowance on 2 Herald Square, our preferred equity investment in PGRESS Equity Holdings L.P., of which our 24.4% share was $4,780, and $14,808 was attributable to noncontrolling interests. In May 2018, the senior lender foreclosed out our interest and accordingly, we wrote off our preferred equity investment.\n(2)\nRepresents income from our preferred equity investments in PGRESS Equity Holdings L.P., of which our 24.4% share is $890 and $1,029 for the years ended December 31, 2018 and 2017, respectively.\nInterest and Debt Expense\nInterest and debt expense was $147,653,000 for the year ended December 31, 2018, compared to $143,762,000 for the year ended December 31, 2017, an increase in expense of $3,891,000. This increase resulted from:\nLoss on Early Extinguishment of Debt\nLoss on early extinguishment of debt was $7,877,000 for the year ended December 31, 2017 and represents costs related to (i) the early repayment of One Market Plaza’s debt in January 2017, in connection with its refinancing and (ii) the early repayment of debt at 1899 Pennsylvania Avenue and Liberty Place in May 2017.\nGain on Sale of Real Estate\nIn the year ended December 31, 2018, we recognized a $36,845,000 gain on sale of real estate, comprised of (i) a $35,836,000 gain on sale of 2099 Pennsylvania Avenue, which was sold for $219,900,000 in August 2018 and (ii) a $1,009,000 gain on sale of 425 Eye Street, which was sold for $157,000,000 in September 2018. In the year ended December 31, 2017, we recognized a $133,989,000 gain on sale of real estate, comprised of (i) an $110,583,000 gain on sale of Waterview, which was sold for $460,000,000 in May 2017 and (ii) a $23,406,000 gain on sale of an 80.0% equity interest in One Steuart Lane in May 2017.\nUnrealized Gain on Interest Rate Swaps\nUnrealized gain on interest rate swaps was $1,802,000 for the year ended December 31, 2017 and represents gains relating to swaps aggregating $840,000,000 on One Market Plaza that were settled upon the refinancing in January 2017.\nIncome Tax Expense\nIncome tax expense was $3,139,000 for the year ended December 31, 2018, compared to $5,177,000 for the year ended December 31, 2017, a decrease of $2,038,000. This decrease was primarily due to (i) higher taxable income on our taxable REIT subsidiaries in the prior year and (ii) $1,838,000 of tax on the gain on sale of an 80.0% equity interest in One Steuart Lane in the year ended December 31, 2017, partially offset by (iii) $1,248,000 of “sting” taxes in connection with the sale of real estate in the year ended December 31, 2018.\nNet Income (Loss) Attributable to Noncontrolling Interests in Consolidated Joint Ventures\nNet income attributable to noncontrolling interest in consolidated joint ventures was $8,182,000 for the year ended December 31, 2018, compared to net loss of $10,365,000 for the year ended December 31, 2017, an increase in income allocated to noncontrolling interests in consolidated joint ventures of $18,547,000. This increase resulted from:\n(1)\nPrimarily due to lower interest expense in 2018 and costs related to early repayment of One Market Plaza’s debt in connection with its refinancing in 2017.\nNet Income Attributable to Noncontrolling Interests in Consolidated Real Estate Fund\nNet income attributable to noncontrolling interests in consolidated real estate fund was $720,000 for the year ended December 31, 2018, compared to $19,797,000 for the year ended December 31, 2017, a decrease in income attributable to the noncontrolling interests of $19,077,000. This decrease was primarily due to noncontrolling interests’ share of the gain on the sale of an 80.0% equity interest in One Steuart Lane in May 2017.\nNet Income Attributable to Noncontrolling Interests in Operating Partnership\nNet income attributable to noncontrolling interests in Operating Partnership was $944,000 for the year ended December 31, 2018, compared to $11,363,000 for the year ended December 31, 2017, a decrease in income attributable to noncontrolling interests of $10,419,000. This decrease resulted from a lower net income subject to allocation to the unitholders of the Operating Partnership for the year ended December 31, 2018.\nResults of Operations - Year Ended December 31, 2017 Compared to December 31, 2016\nThe following pages summarize our consolidated results of operations for the years ended December 31, 2017 and 2016.\nRevenues\nOur revenues, which consist primarily of rental income, tenant reimbursement income, and fee and other income, were $718,967,000 for the year ended December 31, 2017, compared to $683,341,000 for the year ended December 31, 2016, an increase of $35,626,000. Below are the details of the increase (decrease) by segment.\n(1)\nRepresents revenues attributable to One Front Street and 50 Beale Street in San Francisco (acquired in December 2016 and July 2017, respectively) for the months in which they were not owned by us in both reporting periods.\n(2)\nRepresents revenues attributable to Waterview in Washington, D.C. (sold in May 2017) for the months in which it was not owned by us in both reporting periods.\n(3)\nPrimarily due to a decrease in occupancy at 31 West 52nd Street and 1325 Avenue of the Americas.\n(4)\nPrimarily due to an increase in occupancy at 2099 Pennsylvania Avenue and Liberty Place.\n(5)\nPrimarily due to $5,320 of fees relating to the sale of 60 Wall Street in January 2017.\nExpenses\nOur expenses, which consist primarily of operating, depreciation and amortization, general and administrative, and transaction related costs, were $595,777,000 for the year ended December 31, 2017, compared to $575,404,000 for the year ended December 31, 2016, an increase of $20,373,000. Below are the details of the increase (decrease) by segment.\n(1)\nRepresents expenses attributable to One Front Street and 50 Beale Street in San Francisco (acquired in December 2016 and July 2017, respectively) for the months in which they were not owned by us in both reporting periods.\n(2)\nRepresents expenses attributable Waterview in Washington, D.C. (sold in May 2017) for the months in which it was not owned by us in both reporting periods.\n(3)\nDecrease primarily due to lower amortization of in-place lease assets due to the expiration of such leases.\n(4)\nPrimarily due to additional expense from stock awards granted in 2017.\n(5)\nRepresents the change in the mark-to-market of investments in our deferred compensation plan liabilities. This change is entirely offset by the change in plan assets which is included as a component of “interest and other (loss) income, net” on our consolidated statements of income.\nIncome from Unconsolidated Joint Ventures\nIncome from unconsolidated joint ventures was $20,185,000 for the year ended December 31, 2017, compared to $7,413,000 for the year ended December 31, 2016, an increase of $12,772,000. This increase resulted from:\n(1)\nPrior to June 30, 2017, our basis in the partnership that owns 712 Fifth Avenue, was $4,928. On June 30, 2017, we received a $20,000 distribution for our 50.0% share of net proceeds from refinancing the property. Because the distributions resulted in our basis becoming negative and because we have no further obligation to fund additional capital to the venture, we can no longer recognize our proportionate share of earnings from the venture until our basis is above zero. Accordingly, we are only recognizing income to the extent we receive cash distributions from the venture.\n(2)\nRepresents our residential fund’s 20% share of income from the property, of which our 7.4% share is $14.\nLoss from Unconsolidated Real Estate Funds\nLoss from unconsolidated real estate funds was $6,143,000 for the year ended December 31, 2017, compared to $498,000 for the year ended December 31, 2016, an increase in loss of $5,645,000. This increase resulted primarily from a decrease in carried interest of $7,122,000, partially offset by a decrease in unrealized losses of $1,043,000.\nInterest and Other (Loss) Income, net\nInterest and other loss was $9,031,000 for the year ended December 31, 2017, compared to income of $6,934,000 for the year ended December 31, 2016, a decrease in income of $15,965,000. This decrease resulted from:\n(1)\nRepresents the valuation allowance on 2 Herald Square, our preferred equity investment in PGRESS Equity Holdings L.P., of which our 24.4% share is $4,780.\n(2)\nRepresents income from our preferred equity investments in PGRESS Equity Holdings L.P., of which our 24.4% share is $1,029 and $1,393 for the years ended December 31, 2017 and 2016, respectively.\nInterest and Debt Expense\nInterest and debt expense was $143,762,000 for the year ended December 31, 2017, compared to $153,138,000 for the year ended December 31, 2016, a decrease of $9,376,000. This decrease resulted from:\nLoss on Early Extinguishment of Debt\nLoss on early extinguishment of debt was $7,877,000 for the year ended December 31, 2017, compared to $4,608,000 for the year ended December 31, 2016, an increase in loss of $3,269,000. The loss for the year ended December 31, 2017 represents costs related to (i) the early repayment of One Market Plaza’s debt in January 2017, in connection with its refinancing and (ii) the early repayment of debt at 1899 Pennsylvania Avenue and Liberty Place in May 2017. The loss for the year ended December 31, 2016 represents costs in connection with the defeasance of debt at Waterview.\nGain on Sale of Real Estate\nIn the year ended December 31, 2017, we recognized $133,989,000 of gains on sale of real estate, comprised of an $110,583,000 net gain on sale of Waterview in May 2017 and a $23,406,000 net gain on sale of an 80.0% equity interest in One Steuart Lane in May 2017.\nUnrealized Gain on Interest Rate Swaps\nUnrealized gain on interest rate swaps was $1,802,000 for the year ended December 31, 2017, compared to an unrealized gain of $39,814,000 for the year ended December 31, 2016, a decrease of $38,012,000. This decrease was primarily due to (i) $32,376,000 of lower unrealized gains in 2017 relating to swaps aggregating $840,000,000 on One Market Plaza that were settled upon the refinancing in January 2017, (ii) $4,016,000 of unrealized gains in 2016 relating to swaps aggregating $162,000,000 on 900 Third Avenue that were settled upon the repayment in October 2016 and (iii) $1,620,000 of unrealized gains in 2016 relating to swaps aggregating $237,600,000 on 31 West 52nd Street that were settled upon the refinancing in May 2016.\nIncome Tax Expense\nIncome tax expense was $5,177,000 for the year ended December 31, 2017, compared to $1,785,000 for the year ended December 31, 2016, an increase in expense of $3,392,000. This increase in expense was primarily due to higher fee income on our taxable REIT subsidiaries for the year ended December 31, 2017 and $1,838,000 of tax on the gain on sale of an 80.0% equity interest in One Steuart Lane in May 2017.\nNet (Loss) Income Attributable to Noncontrolling Interests in Consolidated Joint Ventures\nNet loss attributable to noncontrolling interest in consolidated joint ventures was $10,365,000 for the year ended December 31, 2017, compared to income of $15,423,000 for the year ended December 31, 2016, a decrease in income attributable to noncontrolling interests in consolidated joint ventures of $25,788,000. This decrease resulted from:\n(1)\nThe decrease in income is primarily due to lower unrealized gains in 2017 relating to interest rate swaps that were settled in connection with the refinancing of property level debt in January 2017, partially offset by lower interest expense resulting from such refinancing.\nNet Income (Loss) Attributable to Noncontrolling Interests in Consolidated Real Estate Fund\nNet income attributable to noncontrolling interests in consolidated real estate fund was $19,797,000 for the year ended December 31, 2017, compared to a loss of $1,316,000 for the year ended December 31, 2016, an increase in income attributable to the noncontrolling interests of $21,113,000. This increase was primarily due to the noncontrolling interests’ $20,288,000 share of the gain on the sale of an 80.0% equity interest in One Steuart Lane in May 2017.\nNet Income (Loss) Attributable to Noncontrolling Interests in Operating Partnership\nNet income attributable to noncontrolling interests in Operating Partnership was $11,363,000 for the year ended December 31, 2017, compared to a loss of $2,104,000 for the year ended December 31, 2016, an increase in income attributable to noncontrolling interests of $13,467,000. This increase resulted from higher income subject to allocation to the unitholders of the Operating Partnership for the year ended December 31, 2017.\nLiquidity and Capital Resources\nLiquidity\nOur primary sources of liquidity include existing cash balances, cash flow from operations and borrowings available under our revolving credit facility. We expect that these sources will provide adequate liquidity over the next 12 months for all anticipated needs, including scheduled principal and interest payments on our outstanding indebtedness, existing and anticipated capital improvements, the cost of securing new and renewal leases, dividends to stockholders and distributions to unitholders, and all other capital needs related to the operations of our business. We anticipate that our long-term needs including debt maturities and the acquisition of additional properties will be funded by operating cash flow, mortgage financings and/or re-financings, and the issuance of long-term debt or equity and cash on hand.\nAlthough we may be able to anticipate and plan for certain of our liquidity needs, unexpected increases in uses of cash that are beyond our control and which affect our financial condition and results of operations may arise, or our sources of liquidity may be fewer than, and the funds available from such sources may be less than, anticipated or required.\nAs of December 31, 2018, we had $1.365 billion of liquidity comprised of $339,653,000 of cash and cash equivalents, $25,756,000 of restricted cash and $1.0 billion of borrowing capacity under our revolving credit facility. As of December 31, 2018, our outstanding consolidated debt aggregated $3.6 billion. We had no amounts outstanding under our revolving credit facility as of December 31, 2018 and none of our debt matures until 2021.\nOn February 7, 2019, we completed the acquisition of 111 Sutter Street, a 293,000 square foot office building in San Francisco, California. Simultaneously with closing, we brought in a joint venture partner to acquire 51.0% of the equity interest. We will retain the remaining 49.0% equity interest and manage and lease the asset. The purchase price was $227,000,000. In connection with the acquisition, the joint venture completed a $138,200,000 financing of the property. The four-year loan is interest only at LIBOR plus 215 basis points and has three one-year extension options. Accordingly, our share of equity funded was approximately $45,000,000, of which $10,000,000 was funded as a deposit in December 2018.\nWe may refinance our maturing debt when it comes due or refinance or repay it early depending on prevailing market conditions, liquidity requirements and other factors. The amounts involved in connection with these transactions could be material to our consolidated financial statements.\nRevolving Credit Facility\nOn January 10, 2018, we amended and restated the credit agreement governing our revolving credit facility. The maturity date of the revolving credit facility was extended from November 2018 to January 2022, with two six-month extension options, and the capacity was increased to $1.0 billion from $800,000,000. The interest rate on the extended facility, at current leverage levels, was lowered by 10 basis points from LIBOR plus 125 basis points to LIBOR plus 115 basis points, and the facility fee was reduced by 5 basis points from 25 basis points to 20 basis points. We also have an option, subject to customary conditions and incremental lender commitments, to increase the capacity under the facility to $1.5 billion at any time prior to the maturity date of the facility.\nThe facility contains certain restrictions and covenants that require us to maintain, on an ongoing basis, (i) a leverage ratio not to exceed 60%, however, the leverage ratio may be increased to 65% for any fiscal quarter in which an acquisition of real estate is completed and for up to the next three subsequent consecutive fiscal quarters, (ii) a secured leverage ratio not to exceed 50%, (iii) a fixed charge coverage ratio of at least 1.50, (iv) an unsecured leverage ratio not to exceed 60%, however, the unsecured leverage ratio may be increased to 65% for any fiscal quarter in which an acquisition of real estate is completed and for up to the next three subsequent consecutive fiscal quarters and (v) an unencumbered interest coverage ratio of at least 1.75. The facility also contains customary representations and warranties, limitations on permitted investments and other covenants.\nDividend Policy\nOn December 14, 2018, we declared a regular quarterly cash dividend of $0.10 per share of common stock for the fourth quarter ending December 31, 2018, which was paid on January 15, 2019 to stockholders of record as of the close of business on December 31, 2018. During 2018, we paid an aggregate of $105,055,000 in dividends and distributions to our common stockholders and common unitholders. These dividends were paid utilizing the cash flow from operations. If we were to continue our current dividend policy for all of 2019, we would pay out approximately $104,000,000 to common stockholders and unitholders during 2019.\nContractual Obligations\nThe following table provides a summary of our contractual obligations and commitments as of December 31, 2018.\n(1)\nInterest expense is calculated using contractual rates for fixed rate debt and the rates in effect as of December 31, 2018 for variable rate debt.\n(2)\nThe total above does not include various standing or renewal service contracts with vendors in connection with the operations of our properties.\nOff Balance Sheet Arrangements\nAs of December 31, 2018, our unconsolidated joint ventures had $896,803,000 of outstanding indebtedness, of which our share was $180,879,000. We do not guarantee the indebtedness of our unconsolidated joint ventures other than providing customary environmental indemnities and guarantees of specified non-recourse carve outs relating to specified covenants and representations; however, we may elect to fund additional capital to a joint venture through equity contributions (generally on a basis proportionate to our ownership interests), advances or partner loans in order to enable the joint venture to repay this indebtedness upon maturity.\nStock Repurchase Program\nOn August 1, 2017, we received authorization from our Board of Directors to repurchase up to $200,000,000 of our common stock from time to time, in the open market or in privately negotiated transactions. As of December 31, 2018, we have repurchased an aggregate of 7,555,601 shares, or $105,383,000 of our common stock, at a weighted average price of $13.95 per share. We currently have $94,617,000 available for future repurchases. The amount and timing of future repurchases, if any, will depend on a number of factors, including, the price and availability of our shares, trading volume and general market conditions. The stock repurchase program may be suspended or discontinued at any time.\nInsurance\nWe carry commercial general liability coverage on our properties, with limits of liability customary within the industry. Similarly, we are insured against the risk of direct and indirect physical damage to our properties including coverage for the perils such as floods, earthquakes and windstorms. Our policies also cover the loss of rental income during an estimated reconstruction period. Our policies reflect limits and deductibles customary in the industry and specific to the buildings and portfolio. We also obtain title insurance policies when acquiring new properties. We currently have coverage for losses incurred in connection with both domestic and foreign terrorist-related activities. While we do carry commercial general liability insurance, property insurance and terrorism insurance with respect to our properties, these policies include limits and terms we consider commercially reasonable. In addition, there are certain losses (including, but not limited to, losses arising from known environmental conditions or acts of war) that are not insured, in full or in part, because they are either uninsurable or the cost of insurance makes it, in our belief, economically impractical to maintain such coverage. Should an uninsured loss arise against us, we would be required to use our own funds to resolve the issue, including litigation costs. We believe the policy specifications and insured limits are adequate given the relative risk of loss, the cost of the coverage and industry practice and, in consultation with our insurance advisors, we believe the properties in our portfolio are adequately insured.\nOther Commitments and Contingencies\nWe are a party to various claims and routine litigation arising in the ordinary course of business. Some of these claims or others to which we may be subject from time to time, including claims arising specifically from the Formation Transactions, in connection with our initial public offering, may result in defense costs, settlements, fines or judgments against us, some of which are not, or cannot be, covered by insurance. Payment of any such costs, settlements, fines or judgments that are not insured could have an adverse impact on our financial position and results of operations. Should any litigation arise in connection with the Formation Transactions, we would contest it vigorously. In addition, certain litigation or the resolution of certain litigation may affect the availability or cost of some of our insurance coverage, which could adversely impact our results of operations and cash flow, expose us to increased risks that would be uninsured, and/or adversely impact our ability to attract officers and directors.\nThe terms of our mortgage debt and certain side letters in place include certain restrictions and covenants which may limit, among other things, certain investments, the incurrence of additional indebtedness and liens and the disposition or other transfer of assets and interests in the borrower and other credit parties, and require compliance with certain debt yield, debt service coverage and loan to value ratios. In addition, our revolving credit facility contains representations, warranties, covenants, other agreements and events of default customary for agreements of this type with comparable companies. As of December 31, 2018, we believe we are in compliance with all of our covenants.\nTransfer Tax Assessments\nDuring 2017, the New York City Department of Finance issued Notices of Determination (“Notices”) assessing additional transfer taxes (including interest and penalties) in connection with the transfer of interests in certain properties during our 2014 initial public offering. Prior to February 16, 2018, we believed that the likelihood of a loss related to these assessments was remote. On February 16, 2018, the New York City Tax Appeals Tribunal issued a decision against a publicly traded REIT in a case interpreting the same provisions of the transfer tax statute, on similar but distinguishable facts. As a result, after consultation with legal counsel, we now believe the likelihood of loss is reasonably possible, and while it is not possible to predict the outcome of these Notices, we estimate the range of loss could be between $0 and $39,800,000. Since no amount in this range is a better estimate than any other amount within the range, we have not accrued any liability arising from potential losses relating to these Notices in our consolidated financial statements.\nInflation\nSubstantially all of our leases provide for separate real estate tax and operating expense escalations. In addition, many of the leases provide for fixed base rent increases. We believe inflationary increases in expenses may be at least partially offset by the contractual rent increases and expense escalations described above. We do not believe inflation has had a material impact on our historical financial position or results of operations.\nCash Flows\nCash and cash equivalents and restricted cash were $365,409,000, $250,425,000, $192,339,000 and $185,707,000 as of December 31, 2018, 2017, 2016 and 2015, respectively. Cash and cash equivalents and restricted cash increased by $114,984,000 and $58,086,000 for the years ended December 31, 2018 and 2017, respectively. Our December 31, 2015 cash and cash equivalents and restricted cash included $7,987,000 relating to our real estate funds, which were deconsolidated as of January 1, 2016. Excluding the impact of deconsolidation of these real estate funds, cash and cash equivalents and restricted cash increased by $14,619,000 for the year ended December 31, 2016. The following table sets forth the changes in cash flow.\nOperating Activities\nYear Ended December 31, 2018 - We generated $156,523,000 of cash from operating activities for the year ended December 31, 2018, primarily from (i) $240,615,000 of net income (before $212,467,000 of noncash adjustments, $46,000,000 of real estate impairment loss and $36,845,000 of gain on sale of real estate) and (ii) $6,537,000 of distributions from unconsolidated joint ventures and real estate funds, partially offset by (iii) $90,629,000 of net changes in operating assets and liabilities. Noncash adjustments of $212,467,000 were primarily comprised of depreciation and amortization, straight-lining of rental income, amortization of above and below market leases and amortization of stock-based compensation. The changes in operating assets and liabilities were primarily due to prepaid real estate taxes of $57,905,000 and additions to deferred charges of $31,861,000.\nYear Ended December 31, 2017 - We generated $190,111,000 of cash from operating activities for the year ended December 31, 2017, primarily from (i) $198,845,000 of net income (before $225,658,000 of noncash adjustments and $133,989,000 of gain on sale of real estate) and (ii) $6,042,000 of distributions from unconsolidated joint ventures and real estate funds, partially offset by (iii) $14,776,000 of net changes in operating assets and liabilities. Noncash adjustments of $225,658,000 were primarily comprised of depreciation and amortization, income from unconsolidated joint ventures, straight-lining of rental income, amortization of above and below market leases, impairment loss on preferred equity investment and amortization of stock based compensation.\nYear Ended December 31, 2016 - We generated $148,283,000 of cash from operating activities for the year ended December 31, 2016, primarily from (i) $155,848,000 of net income (before $153,779,000 of noncash adjustments) and (ii) $8,513,000 of distributions from unconsolidated joint ventures and real estate funds, partially offset by (iii) $16,078,000 of net changes in operating assets and liabilities. Noncash adjustments of $153,779,000 were primarily comprised of depreciation and amortization, straight-lining of rental income and unrealized gain on interest rate swaps. The changes in operating assets and liabilities were primarily due to additions to deferred charges of $15,701,000.\nInvesting Activities\nYear Ended December 31, 2018 -We generated $156,610,000 of cash from investing activities for the year ended December 31, 2018, primarily from (i) $349,013,000 of proceeds from the sales of real estate and (ii) $4,775,000 from the net sales of marketable securities (which are held in our deferred compensation plan), partially offset by (iii) $137,915,000 for additions to real estate, which were comprised of spending for tenant improvements and other building improvements, (iv) $29,883,000 for investments in and contributions to unconsolidated joint ventures, (v) $15,680,000 for escrow deposits and loans receivable for RDF, (vi) $10,000,000 for deposit in connection with the acquisition of 111 Sutter Street and (vii) $3,700,000 for net contributions to our unconsolidated real estate funds.\nYear Ended December 31, 2017 - We generated $295,731,000 of cash from investing activities for the year ended December 31, 2017, primarily from (i) $540,333,000 of proceeds from the sales of real estate and (ii) $34,584,000 of distributions from unconsolidated joint ventures and real estate funds, partially offset by (iii) $161,184,000 for acquisition of real estate; (iv) $86,434,000 for additions to real estate, which were comprised of spending for tenant improvements and other building improvements (v) $28,791,000 for the investments in and contributions to unconsolidated joint ventures, and (vi) $1,987,000 for net purchases of marketable securities (which are held in our deferred compensation plan).\nYear Ended December 31, 2016 - We used $652,658,000 of cash for investing activities for the year ended December 31, 2016, primarily due to (i) $517,823,000 for the acquisition of One Front Street, (ii) $132,686,000 of additions to real estate, which were comprised of spending for tenant improvements and other building improvements, (iii) $1,780,000 for contributions to our unconsolidated real estate funds and (iv) $369,000 for the net purchases of marketable securities (which are held in our deferred compensation plan).\nFinancing Activities\nYear Ended December 31, 2018 - We used $198,149,000 of cash for financing activities for the year ended December 31, 2018, primarily due to (i) $105,055,000 for dividends and distributions paid to common stockholders and unitholders, (ii) $102,863,000 for the repurchases of common shares, (iii) $27,299,000 for repayment of loans to affiliates, (iv) $18,184,000 for distributions to noncontrolling interests and (v) $6,564,000 for the payment of debt issuance costs and other, partially offset by (vi) $45,116,000 of contributions from noncontrolling interests and (vii) $16,700,000 of proceeds from notes and mortgages payable.\nYear Ended December 31, 2017 - We used $427,756,000 of cash for financing activities for the year ended December 31, 2017, primarily due to (i) $1,044,821,000 for repayments of notes and mortgages payable and $7,877,000 for loss on early extinguishment of debt, primarily for the early repayments of One Market Plaza, 1899 Pennsylvania Avenue and Liberty Place loans, (ii) $290,000,000 for repayments of the amounts borrowed under the revolving credit facility, (iii) $119,251,000 for distributions to noncontrolling interests, (iv) $100,780,000 for dividends and distributions paid to common stockholders and unitholders, (v) $19,425,000 for the settlement of swap liabilities, and (vi) $7,490,000 for the payment of debt issuance costs and other, partially offset by (vii) $991,556,000 of proceeds from notes and mortgages payable, primarily from the refinancing of One Market Plaza, (viii) $100,777,000 of contributions from noncontrolling interests, primarily from the acquisition of 50 Beale, (ix) $60,000,000 of borrowings under the revolving credit facility and (x) $9,555,000 from the refund of transfer taxes.\nYear Ended December 31, 2016 - We generated $518,994,000 of cash from financing activities for the year ended December 31, 2016, primarily from (i) $1,362,414,000 of proceeds from notes and mortgages payable, primarily from the refinancings of 1301 Avenue of the Americas and 31 West 52nd Street, (ii) $340,000,000 of borrowings under the revolving credit facility and (iii) $7,651,000 of contributions from noncontrolling interests, partially offset by (iv) $689,269,000 of repayments of notes and mortgages payable, primarily for the repayments of the 31 West 52nd Street and 900 Third Avenue, (v) $210,000,000 for the purchase of marketable securities and $4,608,000 for loss on early extinguishment of debt, in connections with the defeasance of Waterview’s mortgage loan, (vi) $130,000,000 of repayments of the amounts borrowed under the revolving credit facility, (vii) $100,517,000 of dividends and distributions paid to common stockholders and unitholders, (viii) $29,387,000 for the payment of debt issuance costs, (ix) $23,654,000 for the settlement of swap liabilities and (x) $3,636,000 for distributions to noncontrolling interests.\nNon-GAAP Financial Measures\nWe use and present NOI, Same Store NOI, FFO and Core FFO, as supplemental measures of our performance. The summary below describes our use of these measures, provides information regarding why we believe these measures are meaningful supplemental measures of our performance and reconciles these measures from net income or loss, the most directly comparable GAAP measure. Other real estate companies may use different methodologies for calculating these measures, and accordingly, our presentation of these measures may not be comparable to other real estate companies. These non-GAAP measures should not be considered a substitute for, and should only be considered together with and as a supplement to, financial information presented in accordance with GAAP.\nNet Operating Income (“NOI”)\nWe use NOI to measure the operating performance of our properties. NOI consists of property-related revenue (which includes rental income, tenant reimbursement income, lease termination income and certain other income) less operating expenses (which includes building expenses such as cleaning, security, repairs and maintenance, utilities, property administration and real estate taxes). We also present Cash NOI, which deducts from NOI, straight-line rent adjustments and the amortization of above and below-market leases, net, including our share of such adjustments of unconsolidated joint ventures. In addition, we present our share of NOI and Cash NOI, which represents our share of NOI and Cash NOI of consolidated and unconsolidated joint ventures, based on our percentage ownership in the underlying assets. We use NOI and Cash NOI internally as performance measures and believe they provide useful information to investors regarding our financial condition and results of operations because they reflect only those income and expense items that are incurred at the property level.\nThe following tables present reconciliations of our net income (loss) to NOI and Cash NOI for the years ended December 31, 2018, 2017 and 2016.\nSame Store NOI\nThe tables below set forth the reconciliations of our share of NOI to our share of Same Store NOI and Same Store Cash NOI for the years ended December 31, 2018 and 2017. These metrics are used to measure the operating performance of our properties that were owned by us in a similar manner during both the current and prior reporting periods, and represents our share of Same Store NOI and Same Store Cash NOI from consolidated and unconsolidated joint ventures based on our percentage ownership in the underlying assets. Same Store NOI also excludes lease termination income, bad debt expense, and certain other items that vary from period to period. Same Store Cash NOI excludes the effect of non-cash items such as the straight-lining of rental revenue and the amortization of above and below-market leases.\n(1)\nSee page 70 “Non-GAAP Financial Measures - NOI” for a reconciliation to net income in accordance with GAAP and the reasons why we believe these non-GAAP measures are useful.\n(2)\nRepresents our share of NOI attributable to acquired properties (60 Wall Street in New York and 50 Beale Street in San Francisco) for the months they were not owned by us in both reporting periods.\n(3)\nRepresents our share of NOI attributable to sold properties (Waterview, 2099 Pennsylvania Avenue and 425 Eye Street in Washington, D.C.) for the months they were not owned by us in both reporting periods.\n(1)\nSee page 70 “Non-GAAP Financial Measures - NOI” for a reconciliation to net income in accordance with GAAP and the reasons why we believe these non-GAAP measures are useful.\n(2)\nRepresents our share of Cash NOI attributable to acquired properties (60 Wall Street in New York and 50 Beale Street in San Francisco) for the months they were not owned by us in both reporting periods.\n(3)\nRepresents our share of Cash NOI attributable to sold properties (Waterview, 2099 Pennsylvania Avenue and 425 Eye Street in Washington, D.C.) for the months they were not owned by us in both reporting periods.\nFunds from Operations (“FFO”) and Core Funds from Operations (“Core FFO”)\nFFO is a supplemental measure of our performance. We present FFO in accordance with the definition adopted by the National Association of Real Estate Investment Trusts (“Nareit”). Nareit defines FFO as GAAP net income or loss adjusted to exclude net gains from sales of depreciated real estate assets, impairment losses on depreciable real estate and depreciation and amortization expense from real estate assets, including our share of such adjustments of unconsolidated joint ventures. FFO is commonly used in the real estate industry to assist investors and analysts in comparing results of real estate companies because it excludes the effect of real estate depreciation and amortization and net gains on sales, which are based on historical costs and implicitly assume that the value of real estate diminishes predictably over time, rather than fluctuating based on existing market conditions. In addition, we present Core FFO as an alternative measure of our operating performance, which adjusts FFO for certain other items that we believe enhance the comparability of our FFO across periods. Core FFO, when applicable, excludes the impact of certain items, including, transaction related costs, realized and unrealized gains or losses on real estate fund investments, unrealized gains or losses on interest rate swaps, severance costs and gains or losses on early extinguishment of debt, in order to reflect the Core FFO of our real estate portfolio and operations. In future periods, we may also exclude other items from Core FFO that we believe may help investors compare our results.\nFFO and Core FFO are presented as supplemental financial measures and do not fully represent our operating performance. Neither FFO nor Core FFO is intended to be a measure of cash flow or liquidity. Please refer to our consolidated financial statements, prepared in accordance with GAAP, for purposes of evaluating our financial condition, results of operations and cash flows.\nThe following table presents a reconciliation of net income to FFO and Core FFO."
+}

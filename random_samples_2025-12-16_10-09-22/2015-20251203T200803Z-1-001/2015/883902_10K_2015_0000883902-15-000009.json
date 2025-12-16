@@ -1,0 +1,978 @@
+{
+    "cik": "883902",
+    "company": "Company_883902",
+    "filing_type": "10-K",
+    "filing_date": "2015-01-01",
+    "period_of_report": "2015-12-31",
+    "sic": "Unknown",
+    "state_of_inc": "Unknown",
+    "state_location": "Unknown",
+    "fiscal_year_end": "1231",
+    "filing_html_index": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=883902",
+    "htm_filing_link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=883902",
+    "complete_text_filing_link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=883902",
+    "filename": "883902_10K_2015_0000883902-15-000009.htm",
+    "special_items": [
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.5,
+            "source_section": "item_8",
+            "context": ", (iv) decrease the applicable margin with respect to borrowings thereunder and (v) make certain other amendments and modifications to provide greater operational and financial flexibility.</font></div><div style=\"line-height:120%;padding-bottom:8px;text-align:left;text-indent:24px;font-size:10pt;\">...",
+            "amount_raw": "250.0 million",
+            "amount_value": 250.0,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 89350985
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "/div><div style=\"line-height:120%;padding-bottom:8px;text-align:left;text-indent:24px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">If we pursue further acquisitions, depending on conditions in the acquisition market, it may be difficult or impossible for us to identify business...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 62386647
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.6,
+            "source_section": "item_8",
+            "context": "45 million. The Convertible Preferred Stock and accrued dividends entitled the funds managed by CD&amp;R to receive approximately 54.1 million shares of Common Stock, representing 72.7% of the voting power and Common Stock of the Company on an as-converted basis.</font></div><div style=\"line-height:...",
+            "amount_raw": "$145.7 million",
+            "amount_value": 145.7,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 17357279
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "5</font></div></div><hr style=\"page-break-after:always\"/><a name=\"s550B365949E61DD26FEE0631A91AB216\"></a><div><div style=\"line-height:120%;font-size:8pt;\"><font style=\"font-family:inherit;font-size:8pt;\"><br/></font></div></div><br/><div style=\"line-height:120%;padding-bottom:8px;text-align:left;fon...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 98803532
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": ";font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;font-style:italic;font-weight:bold;\">Any charges to earnings resulting from acquisition, restructuring and integration costs or to historical factors at the CENTRIA business may adversely affect our financial results.</font></div><div...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 93595668
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": ";text-indent:24px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">Although the majority of our growth strategy is organic in nature, if we do pursue opportunistic acquisitions, we can provide no assurance that we will be successful in identifying or completing any acquisitions or ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 89024345
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "restructuring"
+            ],
+            "confidence": 0.6,
+            "source_section": "item_8",
+            "context": "</font></div></td></tr></table><div style=\"line-height:120%;padding-bottom:8px;text-align:left;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;font-weight:bold;\">Restructuring</font></div><div style=\"line-height:120%;padding-bottom:8px;text-align:left;text-indent:24px;font-size:10pt...",
+            "amount_raw": "$15.0 million",
+            "amount_value": 15.0,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 77462726
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "Restructuring"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "</font><font style=\"font-family:inherit;font-size:10pt;\">  Through diversification of our external customer base and national footprint, we plan to grow non-construction sales as a supply chain partner to national manufacturers. We will continue to leverage efficiency improvements to be one of the l...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 51647956
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "><div style=\"line-height:120%;font-size:8pt;\"><font style=\"font-family:inherit;font-size:8pt;\"><br/></font></div></div><br/><div style=\"line-height:120%;padding-bottom:8px;text-align:left;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">with cash on hand, (i) to finance the Metl-Sp...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 53061279
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": ">Consistent with our growth strategy, we frequently engage in discussions with potential sellers regarding the possible purchase by us of businesses, assets and operations that are strategic and complementary to our existing operations. Such assets and operations include engineered building systems ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 78727022
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "For example, we may be unable to eliminate duplicative costs or could lose suppliers or customers if they do not accept the measures we intend to implement to achieve the anticipated synergies. Moreover, we expect to incur substantial one-time expenses in connection with the integration of CENTRIA’s...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 52842806
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "Preferred Stock (the “Certificate of Designations”), as initially adopted in October 2009, we were contractually obligated to pay quarterly dividends to the CD&amp;R Funds, subject to certain dividend “knock-out” provisions.</font></div><div style=\"line-height:120%;padding-bottom:8px;text-align:left...",
+            "amount_raw": "$150 million",
+            "amount_value": 150.0,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 63294509
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "Litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "RD LOOKING STATEMENTS</font></div><div style=\"line-height:120%;padding-bottom:8px;text-align:left;text-indent:24px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">This Annual Report includes statements concerning our expectations, beliefs, plans, objectives, goals, strategies, fut...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 11624023
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "Until our purchase price allocations are finalized for an acquisition (generally about one year after the acquisition date), our allocation of the excess purchase price over the book value of the net assets acquired is considered preliminary and subject to future adjustment. As we complete the acqui...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 81459661
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "able><table cellpadding=\"0\" cellspacing=\"0\" style=\"padding-bottom:8px;font-family:Times New Roman; font-size:10pt;\"><tr><td style=\"width:41px;\"></td><td></td></tr><tr><td style=\"vertical-align:top\"><div style=\"line-height:120%;font-size:10pt;padding-left:17px;\"><font style=\"font-family:inherit;font-...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 98126826
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "acquisition method accounting process, our allocations of the purchase price may change, and may change materially. Our financial results could be adversely affected by a number of adjustments required in acquisition method accounting.</font></div><div style=\"line-height:120%;padding-bottom:8px;text...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 79987491
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "Restructuring"
+            ],
+            "confidence": 0.6,
+            "source_section": "item_8",
+            "context": "al-align:top\"><div style=\"line-height:120%;font-size:10pt;padding-left:6px;\"><font style=\"font-family:inherit;font-size:10pt;\">(10)</font></div></td><td style=\"vertical-align:top;\"><div style=\"line-height:120%;text-align:left;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\"> We clo...",
+            "amount_raw": "(10)",
+            "amount_value": -10.0,
+            "amount_scale": "dollars",
+            "footnote_reference": "Note 5",
+            "footnote_id": "5",
+            "anchor_hash": 54482842
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.5,
+            "source_section": "item_8",
+            "context": "and accrued dividends of approximately $345 million. The Convertible Preferred Stock and accrued dividends entitled the funds managed by CD&amp;R to receive approximately 54.1 million shares of Common Stock, representing 72.7% of the voting power and Common Stock of the Company on an as-converted ba...",
+            "amount_raw": "$145.7 million",
+            "amount_value": 145.7,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 78739787
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "Restructuring"
+            ],
+            "confidence": 0.6,
+            "source_section": "item_8",
+            "context": "ans to improve cost efficiency and optimize our combined manufacturing plant footprint considering our recent acquisitions and restructuring efforts. The Company believes that the successful execution of these plans in phases over the next 12 to 36 months will result in annual cost savings ranging b...",
+            "amount_raw": "20.0 million",
+            "amount_value": 20.0,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 58421048
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "asset impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "any entails higher auditing, accounting and legal fees and expenses, investor relations expenses, directors’ fees and director and officer liability insurance costs, registrar and transfer agent fees and listing fees, as well as other expenses, than for a non-public company.</font></div><div style=\"...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 76837825
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "bjecting us to liabilities and possible losses, which may not be covered by insurance.</font></div><div style=\"line-height:120%;padding-bottom:8px;text-align:left;text-indent:24px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">Our workers are subject to the usual hazards associat...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 3926676
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ble assets, and based on their fair values as of the date of completion of the CENTRIA Acquisition have preliminarily recorded the excess, if any, of the purchase price over those fair values as goodwill. Until our purchase price allocations are finalized for an acquisition (generally about one year...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 31834230
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "business. While we anticipate that certain expenses will be incurred, such expenses are difficult to estimate accurately and may exceed current estimates. Accordingly, the benefits from the CENTRIA Acquisition may be offset by costs or delays incurred in integrating the businesses.</font></div><div ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 35641878
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "asset impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "d></tr></table><table cellpadding=\"0\" cellspacing=\"0\" style=\"padding-bottom:8px;font-family:Times New Roman; font-size:10pt;\"><tr><td style=\"width:41px;\"></td><td></td></tr><tr><td style=\"vertical-align:top\"><div style=\"line-height:120%;font-size:10pt;padding-left:17px;\"><font style=\"font-family:inh...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 53395901
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "e the largest domestic manufacturer of nonresidential metal components. In 2006, we acquired Robertson-Ceco II Corporation (“RCC”) which operates the Ceco Building Systems, Star Building Systems and Robertson Building Systems divisions and is a leader in the metal buildings industry. The RCC acquisi...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 97276084
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "e=\"font-family:inherit;font-size:10pt;font-style:italic;font-weight:bold;\">Acquisitions subject us to numerous risks that could adversely affect our results of operations.</font></div><div style=\"line-height:120%;padding-bottom:8px;text-align:left;text-indent:24px;font-size:10pt;\"><font style=\"font-...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 16865844
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ement”) among the Borrowers, the Guarantors, Wells Fargo Capital Finance, LLC, as administrative agent and co-collateral agent, Bank of America, N.A., as co-collateral agent and syndication agent, and certain other lenders under the ABL Loan and Security Agreement, in order to amend the ABL Loan and...",
+            "amount_raw": "$2",
+            "amount_value": 2.0,
+            "amount_scale": "dollars",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 60426909
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "es in connection with any future acquisitions could have a material adverse effect on our financial condition and results of operations. Furthermore, our financial position and results of operations may fluctuate significantly from period to period based on whether significant acquisitions are compl...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 22677323
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ew Roman; font-size:10pt;\"><tr><td style=\"width:41px;\"></td><td></td></tr><tr><td style=\"vertical-align:top\"><div style=\"line-height:120%;font-size:10pt;padding-left:17px;\"><font style=\"font-family:inherit;font-size:10pt;\">•</font></div></td><td style=\"vertical-align:top;\"><div style=\"line-height:12...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 82915056
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "font></div><div style=\"line-height:120%;padding-bottom:8px;text-align:left;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;font-style:italic;font-weight:bold;\">Acquisitions subject us to numerous risks that could adversely affect our results of operations.</font></div><div style=\"li...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 94667544
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "integration costs"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "hat certain expenses will be incurred, such expenses are difficult to estimate accurately and may exceed current estimates. Accordingly, the benefits from the CENTRIA Acquisition may be offset by costs or delays incurred in integrating the businesses.</font></div><div style=\"line-height:120%;padding...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 97190350
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "have accounted for the CENTRIA Acquisition using the acquisition method of accounting. We have preliminarily allocated the total estimated purchase prices to net tangible assets, amortizable intangible assets and indefinite-lived intangible assets, and based on their fair values as of the date of co...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 11865765
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "he transaction on November 3, 2015. In January 2015, we completed the acquisition of CENTRIA, a Pennsylvania general partnership. CENTRIA is a leader in the design, engineering and manufacturing of architectural IMP wall and roof systems and a provider of integrated coil coating services for the non...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 89487797
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.6,
+            "source_section": "item_8",
+            "context": "he voting power and Common Stock of the Company on an as-converted basis.</font></div><div style=\"line-height:120%;padding-bottom:8px;text-align:left;text-indent:24px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">On June 22, 2012, we completed the acquisition of Metl-Span (the \"...",
+            "amount_raw": "4.7 million",
+            "amount_value": 4.7,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 74142904
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ial results.</font></div><div style=\"line-height:120%;padding-bottom:8px;text-align:left;text-indent:24px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">We have accounted for the CENTRIA Acquisition using the acquisition method of accounting. We have preliminarily allocated the t...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 97005714
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "restructuring"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "igh correlation to the Dodge low-rise nonresidential starts when the three leading indicators are combined and then seasonally adjusted. The forward projection of these metrics, based on a nine-month historical lag, indicates modest growth for low-rise starts in the first half of fiscal 2016.</font>...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 68707412
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "restructuring"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "indicators are combined and then seasonally adjusted. The forward projection of these metrics, based on a nine-month historical lag, indicates modest growth for low-rise starts in the first half of fiscal 2016.</font></div><div style=\"line-height:120%;padding-bottom:8px;text-align:left;text-indent:2...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 86262214
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ion (each a “Borrower” and collectively, the “Borrowers”) entered into Amendment No. 3 to the Loan and Security Agreement (the “ABL Loan and Security Agreement”) among the Borrowers, the Guarantors, Wells Fargo Capital Finance, LLC, as administrative agent and co-collateral agent, Bank of America, N...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 58139747
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "iv><br/><div style=\"text-align:center;\"><div style=\"line-height:120%;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">4</font></div></div><hr style=\"page-break-after:always\"/><div><div style=\"line-height:120%;font-size:8pt;\"><font style=\"font-family:inherit;font-size:8pt;\"><br/></f...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 58859994
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "restructuring"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "le we anticipate that certain expenses will be incurred, such expenses are difficult to estimate accurately and may exceed current estimates. Accordingly, the benefits from the CENTRIA Acquisition may be offset by costs or delays incurred in integrating the businesses.</font></div><div style=\"line-h...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 74441287
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "restructuring"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "making capital investments that are necessary or important to our operations in general, growth strategy and efforts to improve operating margins of our business units.</font></div></td></tr></table><div style=\"line-height:120%;padding-bottom:8px;text-align:left;text-indent:24px;font-size:10pt;\"><fo...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 33338175
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "n June 22, 2012, we completed the acquisition of Metl-Span (the \"Metl-Span Acquisition”) acquiring all of its outstanding membership interests for approximately $145.7 million in cash, which includes $4.7 million of cash acquired. Upon the closing of the Metl-Span Acquisition, Metl-Span became a dir...",
+            "amount_raw": "4.7 million",
+            "amount_value": 4.7,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 30768153
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "nonresidential metal components. In 2006, we acquired Robertson-Ceco II Corporation (“RCC”) which operates the Ceco Building Systems, Star Building Systems and Robertson Building Systems divisions and is a leader in the metal buildings industry. The RCC acquisition created an organization with great...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 66744449
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.6,
+            "source_section": "item_8",
+            "context": "nstruction industry. The acquisition enhances our existing portfolio of cold storage and commercial and industrial (\"C&amp;I\") solutions and expands our product offering into new high-end IMP capabilities. CENTRIA also contributes new specialty continuous metal coil coating capabilities. CENTRIA ope...",
+            "amount_raw": "$250.0 million",
+            "amount_value": 250.0,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 36798318
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ntages over conventional roofing materials, to increase its overall share of this market.</font></div><div style=\"line-height:120%;padding-bottom:8px;text-align:left;text-indent:24px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">One of our strategic objectives and a major part o...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 61447335
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.6,
+            "source_section": "item_8",
+            "context": "oducers. Our various products are fabricated from steel produced by mills including bars, plates, structural shapes, hot-rolled coils and galvanized or Galvalume®-coated coils.</font></div><div style=\"line-height:120%;padding-bottom:8px;text-align:left;text-indent:24px;font-size:10pt;\"><font style=\"...",
+            "amount_raw": "93.4 million",
+            "amount_value": 93.4,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 74562386
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "om:8px;text-align:left;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;font-style:italic;font-weight:bold;\">Any charges to earnings resulting from acquisition, restructuring and integration costs or to historical factors at the CENTRIA business may adversely affect our financial res...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 15738471
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ompany was founded in 1984 and reincorporated in Delaware in 1991. In 1998, we acquired Metal Building Components, Inc. (“MBCI”) and doubled our revenue base. As a result of the acquisition of MBCI, we became the largest domestic manufacturer of nonresidential metal components. In 2006, we acquired ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 86333716
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ont-family:Times New Roman; font-size:10pt;\"><tr><td style=\"width:41px;\"></td><td></td></tr><tr><td style=\"vertical-align:top\"><div style=\"line-height:120%;font-size:10pt;padding-left:17px;\"><font style=\"font-family:inherit;font-size:10pt;\">•</font></div></td><td style=\"vertical-align:top;\"><div sty...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 84987072
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "organically.</font></div><div style=\"line-height:120%;padding-bottom:8px;text-align:left;text-indent:24px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">In September 2015, we entered into a definitive agreement to acquire a manufacturing plant in Hamilton, Ontario, Canada. This p...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 66169361
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "reorganization"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "padding=\"0\" cellspacing=\"0\" style=\"padding-bottom:8px;font-family:Times New Roman; font-size:10pt;\"><tr><td style=\"width:41px;\"></td><td></td></tr><tr><td style=\"vertical-align:top\"><div style=\"line-height:120%;font-size:10pt;padding-left:17px;\"><font style=\"font-family:inherit;font-size:10pt;\">•</f...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 81757004
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "pon maintaining a satisfactory business relationship for continuing job orders from our authorized builders.</font></div><div style=\"line-height:120%;padding-bottom:8px;text-align:left;text-indent:24px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;font-style:italic;font-weight:bol...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 34089762
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "pt;\">In January 2015, we acquired CENTRIA (the \"CENTRIA Acquisition\"), a Pennsylvania general partnership (\"CENTRIA\"), for $255.8 million in cash, which includes cash acquired of $8.7 million. The transaction is subject to post-closing working capital adjustments. CENTRIA is a leader in the design, ...",
+            "amount_raw": "8.7 million",
+            "amount_value": 8.7,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 63118298
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "results of operations.</font></div><div style=\"line-height:120%;padding-bottom:8px;text-align:left;text-indent:24px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">If we pursue further acquisitions, depending on conditions in the acquisition market, it may be difficult or impossib...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 1957354
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "s are included in the results of our metal components segment. The Metl-Span Acquisition strengthened our position as a leading fully integrated supplier to the nonresidential building products industry in North America, providing our customers a comprehensive suite of building products.</font></div...",
+            "amount_raw": "$250.0 million",
+            "amount_value": 250.0,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 74265112
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.6,
+            "source_section": "item_8",
+            "context": "st-effective and energy efficient insulated metal wall and roof panels. This transaction strengthened our position as a leading fully integrated supplier to the nonresidential building products industry in North America, providing our customers a comprehensive suite of building products.</font></div...",
+            "amount_raw": "$255.8 million",
+            "amount_value": 255.8,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 65882767
+        },
+        {
+            "type": "unusual",
+            "keywords_matched": [
+                "one-time"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "te the CENTRIA business with our existing operations, this integration may not result in the realization of the full benefits of the growth opportunities and cost synergies that we currently expect from this integration within the anticipated time frame or at all. For example, we may be unable to el...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 77775038
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "that are closely related to, or intertwined with, these business lines, and enable us to leverage our asset base, knowledge base and skill sets. Such acquisition efforts may involve participation by us in processes that have been made public, involve a number of potential buyers and are commonly ref...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 26750589
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "the acquisition method of accounting. We have preliminarily allocated the total estimated purchase prices to net tangible assets, amortizable intangible assets and indefinite-lived intangible assets, and based on their fair values as of the date of completion of the CENTRIA Acquisition have prelimin...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 56015578
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.6,
+            "source_section": "item_8",
+            "context": "tial debt and may incur substantial additional debt, which could adversely affect our financial health, reduce our profitability, limit our ability to obtain financing in the future and pursue certain business opportunities and make payments on our indebtedness.</font></div><div style=\"line-height:1...",
+            "amount_raw": "$444.1 million",
+            "amount_value": 444.1,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 49125805
+        },
+        {
+            "type": "discontinued_ops",
+            "keywords_matched": [
+                "held for sale"
+            ],
+            "confidence": 0.7,
+            "source_section": "item_8",
+            "context": "tom:8px;font-family:Times New Roman; font-size:10pt;\"><tr><td style=\"width:30px;\"></td><td></td></tr><tr><td style=\"vertical-align:top\"><div style=\"line-height:120%;font-size:10pt;padding-left:6px;\"><font style=\"font-family:inherit;font-size:10pt;\">(10)</font></div></td><td style=\"vertical-align:top...",
+            "amount_raw": "(10)",
+            "amount_value": -10.0,
+            "amount_scale": "dollars",
+            "footnote_reference": "Note 2",
+            "footnote_id": "2",
+            "anchor_hash": 51957083
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.6,
+            "source_section": "item_8",
+            "context": "tyle=\"font-family:inherit;font-size:10pt;font-weight:bold;\">Backlog</font></div><div style=\"line-height:120%;padding-bottom:8px;text-align:left;text-indent:24px;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;\">At November 1, 2015 and November 2, 2014, the total backlog of orders, p...",
+            "amount_raw": "334.7 million",
+            "amount_value": 334.7,
+            "amount_scale": "million",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 21317367
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "tyle=\"line-height:120%;padding-bottom:8px;text-align:left;font-size:10pt;\"><font style=\"font-family:inherit;font-size:10pt;font-style:italic;font-weight:bold;\">We may not realize the anticipated synergies, cost savings and growth opportunities from the CENTRIA Acquisition.</font></div><div style=\"li...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 88981766
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ur hub-and-spoke distribution system, allows us to efficiently supply a broad range of customers with high quality customer service and reliable deliveries.</font></div><div style=\"line-height:120%;padding-bottom:8px;text-align:left;text-indent:24px;font-size:10pt;\"><font style=\"font-family:inherit;...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 88134581
+        }
+    ],
+    "item_7": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations.\nOVERVIEW\nWe are one of North America’s largest integrated manufacturers and marketers of metal products for the nonresidential construction industry. We provide metal coil coating services and design, engineer, manufacture and market metal components and engineered building systems primarily for nonresidential construction use. We manufacture and distribute extensive lines of metal products for the nonresidential construction market under multiple brand names through a nationwide network of plants and distribution centers. We sell our products for both new construction and repair and retrofit applications.\nMetal components offer builders, designers, architects and end-users several advantages, including lower long-term costs, longer life, attractive aesthetics and design flexibility. Similarly, engineered building systems offer a number of advantages over traditional construction alternatives, including shorter construction time, more efficient use of materials, lower construction costs, greater ease of expansion and lower maintenance costs.\nWe use a 52/53 week year with our fiscal year end on the Sunday closest to October 31. Fiscal 2013 included an additional week of operating activity.\nWe assess performance across our operating segments by analyzing and evaluating, among other indicators, gross profit, operating income and whether or not each segment has achieved its projected sales goals. In assessing our overall financial performance, we regard return on adjusted operating assets, as well as growth in earnings, as key indicators of shareholder value.\nFiscal 2015 Overview\nOur improved 2015 financial performance was the result of focused execution across our commercial, manufacturing and supply chain groups. Including our fourth quarter of 2015, we have achieved six consecutive quarters of year-over-year improvement in gross profit margin and Adjusted EBITDA, which was the objective of the reorganization of our business over the past two years. The flattening of both our manufacturing and commercial organizations has enabled a level of collaboration, communication and teamwork that continues to drive meaningful improvement in our ability to overcome headwinds that we may face at any given time.\nWe achieved our best financial performance since 2008, delivering 72.2% year-over-year improvement in Adjusted EBITDA, despite lackluster economic conditions, low-rise, nonresidential construction activity that decreased year-over-year and steel prices that continued to decline to pricing levels not seen since 2003. In the process, we expanded our Adjusted EBITDA margin by 280 basis points as we took advantage of the operating leverage created by volume increases driving greater capacity utilization. In addition to the incremental Adjusted EBITDA contributed by the newly acquired CENTRIA business, our legacy engineered building systems and metal components segments generated significant year-over-year improvement, which are discussed in \"-Results of Operations.\"\nAdditionally, our operating cash flow has significantly improved during fiscal 2015. During fiscal 2015, we generated cash flows from operations of $105.0 million, which increased significantly from $33.6 million in fiscal 2014, reflective of strong growth in Adjusted EBITDA and focused management of working capital. This improved operating cash flow enabled us to make voluntary prepayments on our existing term loan facility of approximately $41.0 million in fiscal 2015. These additional debt paydowns, combined with improved Adjusted EBITDA, have enabled us to continue to execute on our goal to reduce net debt ratios to pre-CENTRIA acquisition levels. Our pro forma net debt leverage ratio at the end of the fourth fiscal quarter improved to 2.7x, moving closer to the previous pre-CENTRIA acquisition leverage of 2.2x.\nIndustry Conditions\nOur sales and earnings are subject to both seasonal and cyclical trends and are influenced by general economic conditions, interest rates, the price of steel relative to other building materials, the level of nonresidential construction activity, roof repair and retrofit demand and the availability and cost of financing for construction projects. Our sales normally are lower in the first half of each fiscal year compared to the second half because of unfavorable weather conditions for construction and typical business planning cycles affecting construction.\nThe nonresidential construction industry is highly sensitive to national and regional macroeconomic conditions. One of the primary challenges we face is that the United States economy is recovering from a recession and historically low nonresidential construction activity, which began in the third quarter of 2008 and reduced demand for our products and adversely affected our business. In addition, the tightening of credit in financial markets over the same period adversely affected the ability of our customers to obtain financing for construction projects. As a result, we experienced decreases in orders and cancellations of orders for our products. While economic growth has either resumed or remained flat, the nonresidential construction industry continues to be below previous cyclical troughs. The graph below shows the annual nonresidential new construction starts, measured in square feet, since 1968 as compiled and reported by Dodge:\nDodge Nonresidential Construction Activity\nSource: Dodge\nCurrent market estimates continue to show subdued activity in nonresidential markets. Nonresidential construction starts, as measured in square feet, were down 7% in fiscal 2015 as compared to fiscal 2014 according to Dodge Data & Analytics (“Dodge”). Low-rise starts, comprising buildings of one to five stories, were down 6% for fiscal 2015 as compared to fiscal 2014. However, leading indicators for low-rise, nonresidential construction activity continue to indicate modest momentum moving into fiscal 2016.\nThe leading indicators that typically have the most meaningful correlation to nonresidential low-rise construction starts are the American Institute of Architects’ (“AIA”) Architecture Mixed Use Index, Dodge Residential single family starts and the Conference Board Leading Economic Index (“LEI”). Historically, there has been a very high correlation to the Dodge low-rise nonresidential starts when the three leading indicators are combined and then seasonally adjusted. The forward projection of these metrics, based on a nine-month historical lag, indicates modest growth for low-rise starts in the first half of fiscal 2016.\nWe normally do not maintain an inventory of steel in excess of our current production requirements. However, from time to time, we may purchase steel in advance of announced steel price increases. We can give no assurance that steel will be readily available or that prices will not continue to be volatile. While most of our sales contracts have escalation clauses that allow us, under certain circumstances, to pass along all or a portion of increases in the price of steel after the date of the contract but prior to delivery, for competitive or other reasons we may not be able to pass such price increases along. If the available supply of steel declines, we could experience price increases that we are not able to pass on to the end users, a deterioration of service from our suppliers or interruptions or delays that may cause us not to meet delivery schedules to our customers. Any of these problems could adversely affect our results of operations and financial condition. For additional discussion please see “Item 7A. Quantitative and Qualitative Disclosures About Market Risk - Steel Prices.”\nRESULTS OF OPERATIONS\nThe following table presents, as a percentage of sales, certain selected consolidated financial data for the periods indicated:\nSUPPLEMENTARY OPERATING SEGMENT INFORMATION\nOperating segments are defined as components of an enterprise that engage in business activities and by which discrete financial information is available that is evaluated on a regular basis by the chief operating decision maker to make decisions about how to allocate resources to the segment and assess the performance of the segment. We have three operating segments: (i) engineered building systems; (ii) metal components; and (iii) metal coil coating. All operating segments operate primarily in the nonresidential construction market. Sales and earnings are influenced by general economic conditions, the level of nonresidential construction activity, metal roof repair and retrofit demand and the availability and terms of financing available for construction. Our operating segments are vertically integrated and benefit from similar basic raw materials. The metal coil coating segment consists of cleaning, treating, painting and slitting continuous steel coils before the steel is fabricated for use by construction and industrial users. The metal components segment products include metal roof and wall panels, doors, metal partitions, metal trim, insulated panels and other related accessories. Metl-Span and CENTRIA are included in the metal components segment. The engineered building systems segment includes the manufacturing of main frames, Long-Bay® Systems and value-added engineering and drafting, which are typically not part of metal components or metal coil coating products or services. The manufacturing and distribution activities of our segments are effectively coupled through the use of our nationwide hub-and-spoke manufacturing and distribution system, which supports and enhances our vertical integration. The operating segments follow the same accounting policies used for our consolidated financial statements.\nWe evaluate a segment’s performance based primarily upon operating income before corporate expenses. Intersegment sales are recorded based on standard material costs plus a standard markup to cover labor and overhead and consist of: (i) structural framing provided by the engineered building systems segment to the metal components segment; (ii) building components provided by the metal components segment to the engineered building systems segment; and (iii) hot-rolled, light gauge painted, and slit material and other services provided by the metal coil coating segment to both the engineered building systems and metal components segments.\nCorporate assets consist primarily of cash but also include deferred financing costs, deferred taxes and property, plant and equipment associated with our headquarters in Houston, Texas. These items (and income and expenses related to these items) are not allocated to the operating segments. Corporate unallocated expenses include share-based compensation expenses, and executive, legal, finance, tax, treasury, human resources, information technology, purchasing, marketing and corporate travel expenses. Additional unallocated expenses include interest income, interest expense, debt extinguishment costs and other income (expense). Segment information is included in Note 21 to our consolidated financial statements.\nThe following table represents total sales, external sales and operating income attributable to these operating segments for the periods indicated (in thousands, except percentages):\nRESULTS OF OPERATIONS FOR FISCAL 2015 COMPARED TO FISCAL 2014\nConsolidated sales increased by 14.1%, or $193.2 million for fiscal 2015, compared to fiscal 2014. These results were driven by the inclusion of CENTRIA, which contributed $179.4 million of external sales since January 16, 2015 when CENTRIA was acquired. This increase also resulted from higher tonnage volumes in our metal components segment, specifically for our single-skin products. In general, this increase was partially offset by the continued decline in steel prices experienced during fiscal 2015, which has unfavorably impacted our consolidated sales.\nConsolidated cost of sales, excluding the fair value adjustment of acquired inventory and gain on insurance recovery, increased by 10.1%, or $109.0 million for fiscal 2015, compared to fiscal 2014. This increase was the result of the increase in consolidated sales, partially offset by lower underlying material costs driven in part by the continued decrease in steel prices experienced during fiscal 2015.\nFair value adjustment of acquired inventory for fiscal 2015 was $2.4 million associated with the CENTRIA acquisition. There was no corresponding amount recorded during fiscal 2014.\nConsolidated gain on insurance recovery was $1.3 million in fiscal 2014. On August 6, 2013, our metal coil coating segment facility in Jackson, Mississippi experienced a fire caused by an exhaust fan failure that damaged the roof and walls of two curing ovens. During the fourth quarter of fiscal 2013, the ovens were repaired. We received insurance proceeds of approximately $1.3 million during fiscal 2014 from claims submitted. These insurance proceeds have been classified as a gain on insurance recovery on the consolidated statements of operations. There was no corresponding amount in fiscal 2015. See “Note 6 - Gain on Insurance Recovery” in the notes to the consolidated financial statements for more information.\nGross margin, including the fair value adjustment of acquired inventory and gain on insurance recovery, was 23.8% for fiscal 2015 compared to 21.3% for the same period in the prior year. The increase in gross margin was the result of continued commercial discipline in both the metal components and engineered building systems segments and higher margin product mix as well as the inclusion of CENTRIA.\nEngineered building systems sales decreased 0.4%, or $2.7 million to $667.2 million in fiscal 2015, compared to $669.8 million in the same period in the prior year. The decrease in sales is the result of the pass-through effect of lower steel prices and reductions in certain erection services, partially offset by increased tonnage volume and value oriented pricing. Sales to third parties for fiscal 2015 decreased $1.5 million to $647.9 million from $649.4 million in the same period in the prior year.\nOperating income of the engineered building systems segment increased to $51.4 million in fiscal 2015 compared to $32.5 million in the same period in the prior year. This $19.1 million increase resulted from improved product mix, lower material costs and lower transportation costs.\nMetal components sales increased 24.5%, or $226.0 million to $920.8 million in fiscal 2015, compared to $694.9 million in the same period in the prior year. The results were driven in part by the inclusion of CENTRIA, which contributed $179.4 million of external sales since January 16, 2015 when CENTRIA was acquired. The increase was also due to higher volume of single skin products shipped and higher margin product mix, primarily in our insulated metal panel products. Sales to third parties for fiscal 2015 increased $207.7 million to $815.3 million from $607.6 million in the same period in the prior year.\nOperating income of the metal components segment increased to $50.5 million in fiscal 2015, compared to $33.3 million in the same period in the prior year. The $18.2 million increase was driven by the increased sales discussed above, as well as improved product mix.\nMetal coil coating sales decreased by 6.0%, or $14.9 million to $231.8 million in fiscal 2015, compared to $246.6 million in the same period in the prior year. This decrease in sales is primarily the result of a decrease in external tons shipped. Package sales include both the toll processing services and the sale of the steel coil while toll processing services include only the toll processing service performed on the steel coil already in the customer’s ownership. Decreasing steel prices generally have an unfavorable impact on our coating business, primarily in our package sales that are more sensitive to the price of steel.\nOperating income of the metal coil coating segment decreased to $19.1 million in fiscal 2015, compared to $24.0 million in the same period in the prior year. The $4.9 million decrease was driven by the decreased sales discussed above.\nConsolidated engineering, selling, general and administrative expenses, consisting of engineering, drafting, selling and administrative costs, increased to $286.8 million in fiscal 2015, compared to $261.7 million in the same period in the prior year. As a percentage of sales, engineering, selling, general and administrative expenses were 18.3% for fiscal 2015 as compared to 18.8% for fiscal 2014. The $29.2 million increase in engineering, selling and administrative expenses was primarily due to the inclusion of CENTRIA, which contributed $30.1 million of engineering, selling, general and administrative expenses since January 16, 2015 when CENTRIA was acquired. Engineering, selling, general and\nadministrative costs excluding the impact of CENTRIA decreased $0.9 million during fiscal 2015 compared to the same period in the prior year.\nConsolidated intangible amortization increased to $16.9 million during fiscal 2015, compared to $4.1 million in the same period in the prior year. This increase is directly related to the valuation of intangible assets related to the CENTRIA Acquisition. Intangible amortization during fiscal 2014 related to prior acquisitions, including Metl-Span.\nConsolidated strategic development and acquisition related costs decreased to $4.2 million during fiscal 2015, compared to $5.0 million in the same period in the prior year. These non-operational costs are related to acquisition-related activities that support our future growth targets and performance goals and generally include external legal, financial and due diligence costs incurred to pursue specific acquisition targets.\nConsolidated restructuring and impairment charges for fiscal 2015 were $11.3 million and consists of costs of $1.6 million associated with the closing of our Caryville, TN facility, severance costs of $3.9 million associated with the streamlining of our commercial and manufacturing cost structure and asset impairment charges of $5.8 million incurred during the fourth quarter of 2015. There was no corresponding amount recorded for fiscal 2014.\nConsolidated gain on legal settlements for fiscal 2015 was $3.8 million and consists of proceeds received from the settlement of certain legal cases where the Company was the plaintiff. There was no corresponding amount recorded for fiscal 2014.\nConsolidated interest expense increased to $28.5 million for fiscal 2015, compared to $12.5 million for the same period of the prior year. This increase is attributable to the $250.0 million in aggregate principal amount of 8.25% senior notes due 2023 issued in connection with the CENTRIA Acquisition.\nConsolidated other income, net, decreased to $0.5 million for fiscal 2015, compared to $1.0 million for the same period of the prior year primarily due to foreign currency losses related to fluctuations in the Canadian / U.S. Dollar exchange rate in the current period in Canada.\nConsolidated provision for income taxes was a $9.0 million for fiscal 2015, compared to a $1.0 million provision for the same period in the prior year. The effective tax rate for fiscal 2015 was 33.5% compared to 11.8% for the same period in the prior year. The 2014 tax provision included a $2.7 million benefit for the release of a valuation allowance. During 2014, after evaluating historical and future financial trends in our Canadian business, we determined that it is more likely than not that we will utilize all of our current tax loss carry-forwards, which if unused would begin to expire in 2026.\nDiluted income per common share improved to $0.24 per diluted common share for fiscal 2015, compared to income of $0.15 per diluted common share for the same period in the prior year. The improvement in diluted income per common share was primarily due to the $6.6 million increase in net income resulting from the factors described above in this section.\nRESULTS OF OPERATIONS FOR FISCAL 2014 COMPARED TO FISCAL 2013\nConsolidated sales increased by 4.7%, or $62.1 million for fiscal 2014, compared to fiscal 2013. This increase resulted from higher tonnage volumes in our metal coil coating and metal components segments for fiscal 2014 compared to the same period in 2013 which was driven primarily by improved demand in the end use sectors of the nonresidential construction industry that we serve compared to the prior year. These increases were partially offset by lower tonnage volumes in our engineered building systems segment during the current period.\nConsolidated cost of sales, excluding gain on insurance recovery, increased by 4.5%, or $46.7 million for fiscal 2014, compared to fiscal 2013. This increase resulted from higher tonnage volumes in our metal coil coating and metal components segments as noted above.\nConsolidated gain on insurance recovery increased by 28.2%, or $0.3 million to $1.3 million in fiscal 2014, compared to $1.0 million in the same period in the prior year. On August 6, 2013, our metal coil coating segment facility in Jackson, Mississippi experienced a fire caused by an exhaust fan failure that damaged the roof and walls of two curing ovens. During the fourth quarter of fiscal 2013, the ovens were repaired. We received insurance proceeds of approximately $1.3 million during fiscal 2014 from claims submitted. These insurance proceeds have been classified as a “gain on insurance recovery” in the consolidated statement of operations. We received insurance proceeds of approximately $1.0 million during fiscal 2013. See “Note 6 - Gain on Insurance Recovery” in the notes to the consolidated financial statements for more information.\nGross margin, including the gain on insurance recovery, was 21.3% for fiscal 2014 compared to 21.1% for the same period in the prior year. The increase in gross margins was the result of higher sales prices due to value oriented pricing and higher tonnage volumes as noted above, partially offset by an unfavorable product mix in the metal components segment.\nEngineered building systems sales increased 2.1%, or $14.1 million to $669.8 million in fiscal 2014, compared to $655.8 million in the same period in the prior year. This increase in fiscal 2014 compared to the same period in the prior year\nresulted from higher sales prices as a result of improved product mix supported by value oriented pricing, partially offset by a 3.8% decrease in external tons shipped. Sales to third parties for fiscal 2014 increased $15.7 million to $649.3 million from $633.7 million in the same period in the prior year. The remaining $1.6 million represents a decrease in intersegment sales. Engineered building systems third-party sales accounted for 47.4% of total consolidated third-party sales in fiscal 2014 compared to 48.4% in fiscal 2013.\nOperating income of the engineered building systems segment increased to $32.5 million in fiscal 2014 compared to $23.4 million in the same period in the prior year. This $9.1 million increase resulted from higher sales prices as noted above, partially offset by lower volumes and higher transportation and manufacturing costs which were due to weather and supply chain disruptions in the first half of fiscal 2014.\nMetal components sales increased 4.8%, or $31.8 million to $694.9 million in fiscal 2014, compared to $663.1 million in the same period in the prior year. This increase was primarily due to a 2.6% increase in external tons shipped, partially offset by unfavorable product mix. The external volume increase was driven by improved demand in the end use sectors we serve compared to the prior year but was partially offset by unfavorable weather conditions in the first half of fiscal 2014. Sales to third parties for fiscal 2014 increased $25.8 million to $607.6 million from $581.8 million in the same period in the prior year. The remaining $5.9 million represents an increase in intersegment sales. Metal components third-party sales accounted for 44.3% of total consolidated third-party sales in fiscal 2014 compared to 44.5% in fiscal 2013.\nOperating income of the metal components segment decreased to $33.3 million in fiscal 2014, compared to $36.2 million in the same period in the prior year. The $2.9 million decrease was driven by investments in certain growth initiatives and the impact of commercial discipline and unfavorable product mix.\nMetal coil coating sales increased by 11.0%, or $25.5 million to $246.6 million in fiscal 2014, compared to $222.1 million in the same period in the prior year. Sales to third parties for fiscal 2014 increased $20.6 million to $113.6 million from $93.0 million in the same period in the prior year, primarily as a result of a 19.2% increase in external tons shipped due to the continued ramping up of our new facility in Middletown, Ohio, partially offset by higher toll processing sales mix compared to package sales mix. Package sales include both the toll processing services and the sale of the steel coil while toll processing services include only the toll processing service performed on the steel coil already in the customer’s ownership. The remaining $3.9 million represents an increase in intersegment sales for fiscal 2014 compared to the same period in the prior year. Metal coil coating third-party sales accounted for 8.3% of total consolidated third-party sales in fiscal 2014 compared to 7.1% in fiscal 2013.\nOperating income of the metal coil coating segment remained relatively flat at $24.0 million in fiscal 2014, primarily due to additional costs associated with the ramp up of the new Middletown facility and other operating costs, which were offset by the increased external volume as noted above.\nConsolidated engineering, selling, general and administrative expenses, consisting of engineering, drafting, selling and administrative costs, increased to $261.7 million in fiscal 2014, compared to $256.9 million in the same period in the prior year. As a percentage of sales, engineering, selling, general and administrative expenses were 19.1% for fiscal 2014 as compared to 19.6% for fiscal 2013. The $4.9 million increase in engineering, selling and administrative expenses was primarily due to an increase in wages, commissions and benefits as a result of higher volumes and certain growth initiatives and investments in our sales force as well as $0.8 million of expenses relating to the secondary offering by the CD&R Funds during fiscal 2014.\nConsolidated strategic development and acquisition related costs for fiscal 2014 were $5.0 million. These non-recurring, non-operational costs are related to acquisition-related activities that support our future growth targets and performance goals and include external legal and due diligence costs incurred to pursue specific acquisition targets. There was no corresponding amount recorded for fiscal 2013.\nConsolidated interest expense decreased to $12.5 million for fiscal 2014, compared to $21.0 million for the same period of the prior year. Interest rates on the Credit Agreement decreased on June 24, 2013 from 8% to 4.25%.\nConsolidated debt extinguishment costs, net for fiscal 2013 were $21.5 million. There was no corresponding amount recorded for fiscal 2014. During our third quarter of fiscal 2013, we entered into an amendment to our Credit Agreement and recognized a one-time debt extinguishment charge of approximately $21.5 million related to the write-off of non-cash existing deferred debt issuance costs, non-cash initial debt discount write-off, prepayment penalty and fees to the creditors.\nConsolidated other income, net, decreased to $0.1 million for fiscal 2014, compared to $1.4 million for the same period of the prior year primarily due to foreign currency losses related to fluctuations in the Mexican Peso / U.S. Dollar exchange rate in the current period in Mexico.\nConsolidated provision (benefit) for income taxes was a $1.5 million provision for fiscal 2014, compared to a $(8.9) million benefit for the same period in the prior year. The effective tax rate for fiscal 2014 was 11.8% compared to (40.7)% for\nthe same period in the prior year. Our current year income tax provision includes a $2.7 million benefit for the release of a valuation allowance. During 2014, after evaluating historical and future financial trends in our Canadian business, we determined that it is more likely than not that we will utilize all of our current tax loss carry-forwards, which if unused would begin to expire in 2026. The remaining decline in the income tax benefit was primarily the result of the increased utilization of the domestic production activities deduction.\nDiluted income (loss) per common share improved to income of $0.15 per diluted common share for fiscal 2014, compared to a loss of $(0.29) per diluted common share for the same period in the prior year. The improvement in diluted income (loss) per common share was primarily due to the $24.0 million increase in net income (loss) allocated to shares of our common stock resulting from the factors described above in this section, partially offset by the conversion of our Convertible Preferred Stock into shares of our common stock in the third quarter of fiscal 2013, which increased the weighted average number of shares outstanding. The Convertible Preferred Stock prior to its conversion and the unvested restricted common stock related to our Incentive Plan do not have a contractual obligation to share in losses; therefore, no losses were allocated to these shares in fiscal 2013.\nLIQUIDITY AND CAPITAL RESOURCES\nGeneral\nOur cash and cash equivalents increased from $66.7 million to $99.7 million during fiscal 2015. The following table summarizes our consolidated cash flows for fiscal 2015 and fiscal 2014 (in thousands):\nOperating Activities\nOur business is both seasonal and cyclical and cash flows from operating activities may fluctuate during the year and from year to year due to economic conditions. We rely on cash and short-term borrowings to meet cyclical and seasonal increases in working capital needs. These needs generally rise during periods of increased economic activity or increasing raw material prices due to higher levels of inventory and accounts receivable. During economic slowdowns, or periods of decreasing raw material costs, working capital needs generally decrease as a result of the reduction of inventories and accounts receivable.\nNet cash provided by operating activities was $105.0 million during fiscal 2015 compared to $33.6 million of net cash provided by operating activities in the comparable period of fiscal 2014. This difference was driven by a significant increase in earnings adjusted for non-cash items, and improved working capital as compared to the comparable period of the prior year.\nA driver for our increased cash provided by operating activities was a $37.9 million decrease in our cash used for accounts payable over the comparable period of the prior year. Our vendor payments can fluctuate significantly based on the timing of disbursements, inventory purchases and vendor payment terms. Our trailing 90-days payable outstanding (“DPO”) as of November 1, 2015 was 38.3 days compared to 32.5 days in the prior year.\nCash used to invest in inventory decreased by $14 million from the comparable period of the prior year. The change was driven by lower than anticipated volumes, partially offset by an increase in our trailing 90-days inventory on-hand (“DIO”), as our DIO was 44.5 days as of November 1, 2015 as compared to 42.1 days at November 2, 2014.\nCash generated from accounts receivable was $10.3 million higher in fiscal 2015 than the comparable period of the prior year. This increase was driven by strong collections, especially during the fourth quarter of fiscal 2015, and significant year-over-year revenue growth, partially offset by an increase in our trailing 90-days sales outstanding (“DSO”) to 34.8 days as of November 1, 2015 from 31.2 days at November 2, 2014.\nInvesting Activities\nCash used in investing activities of $267.8 million during fiscal 2015 was higher than the $16.7 million invested in the comparable period of the prior year and related predominantly to the use of $247 million, which is net of cash acquired of $8 million, for the acquisition of CENTRIA in January 2015. In fiscal 2014, the $16.7 million was related predominantly to capital expenditures for a new architectural panel system line, computer software and machinery and equipment.\nFinancing Activities\nCash provided by financing activities was $196.0 million in fiscal 2015 and cash used in financing activities was $27.3 million in the comparable prior year period. The cash provided by financing activities was primarily due to the issuance of $250.0 million in aggregate principal amount of 8.25% senior notes due 2023 to fund the CENTRIA Acquisition. This increase was partially offset by prepayments of approximately $41.2 million made on our Credit Agreement. The $27.3 million used in financing activities during fiscal 2014 was primarily attributable to the purchase of Common Stock in the amount of $23.8 million paid to the CD&R Funds in connection with the Stock Repurchase (as defined below) and $2.4 million of payments made to reduce our outstanding term loan and $1.6 million of payments made to reduce our note payable related to financed insurance premiums during fiscal 2014.\nWe invest our excess cash in various overnight investments which are issued or guaranteed by the federal government.\nEquity Investment\nOn August 14, 2009, the Company entered into an Investment Agreement (as amended, the “Investment Agreement”), by and between the Company and CD&R Fund VIII, pursuant to which the Company agreed to issue and sell to CD&R Fund VIII, and CD&R Fund VIII agreed to purchase from the Company, for an aggregate purchase price of $250 million (less reimbursement to CD&R Fund VIII or direct payment to its advisors of up to $14.5 million in the aggregate of transaction expenses and a deal fee, paid to Clayton, Dubilier & Rice, Inc., the manager of CD&R Fund VIII, of $8.25 million), 250,000 shares of Convertible Preferred Stock. Pursuant to the Investment Agreement, on October 20, 2009 (the “Closing Date”), the Company issued and sold to the CD&R Funds, and the CD&R Funds purchased from the Company, an aggregate of 250,000 Preferred Shares, representing approximately 39.2 million shares of Common Stock or 68.4% of the voting power and Common Stock of the Company on an as-converted basis as of the Closing Date.\nOn May 14, 2013, the CD&R Funds, the holders of 339,293 Preferred Shares, delivered a formal notice requesting the Conversion of all of their Preferred Shares into shares of our Common Stock. In connection with the Conversion request, we issued the CD&R Funds 54,136,817 shares of our Common Stock, representing 72.4% of the Common Stock of the Company then outstanding. Under the terms of the Preferred Shares, no consideration was required to be paid by the CD&R Funds to the Company in connection with the Conversion of the Preferred Shares. As a result of the Conversion, the CD&R Funds no longer have rights to dividends or default dividends as specified in the Certificate of Designations. The Conversion eliminated all the outstanding Convertible Preferred Stock and increased stockholders’ equity by nearly $620.0 million, returning our stockholders’ equity to a positive balance during our third quarter of fiscal 2013.\nThe Company filed, pursuant to the Registration Rights Agreement dated as of October 20, 2009 among the Company and the CD&R Funds, a registration statement on Form S-3 for the offer and sale of Common Stock from time to time by the CD&R Funds of their Common Stock. The registration statement became effective on March 28, 2013.\nOn January 15, 2014, the CD&R Funds completed a registered underwritten offering, in which the CD&R Funds offered 8.5 million shares of Common Stock at a price to the public of $18.00 per share (the “Secondary Offering”). The underwriters for the Secondary Offering also exercised their option to purchase 1.275 million additional shares of Common Stock. The aggregate offering price for the 9.775 million shares sold in the Secondary Offering was approximately $167.6 million, net of underwriting discounts and commissions. The CD&R Funds received all of the proceeds from the Secondary Offering and no shares in the Secondary Offering were sold by NCI or any of its officers or directors (although certain of our directors are affiliated with the CD&R Funds). In connection with this Secondary Offering, we incurred approximately $0.8 million in expenses, which were included in engineering, selling, general and administrative expenses in the consolidated statement of operations for fiscal 2014. At November 1, 2015 and November 2, 2014, the CD&R Funds beneficially owned 58.4% and 58.8%, respectively, of the voting power and Common Stock of the Company.\nOn January 6, 2014, NCI entered into an agreement with the CD&R Funds to repurchase 1.15 million shares of its Common Stock at the price per share equal to the price per share paid by the underwriters to the CD&R Funds in the underwritten offering (the “Stock Repurchase”). The Stock Repurchase, which was completed at the same time as the Secondary Offering, represented a private, non-underwritten transaction between NCI and the CD&R Funds that was approved and recommended by the Affiliate Transactions Committee of NCI’s board of directors. Following completion of the Stock Repurchase, NCI canceled the shares repurchased from the CD&R Funds, resulting in a $19.7 million decrease in both additional paid in capital and treasury stock.\nSee “Note 13 - CD&R Funds” in the notes to the consolidated financial statements for more information on the material terms of our Amendment Agreement.\nDebt\nOn January 16, 2015, the Company issued $250.0 million in aggregate principal amount of 8.25% senior notes due 2023 (the “Notes”) to fund the CENTRIA Acquisition. Interest on the Notes will accrue at the rate of 8.25% per annum and will be payable semi-annually in arrears on January 15 and July 15, commencing on July 15, 2015. The Notes are guaranteed on a senior unsecured basis by all of the Company’s existing and future domestic subsidiaries that guarantee the Company’s obligations (including by reason of being a borrower under the senior secured asset-based revolving credit facility on a joint and several basis with the Company or a guarantor subsidiary) under the senior secured credit facilities.\nOn June 24, 2013, the Company entered into Amendment No. 1 (the “Amendment”) to its existing Credit Agreement (the “Credit Agreement”), dated as of June 22, 2012, between NCI, as borrower, and Credit Suisse AG, Cayman Islands Branch, as administrative agent and collateral agent and the other financial institutions party thereto from time to time (the “Term Loan Facility”), primarily to extend the maturity date and reduce the interest rate applicable to all of the outstanding term loans under the Term Loan Facility. At November 1, 2015 and November 2, 2014, amounts outstanding under the Credit Agreement were $194.1 million and $235.4 million, respectively.\nPursuant to the Amendment, the maturity date of the $238 million of outstanding term loans (the “Initial Term Loans”) was extended and such loans were converted into a new tranche of term loans (the “Tranche B Term Loans”) that will mature on June 24, 2019 and, prior to such date, will amortize in nominal quarterly installments equal to one percent of the aggregate initial principal amount thereof per annum. At both November 1, 2015 and November 2, 2014, the interest rate on the term loan under our Credit Agreement was 4.25%.\nIn addition to our Credit Agreement, we have entered into the Amended ABL Facility which allows aggregate maximum borrowings of up to $150.0 million. Borrowing availability on the Amended ABL Facility is determined by a monthly borrowing base collateral calculation that is based on specified percentages of the value of qualified cash, eligible inventory and eligible accounts receivable, less certain reserves and subject to certain other adjustments. The Amended ABL Facility includes borrowing capacity of up to $30 million for letters of credit and up to $10 million for swingline borrowings. On November 7, 2014, the Company entered into Amendment No. 3 to the Loan and Security Agreement (the “ABL Loan and Security Agreement”) to amend the ABL Loan and Security Agreement to permit the CENTRIA Acquisition and associated financing, extend the maturity date of the Amended ABL Facility to June 24, 2019, decrease the applicable margin with respect to borrowings thereunder and make certain other amendments and modifications to provide greater operational and financial flexibility.\n8.25% Senior Notes Due January 2023. On January 16, 2015, the Company issued $250.0 million in aggregate principal amount of 8.25% senior notes due 2023 to fund the CENTRIA Acquisition. Interest on the Notes accrues at the rate of 8.25% per annum and is payable semi-annually in arrears on January 15 and July 15, commencing on July 15, 2015. The Notes are guaranteed on a senior unsecured basis by all of the Company’s existing and future domestic subsidiaries that guarantee the Company’s obligations (including by reason of being a borrower under the senior secured asset-based revolving credit facility on a joint and several basis with the Company or a guarantor subsidiary) under the senior secured credit facilities. The Notes are unsecured senior indebtedness and rank equally in right of payment with all of the Company’s existing and future senior indebtedness and senior in right of payment to all of its future subordinated obligations. In addition, the Notes and guarantees are structurally subordinated to all existing and future indebtedness and other liabilities of the Company’s non-guarantor subsidiaries.\nThe Company may redeem the Notes at any time prior to January 15, 2018, at a price equal to 100% of the principal amount thereof, plus accrued and unpaid interest, if any, to the redemption date, plus the applicable make-whole premium. On or after January 15, 2018, the Company may redeem all or a part of the Notes at redemption prices (expressed as percentages of principal amount thereof) equal to 106.188% for the twelve-month period beginning on January 15, 2018, 104.125% for the twelve-month period beginning on January 15, 2019, 102.063% for the twelve-month period beginning on January 15, 2020 and 100.000% for the twelve-month period beginning on January 15, 2021 and at any time thereafter, plus accrued and unpaid interest, if any, to the applicable redemption date of the Notes. In addition, prior to January 15, 2018, the Company may redeem the Notes in an aggregate principal amount equal to up to 40.0% of the original aggregate principal amount of the Notes with funds in an equal aggregate amount not exceeding the aggregate proceeds of one or more equity offerings, at a redemption price of 108.250%, plus accrued and unpaid interest, if any, to the applicable redemption date of the Notes. The Company incurred $9.2 million in transaction costs related to this issuance, which will be amortized over 8 years.\nCredit Agreement. On June 22, 2012, in connection with the acquisition of Metl-Span LLC, a Texas limited liability company (the “Metl-Span Acquisition”), the Company entered into a Credit Agreement among the Company, as Borrower,\nCredit Suisse AG, Cayman Islands Branch, as Administrative Agent and Collateral Agent (the “Term Agent”), and the lenders party thereto. The Credit Agreement provided for a term loan credit facility in an aggregate principal amount of $250.0 million. The Credit Agreement was issued at 95% of face value, which resulted in a note discount of $12.5 million. Prior to the Amendment, the note discount was amortized over the life of the loan through May 2, 2018 using the effective interest method.\nThe Company’s obligations under the Credit Agreement and designated cash management arrangements and hedging agreements, if any, will be irrevocably and unconditionally guaranteed on a joint and several basis by each direct and indirect wholly owned domestic subsidiary of the Company (other than any domestic subsidiary that is a foreign subsidiary holding company or a subsidiary of a foreign subsidiary and certain other excluded subsidiaries).\nThe obligations under the Credit Agreement and the designated cash management arrangements and hedging agreements, if any, and the guarantees thereof are secured pursuant to a guarantee and collateral agreement, dated as of June 22, 2012 (the “Guarantee and Collateral Agreement”), made by the Company and other Grantors (as defined therein), in favor of the Term Agent, by (i) all of the capital stock of all direct domestic subsidiaries owned by the Company and the guarantors, (ii) up to 65% of the capital stock of certain direct foreign subsidiaries owned by the Company or any guarantor (it being understood that a foreign subsidiary holding company or a domestic subsidiary of a foreign subsidiary will be deemed a foreign subsidiary), and (iii) substantially all other tangible and intangible assets owned by the Company and each guarantor, in each case to the extent permitted by applicable law and subject to certain exceptions.\nThe Credit Agreement contains a number of covenants that, among other things, will limit or restrict the ability of the Company and its subsidiaries to dispose of assets, incur additional indebtedness, make dividends and other restricted payments, create liens securing indebtedness, engage in mergers and other fundamental transactions, enter into restrictive agreements, amend certain documents in respect of other indebtedness, change the nature of their business and engage in certain transactions with affiliates.\nOn June 24, 2013, the Company entered into the Amendment to the Credit Agreement, dated as of June 22, 2012, between NCI, as borrower, and Credit Suisse AG, Cayman Islands Branch, as administrative agent and collateral agent and the other financial institutions party thereto from time to time (the “Term Loan Facility”), primarily to extend the maturity date and reduce the interest rate applicable to all of the outstanding term loans under the Term Loan Facility. At November 1, 2015 and November 2, 2014, amounts outstanding under the Credit Agreement were $194.1 million and $235.4 million, respectively. As a result of the Amendment, in fiscal 2013, we recognized a one-time debt extinguishment charge of approximately $21.5 million related to the write-off of non-cash existing deferred issuance costs, non-cash initial debt discount write-off, pre-payment penalty and fees to the creditors.\nPursuant to the Amendment, the maturity date of the $238 million of outstanding Initial Term Loans was extended and such loans were converted into the Tranche B Term Loans that will mature on June 24, 2019 and, prior to such date, will amortize in nominal quarterly installments equal to one percent of the aggregate initial principal amount thereof per annum. Pursuant to the Amendment, the Tranche B Term Loans will bear interest at a floating rate measured by reference to, at the Company’s option, either (i) an adjusted LIBOR not less than 1.00% plus a borrowing margin of 3.25% per annum or (ii) an alternate base rate plus a borrowing margin of 2.25% per annum. At both November 1, 2015 and November 2, 2014, the interest rate on the term loan under our Credit Agreement was 4.25%. Overdue amounts will bear interest at a rate that is 2% higher than the rate otherwise applicable.\nThe Tranche B Term Loans are secured by the same collateral and guaranteed by the same guarantors as the Initial Term Loans under the Term Loan Facility. Voluntary prepayments of the Tranche B Term Loans are permitted at any time, in minimum principal amounts, without premium or penalty, subject to a 1.00% premium payable in connection with certain repricing transactions within the first six months.\nPursuant to the Amendment, the Company will no longer be subject to a financial covenant requiring us to maintain a specified consolidated secured debt to EBITDA leverage ratio for specified periods. The Amendment also includes certain other changes to the Term Loan Facility.\nSubject to certain exceptions, the term loan under the Amendment will be subject to mandatory prepayment in an amount equal to:\n•\nthe net cash proceeds of (1) certain asset sales, (2) certain debt offerings, and (3) certain insurance recovery and condemnation events; and\n•\n50% of annual excess cash flow (as defined in the Amendment), subject to reduction to 0% if specified leverage ratio targets are met.\nThe Credit Agreement contains customary events of default, including non-payment of principal, interest or fees, violation of covenants, material inaccuracy of representations or warranties, cross default and cross acceleration to certain\nother material indebtedness, certain bankruptcy events, certain ERISA events, material invalidity of security interest, material judgments, and change of control.\nThe Credit Agreement also provides that the Company has the right at any time to request incremental commitments under one or more incremental term loan facilities or incremental revolving loan facilities, subject to compliance with a pro forma consolidated secured net debt to EBITDA leverage ratio. The lenders under the Credit Agreement will not be under any obligation to provide any such incremental commitments, and any such addition of or increase in commitments will be subject to pro forma compliance with customary conditions.\nIn connection with the execution of the Credit Agreement the Company, certain of the Company’s subsidiaries, Wells Fargo Capital Finance, LLC, as administrative agent (the “ABL Agent”) under the Company’s Amended ABL Facility (as defined below), and the Term Agent entered into an amendment (the “Intercreditor Agreement Amendment”) to the Company’s existing Intercreditor Agreement, dated as of October 20, 2009, providing for, among other things, the obligations under the Credit Agreement to become subject to the provisions of the Intercreditor Agreement.\nAmended ABL Facility. On May 2, 2012, we entered into the Amended Asset-Based Lending Facility (the “Amended ABL Facility”) to (i) permit the acquisition, the entry by the Company into the Credit Agreement and the incurrence of debt thereunder and the repayment of existing indebtedness under NCI’s existing Term Loan, (ii) increase the amount available for borrowing thereunder to $150 million (subject to a borrowing base), (iii) increase the amount available for letters of credit thereunder to $30 million, and (iv) extend the final maturity thereunder.\nOn November 7, 2014, the Company, Steelbuilding.com, Inc. (together with the Company, the “Guarantors”) and the Company’s subsidiaries NCI and Robertson-Ceco II Corporation (each a “Borrower” and collectively, the “Borrowers”) entered into Amendment No. 3 to the Loan and Security Agreement (the “Loan and Security Agreement”) among the Borrowers, the Guarantors, Wells Fargo Capital Finance, LLC as administrative agent and co-collateral agent, Bank of America, N.A. as co-collateral agent and syndication agent and certain other lenders under the Loan and Security Agreement, in order to amend the Loan and Security Agreement to (i) permit the CENTRIA Acquisition, (ii) permit the entry by the Company into documentation with respect to certain debt financing to be incurred in connection with the CENTRIA Acquisition and the incurrence of debt with respect thereto, (iii) extend the maturity date to June 24, 2019, (iv) decrease the applicable margin with respect to borrowings thereunder and (v) make certain other amendments and modifications to provide greater operational and financial flexibility.\nThe Amended ABL Facility provides for an asset-based revolving credit facility which allows aggregate maximum borrowings by NCI Group, Inc. and Robertson-Ceco II Corporation of up to $150.0 million. Borrowing availability under the Amended ABL Facility is determined by a monthly borrowing base collateral calculation that is based on specified percentages of the value of qualified cash, eligible inventory and eligible accounts receivable, less certain reserves and subject to certain other adjustments. At November 1, 2015 and November 2, 2014, our excess availability under the Amended ABL Facility was $131.0 million and $135.4 million, respectively. At both November 1, 2015 and November 2, 2014, we had no revolving loans outstanding under the Amended ABL Facility. In addition, at November 1, 2015 and November 2, 2014, standby letters of credit related to certain insurance policies totaling approximately $8.7 million and $8.1 million, respectively, were outstanding but undrawn under the Amended ABL Facility.\nAn unused commitment fee is paid monthly on the Amended ABL Facility at an annual rate of 0.50% based on the amount by which the maximum credit exceeds the average daily principal balance of outstanding loans and letter of credit obligations. Additional customary fees in connection with the Amended ABL Facility also apply.\nThe obligations of the borrowers under the Amended ABL Facility are guaranteed by the Company and each direct and indirect domestic subsidiary of the Company (other than any domestic subsidiary that is a foreign subsidiary holding company or a subsidiary of a foreign subsidiary that is insignificant) that is not a borrower under the Amended ABL Facility. The obligations of the Company under certain specified bank products agreements are guaranteed by each borrower and each other direct and indirect domestic subsidiary of the Company and the other guarantors. These guarantees are made pursuant to a guarantee agreement, dated as of October 20, 2009, entered into by the Company and each other guarantor with Wells Fargo Capital Finance, LLC (formerly known as Wells Fargo Foothill, LLC), as administrative agent. In connection with the Metl-Span Acquisition, Metl-Span became a borrower under the ABL Facility, and the Company, certain subsidiaries of the Company, and the ABL Agent entered into an amendment (the “ABL Guaranty Amendment”) to the Company’s existing Guaranty Agreement, dated as of October 20, 2009, providing for, among other things, the guarantee of the obligations of Metl-Span under the Amended ABL Facility.\nThe obligations under the Amended ABL Facility, and the guarantees thereof, are secured by a first priority lien on our accounts receivable, inventory, certain deposit accounts, associated intangibles and certain other specified assets of the Company and a second priority lien on the assets securing the term loan under the Credit Agreement on a first-lien basis, in each case subject to certain exceptions.\nThe Amended ABL Facility contains a number of covenants that, among other things, limit or restrict our ability to dispose of assets, incur additional indebtedness, incur guarantee obligations, engage in sale and leaseback transactions, prepay other indebtedness, modify organizational documents and certain other agreements, create restrictions affecting subsidiaries, make dividends and other restricted payments, create liens, make investments, make acquisitions, engage in mergers, change the nature of our business and engage in certain transactions with affiliates.\nUnder the Amended ABL Facility, a “Dominion Event” occurs if either an event of default is continuing or excess availability falls below certain levels, during which period, and for certain periods thereafter, the administrative agent may apply all amounts in the Company’s, the borrowers’ and the other guarantors’ concentration accounts to the repayment of the loans outstanding under the Amended ABL Facility, subject to the Intercreditor Agreement and certain specified exceptions. In addition, during such Dominion Event, we are required to make mandatory payments on our Amended ABL Facility upon the occurrence of certain events, including the sale of assets and the issuance of debt, in each case subject to certain limitations and conditions set forth in the Amended ABL Facility.\nThe Amended ABL Facility includes a minimum fixed charge coverage ratio of one to one, which will apply if we fail to maintain a specified minimum borrowing capacity. The minimum level of borrowing capacity as of November 1, 2015 and November 2, 2014 was $19.7 million and $20.3 million, respectively. Although our Amended ABL Facility did not require any financial covenant compliance, at November 1, 2015 and November 2, 2014, our fixed charge coverage ratio as of those dates, which is calculated on a trailing twelve month basis, was 3.54:1.00 and 3.46:1.00, respectively. These ratios include the pro forma impact of the CENTRIA Acquisition.\nLoans under the Amended ABL Facility bear interest, at our option, as follows:\n(1)\nBase Rate loans at the Base Rate plus a margin. “Base Rate” is defined as the higher of the Wells Fargo Bank, N.A. prime rate and the overnight Federal Funds rate plus 0.5% and “LIBOR” is defined as the applicable London Interbank Offered Rate adjusted for reserves. The margin ranges from 0.75% to 1.25% depending on the quarterly average excess availability under such facility, and\n(2)\nLIBOR loans at LIBOR plus a margin. The margin ranges from 1.75% to 2.25% depending on the quarterly average excess availability under such facility.\nAt November 1, 2015 and November 2, 2014, the interest rate on our Amended ABL Facility was 4.00% and 4.75%, respectively. During an event of default, loans under the Amended ABL Facility will bear interest at a rate that is 2% higher than the rate otherwise applicable.\nCash Flow\nWe periodically evaluate our liquidity requirements, capital needs and availability of resources in view of inventory levels, expansion plans, debt service requirements and other operating cash needs. To meet our short- and long-term liquidity requirements, including payment of operating expenses and repaying debt, we rely primarily on cash from operations. Beyond cash generated from operations, most of our Amended ABL Facility is undrawn with $131.0 million available at November 1, 2015 and $99.7 million of cash at November 1, 2015. However, we have in the past sought to raise additional capital.\nWe expect that, for the next 12 months, cash generated from operations and our Amended ABL Facility will be sufficient to provide us the ability to fund our operations, provide the increased working capital necessary to support our strategy and fund planned capital expenditures between approximately $27 million and $30 million for fiscal 2016 and expansion when needed.\nWe funded the CENTRIA Acquisition with approximately $250.0 million of indebtedness, which increased our interest expense in fiscal 2015.\nWe expect to contribute $1.1 million and $0.6 million to the RCC Pension Plan and CENTRIA Benefit Plans, respectively, in fiscal 2016.\nIn the past, we have used available funds to repurchase shares of our Common Stock under our stock repurchase program. Although we did not purchase any Common Stock during the fourth quarter of fiscal 2015 under our stock repurchase program, we did withhold shares of restricted stock to satisfy minimum tax withholding obligations arising in connection with the vesting of awards of restricted stock related to our 2003 Long-Term Stock Incentive Plan.\nOur corporate strategy seeks potential acquisitions that would provide additional synergies in our engineered building systems, metal components and metal coil coating segments. From time to time, we may enter into letters of intent or agreements to acquire assets or companies in these business lines. The consummation of these transactions could require substantial cash payments and/or issuance of additional debt.\nThe Company may repurchase or otherwise retire the Company’s debt and take other steps to reduce the Company’s debt or otherwise improve the Company’s financial position. These actions could include open market debt repurchases, negotiated repurchases, other retirements of outstanding debt and opportunistic refinancing of debt. The amount of debt that may be repurchased or otherwise retired, if any, will depend on market conditions, trading levels of the Company’s debt, the Company’s cash position, compliance with debt covenants and other considerations. Affiliates of the Company may also purchase the Company’s debt from time to time, through open market purchases or other transactions. In such cases, the Company’s debt may not be retired, in which case the Company would continue to pay interest in accordance with the terms of the debt, and the Company would continue to reflect the debt as outstanding in its consolidated balance sheets.\nAcquisition\nOn November 3, 2015, we acquired a manufacturing plant in Hamilton, Ontario, Canada for CAD 5.5 million in cash. This plant allows us to service customers more competitively within the Canadian and Northeastern United States IMP markets. We funded this acquisition with existing cash.\nNON-GAAP MEASURES\nSet forth below are certain non-GAAP measures which include “adjusted” operating income (loss), adjusted EBITDA, “adjusted” net income (loss) per diluted common share and “adjusted” net income (loss) applicable to common shares. We define adjusted EBITDA as net income (loss) before interest expense, income tax expense (benefit) and depreciation and amortization, adjusted for items broadly consisting of selected items which management does not consider representative of our ongoing operations and certain non-cash items of the Company. Such measurements are not prepared in accordance with U.S. GAAP and should not be construed as an alternative to reported results determined in accordance with U.S. GAAP. Management believes the use of such non-GAAP measures on a consolidated and operating segment basis assists investors in understanding the ongoing operating performance by presenting the financial results between periods on a more comparable basis. You are encouraged to evaluate these adjustments and the reasons we consider them appropriate for supplemental analysis. In evaluating these measures, you should be aware that in the future we may incur expenses that are the same as, or similar to, some of the adjustments in these non-GAAP measures. In addition, certain financial covenants related to our Credit Agreement, Amended ABL Facility, and Notes are based on similar non-GAAP measures. The non-GAAP information provided is unique to the Company and may not be consistent with the methodologies used by other companies.\nThe following tables reconcile adjusted operating income (loss) to operating income (loss) for the periods indicated (in thousands):\nThe following table reconciles adjusted EBITDA to Net income (loss) for the periods indicated (in thousands):\nThe following tables reconcile adjusted diluted income per common share to income per diluted common share and adjusted income applicable to common shares to income applicable to common shares for the periods indicated (in thousands):\nOFF-BALANCE SHEET ARRANGEMENTS\nAs part of our ongoing business, we do not participate in transactions that generate relationships with unconsolidated entities or financial partnerships, such as entities often referred to as structured finance or special purpose entities (“SPEs”), which would have been established for the purpose of facilitating off-balance sheet arrangements or other contractually narrow or limited purposes. As of November 1, 2015, we were not involved in any unconsolidated SPE transactions.\nCONTRACTUAL OBLIGATIONS\nThe following table shows our contractual obligations as of November 1, 2015 (in thousands):\n(1)\nReflects amounts outstanding under the Credit Agreement, the Amended ABL Facility and the Notes.\n(2)\nInterest payments were calculated based on rates in effect at November 1, 2015 for variable rate obligations.\n(3)\nIncludes various agreements for steel delivery obligations and gas contracts. In general, purchase orders issued in the normal course of business can be terminated in whole or part for any reason without liability until the product is received.\n(4)\nAmounts represent our estimate of the minimum funding requirements as determined by government regulations. Amounts are subject to change based on numerous assumptions, including the performance of the assets in the plans and bond rates. Includes obligations with respect to the RCC Pension Plan, the CENTRIA Benefit Plans and the OPEB Plans.\n(5)\nIncludes contractual payments and projected supplemental retirement benefits to or on behalf of former executives.\n(6)\nReflects the purchase price as stated in an asset purchase agreement prior to any working capital adjustments for the acquisition of a manufacturing facility in Hamilton, Ontario, Canada.\nCONTINGENT LIABILITIES AND COMMITMENTS\nOur insurance carriers require us to secure standby letters of credit as a collateral requirement for our projected exposure to future period claims growth and loss development which includes incurred but not reported, or IBNR, claims. For all insurance carriers, the total standby letters of credit are approximately $8.7 million and $8.1 million at November 1, 2015 and November 2, 2014, respectively.\nCRITICAL ACCOUNTING POLICIES\nOur consolidated financial statements are prepared in accordance with accounting principles generally accepted in the United States, which require us to make estimates and assumptions that affect the reported amounts of assets and liabilities and related disclosure of contingent assets and liabilities. On an ongoing basis, we evaluate our estimates, including those estimates that may have a significant effect on our financial condition and results of operations. Our significant accounting policies are disclosed in Note 2 to our consolidated financial statements. The following discussion of critical accounting policies addresses those policies that are both important to the portrayal of our financial condition and results of operations and require significant judgment and estimates. We base our estimates and judgment on historical experience and on various other factors that are believed to be reasonable under the circumstances. Actual results may differ from these estimates under different assumptions or conditions.\nRevenue recognition. We recognize revenues when all of the following conditions are met: persuasive evidence of an arrangement exists, delivery has occurred or services have been rendered, the price is fixed or determinable, and collectability is reasonably assured. Generally, these criteria are met at the time product is shipped or services are complete. In instances where an order is partially shipped, we recognize revenue based on the relative sales value of the materials shipped. Provisions are made upon the sale for estimated product returns. Costs associated with shipping and handling our products are included in cost of sales.\nInsurance accruals. We have a self-funded Administrative Services Only (“ASO”) arrangement for our employee group health insurance. We purchase individual stop-loss protection to cap our medical claims liability at $300,000 per claim. Each reporting period, we record the costs of our health insurance plan, including paid claims, an estimate of the change in incurred but not reported (“IBNR”) claims, taxes and administrative fees, when applicable, (collectively the “Plan Costs”) as\ngeneral and administrative expenses and cost of sales in our Consolidated Statements of Operations. The estimated IBNR claims are based upon (i) a recent average level of paid claims under the plan, (ii) an estimated claims lag factor and (iii) an estimated claims growth factor to provide for those claims that have been incurred but not yet paid. We have deductible programs for our Workers Compensation/Employer Liability and Auto Liability insurance policies, and a self-insured retention (“SIR”) arrangement for our General Liability insurance policy. The Workers Compensation deductible is $250,000 per occurrence. The Property and Auto Liability deductibles are $50,000 and $250,000, respectively, per occurrence. The General Liability has a self-insured retention of $1,000,000 per occurrence. For workers’ compensation costs, we monitor the number of accidents and the severity of such accidents to develop appropriate estimates for expected costs to provide both medical care and indemnity benefits, when applicable, for the period of time that an employee is incapacitated and unable to work. These accruals are developed using third-party insurance adjuster reserve estimates of the expected cost for medical treatment, and length of time an employee will be unable to work based on industry statistics for the cost of similar disabilities and statutory impairment ratings. For general liability and automobile claims, accruals are developed based on third-party insurance adjuster reserve estimates of the expected cost to resolve each claim, including damages and defense costs, based on legal and industry trends, and the nature and severity of the claim. Accruals also include estimates for IBNR claims, and taxes and administrative fees, when applicable. This statistical information is trended by a third-party actuary to provide estimates of future expected costs based on loss development factors derived from our period-to-period growth of our claims costs to full maturity (ultimate), versus original estimates.\nWe believe that the assumptions and information used to develop these accruals provide the best basis for these estimates each quarter because, as a general matter, the accruals have historically proven to be reasonable and accurate. However, significant changes in expected medical and health care costs, negative changes in the severity of previously reported claims or changes in laws that govern the administration of these plans could have an impact on the determination of the amount of these accruals in future periods. Our methodology for determining the amount of health insurance accrual considers claims growth and claims lag, which is the length of time between the incurred date and processing date. For the health insurance accrual, a change of 10% above expected outstanding claims would result in a financial impact of $0.4 million.\nShare-Based Compensation. Under ASC Topic 718, Compensation - Stock Compensation, the fair value and compensation expense of each option award is estimated as of the date of grant using a Black-Scholes-Merton option pricing formula. The fair value and compensation expense of the performance share units (“PSUs”) grant was estimated based on the Company’s stock price as of the date of grant using a Monte Carlo simulation. Expected volatility is based on historical volatility of our stock over a preceding period commensurate with the expected term of the option. The expected volatility considers factors such as the volatility of our share price, implied volatility of our share price, length of time our shares have been publicly traded, appropriate and regular intervals for price observations and our corporate and capital structure. For the fiscal years ended November 1, 2015 and November 2, 2014, the forfeiture rate in our calculation of share-based compensation expense is based on historical experience and is estimated at 7.5% for our non-officers and 0% for our officers. For the fiscal year ended November 3, 2013, the forfeiture rate in our calculation of share-based compensation expense is based on historical experience and is estimated at 10% for our non-officers and 0% for our officers. The risk-free rate for the expected term of the option is based on the U.S. Treasury yield curve in effect at the time of grant. Expected dividend yield was not considered in the option pricing formula since we historically have not paid dividends on our common shares and have no current plans to do so in the future. We applied a discount on the PSUs awarded in December 2012 due to the required eighteen month holding period subsequent to vesting. We granted an immaterial amount of options during the fiscal years ended November 1, 2015, November 2, 2014 and November 3, 2013. We granted 0.4 million, 0.2 million and 0.4 million restricted shares during the fiscal years ended November 1, 2015, November 2, 2014 and November 3, 2013, respectively.\nIn December 2014, we granted long-term incentive awards with a three-year performance period to our senior executives (“2014 Executive Awards”). 40% of the value of the long-term incentive awards is time-based restricted stock and 60% of the value of the awards is PSUs. The restricted stock is time-vesting based on continued employment, with two-thirds of the restricted stock vesting on December 15, 2016 and one-third vesting on December 15, 2017. The PSUs vest based on the achievement of performance goals and continued employment, with one-half of the award vesting on December 15, 2016 and the remaining one-half vesting on December 15, 2017. The PSU performance goals are based on three metrics: (1) cumulative free cash flow (weighted 40%); (2) cumulative earnings per share (weighted 40%); and (3) total shareholder return (weighted 20%), in each case during the performance period. The number of shares that may be received on vesting of the PSUs depends upon the satisfaction of the performance goals, up to a maximum of 200% of the target number of the PSUs. The PSUs vest pro rata if an executive’s employment terminates prior to the end of the performance period due to death, disability, or termination by NCI without cause or by the executive for good reason. If an executive’s employment terminates for any other reason prior to the end of the performance period, all outstanding unvested PSUs, whether earned or unearned, will be forfeited and cancelled. If a change in control of NCI occurs prior to the end of the performance period, the PSU payout will be calculated and paid assuming that the maximum benefit had been achieved. If an executive’s employment terminates due to death or disability while any of the restricted stock is unvested, then all of the unvested restricted stock will\nbecome vested. If an executive’s employment is terminated by NCI without cause or after reaching normal retirement age, the unvested restricted stock will be forfeited. If a change in control of NCI occurs prior to the end of the performance period, the restricted stock will fully vest.\nThe fair value of the 2014 Executive Awards is based on the Company’s stock price as of the date of grant. A portion of the compensation cost of the 2014 Executive Awards is based on the probable outcome of the performance conditions associated with the respective shares, as determined by management. During the fiscal year ended November 1, 2015, we granted PSUs with a fair value of approximately $3.7 million.\nAlso in December 2014, we granted Performance Share Awards to our key employees that will be paid 50% in cash and 50% in stock (“2014 Key Employee Awards”). The final number of 2014 Key Employee Awards earned for these awards granted in December 2014 will be based on the achievement of free cash flow and earnings per share targets over a three-year performance period. These 2014 Key Employee Awards cliff vest three years from the date of grant and will be earned based on the performance against the pre-established targets for the requisite service period. The 2014 Key Employee Awards also vest earlier upon death, disability or a change of control. However, a portion of the awards may vest on termination without cause or after reaching normal retirement age prior to the vesting date, as defined by the agreements governing such awards. The fair value of the 2014 Key Employee Awards is based on the Company’s stock price as of the date of grant. Compensation cost is recorded based on the probable outcome of the performance conditions associated with the respective shares, as determined by management. During the fiscal year ended November 1, 2015, we granted 2014 Key Employee Awards with an equity fair value of $1.5 million and a cash value of $1.7 million.\nIn December 2013, we granted long-term incentive awards with performance conditions that will be paid 50% in cash and 50% in stock (“Performance Share Awards”). The final number of Performance Share Awards earned for these awards granted in December 2013 will be based on the achievement of free cash flow and earnings per share targets over a three-year period. These Performance Share Awards cliff vest three years from the date of grant and will be earned based on the performance against the pre-established targets for the requisite service period. The Performance Share Awards also vest earlier upon death, disability or a change of control. However, a portion of the awards may vest on termination without cause or after reaching normal retirement age prior to the vesting date, as defined by the agreements governing such awards. The fair value of Performance Share Awards is based on our stock price as of the date of grant. Compensation cost is recorded based on the probable outcome of the performance conditions associated with the respective shares, as determined by management. During fiscal 2014, we granted 0.1 million Performance Share Awards.\nThe compensation cost related to these share-based awards is recognized over the requisite service period. The requisite service period is generally the period during which an employee is required to provide service in exchange for the award.\nOur option awards and restricted stock awards are subject to graded vesting over a service period, which is typically three or four years. We recognize compensation cost for these awards on a straight-line basis over the requisite service period for the entire award. In addition, certain of our awards provide for accelerated vesting upon qualified retirement. We recognize compensation cost for such awards over the period from grant date to the date the employee first becomes eligible for retirement.\nIncome taxes. The determination of our provision for income taxes requires significant judgment, the use of estimates and the interpretation and application of complex tax laws. Our provision for income taxes reflects a combination of income earned and taxed in the various U.S. federal and state, Canadian federal and provincial as well as Mexican federal jurisdictions. Jurisdictional tax law changes, increases or decreases in permanent differences between book and tax items, accruals or adjustments of accruals for tax contingencies or valuation allowances, and the change in the mix of earnings from these taxing jurisdictions all affect the overall effective tax rate.\nAs of November 1, 2015, the $4.5 million net operating loss and tax credit carryforward included $1.2 million for U.S. state loss carryforwards and $2.8 million for foreign loss carryforward. The state net operating loss carryforwards will expire in 1 to 19 years, if unused.\nAt November 3, 2013, we had a full valuation allowance in the amount of $4.0 million on the deferred tax assets of Robertson Building Systems Ltd., our Canadian subsidiary. In fiscal 2014, after evaluating historical and future financial trends in our Canadian operations, we determined that it is more likely than not that we will utilize all of our current tax loss carry-forwards, which if unused would begin to expire in 2026. As such, we reversed the valuation allowance.\nAccounting for acquisitions, intangible assets and goodwill. Accounting for the acquisition of a business requires the allocation of the purchase price to the various assets and liabilities of the acquired business. For most assets and liabilities, purchase price allocation is accomplished by recording the asset or liability at its estimated fair value. The most difficult estimations of individual fair values are those involving property, plant and equipment and identifiable intangible assets. We use all available information to make these fair value determinations and, for major business acquisitions such as CENTRIA,\nMetl-Span and RCC, typically engage an outside appraisal firm to assist in the fair value determination of the acquired long-lived assets.\nIn connection with the acquisition of CENTRIA in January 2015, we preliminarily recorded goodwill of $82.7 million and intangible assets for customer relationships, backlog and trade names in the amount of $105.9 million, $8.4 million and $14.0 million, respectively. All CENTRIA intangible assets are amortized on a straight-line basis over their expected useful lives. CENTRIA’s customer relationships are being amortized over 20 years based on a review of the historical length of CENTRIA’s customer retention experience. CENTRIA’s backlog was amortized over nine months because items in CENTRIA’s backlog were expected to be delivered within nine months. CENTRIA’s trade names are being amortized over 15 years based on our expectation of our use of the trade names.\nIn connection with the acquisition of Metl-Span in June 2012, we recorded goodwill of $70.0 million and intangible assets for trade names, backlog, customer relationships and supplier relationships in the amount of $9.6 million, $1.4 million, $21.6 million and $0.2 million, respectively. All Metl-Span intangible assets are amortized on a straight-line basis over their expected useful lives. Metl-Span’s trade names are being amortized over 15 years based on our expectation of our use of the trade names. Metl-Span’s backlog was amortized over three months because items in Metl-Span’s backlog were expected to be delivered within three months. Metl-Span’s customer lists and relationships are being amortized over 12 years based on a review of the historical length of Metl-Span’s customer retention experience. Metl-Span’s supplier relationship agreement is being amortized over its agreement terms of three years.\nIn connection with the acquisition of Garco in January 2007, we recorded intangible assets for trade names, backlog, customer relationships and non-competition agreements in the amount of $0.8 million, $0.7 million, $2.5 million and $1.8 million, respectively. All Garco intangible assets are amortized on a straight-line basis over their expected useful lives. Garco’s trade names are being amortized over 15 years based on our expectation of our use of the trade names. Garco’s backlog was amortized over one year because items in Garco’s backlog were expected to be delivered within one year. Garco’s customer lists and relationships are being amortized over fifteen years based on a review of the historical length of Garco’s customer retention experience. Garco’s non-competition agreements are being amortized over their agreement terms of five years.\nIn connection with the acquisition of RCC in April 2006, we recorded intangible assets for trade names, backlog and customer relationships in the amount of $24.7 million, $2.3 million and $6.3 million, respectively. Trade names were determined to have indefinite useful lives and so are not amortized. Trade names were determined to have indefinite lives due to the length of time the trade names have been in place, with some having been in place for decades. Our current intentions are to maintain the trade names indefinitely. This judgmental assessment of an indefinite useful life must be continuously evaluated in the future. If, due to changes in facts and circumstances, management determines that these intangible assets then have definite useful lives, amortization will commence at that time on a prospective basis. As long as these intangible assets are judged to have indefinite lives, they will be subject to periodic impairment tests that require management’s judgment of the estimated fair value of these intangible assets. We assess impairment of our non-amortizing intangibles at least annually in accordance with ASC Topic 350, Intangibles - Goodwill and Other (“ASC 350”). All other intangible assets are amortized on a straight-line basis over their expected useful lives. RCC’s customer relationships are being amortized over fifteen years based on a review of the historical length of RCC’s customer retention experience. See “Note 7 - Goodwill and Other Intangible Assets” in the notes to the consolidated financial statements for additional information.\nGoodwill of $143.7 million and $14.3 million had been recorded in our metal components and engineered building systems segments, respectively. We perform a test for impairment of all our goodwill annually as prescribed by ASC 350. The fair value of our reporting units is based on a blend of estimated discounted cash flows, publicly traded company multiples and transaction multiples. The results from each of these models are then weighted and combined into a single estimate of fair value for our reporting units. Estimated discounted cash flows are based on projected sales and related cost of sales. Publicly traded company multiples and acquisition multiples are derived from information on traded shares and analysis of recent acquisitions in the marketplace, respectively, for companies with operations similar to ours. The primary assumptions used in these various models include earnings multiples of acquisitions in a comparable industry, future cash flow estimates of each of our reporting units, weighted average cost of capital, working capital and capital expenditure requirements. We have not made any material changes in our impairment assessment methodology during each fiscal year of 2015, 2014 and 2013. We do not believe the estimates used in the analysis are reasonably likely to change materially in the future but we will continue to assess the estimates in the future based on the expectations of the reporting units. Changes in assumptions used in the fair value calculation could result in an estimated reporting unit fair value that is below the carrying value, which may give rise to an impairment of goodwill.\nWe perform an annual impairment assessment of goodwill and indefinite lived intangibles. Additionally, we assess goodwill and indefinite lived intangibles for impairment whenever events or changes in circumstances indicate that the fair values may be below the carrying values of such assets. Unforeseen events, changes in circumstances and market conditions\nand material differences in the value of intangible assets due to changes in estimates of future cash flows could negatively affect the fair value of our assets and result in a non-cash impairment charge. Some factors considered important that could trigger an impairment review include the following: significant underperformance relative to expected historical or projected future operating results, significant changes in the manner of our use of the acquired assets or the strategy for our overall business and significant sustained negative industry or economic trends. See “Note 7 - Goodwill and Other Intangible Assets” in the notes to the consolidated financial statements.\nAs of November 1, 2015 and November 2, 2014, our goodwill was $158.0 million and $75.2 million, respectively. We completed our annual goodwill impairment test in the fourth quarter for each of our reporting units. We have the option of performing an assessment of certain qualitative factors (“step zero”) to determine if it is more likely than not that the fair value of a reporting unit is less than its carrying value or proceeding directly to a quantitative analysis (“step one”).\nCertain of our reporting units within the engineered building systems and metal components segments had a fair value in excess of 20% of their respective carrying value as of the most recent step one test, which was July 29, 2013, or were valued recently in connection with the CENTRIA Acquisition in January 2015. No events were noted that would more likely than not significantly decrease the fair value of these reporting units, and we elected to apply the qualitative assessment under the step zero testing approach for each of these reporting units as of August 3, 2015. Based on the results of these tests, we determined that step one tests for these reporting units were not necessary.\nWhen performing a qualitative test, we assess numerous factors to determine whether it is more likely than not that the fair value of the reporting units are less than their respective carrying values. Examples of qualitative factors that management assesses include the Company’s financial performance, market and competitive factors in the nonresidential construction industry, the amount of excess fair value over the carrying value of each reporting unit evident in prior years, the length of time since the most recent quantitative impairment test and other events specific to our reporting units.\nManagement considered factors that would impact the reporting unit fair values as estimated by the market and income approaches used in the most recent step one test. Management reviewed current projections of cash flows and compared these current projections to the projections included in the most recent step one test. Also, economic factors over the past year did not significantly affect the discount rates used for the valuation of these reporting units. Management concluded that events occurring since the most recent step one test did not more likely than not have a significant impact on the fair value of each of these reporting units. Therefore, management determined that it was not necessary to perform a step one goodwill impairment test for these reporting units as the fair value of each reporting unit appeared to exceed its respective carrying value.\nFor certain of our other reporting units within the engineered building systems and metal components segments, we performed a quantitative impairment assessment as of August 3, 2015. We determined that the reporting units passed step one of the impairment test, as the fair values of the reporting units exceeded their respective carrying values, including goodwill. As such, no impairment existed.\nAllowance for doubtful accounts. Our allowance for doubtful accounts reflects reserves for customer receivables to reduce receivables to amounts expected to be collected. Management uses significant judgment in estimating uncollectible amounts. In estimating uncollectible accounts, management considers factors such as current overall economic conditions, industry-specific economic conditions, historical customer performance and anticipated customer performance. While we believe these processes effectively address our exposure for doubtful accounts and credit losses have historically been within expectations, changes in the economy, industry, or specific customer conditions may require adjustments to the allowance for doubtful accounts. In fiscal 2015, 2014 and 2013, we established new reserves for doubtful accounts of $0.1 million, $0.3 million and $1.7 million, respectively. In fiscal years 2015, 2014 and 2013, we wrote off uncollectible accounts of $(0.1) million, $0.2 million and $1.6 million, respectively, all of which had been previously reserved.\nInventory valuation. In determining the valuation of inventory, we record an allowance for obsolete inventory using the specific identification method for steel coils and other raw materials. Management also reviews the carrying value of inventory for lower of cost or market. Our primary raw material is steel coils which have historically shown significant price volatility. We generally manufacture to customers’ orders, and thus maintain raw materials with a variety of ultimate end uses. We record a lower of cost or market charge to cost of sales when the net realizable value (selling price less estimated cost of disposal), based on our intended end usage, is below our estimated product cost at completion. Estimated net realizable value is based upon assumptions of targeted inventory turn rates, future demand, anticipated finished goods sales prices, management strategy and market conditions for steel. If projected end usage or projected sales prices change significantly from management’s current estimates or actual market conditions are less favorable than those projected by management, inventory write-downs may be required.\nProperty, plant and equipment valuation. We assess the recoverability of the carrying amount of property, plant and equipment for assets held and used at the lowest level asset grouping for which cash flows can be separately identified, which may be at an individual asset level, plant level or divisional level depending on the intended use of the related asset, if certain\nevents or changes in circumstances indicate that the carrying value of such asset groups may not be recoverable and the undiscounted cash flows estimated to be generated by those asset groups are less than the carrying amount of those asset groups. Events and circumstances which indicate an impairment include (a) a significant decrease in the market value of the asset groups; (b) a significant change in the extent or manner in which an asset group is being used or in its physical condition; (c) a significant change in our business conditions; (d) an accumulation of costs significantly in excess of the amount originally expected for the acquisition or construction of an asset group; (e) a current-period operating or cash flow loss combined with a history of operating or cash flow losses or a projection that demonstrates continuing losses associated with the use of an asset group; or (f) a current expectation that, more likely than not, an asset group will be sold or otherwise disposed of significantly before the end of its previously estimated useful life. We assess our asset groups for impairment on a quarterly basis.\nIf we determine that the carrying value of an asset group is not recoverable based on expected undiscounted future cash flows, excluding interest charges, we record an impairment loss equal to the excess of the carrying amount of the asset group over its fair value. The fair value of asset groups is determined based on prices of similar assets adjusted for their remaining useful life.\nIn connection with recently developed plans to improve cost efficiency and optimize our combined manufacturing footprint considering recent acquisitions and restructuring efforts, we identified indicators that certain of our asset groups within the metal components segment may be impaired. During the fourth quarter of fiscal 2015, we adjusted certain of our property, plant and equipment asset groups within the metal components segment because we determined that the carrying value of the asset groups was not recoverable based on expected undiscounted future cash flows. We recorded asset impairments of $5.8 million in fiscal 2015. We did not identify any asset impairments in fiscal 2014 or 2013.\nContingencies. We establish reserves for estimated loss contingencies when we believe a loss is probable and the amount of the loss can be reasonably estimated. Our contingent liability reserves are related primarily to litigation and environmental matters. Legal costs for uninsured claims are accrued as part of the ultimate settlement. Revisions to contingent liability reserves are reflected in income in the period in which there are changes in facts and circumstances that affect our previous assumptions with respect to the likelihood or amount of loss. Reserves for contingent liabilities are based upon our assumptions and estimates regarding the probable outcome of the matter. We estimate the probable cost by evaluating historical precedent as well as the specific facts relating to each particular contingency (including the opinion of outside advisors, professionals and experts). Should the outcome differ from our assumptions and estimates or other events result in a material adjustment to the accrued estimated reserves, revisions to the estimated reserves for contingent liabilities would be required and would be recognized in the period the new information becomes known. We recognized gains on legal settlements of $3.8 million in fiscal 2015 for cases in which we were the plaintiff.\nRECENT ACCOUNTING PRONOUNCEMENTS\nIn April 2014, the FASB issued ASU 2014-08, Presentation of Financial Statements (Topic 205) and Property, Plant, and Equipment (Topic 360): Reporting Discontinued Operations and Disclosures of Disposals of Components of an Entity. ASU 2014-08 changes the requirement for reporting discontinued operations. A disposal of a component of an entity or a group of components of an entity will be required to be reported in discontinued operations if the disposal represents a strategic shift that has or will have a major effect on an entity’s operations and financial results when the entity or group of components of an entity meets the criteria to be classified as held for sale or when it is disposed of by sale or other than by sale. The update also requires additional disclosures about discontinued operations, a disposal of an individually significant component of an entity that does not qualify for discontinued operations presentation in the financial statements, and an entity’s significant continuing involvement with a discontinued operation. This update is effective prospectively for our first quarter in fiscal 2016. Early adoption is permitted, but only for disposals (or classifications as held for sale) that have not been reported in previously issued financial statements. We are currently evaluating the potential impact of this authoritative guidance on our consolidated financial statements.\nIn May 2014, the FASB issued ASU 2014-09, Revenue from Contracts with Customers (Topic 606). ASU 2014-09 supersedes the revenue recognition requirements in ASC Topic 605, Revenue Recognition, and most industry-specific guidance. The core principle of the guidance is that an entity should recognize revenue to depict the transfer of promised goods or services to customers in an amount that reflects the consideration to which the entity expects to be entitled in exchange for those goods or services. In August 2015, the FASB issued ASU 2015-14, which deferred the effective date of ASU 2014-09 by one year. The new standard allows for either full or modified retrospective adoption and is effective for annual reporting periods beginning after December 15, 2017, including interim periods within that reporting period, which for the Company is the first quarter of fiscal 2019. Entities can still adopt the amendments as of the original effective date beginning after December 15, 2016. We are currently assessing the potential effects of these changes to our consolidated financial statements.\nIn June 2014, the FASB issued ASU 2014-12, Accounting for Share-Based Payments When the Terms of an Award Provide That a Performance Target Could Be Achieved after the Requisite Service Period. ASU 2014-12 requires that a performance target that affects vesting and could be achieved after the requisite service period be treated as a performance condition. A reporting entity should apply existing guidance in FASB Accounting Standards Codification 718, Compensation-Stock Compensation, as it relates to such awards. ASU 2014-12 is effective for our first quarter in fiscal 2017, with early adoption permitted. We do not expect that the adoption of this guidance will have a material impact on our consolidated financial statements.\nIn January 2015, the FASB issued ASU 2015-01, Income Statement - Extraordinary and Unusual Items (Subtopic 225-20): Simplifying Income Statement Presentation by Eliminating the Concept of Extraordinary Items. ASU 2015-01 eliminates from U.S. GAAP the concept of extraordinary items. The guidance is effective for our fiscal year ending October 29, 2017. A reporting entity may apply the amendments prospectively. We do not expect that the adoption of this guidance will have a material impact on our consolidated financial statements.\nIn April 2015, the FASB issued ASU 2015-03, Interest - Imputation of Interest (Subtopic 835-30): Simplifying the Presentation of Debt Issuance Costs. ASU 2015-03 requires debt issuance costs related to a recognized debt liability be presented in the balance sheet as a direct deduction from the carrying amount of the related debt liability instead of being presented as a separate asset. In circumstances where the costs are incurred before the debt liability is recorded, the costs will be reported on the balance sheet as an asset until the debt liability is recorded. Debt disclosures will include the face amount of the debt liability and the effective interest rate. The update requires retrospective application and is effective for our fiscal year ending October 29, 2017. Early adoption is permitted for financial statements that have not been previously issued. In August 2015, FASB issued ASU 2015-15, Interest - Imputation of Interest (Subtopic 835-30) - Presentation and Subsequent Measurement of Debt Issuance Costs Associated with Line-of-Credit Arrangements (Amendments to SEC Paragraphs Pursuant to Staff Announcement at June 18, 2015 EITF Meeting), to provide further clarification to ASU 2015-03 as it relates to the presentation and subsequent measurement of debt issuance costs associated with line of credit arrangements. Upon adoption of this guidance, we expect to reclassify approximately $11 million in deferred financing costs as a reduction of the carrying amount of the debt liability.\nIn July 2015, the FASB issued ASU 2015-11, Inventory (Topic 330): Simplifying the Measurement of Inventory. ASU 2015-11 requires that inventory that has historically been measured using first-in, first-out (FIFO) or average cost method should now be measured at the lower of cost and net realizable value. The update requires prospective application and is effective for our fiscal year ending October 28, 2018. Early adoption is permitted for financial statements that have not been previously issued. We do not expect that the adoption of this guidance will have a material impact on our consolidated financial statements.\nIn November 2015, the FASB issued ASU 2015-17, Balance Sheet Classification of Deferred Taxes. ASU 2015-17 requires all deferred tax assets and liabilities to be presented in the balance sheet as noncurrent. ASU 2015-17 is effective for fiscal years beginning after December 15, 2016, our fiscal 2018, and interim periods within those years. Early adoption is permitted. Upon adoption, we will present the net deferred tax assets as noncurrent and reclassify any current deferred tax assets and liabilities in our consolidated financial position on a retrospective basis."
+}

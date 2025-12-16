@@ -1,0 +1,378 @@
+{
+    "cik": "1368458",
+    "company": "Company_1368458",
+    "filing_type": "10-K",
+    "filing_date": "2018-01-01",
+    "period_of_report": "2018-12-31",
+    "sic": "Unknown",
+    "state_of_inc": "Unknown",
+    "state_location": "Unknown",
+    "fiscal_year_end": "1231",
+    "filing_html_index": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1368458",
+    "htm_filing_link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1368458",
+    "complete_text_filing_link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1368458",
+    "filename": "1368458_10K_2018_0001564590-18-029551.htm",
+    "special_items": [
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "-indent:0%;font-weight:bold;font-style:italic;font-size:10pt;font-family:Times New Roman;text-transform:none;font-variant: normal;\"><a name=\"_AEIOULastRenderedPageBreakAEIOU18\"></a><font style=\"font-weight:bold;font-style:italic;font-size:10pt;font-family:Times New Roman;text-transform:none;font-var...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 74413052
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "restructuring"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": ";\"/>\n<p style=\"margin-bottom:0pt;margin-top:0pt;text-indent:0%;font-family:Times New Roman;font-size:11pt;\"> </p>\n<p style=\"text-align:justify;margin-top:12pt;margin-bottom:0pt;text-indent:0%;font-weight:bold;font-style:italic;font-size:10pt;font-family:Times New Roman;text-transform:none;font-varia...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 54049340
+        },
+        {
+            "type": "impairment",
+            "keywords_matched": [
+                "impairment"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "Roman;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">Manufacturers and owned and exclusive-label brand fillers of beauty supply products are subject to certain risks that could adversely impact their ability to provide us with their products on a timely basis, includ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 50652318
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "an;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">If suitable candidates are identified, we may be unable to reach agreeable acquisition terms with such candidates or may not have access to sufficient funds to fund such acquisitions. We compete against many other com...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 423697
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ch or other means) or inadvertent data disclosure by third parties or us. A significant data security breach, including misappropriation of our customers’ or employees’ confidential information, could result in significant costs to us, which may include, among others, potential liabilities to paymen...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 69304125
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ew Roman;text-transform:none;font-variant: normal;\"><a name=\"_AEIOULastRenderedPageBreakAEIOU18\"></a><font style=\"font-weight:bold;font-style:italic;font-size:10pt;font-family:Times New Roman;text-transform:none;font-variant: normal;\">We may not be able to successfully ident</font><font style=\"font-...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 52671490
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "font-style:normal;text-transform:none;font-variant: normal;\">In the past several years, we have completed multiple acquisitions and we intend to pursue additional acquisitions in the future. We actively review acquisition prospects that we believe would complement our existing lines of business, inc...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 50628737
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "from payment card networks, professional advisory fees, legal costs and expenses relating to investigating and remediating the data security incidents. We may have also suffered reputational harm due to multiple data security incidents and may incur additional costs and expenses related to the data ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 81292468
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "mily:Times New Roman;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">BSG stores carry an extensive selection of hair color and care, skin and nail care, styling tools and other beauty items at competitive prices. Some products are available in bulk packaging for highe...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 43959013
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "n of our products, and we could be found to infringe the intellectual property rights of others, which could be disruptive and expensive to our business. </p>\n<p style=\"text-align:justify;margin-top:6pt;margin-bottom:0pt;text-indent:0%;font-size:10pt;font-family:Times New Roman;font-weight:normal;fo...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 36671922
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "restructuring"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "nsform:none;font-variant: normal;\"><a name=\"_AEIOULastRenderedPageBreakAEIOU13\"></a><font style=\"font-weight:bold;font-style:italic;font-size:10pt;font-family:Times New Roman;text-transform:none;font-variant: normal;\">Our restructuring program may not be successful or we </font><font style=\"font-wei...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 18917872
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "restructuring"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "ompany for the future and support long-term sales growth and profitability. The program is intended to touch all aspects of the business, enhance operating capabilities, create greater efficiencies and take advantage of the Company's considerable scale. Restructuring plans present significant potent...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 5526061
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "s sold by us may become more stringent. For example, the State of California, where we operate a number of stores, currently enforces legislation commonly referred to as “Proposition 65” that requires that “clear and reasonable” warnings be given to consumers who are exposed to chemicals known to th...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 3319886
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "Restructuring"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "s, some of which are complicated and require us to expend significant resources to implement. As we previously announced in fiscal years 2017 and 2018, we have implemented, and plan to continue to implement, restructuring plans to transform the Company for the future and support long-term sales grow...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 15038904
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "style=\"color:#FF0000;\"> </font></p>\n<p style=\"margin-bottom:0pt;margin-top:12pt;text-align:justify;text-indent:0%;font-size:10pt;font-family:Times New Roman;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">We face increasing competition from certain manufacturers that ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 38581219
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "t-size:10pt;font-family:Times New Roman;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">If suitable candidates are identified, we may be unable to reach agreeable acquisition terms with such candidates or may not have access to sufficient funds to fund such acquisitio...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 49787187
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "restructuring"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "t:normal;font-style:normal;text-transform:none;font-variant: normal;\">Our ability to grow profitably depends in large part on our ability to successfully control or reduce our operating expenses. In furtherance of this strategy, we have engaged in ongoing activities to reduce or control costs, some ...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 11708453
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "the size and geographic scope of our operations or otherwise offer profitable growth and operating efficiency opportunities. There can be no assurance that we will continue to identify suitable acquisition candidates. </p>\n<p style=\"text-align:justify;margin-top:12pt;margin-bottom:0pt;text-indent:0%...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 82458957
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "tions, and any acquisition could prove difficult to integrate, disrupt our business or have an adverse effect on our results of operations.</font></p>\n<p style=\"text-align:justify;margin-top:6pt;margin-bottom:0pt;text-indent:0%;font-size:10pt;font-family:Times New Roman;font-weight:normal;font-style...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 24311016
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "top:12pt;margin-bottom:0pt;text-indent:0%;font-size:10pt;font-family:Times New Roman;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\">If suitable candidates are identified, we may be unable to reach agreeable acquisition terms with such candidates or may not have acces...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 51078826
+        },
+        {
+            "type": "restructuring",
+            "keywords_matched": [
+                "restructuring"
+            ],
+            "confidence": 0.4,
+            "source_section": "item_8",
+            "context": "tructuring plan, as well as management distraction. As part of our overhead reduction, we have reduced our corporate and operations headcount, including management level, distribution and field employees. These reductions, as well as employee attrition, could result in the potential loss of specific...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 69598478
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ttom:0pt;margin-top:0pt;text-indent:0%;font-family:Times New Roman;font-size:11pt;\"> </p>\n<p style=\"text-align:justify;margin-top:12pt;margin-bottom:0pt;text-indent:0%;font-size:10pt;font-family:Times New Roman;font-weight:normal;font-style:normal;text-transform:none;font-variant: normal;\"><a name=\"...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 10264725
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "wned by Shiseido Cosmetics (America) Limited). Together, these suppliers accounted for approximately 45% of our consolidated merchandise purchases. For example, in 2016, Coty, a leading supplier of fragrances, color cosmetics, and skin and body products, acquired the fragrances, color cosmetics, and...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 62162861
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "advisory fees"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "years 2014 and 2015 (together, the “data security incidents”). The data security incidents involved the unauthorized installation of maliciou<a name=\"_Hlk527220448\"></a>s software (malware) on our information technology systems, including our point-of-sale systems that, may have placed at risk certa...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 22433327
+        }
+    ],
+    "item_7": "ITEM 7. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS\nThe following section discusses management’s view of the financial condition as of September 30, 2018 and 2017, and the results of operations and cash flows for the three fiscal years in the period ended September 30, 2018, of Sally Beauty. This section should be read in conjunction with the audited consolidated financial statements of Sally Beauty and the related notes included elsewhere in this Annual Report. This Management’s Discussion and Analysis of Financial Condition and Results of Operations section may contain forward-looking statements. See “Cautionary Notice Regarding Forward-Looking Statements” and “Risk Factors” for a discussion of the uncertainties, risks and assumptions associated with these forward-looking statements that could cause results to differ materially from those reflected in such forward-looking statements.\nHighlights of the Fiscal Year Ended September 30, 2018:\n•\nConsolidated net sales for the fiscal year ended September 30, 2018, decreased $5.8 million, or 0.1%, to $3,932.6 million, compared to the prior fiscal year. Consolidated net sales for the fiscal year ended September 30, 2018, include a positive impact from changes in foreign currency exchange rates of $33.1 million, or 0.8% of consolidated net sales;\n•\nConsolidated same store sales decreased 1.5% for the fiscal year ended September 30, 2018;\n•\nConsolidated gross profit for the fiscal year ended September 30, 2018 decreased by $20.5 million, or 1.0%, to $1,944.4 million compared to the prior fiscal year. Gross margin decreased 50 basis points to 49.4% for the fiscal year ended September 30, 2018, compared to the prior fiscal year;\n•\nIn connection with previously-announced 2018 comprehensive restructuring plan, we incurred approximately $33.6 million in expenses during the fiscal year ended September 30, 2018;\n•\nConsolidated operating earnings for the fiscal year ended September 30, 2018 decreased $52.0 million, or 10.9%, to $426.6 million compared to the prior fiscal year. Operating margin decreased 140 basis points to 10.8% for the fiscal year ended September 30, 2018, compared to the prior fiscal year;\n•\nConsolidated net earnings increased $43.0 million, or 20.0%, to $258.0 million compared to the prior fiscal year;\n•\nIn December 2017, the United States enacted comprehensive amendments to the Internal Revenue Code of 1986 (“U.S. Tax Reform”). In connection therewith, we recorded a net provisional benefit of approximately $26.0 million and our U.S. federal statutory tax rate decreased to 24.5% for fiscal year 2018. Starting in fiscal year 2019, our U.S. federal statutory tax rate will be 21.0%;\n•\nDiluted earnings per share for the fiscal year ended September 30, 2018, were $2.08 compared to $1.56 for the prior fiscal year;\n•\nCash provided by operations was $372.7 million for the fiscal year ended September 30, 2018, compared to $343.3 million for the prior fiscal year;\n•\nIn December 2017, we acquired certain assets and business operations of H. Chalut Ltee, a 21-store professional-only distributor of beauty supplies operating in Quebec, Canada, for approximately $8.8 million;\n•\nIn March 2018, we entered into an amendment with respect to our term loan B, which reduced the interest rate spread on the variable-rate tranche by 25 basis points;\n•\nWe repurchased and retired approximately 10.0 million shares of our common stock under the 2017 Share Repurchase Program at an aggregate cost of $165.9 million; and\n•\nIn connection with the previously disclosed data security incidents, we recognized $7.9 million of expense during fiscal year 2018.\n- 28 -\nResults of Operations\nKey Operating Metrics\nThe following table sets forth, for the periods indicated, information concerning key measures we rely on to assess our operating performance (dollars in thousands):\n(a)\nUnallocated expenses represent certain corporate costs (such as payroll, share-based compensation, employee benefits and travel expense for corporate staff, certain professional fees and corporate governance expenses) that have not been charged to our segments and are included in selling, general and administrative expenses in our consolidated statements of earnings. For the fiscal years 2018 and 2016, unallocated expenses reflect expenses of $7.9 million and $14.6 million, respectively, in connection with the data security incidents.\n(b)\nRestructuring charges relate to the 2018 Restructuring Plan and the 2017 Restructuring Plan.\n- 29 -\nThe Fiscal Year Ended September 30, 2018 compared to the Fiscal Year Ended September 30, 2017\nNet Sales\nSBS. The decrease in net sales for SBS was primarily driven by a decrease in same store sales of approximately $23.7 million and lower net sales from new company-operated stores of approximately $17.9 million, partially offset by the positive impact from changes in foreign currency exchange rates of approximately $30.1 million.\nSBS experienced lower unit volume, including lower customer traffic, partially offset by a positive impact from an increase in average unit prices, resulting primarily from select price increases in certain geographical areas of the U.S. and a change in product mix (to higher-priced products) resulting from shifts in customer preferences.\nBSG. The increase in net sales for BSG was driven by the impact of the Chalut acquisition, net of the impact of Peerless sales in the prior year now included in same store sales, of approximately $10.1 million, the positive impact from changes in foreign currency exchange rates of approximately $3.0 million and higher net sales from other sales channels of approximately $7.2 million, partially offset by decreases in sales by our DSCs of approximately $11.1 million and same store sales of approximately $3.8 million. Net sales from other sales channels include sales from new company-operated stores, sales to our franchisees and sales by our DSCs.\nBSG experienced an increase in average unit prices (resulting primarily from the introduction of certain third-party brands with higher average unit prices in the preceding 12 months), partially offset by a decrease in unit volume (notwithstanding the impact of incremental sales from 28 company-operated stores opened or acquired during the last 12 months). In addition, we were impacted by vendor supply chain issues that negatively affected BSG’s net sales by approximately $13 million.\nGross Profit\nSBS. SBS’s gross profit decreased as a result of lower sales and a lower gross margin. This decrease reflects a change in geographic sales mix, as a result of lower-margin non-U.S. sales making up a greater portion of total segment sales, and higher coupon redemption, compared to the prior fiscal year.\nBSG. BSG’s gross profit decreased as a result of a lower gross margin, partially offset by higher sales. BSG’s gross margin decrease was driven by opportunistic purchases that were not repeated from the prior year and lower vendor allowances.\nSelling, General and Administrative Expenses\nConsolidated. Consolidated selling, general and administrative expenses increased primarily as a result of the negative impact from changes in foreign currency exchange rates, the impact from the Chalut acquisition, higher expenses related to the data security incidents and higher facility expenses. These increases were partially offset by a reduction of estimated casualty loss and no comparable casualty loss this fiscal year, positive impact from gift card breakage, positive adjustments to actuarially determined insurance liabilities and cost reduction initiatives, related to our restructuring plans. Consolidated selling, general and administrative expenses, as a percentage of net sales, increased 50 basis points to 37.7% for the fiscal year ended September 30, 2018.\nSBS. SBS’s selling, general and administrative expenses increased primarily as a result of the negative impact from changes in the foreign currency exchange rate of approximately $13.2 million, higher facility expense of $5.0 million and higher advertising expense of $2.0 million. These increases were partially offset by the impact of the reduction of prior year’s estimated casualty loss, in connection with natural disasters that occurred in the fourth quarter of our fiscal year 2017, and no comparable casualty losses this fiscal year, in the aggregate, of $6.5 million and by positive impact from gift card breakage of $2.1 million in the current fiscal year.\nBSG. BSG’s selling, general and administrative expenses increased primarily as a result of the incremental operating expenses associated with Chalut of $8.6 million and higher facility expenses of $3.3 million. These increases were partially offset by lower commission expense of $3.0 million, advertising expense of $1.5 million\n- 30 -\nand intangible asset amortization expense of $1.3 million, resulting from the impact of intangible assets that became fully amortized in the preceding 12 months.\nUnallocated. Unallocated selling, general and administrative expenses increased $4.1 million, or 2.9%, for the fiscal year ended September 30, 2018. This increase includes expenses related to the previously disclosed data security incidents of $7.9 million and higher professional fees of $1.7 million. See Note 11 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report for more information about the data security incidents. This increase was partially offset by lower compensation and compensation-related expenses of $4.3 million primarily due to the results of the 2018 Restructuring Plan. In addition, for our actuarially determined insurance liabilities, we recorded net positive adjustments of $6.9 million in fiscal year 2018 as a result of a decrease in our estimated future payments, compared to positive adjustments of $5.7 million in fiscal year 2017.\nRestructuring Charges\nRestructuring charges increased $10.9 million for the fiscal year ended September 30, 2018. During the fiscal year ended September 30, 2018, we incurred restructuring charges of approximately $33.6 million in connection with the 2018 Restructuring Plan, including severance and related expenses of approximately $15.6 million, consulting expenses of $10.9 million and other costs of $7.1 million. During the fiscal year ended September 30, 2017, we incurred restructuring charges of approximately $22.7 million in connection with the 2017 Restructuring Plan, including severance and related expenses of $12.1 million, facility closure expenses of $6.7 million and other expenses of $3.9 million. See Note 19 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report for more information about our restructuring plans.\nInterest Expense\nInterest expense decreased as a result of a loss on extinguishment of debt of $28.0 million in the prior fiscal year, compared to $0.9 million in the current fiscal year. These losses were the result of our redemption of certain senior notes in July 2017 with the proceeds from the term loan B with lower interest rates in the prior fiscal year and from the repricing of the variable-rate tranche of the term loan B in the current fiscal year. The lower interest rate on the term loan B reduced interest expense by $8.8 million. The decrease was offset in part by incremental interest expense of $1.3 million in connection with borrowings under the ABL facility.\nProvision for Income Taxes\nThe provision for income taxes was $70.4 million and $130.6 million, resulting in an effective tax rate of 21.4% and 37.8%, for the fiscal year ended September 30, 2018 and 2017, respectively. The decrease in the effective tax rate was due primarily to the impact of the U.S. Tax Reform. More specifically, we recognized a provisional income tax benefit of $37.7 million in connection with the revaluation of our deferred income tax assets and liabilities, including a benefit related to the adoption of income tax method changes of $2.7 million, and a provisional income tax charge of $11.7 million for federal and state income taxes applicable to accumulated but undistributed earnings of our foreign operations. See Note 15 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report for more information about the impact of the U.S. Tax Reform on our consolidated financial statements.\nThe Fiscal Year Ended September 30, 2017 compared to the Fiscal Year Ended September 30, 2016\nNet Sales\nSBS. Net sales for SBS include a negative impact from changes in foreign currency exchange rates of approximately $30.8 million, or 1.3% of the segment’s net sales.\nThe decrease in SBS’s net sales reflects lower unit volume and the negative impact from changes in foreign currency exchange rates, partially offset by an increase in average unit prices, resulting primarily from selective price increases in certain geographical areas of the U.S. and a change in product mix resulting primarily from the introduction of certain products with higher average unit prices in the preceding 12 months.\n- 31 -\nBSG. Net sales for BSG were not materially affected by changes in foreign currency exchange rates during the fiscal year ended September 30, 2017.\nThe increase in BSG’s net sales is primarily the result of increases in both unit volume (including increases in sales at existing stores and the incremental sales from 26 company-operated stores opened or acquired during the last twelve months) and average unit prices (resulting from changes in product mix, including the introduction of certain third-party brands with higher average unit prices in the preceding 12 months).\nGross Profit\nSBS. SBS’s gross profit decreased principally as a result of lower sales, partially offset by improved gross margin. SBS’s gross margin increased by 50 basis points, to 55.6%, for the fiscal year ended September 30, 2017. This increase was primarily the result of selective price increases and reduced promotional activity, primarily in the U.S., compared to the fiscal year ended September 30, 2016.\nBSG. BSG’s gross profit increased principally as a result of higher sales volume and improved gross margin. BSG’s gross margin increased to 41.5% for the fiscal year ended September 30, 2017 primarily as a result of a shift in (a) product mix to higher margin product resulting from a change in customer preferences and (b) sales channel mix to higher margin store-based product sales.\nSelling, General and Administrative Expenses\nConsolidated. Consolidated selling, general and administrative expenses decreased primarily as a result of cost reduction initiatives and lower expenses associated with the data security incidents, as more fully discussed above, partially offset by the incremental depreciation and amortization expenses associated with capital expenditures made in the preceding 12 months, mainly in connection with store openings in both operating segments, with store refreshes in the SBS segment (primarily in the U.S.) and with ongoing information technology upgrades. Consolidated selling, general and administrative expenses, as a percentage of net sales, were 37.2% for the fiscal year ended September 30, 2017.\nSBS. SBS’s selling, general and administrative expenses increase reflects higher employee compensation and compensation-related expenses of $10.0 million (including wage increases for sales staff at existing stores), incremental depreciation and amortization expenses of $7.6 million associated with capital expenditures made in the preceding 12 months, mainly in connection with store openings and with store refreshes (primarily in the U.S.), higher expenses related to recent upgrades to our information technology systems of approximately $4.1 million, casualty losses of $4.0 million resulting from hurricanes that impacted areas of the U.S. and Puerto Rico, and higher foreign currency transaction losses of $2.4 million. These increases were partially offset by lower advertising expenses of $10.2 million and lower sales bonuses of $8.8 million.\nBSG. BSG’s selling, general and administrative expenses increase reflects the incremental expenses (including rent and other occupancy-related expenses) associated with the increase in store count described above, as well as higher employee compensation and compensation-related expenses of $6.7 million (including incremental wages in connection with BSG stores added during the past 12 months and wage increases for sales staff at existing stores), incremental depreciation and amortization expenses of $2.2 million associated with capital expenditures made in the preceding 12 months, mainly in connection with store openings and higher expenses related to recent upgrades to our information technology and our point of sale systems, in the aggregate, of approximately $1.2 million.\nUnallocated. The decrease in unallocated selling, general and administrative expenses was due primarily to lower expenses associated with the data security incidents of $14.6 million, lower compensation and compensation-related expenses of $6.4 million (including the absence of approximately $1.3 million in expenses incurred in connection with management transition plans more fully discussed in our Annual Report on Form 10-K for the fiscal year ended September 30, 2016), lower expenses related to upgrades to our corporate information technology systems of $2.8 million, lower share-based compensation expense of $2.1 million and lower foreign currency transaction losses of $2.0 million.\n- 32 -\nRestructuring Charges\nDuring the fiscal year ended September 30, 2017, we incurred charges of approximately $22.7 million in connection with the 2017 Restructuring Plan, including severance and related expenses of $12.1 million, facility closure expenses of $6.7 million and other expenses of $3.9 million.\nInterest Expense\nInterest expense decreased $11.3 million to $132.9 million for the fiscal year ended September 30, 2017 primarily from lower interest expense in the aggregate of $7.2 million on the senior notes currently outstanding and the Term Loan B, compared to the senior notes outstanding prior to our refinancing of debt in December 2015 and July 2017. The decrease in interest expense also reflects a lower loss on extinguishment of debt of approximately $5.3 million recognized in connection with our July 2017 refinancing of debt, compared to our December 2015 refinancing of debt. See Note 12 of the Notes to Consolidated Financial Statements in Item 8 contained elsewhere in this Annual Report for additional information about our debt refinancing. The decrease in interest expense was offset in part by approximately $1.1 million of incremental interest expenses in connection with borrowings under the ABL facility and the predecessor ABL facility, as appropriate.\nProvision for Income Taxes\nThe provision for income taxes was $130.6 million and $131.1 million, and the effective income tax rate was 37.8% and 37.0%, for the fiscal years ended September 30, 2017 and 2016, respectively. The increase in our effective income tax rate for the fiscal year ended September 30, 2017, compared to the fiscal year ended September 30, 2016, is due primarily to increased losses subject to a valuation allowance in certain of our foreign operations and a non-recurring reduction in non-deductible executive compensation in the prior year.\nLiquidity and Capital Resources\nWe are highly leveraged and a substantial portion of our liquidity needs will arise from debt service on our outstanding indebtedness and from funding the costs of operations, working capital, capital expenditures and opportunistic share repurchases. Working capital (current assets less current liabilities) increased $94.4 million to $663.9 million at September 30, 2018, compared to $569.5 million at September 30, 2017, resulting primarily from the repayment of our ABL facility. The ratio of current assets to current liabilities was 2.35 to 1.00 at September 30, 2018, compared to 1.99 to 1.00 at September 30, 2017.\nAt September 30, 2018, cash and cash equivalents were $77.3 million. Based upon the current level of operations and anticipated growth, we anticipate that existing cash balances (excluding certain amounts permanently invested in connection with foreign operations), funds expected to be generated by operations and funds available under the ABL facility will be sufficient to meet our working capital requirements, potential acquisitions, finance anticipated capital expenditures, including information technology upgrades and store remodels, and opportunistic share repurchases over the next 12 months. For the foreseeable future, we will prioritize needed investments in our business that we believe will deliver value for shareholders, then focus on measured debt repayment within our ratings guidance and then share repurchases.\nWe utilize our ABL facility for the issuance of letters of credit, for certain working capital and liquidity needs and to manage normal fluctuations in our operational cash flow. In that regard, we may from time to time draw funds under the ABL facility for general corporate purposes including funding of capital expenditures, acquisitions, interest payments due on our indebtedness, paying down other debt and share repurchases. During the fiscal year ended September 30, 2018, the weighted average interest rate on our borrowings under the ABL facility and the predecessor ABL facility, as appropriate, was 3.47%. The amounts drawn are generally paid down with cash provided by our operating activities. As of September 30, 2018, Sally Holdings had $481.3 million available for borrowings under the ABL facility, subject to borrowing base limitations, as reduced by outstanding letters of credit.\n- 33 -\nShare Repurchase Programs\nDuring the fiscal years ended September 30, 2018, 2017 and 2016, we repurchased and subsequently retired approximately 10.0 million shares, 16.1 million shares and 7.8 million shares, respectively, of our common stock under the 2017 Share Repurchase Program or the 2014 Share Repurchase Program at a cost of $165.9 million, $346.1 million and $207.3 million, respectively. We funded these share repurchases with cash from operations and borrowings under the ABL facility or the predecessor ABL facility, as appropriate. As of September 30, 2018, we had approximately $834.1 million of additional share repurchase authorization remaining under the 2017 Share Repurchase Program.\nHistorical Cash Flows\nFor the fiscal years 2018, 2017 and 2016, our primary sources of cash have been funds provided by operating activities and, when necessary, borrowings under our ABL facility or the predecessor ABL facility, as appropriate. The primary non-operating uses of cash during the past three years were for share repurchases, debt service and capital expenditures.\nThe following table shows our sources and uses of cash for the periods presented (in thousands):\nNet Cash Provided by Operating Activities\nNet cash provided by operating activities increased for the fiscal year ended September 30, 2018, compared to the fiscal year ended September 30, 2017, primarily due to favorable cash impact of improved net earnings and accrued liabilities, partially offset by the unfavorable impact by deferred taxes and merchandise purchases.\nNet cash provided by operating activities decreased for the fiscal year ended September 30, 2017, compared to the fiscal year ended September 30, 2016, primarily due to a decrease in net earnings of $7.9 million.\nNet Cash Used by Investing Activities\nNet cash used by investing activities increased for the fiscal year ended September 30, 2018, compared to the fiscal year ended September 30, 2017, primarily due to the acquisition of Chalut.\nNet cash used by investing activities decreased for the fiscal year ended September 30, 2017, compared to the fiscal year ended September 30, 2016. This decrease reflects lower capital expenditures related primarily to SBS store refreshes and lower investments in information technology upgrades in the fiscal year ended September 30, 2017, compared to the fiscal year ended September 30, 2016 ($61.6 million) and less cash used for acquisitions in the fiscal year ended September 30, 2017 ($26.1 million), partially offset by a decrease in cash proceeds from the sale of property and equipment ($2.5 million).\n- 34 -\nNet Cash Used by Financing Activities\nNet cash used by financing activities decreased for the fiscal year ended September 30, 2018, compared to the fiscal year ended September 30, 2017, primarily due to a decrease in share repurchases of $180.2 million. This decrease was partially offset by lower net debt proceeds, primarily from repayments on the ABL facility and term loan B.\nNet cash used by financing activities increased for the fiscal year ended September 30, 2017, compared to the fiscal year ended September 30, 2016, primarily due to an increase in share repurchases of $138.7 million. This increase was partially offset by an increase in borrowings under the ABL facility or the predecessor ABL facility, as appropriate, a decrease in net repayments of debt, and a decrease in debt issuance costs in connection with debt refinancing, in the aggregate, of $91.5 million.\nLong-Term Debt\nOutstanding Long-Term Debt\nAt September 30, 2018, we, through our subsidiaries Sally Holdings and Sally Capital Inc. (collectively, the “Issuers”) have outstanding principal under a term loan B and senior notes, in the aggregate, of $1,794.5 million. There were no outstanding balances under the ABL facility at September 30, 2018. See Note 12 of the Notes to Consolidated Financial Statements in Item 8 contained elsewhere in this Annual Report for additional information about our debt.\nLong-Term Debt Covenants\nWe are a holding company and do not have any material assets or operations other than ownership of equity interests in our subsidiaries.\nThe agreements and instruments governing our debt contain restrictions and limitations that could significantly impact our ability to operate our business. These restrictions and limitations relate to:\n• Incurrence of additional indebtedness\n• Granting of liens on assets\n• Repurchases and redemptions of capital stock and the payment of dividends\n• Making of investments, including joint ventures\n• Making of certain debt prepayments\n• Making of acquisitions\n• Mergers or consolidations\n• Disposition of assets\n- 35 -\nBorrowings under the ABL facility are secured by the accounts, inventory and credit card receivables (and related general intangibles and other property) of our domestic subsidiaries (and, in the case of borrowings under the Canadian sub-facility, such assets of our Canadian subsidiaries and, solely with respect to borrowings by SBH Finance B.V., intercompany notes owed to SBH Finance B.V. by our foreign subsidiaries). The senior notes due 2023 and the senior notes due 2025 (which we refer to collectively as the “senior notes due 2023 and 2025”) are unsecured obligations of the Issuers and are jointly and severally guaranteed by the Company and Sally Investment Holdings LLC, and by each material domestic subsidiary of the Company. Interest on the senior notes due 2023 and 2025 is payable semi-annually, during our first and third fiscal quarters.\nThe ABL facility and the indentures governing the senior notes due 2023 and 2025 contain customary events of default, including customary cross-default and/or cross-acceleration provisions. As of September 30, 2018, all the net assets of our consolidated subsidiaries were unrestricted from transfer under our credit arrangements.\nThe senior notes due 2023 carry optional redemption features whereby we have the option to redeem the notes, in whole or in part, on or after November 1, 2021 at par, plus accrued and unpaid interest, if any, and, since November 1, 2018, at par plus a premium declining ratably to par, plus accrued and unpaid interest, if any.\nThe senior notes due 2025 carry optional redemption features whereby we have the option to redeem the notes, in whole or in part, on or after December 1, 2023 at par, plus accrued and unpaid interest, if any, and on or after December 1, 2020 at par plus a premium declining ratably to par, plus accrued and unpaid interest, if any. Prior to December 1, 2020, we may redeem the notes, in whole or in part, at a redemption price equal to par plus a make-whole premium as provided in the indenture, plus accrued and unpaid interest, if any. In addition, on or prior to December 1, 2018, we have the right to redeem the notes at par plus a specified premium, plus accrued and unpaid interest, if any, up to 35% of the aggregate principal amount of notes originally issued, subject to certain limitations, with the proceeds from certain kinds of equity offerings, as defined in the indenture.\nThe ABL facility does not contain any restriction against the incurrence of unsecured indebtedness. However, the ABL facility restricts the incurrence of secured indebtedness if, after giving effect to the incurrence of such secured indebtedness, our Secured Leverage Ratio exceeds 4.0 to 1.0. At September 30, 2018, our Secured Leverage Ratio was approximately 1.3 to 1.0. Secured Leverage Ratio is defined as the ratio of (i) Secured Funded Indebtedness (as defined in the ABL facility) to (ii) Consolidated EBITDA (as defined in the ABL facility) for the most recently completed 12 fiscal months.\nThe ABL facility is pre-payable and the commitments thereunder may be terminated, in whole or in part at any time without penalty or premium.\nThe indentures governing the senior notes due 2023 and 2025 contain terms that restrict the ability of Sally Beauty’s subsidiaries to incur additional indebtedness. However, in addition to certain other material exceptions, the Company may incur additional indebtedness under the indentures if its Consolidated Coverage Ratio, after giving pro forma effect to the incurrence of such indebtedness, exceeds 2.0 to 1.0 (“Incurrence Test”). At September 30, 2018, the Company’s Consolidated Coverage Ratio was approximately 6.4 to 1.0. Consolidated Coverage Ratio is defined as the ratio of (i) Consolidated EBITDA (as defined in the indentures) for the period containing the most recent four consecutive fiscal quarters, to (ii) Consolidated Interest Expense (as defined in the indentures) for such period.\nThe indentures governing the senior notes due 2023 and 2025 restrict Sally Holdings and its subsidiaries from making certain dividends and distributions to equity holders and certain other restricted payments (hereafter, a “Restricted Payment” or “Restricted Payments”) to us. However, the indentures permit the making of such Restricted Payments if, at the time of the making of such Restricted Payment, the Company satisfies the Incurrence Test as described above and the cumulative amount of all Restricted Payments made since the issue date of the applicable senior notes does not exceed the sum of: (i) 50% of Sally Holdings’ and its subsidiaries’ cumulative consolidated net earnings since July 1, 2006 (for the senior notes due 2023) or since October 1, 2015 (for the senior notes due 2025), plus (ii) the proceeds from the issuance of certain equity securities or conversions of indebtedness to equity, in each case, since the issue date of the applicable senior notes plus (iii) the net reduction in investments in unrestricted subsidiaries since the issue date of the applicable senior notes plus (iv) the return of capital with respect to any sales or dispositions of certain minority investments since the issue date of the applicable senior notes plus (v)\n- 36 -\n$350 million (for the senior notes due 2025). Further, in addition to certain other baskets, the indentures permit us to make additional Restricted Payments in an unlimited amount if, after giving pro forma effect to the incurrence of any indebtedness to make such Restricted Payment, our Consolidated Total Leverage Ratio (as defined in the indentures) is less than 3.25 to 1.00. At September 30, 2018, our Consolidated Total Leverage Ratio was approximately 2.9 to 1.0. Consolidated Total Leverage Ratio is defined as the ratio of (i) Consolidated Total Indebtedness, as defined in the indentures, minus cash and cash equivalents on-hand up to $100.0 million, in each case, as of the end of the most recently-ended fiscal quarter to (ii) Consolidated EBITDA (as defined in the indentures) for the period containing the most recent four consecutive fiscal quarters.\nThe ABL facility restricts the making of Restricted Payments. Under the ABL facility, Sally Holdings may make Restricted Payments if (i) availability under the ABL facility equals or exceeds certain thresholds and (ii) no default then exists under the facility. We are permitted to make Restricted Payments up to $30.0 million during each fiscal year, assuming we are not in Default or that making such Restricted Payment would create an Event of Default. We can make Restricted Payments without limitation if (i), our borrowing availability then-equals or exceeds 15% of the borrowing base for 30 days prior to such Restricted Payment and the Consolidated Fixed Charge Coverage Ratio for the most recently completed twelve month period has equaled or exceeded 1.0:1.0, OR (ii) excess Availability for the 30-day period immediately preceding and on the date of such Restricted Payment was equal to or greater than 20% of the borrowing base. The Consolidated Fixed Charge Coverage Ratio is defined as the ratio of (i) Consolidated EBITDA (as defined in the ABL facility) during the trailing twelve-month period preceding such proposed Restricted Payment minus certain unfinanced capital expenditures made during such period and income tax payments paid in cash during such period to (ii) fixed charges (as defined in the ABL facility). As of September 30, 2018, the Consolidated Fixed Charge Coverage Ratio was approximately 4.8 to 1.0.\nWhen used in this Annual Report, the phrase “Consolidated EBITDA” is intended to have the meaning defined in the ABL facility or the indentures governing the senior notes due 2023 and 2025, as appropriate. EBITDA is not a recognized measurement under accounting principles generally accepted in the United States of America (“GAAP”) and should not be considered a substitute for financial performance and liquidity measures determined in accordance with GAAP, such as net earnings, operating earnings and operating cash flows.\nWe are currently in compliance with the agreements and instruments governing our debt, including our financial covenants. Our ability to comply with these covenants in future periods will depend on our ongoing financial and operating performance, which in turn will be subject to economic conditions and to financial, market and competitive factors, many of which are beyond our control. Further, our ability to comply with these covenants in future periods will also depend substantially on the pricing of our products, our success at implementing cost reduction initiatives and our ability to successfully implement our overall business strategy.\nCapital Requirements\nDuring the fiscal year ended September 30, 2018, we had total capital expenditures of approximately $93.5 million, including amounts incurred but not paid at September 30, 2018 (approximately $15.3 million), primarily in connection with information technology projects, store remodels and maintenance, and distribution facility upgrades.\n- 37 -\nContractual Obligations\nThe following table is a summary of our contractual cash obligations and commitments outstanding by future payment dates at September 30, 2018 (in thousands):\n(a)\nLong-term debt obligations include obligations under capital leases and future interest payments on our debt outstanding as of September 30, 2018. The amounts shown above do not include unamortized premium and deferred debt issuance costs reflected in our consolidated balance sheets since those excluded amounts do not represent contractual obligations.\n(b)\nThe amounts reported for operating leases do not include common area maintenance (CAM), property taxes or other executory costs. The amounts shown above do not include obligations of our franchisees under operating leases of approximately $1.1 million for which we are contingently liable in the event of default by the franchisee.\n(c)\nPurchase obligations reflect legally binding agreements entered into by us to purchase goods or services, that specify minimum quantities to be purchased and with fixed or variable price provisions. Amounts shown do not reflect open purchase orders, mainly for merchandise, to be fulfilled within one year, which are generally cancellable.\n(d)\nOther long-term obligations, including current portion, principally represent obligations under insurance and self-insurance programs. These obligations are included in accrued liabilities and other liabilities, as appropriate, in our consolidated balance sheets.\n(e)\nThe table above does not include an estimated $1.4 million of unrecognized tax benefits due to uncertainty regarding the realization and timing of the related future cash flows, if any.\nThe information contained in the table above with regards to our long-term debt obligations is based on the current terms of such debt obligations and does not reflect any assumptions about our ability or intent to refinance any of our debt either on or before their maturity. In the event that we refinance some or all of debt either on or before their maturity, actual payments for some of the periods shown may differ materially from the amounts reported herein. In addition, other future events, including potential increases in interest rates, could cause actual payments to differ materially from these amounts.\nOff-Balance Sheet Financing Arrangements\nAt September 30, 2018 and 2017, we had no off-balance sheet financing arrangements other than obligations under operating leases (see Contractual Obligations table above), and letters of credit (related to inventory purchases and self-insurance programs) in the aggregate amount of $18.7 million and $20.4 million, respectively.\nInflation\nWe believe inflation did not have a material effect on our results of operations during each of the three fiscal years in the period ended September 30, 2018. However, during the past few years, in the U.S., we have experienced an increase in labor and real estate costs (including store rent and other occupancy expenses). Employee compensation and real estate expenses represent our two most significant operating expense categories. A material increase in labor and real estate costs in the future, particularly for an extended period of time, could have a material adverse effect on our results of operations.\n- 38 -\nCritical Accounting Estimates\nThe preparation of our consolidated financial statements requires us to make estimates and assumptions that affect the reported amounts of assets and liabilities at each balance sheet date, reported amount of revenues and expenses for each reporting period presented, and related disclosures of contingent liabilities. Actual results may differ from these estimates. We believe these estimates and assumptions are reasonable. We consider accounting policies to be critical when they require us to make assumptions about matters that are highly uncertain at the time the accounting estimate is made and when different estimates that we reasonably could have used have a material effect on the presentation of our consolidated financial condition, changes in consolidated financial condition or consolidated results of operations.\nOur critical accounting estimates relate to the valuation of inventory, vendor rebates and concessions, retention of risk, income taxes, assessment of long-lived assets and intangible assets for impairment and share-based payments.\nValuation of Inventory\nInventory is stated at the lower of cost, determined using the FIFO method, or net realizable value. When necessary, we adjust the carrying value of inventory for estimated inventory shrinkage. In assessing the net realizable value of inventory, we consider several key factors including estimates of the future demand for our products, historical turn-over rates, the age and sales history of the inventory, and historic as well as anticipated changes in SKUs. When necessary, we adjust the carrying value of inventory for estimated inventory shrinkage and damage. We estimate inventory shrinkage between physical counts and product damage based upon our historical experience. Actual results differing from these estimates could significantly affect our inventory and cost of goods sold. Inventory shrinkage and damage expense, in the aggregate, averaged approximately 1.0% of consolidated net sales in fiscal years 2018, 2017 and 2016. A 10% increase or decrease in our estimate of inventory shrinkage and damage at September 30, 2018, would impact net earnings by approximately $2.1 million.\nVendor Rebates and Concessions\nWe deem cash consideration received from a supplier to be a reduction of the cost of goods sold unless it is in exchange for an asset or service or a reimbursement of a specific, incremental, identifiable cost incurred by the Company in selling the vendor’s products. The majority of cash consideration we receive is considered to be a reduction of inventory and a subsequent reduction in cost of goods sold as the related products are sold. We consider the facts and circumstances of the various contractual agreements with vendors in order to determine the appropriate classification of amounts received in our consolidated statements of earnings. We record cash consideration expected to be received from vendors in other receivables at the amount we believe will be collected. These receivables could be significantly affected if the actual amounts subsequently collected differ from our expectations. A 10% increase or decrease in these receivables at September 30, 2018, would impact net earnings by approximately $2.7 million.\nInsurance\nWe retain a substantial portion of the risk related to employee health (primarily in the U.S.), workers’ compensation, general and product liability. However, we maintain stop-loss coverage to limit the exposure related to certain insurance risks. We base our health insurance liability estimate on trends in claim payment history, historical trends in claims incurred but not yet reported, and other components such as expected increases in medical costs, projected premium costs and the number of plan participants. Additionally, we base our estimates for workers’ compensation, general and product liability on an actuarial analysis performed by an independent third-party actuary. We review our insurance liability on a regular basis and adjust our accruals accordingly.\nChanges in facts and circumstances may lead to a change in the estimated liability due to revisions of the estimated ultimate costs that affect our liability insurance coverage. Our liabilities could be significantly affected if actual results differ from our expectations or prior actuarial analyses. A 10% increase or decrease in our insurance liabilities at September 30, 2018 would impact net earnings by approximately $1.4 million.\n- 39 -\nThe changes in our insurance liabilities were as follows (in thousands):\nIncome Taxes\nWe record income tax provisions in our consolidated financial statements based on an estimate of current income tax liabilities. The development of these provisions requires judgments about tax positions, potential outcomes and timing. If we prevail in tax matters for which provisions have been established or are required to settle matters in excess of established provisions, our effective tax rate for a particular period could be significantly affected.\nAdditionally, deferred income taxes are recognized for the future tax consequences attributable to differences between our financial statement carrying amounts of assets and liabilities and their respective tax bases. Deferred tax assets and liabilities are measured using enacted tax rates expected to apply to taxable income in the years in which temporary differences are estimated to be recovered or settled. We believe that it is more-likely-than-not that our results of operations in the future will generate sufficient taxable income to realize our deferred tax assets, net of the valuation allowance currently recorded. We have recorded a valuation allowance to account for uncertainties regarding the recoverability of certain deferred tax assets, primarily foreign loss carryforwards. In the future, if we determine that certain deferred tax assets will not be realizable, the related adjustments could significantly affect our effective tax rate at that time. An estimated tax benefit related to an uncertain tax position is recorded in our consolidated financial statements only after determining a more-likely-than-not probability that the uncertain tax position will withstand challenge, if any, from applicable taxing authorities.\nAssessment of Long-Lived Assets and Intangible Assets for Impairment\nLong-lived assets, such as property and equipment, including store equipment, and purchased intangible assets subject to amortization are reviewed for impairment whenever events or changes in circumstances indicate that the carrying amount of an asset may not be fully recoverable. The recoverability of long-lived assets and intangible assets subject to amortization is assessed by comparing the net carrying amount of each asset to its total estimated undiscounted future cash flows expected to be generated by the asset. If the carrying amount of an asset exceeds the sum of its undiscounted future cash flows, an impairment charge is recognized by the amount by which the carrying amount of the asset exceeds the estimated fair value of the asset.\nGoodwill represents the excess of the purchase price over the fair value of the net assets acquired in a business combination. Goodwill and intangible assets with indefinite lives are not amortized; rather, they are reviewed for impairment at least annually, and whenever events or changes in circumstances indicate it is more-likely-than-not that the value of the asset may be impaired. For the purpose of reviewing goodwill for impairment, we aggregate components of our operating segments with similar economic characteristics into a reporting unit.\nWhen assessing goodwill and intangible assets with indefinite lives for potential impairment, we compare the carrying amount of the asset to its fair value. In addition, we consider whether the value of an asset has been impaired by evaluating if various factors (including current operating results, anticipated future results and cash flows, and relevant market and economic conditions) indicate a possible impairment.\nBased on our assessments and after considering potential triggering events, we recognized impairment losses $4.4 million in the fiscal year ended September 30, 2017, in connection with our long-lived assets and intangible assets. No material impairment losses were recognized in fiscal years 2018 and 2016.\nShare-Based Payments\nThe amount of share-based compensation expense related to stock option awards is determined based on the fair value of each stock option award on the date of grant. The fair value of each stock option is estimated using the Black-Scholes option pricing model. The amount of expense recognized in connection with stock option awards is significantly affected by our estimates.\n- 40 -\nThe amount of share-based compensation expense related to performance-based restricted stock awards is determined based on the fair value of each award on the date of grant, which is based on the closing market price of our common stock on the date of grant. In addition, we record periodic expense (which is estimated quarterly) in connection with performance-based awards based on our estimate of the number of awards actually expected to vest. This requires that we estimate our future performance over the performance period (generally three years) associated with each award. Actual performance could differ from these estimates and could significantly affect the amount and timing of recognition of our share-based compensation expense related to performance-based awards.\nIf actual results are not consistent with our estimate or assumptions, we may be exposed to changes in share-based compensation expense that could be material. A 10% change in our share-based compensation expense for the year ended September 30, 2018 would affect net earnings by approximately $0.8 million.\nRecent Accounting Pronouncements\nSee Note 3 of the Notes to Consolidated Financial Statements in Item 8 - “Financial Statements and Supplementary Data” contained elsewhere in this Annual Report for information about recent accounting pronouncements."
+}

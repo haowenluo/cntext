@@ -1,0 +1,258 @@
+{
+    "cik": "1473490",
+    "company": "Company_1473490",
+    "filing_type": "10-K",
+    "filing_date": "2023-01-01",
+    "period_of_report": "2023-12-31",
+    "sic": "Unknown",
+    "state_of_inc": "Unknown",
+    "state_location": "Unknown",
+    "fiscal_year_end": "1231",
+    "filing_html_index": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1473490",
+    "htm_filing_link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1473490",
+    "complete_text_filing_link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1473490",
+    "filename": "1473490_10K_2023_0001493152-24-005474.htm",
+    "special_items": [
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": ">\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify\"> </p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify\">In\naccordance with the guidance of ASC 740-10, the benefit of a tax position is recognized in the financial statements i...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 94438120
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.5,
+            "source_section": "item_8",
+            "context": "Serif; margin: 0pt; text-align: justify\"> </p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify; text-indent: 0.5in\">On\nSeptember 12, 2023, Ingenious Investment AG purchased, from their own funds, from existing shareholders of the Company, in a series of\nprivate t...",
+            "amount_raw": "$0.001 ",
+            "amount_value": 0.001,
+            "amount_scale": "dollars",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 84897868
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "an, Times, Serif; margin: 0pt; text-align: justify\"><b> ITEM\n3. LEGAL PROCEEDINGS</b></p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify\"> </p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt\"> </p>\n<p style=\"font: 10pt Times New Roman, Times, Se...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 21808860
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "settlement"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ancial statements in the period during\nwhich, based on all available evidence, management believes it is more likely than not that the position will be sustained upon examination,\nincluding the resolution of appeals or litigation processes, if any. Tax positions taken are not offset or aggregated wi...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 68476435
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "c. (“Skybunker”), related parties, or direct clients\nof Landmark-Pegasus. Landmark-Pegasus and Skybunker are both wholly owned by John Moroney, who beneficially owned approximately <ix:nonfraction contextref=\"From2022-10-012023-09-30_custom_LandmarkPegasusMember_custom_JohnMoroneyMember\" decimals=\"I...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 33853850
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "arbitration"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "enny stock” is sold to the investor in a fraudulent manner, the investor may be able to sue the persons and firms\n    that committed the fraud for damages.</td></tr>\n</table>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify\"> </p>\n<p style=\"font: 10pt Times New Ro...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 28472479
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "arbitration"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "es New Roman, Times, Serif; margin: 0pt; text-align: justify; text-indent: 15.05pt\"> </p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify; text-indent: 15.05pt\"> </p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify; text-inden...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 70213976
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify; text-indent: 15.05pt\"> </p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify; text-indent: 15.05pt\"> </p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justi...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 20486665
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.6,
+            "source_section": "item_8",
+            "context": "in: 0pt; text-align: justify; text-indent: 30.05pt\"> </p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify\"> </p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify; text-indent: 0.5in\">Net\ncash provided by investing activities wa...",
+            "amount_raw": "$0 ",
+            "amount_value": 0.0,
+            "amount_scale": "dollars",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 44255318
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "arbitration"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "investor may be able to sue the persons and firms\n    that committed the fraud for damages.</td></tr>\n</table>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify\"> </p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify\"> </p>\n<p st...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 54496981
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "lign: justify\"> </td>\n<td style=\"font: 10pt Times New Roman, Times, Serif; text-align: justify\"> </td>\n<td style=\"font: 10pt Times New Roman, Times, Serif; text-align: justify\"> </td></tr>\n<tr style=\"font: 10pt Times New Roman, Times, Serif; vertical-align: top\">\n<td style=\"font: 10pt Times New Roma...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 76668932
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "pipeline of potential Acquisitions sourced by Mr Somani, who has extensive experience in AI technology.</p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify; text-indent: 0.5in\"> </p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: jus...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 5799800
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "r\" decimals=\"INF\" format=\"ixt:numdotdecimal\" id=\"ixv-6096\" name=\"us-gaap:CommonStockParOrStatedValuePerShare\" unitref=\"USDPShares\">0.001</ix:nonfraction> per share of Global AI, Inc., representing <ix:nonfraction contextref=\"AsOf2023-09-12_srt_ParentCompanyMember\" decimals=\"INF\" format=\"ixt:numdotde...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 49446558
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ratification of transactions with related parties or conflicted transactions.\nWhen such transactions arise, they are referred to our Board of Directors for its consideration. $49,000 and $60,000, or 100% of the\nCompany’s revenue during the fiscal years ended September 30, 2023 and 2022, respectively...",
+            "amount_raw": "$60,000",
+            "amount_value": 60000.0,
+            "amount_scale": "dollars",
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 25065125
+        },
+        {
+            "type": "acquisition",
+            "keywords_matched": [
+                "Acquisition"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "ref=\"AsOf2023-09-30_custom_JeffreyALubchanskyMember\" decimals=\"INF\" format=\"ixt:numdotdecimal\" id=\"ixv-6152\" name=\"us-gaap:EquityMethodInvestmentOwnershipPercentage\" scale=\"-2\" unitref=\"Pure\"><ix:nonfraction contextref=\"AsOf2022-09-30_custom_JeffreyALubchanskyMember\" decimals=\"INF\" format=\"ixt:numdo...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": null,
+            "footnote_id": null,
+            "anchor_hash": 3280590
+        },
+        {
+            "type": "litigation",
+            "keywords_matched": [
+                "litigation"
+            ],
+            "confidence": 0.3,
+            "source_section": "item_8",
+            "context": "tmentsAndContingenciesDisclosureTextBlock_zUILzjhaHzNi\" style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify\"><b>Note\n6 – Commitments and Contingencies</b></p>\n<p style=\"font: 10pt Times New Roman, Times, Serif; margin: 0pt; text-align: justify\"> </p>\n<p style=\"font: 10p...",
+            "amount_raw": null,
+            "amount_value": null,
+            "amount_scale": null,
+            "footnote_reference": "Note\n6",
+            "footnote_id": "6",
+            "anchor_hash": 4736174
+        }
+    ],
+    "item_7": "ITEM 7. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS\nThe following discussion of our financial condition and results of operations should be read in conjunction with the consolidated financial statements and the notes to those financial statements that are included elsewhere in this annual report on Form 10-K.\nFORWARD-LOOKING STATEMENTS\nThere are statements in this annual report on Form 10-K that are not historical facts. These “forward-looking statements” can be identified by use of terminology such as “believe”, “hope”, “may”, “anticipate”, “should”, “intend”, “plan”, “will”, “expect”, “estimate”, “project”, “positioned”, “strategy”, and similar expressions. You should be aware that these forward-looking statements are subject to risks and uncertainties that are beyond our control. For a discussion of these risks, you should read this entire annual report on Form 10-K document carefully. Although management believes that the assumptions underlying the forward-looking statements are reasonable, they do not guarantee our future performance, and actual results could differ from those contemplated by these forward-looking statements. The assumptions used for the purposes for the forward-looking statements specified in the following information represent estimates of future events and are subject to uncertainty as to possible changes in the economy, legislative changes, changes in the industry, technological developments and other circumstances. As a result, the identification and interpretation of data and other information and their use in developing and selecting assumptions from and among reasonable alternatives require the exercise of judgment. To the extent that the assumed events do not occur, the outcome may vary substantially from anticipated or projected results, and, accordingly, no opinion is expressed on the achievability of those forward-looking statements. In the light of these risks and uncertainties, there can be no assurance that the results and events contemplated by the forward-looking statements contained in this annual report on Form 10-K will in fact transpire. You are cautioned not to place reliance on these forward-looking statements, which speak only as of their dates. We do not undertake any obligation to update or revise any forward-looking statements.\nOVERVIEW\nGlobal AI was organized as Mycatalogsonline.com, Inc. in the state of Nevada on January 6, 2009. In April 2009, the Company changed its name to My Catalogs Online, Inc. In November 2012, the Company changed its name to Bright Mountain Holdings, Inc. In August 2013, the Company changed its name to Wall Street Media Co, Inc. and in October 2023 the Company changed its name to Global AI, Inc.\nThe Company expects to acquire, integrate and develop artificial intelligence (“AI”)-based technology companies and assets (the “Acquisitions”). The Company intends to focus its Acquisitions on machine and deep learning, generative AI, computer vision, natural language processing, and other AI technologies. The Company focuses on Acquisitions that are scalable and have revenue models that provide for tangible growth. Once acquired, the Company plans to integrate and further develop the companies and assets acquired in the Acquisitions to increase their existing customer base and further develop their existing products and services. The Company also plans to “cross-pollinate” knowledge and strategies derived from each of its Acquisitions with other Acquisitions for the benefit of the Company’s network as a whole. In addition, the Company plans to centralize back office administrative functions and take advantage of cost and revenue synergies across the Acquisitions’ platforms.\nOn September 12, 2023, Ingenious Investment AG purchased, from their own funds, from existing shareholders of the Company, in a series of private transactions, a total of 24,944,466 shares of common stock, $0.001 per share of Global AI, Inc., representing 92.7% of the outstanding shares of the Company’s common stock at such time (the “Ingenious Acquisition”).\nRecent Events\nSubscription Agreements\nOn November 1, 2023 and November 20, 2023, the Company entered into Subscription Agreements with certain investors, pursuant to which the investors purchased an aggregate of 10,000,000 shares of the Company’s Class B common stock, par value $0.001, at a price of $0.10 per share for an aggregate purchase price of $1,000,000.\nForward Stock Split\nOn January 29, 2024, the Company filed a Certificate of Amendment of the Amended and Restated Certificate of Incorporation with the Secretary of State of Nevada to effect a 4-for-1 forward stock split of the shares of the Company’s Class A common stock, par value $0.001 per share (the “Class A Common Stock”), and Class B common stock, par value $0.001 per share (the “Class B Common Stock”), either issued and outstanding or held by the Company as treasury stock. Holders of capital stock of the Company representing a majority of the voting power of all the then-outstanding shares of capital stock of the Company approved a resolution to affect the Forward Stock Split.\nThe Forward Stock Split increased the number of shares of Class A Common Stock outstanding from 28,578,006 shares to approximately 114,312,024 shares, subject to adjustment for the rounding up of fractional shares. The Forward Stock Split increased the number of shares of Class B Common Stock outstanding from 10,000,000 shares to approximately 40,000,000 shares, subject to adjustment for the rounding up of fractional shares. The total number of Class A Common Stock and Class B Common Stock combined after the Forward Stock Split was 154,312,024.\nCRITICAL ACCOUNTING POLICIES\nIn response to the Securities and Exchange Commission’s (the “SEC”) financial reporting release, FR-60, Cautionary Advice Regarding Disclosure About Critical Accounting Policies, the Company has selected its more subjective accounting estimation processes for purposes of explaining the methodology used in calculating the estimate, in addition to the inherent uncertainties pertaining to the estimate and the possible effects on the Company’s financial condition. These accounting estimates are discussed below. These estimates involve certain assumptions that if incorrect could create a material adverse impact on the Company’s results of operations and financial condition\nRevenue Recognition\nThe Company recognized revenue using the five-step revenue recognition model as prescribed by ASC 606, “Revenue from Contracts with Customers”. The underlying principle of new standard is that a business or other organization will recognize revenue to depict the transfer of promised goods or services to customers in an amount that reflects what it expects to receive in exchange for the goods or services. The Company adopted the standard using the modified retrospective method and the adoption did not have a material impact on its financial statements.\nRESULTS OF OPERATIONS\nThe Company’s results of operations for the years ended September 30, 2023 and September 30, 2022 were generated from our legacy consulting services business. Our current focus on acquiring and developing AI-technology companies and assets are therefore not reflected in these results of operations.\nFOR THE YEAR ENDED SEPTEMBER 30, 2023 COMPARED TO THE YEAR ENDED SEPTEMBER 30, 2022\nRevenue: The Company’s revenues decreased approximately 18% from $60,000 during the year ended September 30, 2022 to $49,000 for the year ended September 30, 2023 due to a decrease in consulting services provided. All revenues generated during the years ended September 30, 2023 and 2022 are with related parties.\nOperating Expenses: The Company’s operating expenses increased approximately 192% from $55,504 during the year ended September 30, 2022 to $162,253 for the year ended September 30, 2023. The primary reason for this was due to the increase in professional fees.\nInterest Expense: The Company’s interest expense decreased approximately 24% from $3,738 during the year ended September 30, 2022 as compared to $2,855 for the year ended September 30, 2023 due to the decrease in notes payable during the year.\nIncome from Operations: The Company’s income from operations decreased approximately 262% from $4,496 for the year ended September 30, 2022 as compared to loss from operations of $113,253 for the year ended September 30, 2023. The primary reason for this was due to the increase in professional fees expense.\nLIQUIDITY AND CAPITAL RESOURCES\nNet cash used in operating activities was $86,553 for the year ended September 30, 2023 as compared to net cash provided by operating activities of $2,036 for the year ended September 30, 2022, due to the net loss for the year ended September 30, 2023.\nNet cash provided by investing activities was $174,863 for the year ended September 30, 2023 as compared to net cash provided by investing activities of $0 for the year ended September 30, 2022, primarily due to the proceeds from the Ingenious Acquisition.\nNet cash used in financing activities was $94,120 for the year ended September 30, 2023 as compared to $2,620 for the year ended September 30, 2022, primarily due to the repayment of the note payable - related party.\nThe working capital deficit was $27,983 for the year ended September 30, 2023 as compared to a working capital deficit of $86,738 for the year ended September 30, 2022.\nAs of September 30, 2023, the Company had $2 in cash. The Company plans to fund ongoing operations by continuing to pursue contracts to provide AI consulting services in efforts to generate additional revenue. In addition, the Company is actively seeking investor funding.\nRELATED PERSON TRANSACTIONS\nFor information on related party transactions and their financial impact, see Note 3 to the financial statements.\nRECENTLY ISSUED ACCOUNTING PRONOUNCEMENTS\nIn August, 2020, the FASB issued ASU 2020-06, “Debt-Debt with Conversion and other options” which simplifies the accounting for convertible debt instruments and convertible preferred stock. The ASU is effective for public companies for fiscal years beginning after December 15, 2023, including interim periods within those fiscal years. Early adoption is permitted. This ASU is not expected to have a material impact on the financial statements and disclosures of the Company since it does not have any debt that meets the criteria.\nOFF-BALANCE SHEET ARRANGEMENTS\nWe do not have any off-balance sheet arrangements that have or are reasonably likely to have a current or future effect on our financial condition, changes in financial condition, revenues or expenses, results of operations, liquidity, capital expenditures or capital resources, that is material to investors."
+}
