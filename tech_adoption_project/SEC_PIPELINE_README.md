@@ -10,6 +10,9 @@ This directory contains scripts to process SEC 10-K Item extractions into senten
 | `build_labeling_sample.py` | Create balanced sample for labeling |
 | `tech_keywords.yaml` | Technology keyword dictionary (customizable) |
 | `test_pipeline.py` | Test scripts with synthetic data |
+| `SEC_Pipeline_Colab.ipynb` | Google Colab notebook **with MDA auto-conversion** |
+| `COLAB_WORKFLOW.md` | Quick reference for Colab |
+| `COLAB_UPDATE_SUMMARY.md` | MDA format support documentation |
 
 ## 🔄 Workflow
 
@@ -35,7 +38,7 @@ Your Item Extractions (JSON/CSV)
 
 ### Input Format
 
-Your Item extraction output should be JSON or CSV with these columns:
+**Pipeline Format** (required for this script):
 
 ```json
 {
@@ -47,6 +50,8 @@ Your Item extraction output should be JSON or CSV with these columns:
   "item_text": "We develop innovative software solutions..."
 }
 ```
+
+**Note:** If you have MDA format files (with `item_7`, `period_of_report`, `filename` fields), use the Google Colab notebook which automatically converts them, or see `../local_pipeline_test/MDA_FORMAT_GUIDE.md` for local conversion.
 
 ### Run
 

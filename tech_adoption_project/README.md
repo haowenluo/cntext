@@ -11,8 +11,9 @@ This folder contains a complete pipeline for processing SEC 10-K Item extraction
 | `tech_keywords.yaml` | Technology keyword dictionary (300+ terms) |
 | `test_pipeline.py` | Test pipeline with synthetic data |
 | `SEC_PIPELINE_README.md` | Complete documentation and usage guide |
-| `SEC_Pipeline_Colab.ipynb` | Google Colab notebook (interactive) |
+| `SEC_Pipeline_Colab.ipynb` | Google Colab notebook (interactive) **w/ MDA auto-conversion** |
 | `COLAB_WORKFLOW.md` | Quick reference for Colab usage |
+| `COLAB_UPDATE_SUMMARY.md` | Latest updates to Colab notebook (MDA format support) |
 
 ## 🚀 Quick Start
 
@@ -20,6 +21,7 @@ This folder contains a complete pipeline for processing SEC 10-K Item extraction
 1. Upload `SEC_Pipeline_Colab.ipynb` to your Google Drive
 2. Open in Google Colab
 3. Follow the notebook cells step-by-step
+4. **NEW:** Notebook automatically handles MDA format conversion!
 
 ### For Local/Server Users
 1. Install dependencies:
@@ -65,8 +67,9 @@ Item Extractions (JSON/CSV)
 
 ## 📊 Input Format
 
-Your Item extractions should be JSON or CSV with these columns:
+**Two formats supported** (Colab notebook auto-detects and converts):
 
+### Pipeline Format (ready to use):
 ```json
 {
   "cik": 1234567,
@@ -77,6 +80,20 @@ Your Item extractions should be JSON or CSV with these columns:
   "item_text": "Your extracted text here..."
 }
 ```
+
+### MDA Format (auto-converted in Colab):
+```json
+{
+  "cik": "1643988",
+  "company": "Company_1643988",
+  "filing_date": "2020-01-01",
+  "period_of_report": "2020-12-31",
+  "filename": "1643988_10K_2020_0001387131-21-004517.htm",
+  "item_7": "ITEM 7. MANAGEMENT'S DISCUSSION..."
+}
+```
+
+**Note:** For local usage, see `local_pipeline_test/MDA_FORMAT_GUIDE.md` for transformation details.
 
 ## 🛠️ Integration with cntext Repository
 
