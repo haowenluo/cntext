@@ -1,0 +1,29 @@
+Name: First-Person Pronouns (Singular & Plural)
+Desc: >
+  Pronoun word lists for measuring CEO narcissism via the
+  First-Person Singular Pronoun (FPSP) ratio. Singular pronouns
+  reflect self-focused language; plural pronouns reflect
+  collective-focused language. The standard metric is
+  FPSP_Ratio = sum(singular) / (sum(singular) + sum(plural)).
+Refer: >
+  Aktas, N., de Bodt, E., Bollaert, H., & Roll, R. (2016).
+  CEO narcissism and the takeover process. Journal of Financial
+  and Quantitative Analysis, 51(1), 113-137.
+  Capalbo, F., Frino, A., Lim, M. Y., Mollica, V., & Palumbo, R. (2018).
+  CEO narcissism and earnings management. Working Paper.
+Category:
+    - singular
+    - plural
+Dictionary:
+    singular:
+        - i
+        - me
+        - my
+        - mine
+        - myself
+    plural:
+        - we
+        - us
+        - our
+        - ours
+        - ourselves
