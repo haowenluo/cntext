@@ -5,6 +5,7 @@ from .hello import hello, welcome
 from .stats.index import fepu, epu, semantic_brand_score, word_hhi
 from .stats.readability import readability
 from .stats.sentiment import sentiment, sentiment_by_valence
+from .stats.narcissism import fpsp_ratio, fpsp_ratio_from_dict
 from .stats.similarity import cosine_sim, jaccard_sim, minedit_sim, simple_sim
 from .stats.utils import word_count, word_in_context
 
@@ -12,6 +13,7 @@ from .io.mda import extract_mda
 from .io.file import read_pdf, read_file, read_docx, read_files, get_files
 from .io.dict import build_yaml_dict, read_yaml_dict, get_dict_list
 from .io.utils import get_cntext_path, detect_encoding, fix_text, fix_contractions, traditional2simple, clean_text
+from .io.earnings_call import parse_earnings_call, get_ceo_qa_text, parse_earnings_call_to_df, extract_header_metadata
 
 from .model.glove import GloVe
 from .model.w2v import Word2Vec
